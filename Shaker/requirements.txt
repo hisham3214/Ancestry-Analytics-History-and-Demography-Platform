@@ -1,0 +1,9 @@
+certifi==2024.8.30
+charset-normalizer==3.4.0
+idna==3.10
+ijson==3.3.0
+mysql-connector==2.2.9
+mysql-connector-python==9.1.0
+requests==2.32.3
+urllib3==2.2.3
+wget==3.2
