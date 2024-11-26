@@ -10,7 +10,7 @@
         - This fetches data for 84 countries but shows an error for the rest.
         - It creates a new JSON file called `countries_data.json`.
 
-4. Open `countries_data.json`:
+4. (Already Done in countries_data.json, but should be done if the get_countries.py code is run) Open `countries_data.json`:
    - Add a closing bracket (`]`) at the end of the file.
    - This step is necessary because the error prevented the script from completing properly.
 
