@@ -1,5 +1,4 @@
-# How to Run the Project
-# (Technically, do steps 1, 2 and 5 only)
+# How to Run the Project (Technically, do steps 1, 2 and 5 only)
 
 1. Go to the **Shaker directory**.
 
