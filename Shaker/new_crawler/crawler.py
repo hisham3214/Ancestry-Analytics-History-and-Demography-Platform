@@ -14,7 +14,7 @@ from main import config  # Import the database configuration from main.py
 
 from gpt_config import key
 # Set your OpenAI API Key as an environment variable or directly
-# openai.api_key = key
+openai.api_key = key
 
 
 # to insert the data into the database:
