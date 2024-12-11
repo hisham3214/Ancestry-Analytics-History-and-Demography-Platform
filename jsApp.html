@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search for Countries</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.26/"></script>
+</head>
+<body>
+  <div id="viewDiv" style="height: 100vh;"></div>
+  <script>
+    require([
+      "esri/WebMap",
+      "esri/views/MapView",
+      "esri/widgets/Search",
+      "esri/layers/FeatureLayer"
+    ], function(WebMap, MapView, Search, FeatureLayer) {
+      // Load the WebMap
+      const webMap = new WebMap({
+        portalItem: {
+          id: "83f1dfd1a4f54a148ad4419df4277d76"
+        }
+      });
+
+      // Create a MapView
+      const view = new MapView({
+        container: "viewDiv",
+        map: webMap
+      });
+
+      // Add a Search widget
+      view.when(() => {
+        const layerToRemove = webMap.layers.find(layer => layer.title === "Major World Cities");
+        if (layerToRemove) {
+          webMap.remove(layerToRemove); // Remove the layer
+          console.log("Layer removed:", layerToRemove.title);
+        }
+
+        const layerToRemove2 = webMap.layers.find(layer => layer.title === "World Cities");
+        if (layerToRemove2) {
+          webMap.remove(layerToRemove2); // Remove the layer
+          console.log("Layer removed:", layerToRemove2.title);
+        }
+
+        const searchWidget = new Search({
+          view: view,
+          includeDefaultSources: false, // Disable default sources
+          sources: [
+            {
+              layer: new FeatureLayer({
+                url: "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/World_Countries_(Generalized)/FeatureServer/0"
+              }),
+              searchFields: ["COUNTRY"], // Use the field name for country names
+              displayField: "COUNTRY",
+              exactMatch: false,
+              outFields: ["*"],
+              name: "Countries",
+              placeholder: "Search for a country",
+              popupEnabled: true
+            }
+          ]
+        });
+
+        // Add the Search widget to the top-right corner
+        view.ui.add(searchWidget, {
+          position: "top-right"
+        });
+
+        // Zoom to the selected feature
+        searchWidget.on("select-result", function(event) {
+          const result = event.result.feature;
+          if (result) {
+            view.goTo(result.geometry.extent.expand(1.5)); // Zoom to the country's extent
+            console.log("Zooming to:", result.attributes.COUNTRY);
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
