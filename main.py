@@ -4,17 +4,15 @@ from mysql.connector import errorcode
 # Replace with your MySQL connection details
 config = {
     'user': 'root',       # Your MySQL username
-    'password': 'hisham882003',   # Your MySQL password
+    'password': 'khalil_13579',   # Your MySQL password
     'host': '127.0.0.1',           # The host where MySQL server is running
     'database': 'fyp',   # The database name where you want to create tables
     'raise_on_warnings': True
 }
-
+# Establish a connection to the MySQL database
+cnx = mysql.connector.connect(**config)
+cursor = cnx.cursor()
 try:
-    # Establish a connection to the MySQL database
-    cnx = mysql.connector.connect(**config)
-    cursor = cnx.cursor()
-
     # SQL statement to create the Countries table
     create_countries_table = """
     CREATE TABLE IF NOT EXISTS Countries (
