@@ -3,6 +3,7 @@ import mysql.connector
 from datetime import datetime
 import time
 
+
 class WorldBankDataFetcher:
     def __init__(self, db_config):
         """
@@ -136,7 +137,7 @@ class WorldBankDataFetcher:
 if __name__ == "__main__":
     config = {
         'user': 'root',       # Your MySQL username
-        'password': 'khalil_13579',   # Your MySQL password
+        'password': 'LZ#amhe!32',   # Your MySQL password
         'host': '127.0.0.1',           # The host where MySQL server is running
         'database': 'fyp',   # The database name where you want to create tables
         'raise_on_warnings': True

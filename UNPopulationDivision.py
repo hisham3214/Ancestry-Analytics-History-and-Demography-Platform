@@ -206,7 +206,7 @@ class UNPopulationAPI:
 if __name__ == "__main__":
     db_config = {
         'user': 'root',
-        'password': 'khalil_13579',
+        'password': 'LZ#amhe!32',
         'host': '127.0.0.1',
         'database': 'fyp',
         'raise_on_warnings': True
