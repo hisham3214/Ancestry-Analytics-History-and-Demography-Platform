@@ -215,7 +215,9 @@ class UNPopulationAPI:
         # Indicator IDs for UN Population API (as per their docs)
         indicators = {
 
-            '49': 'Population'     # Total population
+            '49': 'Population',  # Total population
+            '59': 'Death_Rate',  # Crude death rate (deaths per 1,000 population)
+            '55': 'Birth_Rate',  # Crude birth rate (births per 1,000 population)
         }
 
         try:
