@@ -45,6 +45,20 @@ try:
     );
     """
 
+    # SQL statement to create the total Fertility Rate table
+    create_fertility_rate_table = """
+    CREATE TABLE IF NOT EXISTS Fertility_Rate (
+        data_id INT AUTO_INCREMENT PRIMARY KEY,
+        country_id INT NOT NULL,
+        source_id INT NOT NULL,
+        year INT NOT NULL,
+        Fertility_rate FLOAT NOT NULL,
+        last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+        FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+    );
+    """
+    
     # SQL statement to create the Death Rate table
     create_death_rate_table = """
     CREATE TABLE IF NOT EXISTS Death_Rate (
