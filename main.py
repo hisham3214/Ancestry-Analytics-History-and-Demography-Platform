@@ -4,7 +4,7 @@ from mysql.connector import errorcode
 # Replace with your MySQL connection details
 config = {
     'user': 'root',       # Your MySQL username
-    'password': 'MySQLraghid',   # Your MySQL password
+    'password': 'LZ#amhe!32',   # Your MySQL password
     'host': '127.0.0.1',           # The host where MySQL server is running
     'database': 'fyp',   # The database name where you want to create tables
     'raise_on_warnings': True
@@ -149,6 +149,8 @@ try:
     cursor.execute(create_fertility_rate_table)
     cursor.execute(create_total_net_migration_table)
     cursor.execute(create_crude_net_migration_rate_table)
+    cursor.execute(create_sex_ratio_at_birth_table)
+    cursor.execute(create_sex_ratio_total_population_table)
 
 
 
