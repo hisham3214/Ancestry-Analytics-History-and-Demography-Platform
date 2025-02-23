@@ -168,7 +168,6 @@ class UNPopulationAPI:
                             country_id: int):
         """
         Insert demographic data for a specific country and table
-        (Birth_Rate, Death_Rate, or Population).
         """
         if not data:
             return
@@ -185,6 +184,10 @@ class UNPopulationAPI:
                 value_column = 'fertility_rate'
             elif table_name == 'Crude_Net_Migration_Rate':
                 value_column = 'migration_rate'
+            elif table_name == "sex_ratio_total_population":
+                value_column = 'sex_ratio'
+            elif table_name == 'sex_ratio_at_birth':
+                table_name = 'sex_ratio_at_birth'
             else:
                 value_column = 'population'
             
@@ -226,6 +229,8 @@ class UNPopulationAPI:
             '49': 'Population',  # Total population
             '59': 'Death_Rate',  # Crude death rate (deaths per 1,000 population)
             '55': 'Birth_Rate',  # Crude birth rate (births per 1,000 population)
+            '72': 'sex_ratio_total_population', # Number of males for every 100 females
+            '58': 'sex_ratio_at_birth', # Number of male births per female birth
         }
 
         try:
