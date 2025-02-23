@@ -35,26 +35,53 @@ class UNPopulationAPI:
                 if attempt == retry_count - 1:  # Last attempt
                     logger.error(f"API request failed for endpoint {endpoint}: {str(e)}")
                     raise
-                time.sleep(1 * (attempt + 1))  # Exponential backoff
+                time.sleep(1 * (attempt + 1))  # Simple backoff
                 continue
 
     def fetch_demographic_data_for_country(self, indicator_id: int, location_id: str, 
-                                         start_year: int, end_year: int) -> List[Dict[str, Any]]:
+                                     start_year: int, end_year: int) -> List[Dict[str, Any]]:
         """
-        Fetch demographic data for a specific indicator and country
+        Fetch demographic data for a specific indicator and country, handling pagination
         """
-        endpoint = f"data/indicators/{indicator_id}/locations/{location_id}/start/{start_year}/end/{end_year}?format=json&pagingInHeader=false"
-        try:
-            response = self._make_request(endpoint)
-            return response.get('data', [])
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Failed to fetch data for indicator {indicator_id}, location {location_id}: {e}")
-            return []
+        all_data = []
+        page = 1
+        page_size = 1000
+        
+        logger.info(f"Fetching data for indicator {indicator_id}, location {location_id}")
+        
+        while True:
+            endpoint = (f"data/indicators/{indicator_id}/locations/{location_id}"
+                    f"/start/{start_year}/end/{end_year}"
+                    f"?format=json&pageSize={page_size}&pageNumber={page}"
+                    f"&pagingInHeader=false")
+            try:
+                response = self._make_request(endpoint)
+                current_data = response.get('data', [])
+                
+                all_data.extend(current_data)
+                
+                total_pages = response.get('pages', 1)
+                logger.info(f"Fetched page {page} of {total_pages} for location {location_id}")
+                
+                if page >= total_pages:
+                    break
+                    
+                page += 1
+                time.sleep(0.5)
+                
+            except requests.exceptions.RequestException as e:
+                logger.error(f"Failed to fetch data for indicator {indicator_id}, "
+                            f"location {location_id}, page {page}: {e}")
+                break
+        
+        logger.info(f"Total records fetched for location {location_id}: {len(all_data)}")
+        return all_data
 
     def setup_data_source(self, connection: mysql.connector.connection.MySQLConnection) -> int:
         """Insert or retrieve UN Population Division as a data source"""
         cursor = connection.cursor(buffered=True)
         try:
+            # Check if the data source is already in the table
             cursor.execute("""
                 SELECT source_id FROM Data_Sources 
                 WHERE name = 'United Nations Population Division'
@@ -64,12 +91,14 @@ class UNPopulationAPI:
             if result:
                 return result[0]
             
+            # If not, insert it
             cursor.execute("""
                 INSERT INTO Data_Sources (name, website) 
                 VALUES ('United Nations Population Division', 'https://population.un.org')
             """)
             connection.commit()
             
+            # Retrieve the newly inserted source_id
             cursor.execute("""
                 SELECT source_id FROM Data_Sources 
                 WHERE name = 'United Nations Population Division'
@@ -81,32 +110,51 @@ class UNPopulationAPI:
             cursor.close()
 
     def fetch_countries(self) -> List[Dict[str, Any]]:
-        """Fetch available countries from the UN API"""
+        """
+        Fetch available countries (locations) from the UN API
+        """
         response = self._make_request("locations")
-        return response['data']
+        return response.get('data', [])
 
     def insert_countries(self, connection: mysql.connector.connection.MySQLConnection) -> Dict[str, int]:
         """
-        Insert countries and return mapping of location codes to country IDs
+        Insert countries and return a mapping of UN location_id -> country_id.
+        
+        This implementation ensures each ISO3 is only processed once
+        by using a set to track seen ISO3 codes.
         """
         countries = self.fetch_countries()
         cursor = connection.cursor(buffered=True)
         country_mapping = {}
         
         try:
-            # First get existing country codes and IDs
+            # First get existing country codes and IDs from the DB
             cursor.execute("SELECT country_id, country_code FROM Countries")
             existing_countries = {row[1]: row[0] for row in cursor.fetchall()}
             
-            # Insert only countries that don't exist
+            # We'll keep track of iso3 codes we've seen
+            seen_iso3 = set()
+
             for country in countries:
-                if country['iso3'] in existing_countries:
-                    country_mapping[country['id']] = existing_countries[country['iso3']]
+                # If there's no iso3 code, skip
+                if 'iso3' not in country or not country['iso3']:
+                    continue
+                iso3 = country['iso3']
+
+                # If we've already handled this iso3, skip any duplicates
+                if iso3 in seen_iso3:
+                    continue
+                seen_iso3.add(iso3)
+                
+                # If this iso3 already exists in DB, just map that location_id to the existing country
+                if iso3 in existing_countries:
+                    country_mapping[country['id']] = existing_countries[iso3]
                 else:
+                    # Otherwise, insert into Countries
                     cursor.execute("""
                         INSERT INTO Countries (country_name, country_code)
                         VALUES (%s, %s)
-                    """, (country['name'], country['iso3']))
+                    """, (country['name'], iso3))
                     country_mapping[country['id']] = cursor.lastrowid
                     
             connection.commit()
@@ -116,16 +164,23 @@ class UNPopulationAPI:
             cursor.close()
 
     def insert_demographic_data(self, connection: mysql.connector.connection.MySQLConnection, 
-                              data: List[Dict[str, Any]], table_name: str,
-                              country_id: int):
-        """Insert demographic data for a specific country"""
+                            data: List[Dict[str, Any]], table_name: str,
+                            country_id: int):
+        """
+        Insert demographic data for a specific country and table
+        (Birth_Rate, Death_Rate, or Population).
+        """
         if not data:
             return
-            
+
         cursor = connection.cursor(buffered=True)
         try:
-            value_column = 'birth_rate' if table_name == 'Birth_Rate' else \
-                          'death_rate' if table_name == 'Death_Rate' else 'population'
+            if table_name == 'Birth_Rate':
+                value_column = 'birth_rate'
+            elif table_name == 'Death_Rate':
+                value_column = 'death_rate'
+            else:
+                value_column = 'population'
             
             insert_sql = f"""
                 INSERT IGNORE INTO {table_name} 
@@ -133,7 +188,14 @@ class UNPopulationAPI:
                 VALUES (%s, %s, %s, %s, %s)
             """
 
+            # Only one loop, with filtering condition
             for record in data:
+                # Skip records that aren't for both sexes (sexId = 3)
+                if record.get('sexId') != 3:
+                    continue
+                if record.get('variantId') != 4:
+                    continue
+                    
                 cursor.execute(insert_sql, (
                     country_id,
                     self.source_id,
@@ -147,12 +209,15 @@ class UNPopulationAPI:
             cursor.close()
 
     def populate_database(self, start_year: int = 1950, end_year: int = 2025):
-        """Main function to populate the database with demographic data"""
-        # Indicator IDs for UN Population API
+        """
+        Main function to populate the database with demographic data.
+        """
+        # Indicator IDs for UN Population API (as per their docs)
         indicators = {
-            '46': 'Birth_Rate',    # Crude birth rate
-            '47': 'Death_Rate',    # Crude death rate
-            '49': 'Population'     # Total population
+
+            '49': 'Population',  # Total population
+            '59': 'Death_Rate',  # Crude death rate (deaths per 1,000 population)
+            '55': 'Birth_Rate',  # Crude birth rate (births per 1,000 population)
         }
 
         try:
@@ -162,15 +227,15 @@ class UNPopulationAPI:
             if not self.source_id:
                 raise ValueError("Failed to setup data source")
 
-            # Insert countries and get mapping
+            # Insert countries and build the mapping from UN location_id -> DB country_id
             logger.info("Inserting countries...")
             country_mapping = self.insert_countries(connection)
-            logger.info(f"Processing data for {len(country_mapping)} countries")
+            logger.info(f"Processing data for {len(country_mapping)} countries...")
 
-            # Fetch and insert demographic data for each indicator and country
+            # For each indicator, fetch and insert data for every country
             for indicator_id, table_name in indicators.items():
                 logger.info(f"Processing {table_name} data...")
-                
+
                 for location_id, country_id in country_mapping.items():
                     try:
                         logger.info(f"Fetching {table_name} data for location {location_id}...")
@@ -180,8 +245,8 @@ class UNPopulationAPI:
                         if data:
                             logger.info(f"Inserting {len(data)} records for location {location_id}...")
                             self.insert_demographic_data(connection, data, table_name, country_id)
-                        time.sleep(0.5)  # Rate limiting between requests
-                        
+                        # Sleep a bit to respect rate limits
+                        time.sleep(0.5)
                     except Exception as e:
                         logger.error(f"Error processing {table_name} data for location {location_id}: {e}")
                         continue
@@ -194,7 +259,9 @@ class UNPopulationAPI:
                 connection.close()
 
     def connect_db(self) -> mysql.connector.connection.MySQLConnection:
-        """Establish database connection"""
+        """
+        Establish a database connection
+        """
         try:
             connection = mysql.connector.connect(**self.db_config)
             return connection
