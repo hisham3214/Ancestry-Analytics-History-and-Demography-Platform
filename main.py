@@ -139,6 +139,20 @@ try:
         FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
     """
+    #SQL statement to create the "Median Age of Population" table
+    create_median_age_table = """
+    CREATE TABLE IF NOT EXISTS Median_Age (
+        data_id INT AUTO_INCREMENT PRIMARY KEY,
+        country_id INT NOT NULL,
+        source_id INT NOT NULL,
+        year INT NOT NULL,
+        -- This is the ratio of total males to total females in the population
+        age FLOAT NOT NULL,
+        last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+        FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+    );
+    """
 
     # Execute the SQL statements to create tables
     cursor.execute(create_countries_table)
@@ -151,6 +165,7 @@ try:
     cursor.execute(create_crude_net_migration_rate_table)
     cursor.execute(create_sex_ratio_at_birth_table)
     cursor.execute(create_sex_ratio_total_population_table)
+    cursor.execute(create_median_age_table)
 
 
 

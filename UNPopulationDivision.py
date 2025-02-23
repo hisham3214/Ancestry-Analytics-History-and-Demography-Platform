@@ -188,6 +188,8 @@ class UNPopulationAPI:
                 value_column = 'sex_ratio'
             elif table_name == 'sex_ratio_at_birth':
                 table_name = 'sex_ratio_at_birth'
+            elif table_name == 'median_age':
+                value_column = 'age'
             else:
                 value_column = 'population'
             
@@ -231,6 +233,7 @@ class UNPopulationAPI:
             '55': 'Birth_Rate',  # Crude birth rate (births per 1,000 population)
             '72': 'sex_ratio_total_population', # Number of males for every 100 females
             '58': 'sex_ratio_at_birth', # Number of male births per female birth
+            '67': 'median_age', # Median age of the population
         }
 
         try:
@@ -286,7 +289,7 @@ class UNPopulationAPI:
 if __name__ == "__main__":
     db_config = {
         'user': 'root',
-        'password': 'MySQLraghid',
+        'password': 'LZ#amhe!32',
         'host': '127.0.0.1',
         'database': 'fyp',
         'raise_on_warnings': True
