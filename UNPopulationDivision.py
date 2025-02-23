@@ -179,6 +179,12 @@ class UNPopulationAPI:
                 value_column = 'birth_rate'
             elif table_name == 'Death_Rate':
                 value_column = 'death_rate'
+            elif table_name == 'Total_Net_Migration':
+                value_column = 'net_migration'
+            elif table_name == 'Fertility_Rate':
+                value_column = 'fertility_rate'
+            elif table_name == 'Crude_Net_Migration_Rate':
+                value_column = 'migration_rate'
             else:
                 value_column = 'population'
             
@@ -214,7 +220,9 @@ class UNPopulationAPI:
         """
         # Indicator IDs for UN Population API (as per their docs)
         indicators = {
-
+            '66': 'Crude_Net_Migration_Rate',  # Net migration
+            '65': 'Total_Net_Migration',  # Net migration
+            '19': 'Fertility_Rate',  # Total fertility rate
             '49': 'Population',  # Total population
             '59': 'Death_Rate',  # Crude death rate (deaths per 1,000 population)
             '55': 'Birth_Rate',  # Crude birth rate (births per 1,000 population)

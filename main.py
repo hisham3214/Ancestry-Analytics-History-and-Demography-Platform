@@ -58,7 +58,32 @@ try:
         FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
     """
-    
+    # SQL statement to create the total net migration table
+    create_total_net_migration_table = """
+    CREATE TABLE IF NOT EXISTS Total_Net_Migration (
+        data_id INT AUTO_INCREMENT PRIMARY KEY,
+        country_id INT NOT NULL,
+        source_id INT NOT NULL,
+        year INT NOT NULL,
+        net_migration FLOAT NOT NULL,
+        last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+        FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+    );
+    """
+        # SQL statement to create the crude rate of net migration table
+    create_crude_net_migration_rate_table = """
+    CREATE TABLE IF NOT EXISTS Crude_Net_Migration_Rate (
+        data_id INT AUTO_INCREMENT PRIMARY KEY,
+        country_id INT NOT NULL,
+        source_id INT NOT NULL,
+        year INT NOT NULL,
+        migration_rate FLOAT NOT NULL,
+        last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+        FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+    );
+    """
     # SQL statement to create the Death Rate table
     create_death_rate_table = """
     CREATE TABLE IF NOT EXISTS Death_Rate (
@@ -72,7 +97,6 @@ try:
         FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
     """
-
     # SQL statement to create the Population table
     create_population_table = """
     CREATE TABLE IF NOT EXISTS Population (
@@ -86,6 +110,35 @@ try:
         FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
     """
+        # SQL statement to create the Sex Ratio at Birth table
+    create_sex_ratio_at_birth_table = """
+    CREATE TABLE IF NOT EXISTS Sex_Ratio_At_Birth (
+        data_id INT AUTO_INCREMENT PRIMARY KEY,
+        country_id INT NOT NULL,
+        source_id INT NOT NULL,
+        year INT NOT NULL,
+        -- Ratio is typically expressed as males per female (e.g., 1.05, 1.06, etc.)
+        sex_ratio_at_birth FLOAT NOT NULL,
+        last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+        FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+    );
+    """
+
+    # SQL statement to create the Sex Ratio of Total Population table
+    create_sex_ratio_total_population_table = """
+    CREATE TABLE IF NOT EXISTS Sex_Ratio_Total_Population (
+        data_id INT AUTO_INCREMENT PRIMARY KEY,
+        country_id INT NOT NULL,
+        source_id INT NOT NULL,
+        year INT NOT NULL,
+        -- This is the ratio of total males to total females in the population
+        sex_ratio FLOAT NOT NULL,
+        last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+        FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+    );
+    """
 
     # Execute the SQL statements to create tables
     cursor.execute(create_countries_table)
@@ -93,6 +146,12 @@ try:
     cursor.execute(create_birth_rate_table)
     cursor.execute(create_death_rate_table)
     cursor.execute(create_population_table)
+    cursor.execute(create_fertility_rate_table)
+    cursor.execute(create_total_net_migration_table)
+    cursor.execute(create_crude_net_migration_rate_table)
+
+
+
 
     # Commit the changes to the database
     cnx.commit()
