@@ -154,6 +154,21 @@ try:
     );
     """
 
+    #SQL statement to create the life expectancy at birth table
+    create_life_expectancy_at_birth_table = """
+    CREATE TABLE IF NOT EXISTS life_expectancy_at_birth (
+        data_id INT AUTO_INCREMENT PRIMARY KEY,
+        country_id INT NOT NULL,
+        source_id INT NOT NULL,
+        year INT NOT NULL,
+        -- This is the ratio of total males to total females in the population
+        life_expectancy FLOAT NOT NULL,
+        last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+        FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+    );
+    """
+
     # Execute the SQL statements to create tables
     cursor.execute(create_countries_table)
     cursor.execute(create_data_sources_table)
@@ -166,6 +181,7 @@ try:
     cursor.execute(create_sex_ratio_at_birth_table)
     cursor.execute(create_sex_ratio_total_population_table)
     cursor.execute(create_median_age_table)
+    cursor.execute(create_life_expectancy_at_birth_table)
 
 
 

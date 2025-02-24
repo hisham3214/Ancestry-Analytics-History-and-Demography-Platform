@@ -190,6 +190,8 @@ class UNPopulationAPI:
                 table_name = 'sex_ratio_at_birth'
             elif table_name == 'median_age':
                 value_column = 'age'
+            elif table_name == 'life_expectancy_at_birth':
+                value_column = 'life_expectancy'
             else:
                 value_column = 'population'
             
@@ -228,12 +230,13 @@ class UNPopulationAPI:
             '66': 'Crude_Net_Migration_Rate',  # Net migration
             '65': 'Total_Net_Migration',  # Net migration
             '19': 'Fertility_Rate',  # Total fertility rate
-            '49': 'Population',  # Total population
             '59': 'Death_Rate',  # Crude death rate (deaths per 1,000 population)
             '55': 'Birth_Rate',  # Crude birth rate (births per 1,000 population)
             '72': 'sex_ratio_total_population', # Number of males for every 100 females
             '58': 'sex_ratio_at_birth', # Number of male births per female birth
             '67': 'median_age', # Median age of the population
+            '61': 'life_expectancy_at_birth',  # Life expectancy at birth
+            '49': 'Population',  # Total population
         }
 
         try:
