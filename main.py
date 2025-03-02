@@ -110,7 +110,7 @@ try:
         FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
     """
-        # SQL statement to create the Sex Ratio at Birth table
+    # SQL statement to create the Sex Ratio at Birth table
     create_sex_ratio_at_birth_table = """
     CREATE TABLE IF NOT EXISTS Sex_Ratio_At_Birth (
         data_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -202,6 +202,22 @@ try:
                 FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
     """
+    # SQL statement to create the population by sex table
+    create_population_by_sex_table = """
+    CREATE TABLE IF NOT EXISTS Population_by_sex (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        country_id INT NOT NULL,
+        source_id INT NOT NULL,
+        year VARCHAR(10) NOT NULL,
+        sex_id INT NOT NULL,
+        sex VARCHAR(50) NOT NULL,
+        population FLOAT NOT NULL,
+        last_updated DATETIME NOT NULL,
+        UNIQUE KEY unique_population (country_id, source_id, year, sex_id),
+        FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+        FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+    );
+    """
 
     # Execute the SQL statements to create tables
     cursor.execute(create_countries_table)
@@ -218,6 +234,7 @@ try:
     cursor.execute(create_life_expectancy_at_birth_table)
     cursor.execute(create_Under_Five_Mortality_Rate_By_Sex_table)
     cursor.execute(create_Infant_Mortality_Rate_By_Sex_table)
+    cursor.execute(create_population_by_sex_table)
 
 
 

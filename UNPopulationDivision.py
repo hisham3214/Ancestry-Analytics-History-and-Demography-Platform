@@ -212,7 +212,7 @@ class UNPopulationAPI:
                 value_column = 'population'
                 sex_specific = False
             
-            # For most tables, we use the existing logic for "both sexes"
+            # For standard tables, including Population (both sexes)
             if not sex_specific:
                 insert_sql = f"""
                     INSERT IGNORE INTO {table_name} 
@@ -234,11 +234,36 @@ class UNPopulationAPI:
                         record['value'],
                         datetime.now()
                     ))
+                    
+                # If this is population data, also insert all sex data into Population_By_Sex
+                if table_name == 'Population':
+                    for record in data:
+                        if record.get('variantId') != 4:
+                            continue
+                            
+                        # Make sure sexId and sex fields exist
+                        if 'sexId' not in record or 'sex' not in record:
+                            continue
+                        
+                        # Insert into Population_By_Sex table
+                        cursor.execute("""
+                            INSERT IGNORE INTO Population_By_Sex
+                            (country_id, source_id, year, sex_id, sex, population, last_updated)
+                            VALUES (%s, %s, %s, %s, %s, %s, %s)
+                        """, (
+                            country_id,
+                            self.source_id,
+                            record['timeLabel'],
+                            record['sexId'],
+                            record['sex'],
+                            record['value'],
+                            datetime.now()
+                        ))
             else:
-                # For sex-specific tables (currently only life expectancy), use a different SQL
-                # that includes the sex column
+                # For sex-specific tables, use the appropriate table name
+                # Note: no '_by_sex' suffix is added as it's already in the table_name
                 insert_sql = f"""
-                    INSERT IGNORE INTO {table_name}_by_sex
+                    INSERT IGNORE INTO {table_name}
                     (country_id, source_id, year, sex_id, sex, {value_column}, last_updated)
                     VALUES (%s, %s, %s, %s, %s, %s, %s)
                 """
