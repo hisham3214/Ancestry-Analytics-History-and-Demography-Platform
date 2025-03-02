@@ -174,48 +174,93 @@ class UNPopulationAPI:
 
         cursor = connection.cursor(buffered=True)
         try:
+            # Determine which columns to use based on the table name
             if table_name == 'Birth_Rate':
                 value_column = 'birth_rate'
+                sex_specific = False
             elif table_name == 'Death_Rate':
                 value_column = 'death_rate'
+                sex_specific = False
             elif table_name == 'Total_Net_Migration':
                 value_column = 'net_migration'
+                sex_specific = False
             elif table_name == 'Fertility_Rate':
                 value_column = 'fertility_rate'
+                sex_specific = False
             elif table_name == 'Crude_Net_Migration_Rate':
                 value_column = 'migration_rate'
+                sex_specific = False
             elif table_name == "sex_ratio_total_population":
                 value_column = 'sex_ratio'
+                sex_specific = False
             elif table_name == 'sex_ratio_at_birth':
-                table_name = 'sex_ratio_at_birth'
+                value_column = 'sex_ratio'
+                sex_specific = False
             elif table_name == 'median_age':
                 value_column = 'age'
-            elif table_name == 'life_expectancy_at_birth':
+                sex_specific = False
+            elif table_name == 'life_expectancy_at_birth_by_sex':
                 value_column = 'life_expectancy'
+                sex_specific = True  # We want to capture sex-specific data for this
+            elif table_name == 'Infant_Mortality_Rate_By_Sex':
+                value_column = 'infant_mortality_rate'
+                sex_specific = True
+            elif table_name == 'Under_Five_Mortality_Rate_By_Sex':
+                value_column = 'mortality_rate'
+                sex_specific = True
             else:
                 value_column = 'population'
+                sex_specific = False
             
-            insert_sql = f"""
-                INSERT IGNORE INTO {table_name} 
-                (country_id, source_id, year, {value_column}, last_updated)
-                VALUES (%s, %s, %s, %s, %s)
-            """
+            # For most tables, we use the existing logic for "both sexes"
+            if not sex_specific:
+                insert_sql = f"""
+                    INSERT IGNORE INTO {table_name} 
+                    (country_id, source_id, year, {value_column}, last_updated)
+                    VALUES (%s, %s, %s, %s, %s)
+                """
 
-            # Only one loop, with filtering condition
-            for record in data:
-                # Skip records that aren't for both sexes (sexId = 3)
-                if record.get('sexId') != 3:
-                    continue
-                if record.get('variantId') != 4:
-                    continue
-                    
-                cursor.execute(insert_sql, (
-                    country_id,
-                    self.source_id,
-                    record['timeLabel'],
-                    record['value'],
-                    datetime.now()
-                ))
+                # Insert data only for "both sexes" (sexId = 3)
+                for record in data:
+                    if record.get('sexId') != 3:
+                        continue
+                    if record.get('variantId') != 4:
+                        continue
+                        
+                    cursor.execute(insert_sql, (
+                        country_id,
+                        self.source_id,
+                        record['timeLabel'],
+                        record['value'],
+                        datetime.now()
+                    ))
+            else:
+                # For sex-specific tables (currently only life expectancy), use a different SQL
+                # that includes the sex column
+                insert_sql = f"""
+                    INSERT IGNORE INTO {table_name}_by_sex
+                    (country_id, source_id, year, sex_id, sex, {value_column}, last_updated)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s)
+                """
+
+                # Process all records regardless of sexId
+                for record in data:
+                    if record.get('variantId') != 4:
+                        continue
+                        
+                    # Make sure sexId and sex fields exist
+                    if 'sexId' not in record or 'sex' not in record:
+                        continue
+                        
+                    cursor.execute(insert_sql, (
+                        country_id,
+                        self.source_id,
+                        record['timeLabel'],
+                        record['sexId'],
+                        record['sex'],
+                        record['value'],
+                        datetime.now()
+                    ))
             
             connection.commit()
         finally:
@@ -235,8 +280,10 @@ class UNPopulationAPI:
             '72': 'sex_ratio_total_population', # Number of males for every 100 females
             '58': 'sex_ratio_at_birth', # Number of male births per female birth
             '67': 'median_age', # Median age of the population
-            '61': 'life_expectancy_at_birth',  # Life expectancy at birth
+            '61': 'life_expectancy_at_birth_by_sex',  # Life expectancy at birth
             '49': 'Population',  # Total population
+            '22': 'Infant_Mortality_Rate_By_Sex',  # Infant mortality rate
+            '24': 'Under_Five_Mortality_Rate_By_Sex', # Under-5 mortality rate
         }
 
         try:

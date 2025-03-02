@@ -154,18 +154,52 @@ try:
     );
     """
 
-    #SQL statement to create the life expectancy at birth table
+    #SQL statement to create the life expectancy at birth by sex table
     create_life_expectancy_at_birth_table = """
-    CREATE TABLE IF NOT EXISTS life_expectancy_at_birth (
-        data_id INT AUTO_INCREMENT PRIMARY KEY,
-        country_id INT NOT NULL,
-        source_id INT NOT NULL,
-        year INT NOT NULL,
-        -- This is the ratio of total males to total females in the population
-        life_expectancy FLOAT NOT NULL,
-        last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-        FOREIGN KEY (country_id) REFERENCES Countries(country_id),
-        FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+            CREATE TABLE IF NOT EXISTS life_expectancy_at_birth_by_sex (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                country_id INT NOT NULL,
+                source_id INT NOT NULL,
+                year VARCHAR(10) NOT NULL,
+                sex_id INT NOT NULL,
+                sex VARCHAR(50) NOT NULL,
+                life_expectancy FLOAT NOT NULL,
+                last_updated DATETIME NOT NULL,
+                UNIQUE KEY unique_life_expectancy (country_id, source_id, year, sex_id),
+                FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+                FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+    );
+    """
+    #SQL statement to create the infant mortality rate by sex table
+    create_Infant_Mortality_Rate_By_Sex_table = """
+            CREATE TABLE IF NOT EXISTS Infant_Mortality_Rate_By_Sex (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                country_id INT NOT NULL,
+                source_id INT NOT NULL,
+                year VARCHAR(10) NOT NULL,
+                sex_id INT NOT NULL,
+                sex VARCHAR(50) NOT NULL,
+                infant_mortality_rate FLOAT NOT NULL,
+                last_updated DATETIME NOT NULL,
+                UNIQUE KEY unique_life_expectancy (country_id, source_id, year, sex_id),
+                FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+                FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+    );
+    """
+    #SQL statement to create the under 5 mortality rate by sex table
+    create_Under_Five_Mortality_Rate_By_Sex_table = """
+            CREATE TABLE IF NOT EXISTS Under_Five_Mortality_Rate_By_Sex (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                country_id INT NOT NULL,
+                source_id INT NOT NULL,
+                year VARCHAR(10) NOT NULL,
+                sex_id INT NOT NULL,
+                sex VARCHAR(50) NOT NULL,
+                mortality_rate FLOAT NOT NULL,
+                last_updated DATETIME NOT NULL,
+                UNIQUE KEY unique_life_expectancy (country_id, source_id, year, sex_id),
+                FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+                FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
     """
 
@@ -182,6 +216,8 @@ try:
     cursor.execute(create_sex_ratio_total_population_table)
     cursor.execute(create_median_age_table)
     cursor.execute(create_life_expectancy_at_birth_table)
+    cursor.execute(create_Under_Five_Mortality_Rate_By_Sex_table)
+    cursor.execute(create_Infant_Mortality_Rate_By_Sex_table)
 
 
 
