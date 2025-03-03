@@ -1,6 +1,6 @@
 import requests
 import mysql.connector
-from datetime import datetime
+import datetime
 import logging
 from typing import Dict, List, Any
 import time

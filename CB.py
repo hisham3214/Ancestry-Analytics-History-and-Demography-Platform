@@ -1,7 +1,8 @@
 import requests
 import mysql.connector
 import urllib.parse
-
+import time
+from datetime import datetime
 class CensusBureauDataFetcher:
     
     def __init__(self, db_config):
@@ -63,7 +64,10 @@ class CensusBureauDataFetcher:
         self.indicators = {
             'population': 'POP',  # Population
             'birth_rate': 'CBR',  # Crude Birth Rate
-            'death_rate': 'CDR'   # Crude Death Rate
+            'death_rate': 'CDR',   # Crude Death Rate
+            'fertility_rate': 'TFR',
+            'sex_ratio_population': 'SEXRATIO',
+            'sex_ratio_birth': 'SRB'
         }
 
     def connect_db(self):
@@ -143,19 +147,49 @@ class CensusBureauDataFetcher:
             population = record[header_indices['POP']]
             birth_rate = record[header_indices['CBR']]
             death_rate = record[header_indices['CDR']]
+            fertility_rate= record[header_indices['TFR']]
+            sex_ratio_population= record[header_indices['SEXRATIO']]
+            sex_ratio_birth= record[header_indices['SRB']]
+            median_age= record[header_indices['MEDAGE']]
+            crude_net_migration=record[header_indices['NMR']]
+            total_net_migration=record[header_indices['NIM']]
 
             # Insert into respective tables
             if population and population != '-':
-                sql = "INSERT INTO Population (country_id, source_id, year, population) VALUES (%s, %s, %s, %s)"
-                cursor.execute(sql, (country_id, source_id, year, int(population)))
+                sql = "INSERT INTO Population (country_id, source_id, year, population,last_updated) VALUES (%s, %s, %s, %s,%s)"
+                cursor.execute(sql, (country_id, source_id, year, int(population),datetime.now()))
 
             if birth_rate and birth_rate != '-':
-                sql = "INSERT INTO Birth_Rate (country_id, source_id, year, birth_rate) VALUES (%s, %s, %s, %s)"
-                cursor.execute(sql, (country_id, source_id, year, float(birth_rate)))
+                sql = "INSERT INTO Birth_Rate (country_id, source_id, year, birth_rate,last_updated) VALUES (%s, %s, %s, %s,%s)"
+                cursor.execute(sql, (country_id, source_id, year, float(birth_rate),datetime.now()))
 
             if death_rate and death_rate != '-':
-                sql = "INSERT INTO Death_Rate (country_id, source_id, year, death_rate) VALUES (%s, %s, %s, %s)"
-                cursor.execute(sql, (country_id, source_id, year, float(death_rate)))
+                sql = "INSERT INTO Death_Rate (country_id, source_id, year, death_rate,last_updated) VALUES (%s, %s, %s, %s,%s)"
+                cursor.execute(sql, (country_id, source_id, year, float(death_rate),datetime.now()))
+
+            if fertility_rate and fertility_rate != '-':
+                sql = "INSERT INTO Fertility_Rate (country_id, source_id, year, Fertility_rate,last_updated) VALUES (%s, %s, %s, %s,%s)"
+                cursor.execute(sql, (country_id, source_id, year, float(fertility_rate),datetime.now()))
+
+            if sex_ratio_population and sex_ratio_population != '-':
+                sql = "INSERT INTO Sex_Ratio_Total_Population (country_id, source_id, year, sex_ratio,last_updated) VALUES (%s, %s, %s, %s,%s)"
+                cursor.execute(sql, (country_id, source_id, year, float(sex_ratio_population),datetime.now()))
+
+            if sex_ratio_birth and sex_ratio_birth != '-':
+                sql = "INSERT INTO Sex_Ratio_At_Birth (country_id, source_id, year, sex_ratio_at_birth,last_updated) VALUES (%s, %s, %s, %s,%s)"
+                cursor.execute(sql, (country_id, source_id, year, float(sex_ratio_birth),datetime.now()))
+
+            if median_age and median_age != '-':
+                sql = "INSERT INTO median_age (country_id, source_id, year, age,last_updated) VALUES (%s, %s, %s, %s,%s)"
+                cursor.execute(sql, (country_id, source_id, year, float(median_age),datetime.now()))
+
+            if crude_net_migration and crude_net_migration != '-':
+                sql = "INSERT INTO crude_net_migration_rate (country_id, source_id, year, migration_rate,last_updated) VALUES (%s, %s, %s, %s,%s)"
+                cursor.execute(sql, (country_id, source_id, year, float(crude_net_migration),datetime.now()))
+
+            if total_net_migration and total_net_migration != '-':
+                sql = "INSERT INTO total_net_migration (country_id, source_id, year, net_migration,last_updated) VALUES (%s, %s, %s, %s,%s)"
+                cursor.execute(sql, (country_id, source_id, year, int(total_net_migration),datetime.now()))
 
         conn.commit()
         cursor.close()
