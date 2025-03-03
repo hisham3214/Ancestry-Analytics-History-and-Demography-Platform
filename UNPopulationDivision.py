@@ -111,10 +111,37 @@ class UNPopulationAPI:
 
     def fetch_countries(self) -> List[Dict[str, Any]]:
         """
-        Fetch available countries (locations) from the UN API
+        Fetch available countries (locations) from the UN API, handling pagination
         """
-        response = self._make_request("locations")
-        return response.get('data', [])
+        all_countries = []
+        page = 1
+        page_size = 100
+        
+        logger.info("Fetching countries (locations) from UN API")
+        
+        while True:
+            endpoint = f"locations?pageSize={page_size}&pageNumber={page}"
+            try:
+                response = self._make_request(endpoint)
+                current_data = response.get('data', [])
+                
+                all_countries.extend(current_data)
+                
+                total_pages = response.get('pages', 1)
+                logger.info(f"Fetched page {page} of {total_pages} for locations")
+                
+                if page >= total_pages:
+                    break
+                    
+                page += 1
+                time.sleep(0.5)  # Add a small delay to be respectful to the API
+                
+            except requests.exceptions.RequestException as e:
+                logger.error(f"Failed to fetch location data, page {page}: {e}")
+                break
+        
+        logger.info(f"Total locations fetched: {len(all_countries)}")
+        return all_countries
 
     def insert_countries(self, connection: mysql.connector.connection.MySQLConnection) -> Dict[str, int]:
         """
