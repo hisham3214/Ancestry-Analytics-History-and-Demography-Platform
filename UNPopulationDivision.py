@@ -208,12 +208,17 @@ class UNPopulationAPI:
             elif table_name == 'Under_Five_Mortality_Rate_By_Sex':
                 value_column = 'mortality_rate'
                 sex_specific = True
+            elif table_name == 'Population_By_Age_Group':
+                value_column = 'population'
+                age_specific = True
+                sex_specific = True
             else:
                 value_column = 'population'
                 sex_specific = False
+                age_specific = False
             
             # For standard tables, including Population (both sexes)
-            if not sex_specific:
+            if not sex_specific and not age_specific:
                 insert_sql = f"""
                     INSERT IGNORE INTO {table_name} 
                     (country_id, source_id, year, {value_column}, last_updated)
@@ -259,6 +264,37 @@ class UNPopulationAPI:
                             record['value'],
                             datetime.now()
                         ))
+            elif table_name == 'Population_By_Age_Group':
+                # Special handling for population by age group data
+                for record in data:
+                    if record.get('variantId') != 4:
+                        continue
+                        
+                    # Make sure all required fields exist
+                    if ('sexId' not in record or 'sex' not in record or 
+                        'ageId' not in record or 'ageLabel' not in record or
+                        'ageStart' not in record or 'ageEnd' not in record):
+                        continue
+                    
+                    # Insert into Population_By_Age_Group table
+                    cursor.execute("""
+                        INSERT IGNORE INTO Population_By_Age_Group
+                        (country_id, source_id, year, sex_id, sex, age_group_id, 
+                         age_group_label, age_start, age_end, population, last_updated)
+                        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                    """, (
+                        country_id,
+                        self.source_id,
+                        record['timeLabel'],
+                        record['sexId'],
+                        record['sex'],
+                        record['ageId'],
+                        record['ageLabel'],
+                        record['ageStart'],
+                        record['ageEnd'],
+                        record['value'],
+                        datetime.now()
+                    ))
             else:
                 # For sex-specific tables, use the appropriate table name
                 # Note: no '_by_sex' suffix is added as it's already in the table_name
@@ -309,6 +345,7 @@ class UNPopulationAPI:
             '49': 'Population',  # Total population
             '22': 'Infant_Mortality_Rate_By_Sex',  # Infant mortality rate
             '24': 'Under_Five_Mortality_Rate_By_Sex', # Under-5 mortality rate
+            '46': 'Population_By_Age_Group',  # Population by 5-year age groups and sex
         }
 
         try:

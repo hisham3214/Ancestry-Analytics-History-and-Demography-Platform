@@ -219,6 +219,26 @@ try:
     );
     """
 
+    create_population_by_age_table = """
+    CREATE TABLE IF NOT EXISTS Population_By_Age_Group (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        country_id INT NOT NULL,
+        source_id INT NOT NULL,
+        year VARCHAR(10) NOT NULL,
+        sex_id INT NOT NULL,
+        sex VARCHAR(50) NOT NULL,
+        age_group_id INT NOT NULL,
+        age_group_label VARCHAR(20) NOT NULL,
+        age_start INT,
+        age_end INT,
+        population FLOAT NOT NULL,
+        last_updated DATETIME NOT NULL,
+        UNIQUE KEY unique_population_age (country_id, source_id, year, sex_id, age_group_id),
+        FOREIGN KEY (country_id) REFERENCES Countries(country_id),
+        FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
+    );
+    """
+
     # Execute the SQL statements to create tables
     cursor.execute(create_countries_table)
     cursor.execute(create_data_sources_table)
@@ -235,6 +255,7 @@ try:
     cursor.execute(create_Under_Five_Mortality_Rate_By_Sex_table)
     cursor.execute(create_Infant_Mortality_Rate_By_Sex_table)
     cursor.execute(create_population_by_sex_table)
+    cursor.execute(create_population_by_age_table)
 
 
 
