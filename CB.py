@@ -2,6 +2,7 @@ import requests
 import mysql.connector
 import urllib.parse
 import time
+import re
 from datetime import datetime
 class CensusBureauDataFetcher:
     
@@ -144,15 +145,17 @@ class CensusBureauDataFetcher:
 
             # Extract data
             year= record[header_indices['YR']]
-            population = record[header_indices['POP']]
             birth_rate = record[header_indices['CBR']]
-            death_rate = record[header_indices['CDR']]
             fertility_rate= record[header_indices['TFR']]
-            sex_ratio_population= record[header_indices['SEXRATIO']]
-            sex_ratio_birth= record[header_indices['SRB']]
-            median_age= record[header_indices['MEDAGE']]
-            crude_net_migration=record[header_indices['NMR']]
             total_net_migration=record[header_indices['NIM']]
+            crude_net_migration=record[header_indices['NMR']]
+            death_rate = record[header_indices['CDR']]
+            population = record[header_indices['POP']]
+            sex_ratio_birth= record[header_indices['SRB']]
+            sex_ratio_population= record[header_indices['SEXRATIO']]
+            median_age= record[header_indices['MEDAGE']]
+            
+            
 
             # Insert into respective tables
             if population and population != '-':
@@ -190,6 +193,103 @@ class CensusBureauDataFetcher:
             if total_net_migration and total_net_migration != '-':
                 sql = "INSERT INTO total_net_migration (country_id, source_id, year, net_migration,last_updated) VALUES (%s, %s, %s, %s,%s)"
                 cursor.execute(sql, (country_id, source_id, year, int(total_net_migration),datetime.now()))
+
+            for header, index in header_indices.items():
+                     match = re.match(r'([MF])?POP(\d+)_(\d+)', header)
+                     if match:
+                        sex_code = match.group(1)  # 'M' or 'F'
+                        age_start = int(match.group(2))  # e.g., 5
+                        age_end = int(match.group(3))    # e.g., 9
+                        
+                        if sex_code == 'M':
+                            sex = "Man"
+                            sex_id = 1
+                        elif sex_code == 'F':
+                            sex = "Woman"
+                            sex_id = 2
+                        else:
+                            sex = "Both"
+                            sex_id = None  # You can decide: NULL or a specific ID (like 3)
+                        
+                        population_value = record[index]
+                        if population_value and population_value != '-':
+                            sql = "INSERT INTO Population_By_Age_Group (country_id, source_id, year, sex_id, sex, age_start, age_end, population, last_updated) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
+                            cursor.execute(sql, (
+                                country_id, source_id, year, sex_id, sex, age_start, age_end, 
+                                float(population_value), datetime.now()
+                            ))
+
+            for header, index in header_indices.items():
+                if header.startswith('IMR'):  # Capture all IMR indicators
+                    if header == 'IMR':
+                        sex = 'Both'
+                        sex_id = None  # or 3, based on preference
+                    elif header == 'IMR_M':
+                        sex = 'Man'
+                        sex_id = 1
+                    elif header == 'IMR_F':
+                        sex = 'Woman'
+                        sex_id = 2
+                    
+                    imr_value = record[index]
+                    if imr_value and imr_value != '-':
+                        sql = "INSERT INTO Infant_Mortality_Rate_By_Sex (country_id, source_id, year, sex_id, sex, infant_mortality_rate, last_updated) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+                        cursor.execute(sql, (
+                            country_id, source_id, year, sex_id, sex, float(imr_value), datetime.now()
+                        ))
+            for header, index in header_indices.items():
+                if header.startswith('E0'):  # Capture E0, E0_M, E0_F
+                    if header == 'E0':
+                        sex = 'Both'
+                        sex_id = None  # or 3, optional
+                    elif header == 'E0_M':
+                        sex = 'Man'
+                        sex_id = 1
+                    elif header == 'E0_F':
+                        sex = 'Woman'
+                        sex_id = 2
+                    
+                    life_expectancy_value = record[index]
+                    if life_expectancy_value and life_expectancy_value != '-':
+                        sql = "INSERT INTO life_expectancy_at_birth_by_sex (country_id, source_id, year, sex_id, sex, life_expectancy, last_updated) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+                        cursor.execute(sql, (
+                            country_id, source_id, year, sex_id, sex, float(life_expectancy_value), datetime.now()
+                        ))
+            for header, index in header_indices.items():
+                if header in ['MR0_4', 'MMR0_4', 'FMR0_4']:
+                    # Determine sex and sex_id
+                    if header == 'MR0_4':
+                        sex = 'Both'
+                        sex_id = None  # or 3
+                    elif header == 'MMR0_4':
+                        sex = 'Man'
+                        sex_id = 1
+                    elif header == 'FMR0_4':
+                        sex = 'Woman'
+                        sex_id = 2
+                    
+                    mortality_rate_value = record[index]
+                    if mortality_rate_value and mortality_rate_value != '-':
+                        sql = "INSERT INTO Under_Five_Mortality_Rate_By_Sex (country_id, source_id, year, sex_id, sex, mortality_rate, last_updated) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+                        cursor.execute(sql, (
+                            country_id, source_id, year, sex_id, sex, float(mortality_rate_value), datetime.now()
+                        ))
+            for header, index in header_indices.items():
+                if header == 'MPOP' or header == 'FPOP':
+                    # Determine sex and sex_id
+                    if header == 'MPOP':
+                        sex = 'Man'
+                        sex_id = 1
+                    elif header == 'FPOP':
+                        sex = 'Woman'
+                        sex_id = 2
+                    
+                    population_value = record[index]
+                    if population_value and population_value != '-':
+                        sql = "INSERT INTO Population_by_sex (country_id, source_id, year, sex_id, sex, population, last_updated) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+                        cursor.execute(sql, (
+                            country_id, source_id, year, sex_id, sex, float(population_value), datetime.now()
+                        ))
 
         conn.commit()
         cursor.close()

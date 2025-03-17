@@ -4,7 +4,7 @@ from mysql.connector import errorcode
 # Replace with your MySQL connection details
 config = {
     'user': 'root',       # Your MySQL username
-    'password': 'LZ#amhe!32',   # Your MySQL password
+    'password': 'MySQLraghid',   # Your MySQL password
     'host': '127.0.0.1',           # The host where MySQL server is running
     'database': 'fyp',   # The database name where you want to create tables
     'raise_on_warnings': True
@@ -161,11 +161,10 @@ try:
                 country_id INT NOT NULL,
                 source_id INT NOT NULL,
                 year VARCHAR(10) NOT NULL,
-                sex_id INT NOT NULL,
-                sex VARCHAR(50) NOT NULL,
+                sex_id INT,
+                sex VARCHAR(50),
                 life_expectancy FLOAT NOT NULL,
                 last_updated DATETIME NOT NULL,
-                UNIQUE KEY unique_life_expectancy (country_id, source_id, year, sex_id),
                 FOREIGN KEY (country_id) REFERENCES Countries(country_id),
                 FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
@@ -177,11 +176,10 @@ try:
                 country_id INT NOT NULL,
                 source_id INT NOT NULL,
                 year VARCHAR(10) NOT NULL,
-                sex_id INT NOT NULL,
-                sex VARCHAR(50) NOT NULL,
+                sex_id INT,
+                sex VARCHAR(50),
                 infant_mortality_rate FLOAT NOT NULL,
                 last_updated DATETIME NOT NULL,
-                UNIQUE KEY unique_life_expectancy (country_id, source_id, year, sex_id),
                 FOREIGN KEY (country_id) REFERENCES Countries(country_id),
                 FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
@@ -193,11 +191,10 @@ try:
                 country_id INT NOT NULL,
                 source_id INT NOT NULL,
                 year VARCHAR(10) NOT NULL,
-                sex_id INT NOT NULL,
-                sex VARCHAR(50) NOT NULL,
+                sex_id INT,
+                sex VARCHAR(50),
                 mortality_rate FLOAT NOT NULL,
                 last_updated DATETIME NOT NULL,
-                UNIQUE KEY unique_life_expectancy (country_id, source_id, year, sex_id),
                 FOREIGN KEY (country_id) REFERENCES Countries(country_id),
                 FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
@@ -209,11 +206,10 @@ try:
         country_id INT NOT NULL,
         source_id INT NOT NULL,
         year VARCHAR(10) NOT NULL,
-        sex_id INT NOT NULL,
-        sex VARCHAR(50) NOT NULL,
+        sex_id INT,
+        sex VARCHAR(50),
         population FLOAT NOT NULL,
         last_updated DATETIME NOT NULL,
-        UNIQUE KEY unique_population (country_id, source_id, year, sex_id),
         FOREIGN KEY (country_id) REFERENCES Countries(country_id),
         FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
@@ -225,15 +221,14 @@ try:
         country_id INT NOT NULL,
         source_id INT NOT NULL,
         year VARCHAR(10) NOT NULL,
-        sex_id INT NOT NULL,
-        sex VARCHAR(50) NOT NULL,
-        age_group_id INT NOT NULL,
-        age_group_label VARCHAR(20) NOT NULL,
+        sex_id INT ,
+        sex VARCHAR(50),
+        age_group_id INT,
+        age_group_label VARCHAR(20),
         age_start INT,
         age_end INT,
         population FLOAT NOT NULL,
         last_updated DATETIME NOT NULL,
-        UNIQUE KEY unique_population_age (country_id, source_id, year, sex_id, age_group_id),
         FOREIGN KEY (country_id) REFERENCES Countries(country_id),
         FOREIGN KEY (source_id) REFERENCES Data_Sources(source_id)
     );
