@@ -1,339 +1,397 @@
 import requests
 import mysql.connector
 from mysql.connector import errorcode
+from datetime import datetime
+import logging
+import time
+from typing import Dict, List, Any
 
-# ========== MySQL Configuration ==========
-config = {
-    'user': 'root',              # Your MySQL username
-    'password': 'LZ#amhe!32',    # Your MySQL password
-    'host': '127.0.0.1',         # The host where MySQL server is running
-    'database': 'fyp',           # The database name where you want to insert data
-    'raise_on_warnings': True
-}
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-# ========== 1) Fetch All Data from Eurostat ==========
-def fetch_all_eurostat_population():
-    """
-    Fetches the entire dataset for freq=A, sex=T, age=TOTAL, unit=NR
-    from the demo_pjangroup table at Eurostat.
-
-    Returns the JSON with dimension & value sections:
-        {
-          "dimension": {...},
-          "value": { "0": 123, "1": 456, ... },
-          ...
+class EurostatAPI:
+    def __init__(self, db_config: Dict[str, str]):
+        """
+        Initialize the Eurostat API client
+        """
+        self.base_url = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data"
+        self.db_config = db_config
+        self.source_id = None
+        
+        # Map of two-letter to three-letter country codes
+        self.country_code_map = {
+            "AF": "AFG", "AL": "ALB", "DZ": "DZA", "AS": "ASM", "AD": "AND", 
+            "AO": "AGO", "AI": "AIA", "AQ": "ATA", "AG": "ATG", "AR": "ARG", 
+            "AM": "ARM", "AW": "ABW", "AU": "AUS", "AT": "AUT", "AZ": "AZE", 
+            "BS": "BHS", "BH": "BHR", "BD": "BGD", "BB": "BRB", "BY": "BLR", 
+            "BE": "BEL", "BZ": "BLZ", "BJ": "BEN", "BM": "BMU", "BT": "BTN", 
+            "BO": "BOL", "BQ": "BES", "BA": "BIH", "BW": "BWA", "BV": "BVT", 
+            "BR": "BRA", "IO": "IOT", "BN": "BRN", "BG": "BGR", "BF": "BFA", 
+            "BI": "BDI", "CV": "CPV", "KH": "KHM", "CM": "CMR", "CA": "CAN", 
+            "KY": "CYM", "CF": "CAF", "TD": "TCD", "CL": "CHL", "CN": "CHN", 
+            "CX": "CXR", "CC": "CCK", "CO": "COL", "KM": "COM", "CD": "COD", 
+            "CG": "COG", "CK": "COK", "CR": "CRI", "HR": "HRV", "CU": "CUB", 
+            "CW": "CUW", "CY": "CYP", "CZ": "CZE", "CI": "CIV", "DK": "DNK", 
+            "DJ": "DJI", "DM": "DMA", "DO": "DOM", "EC": "ECU", "EG": "EGY", 
+            "SM": "SMR", "SV": "SLV", "GQ": "GNQ", "ER": "ERI", "EE": "EST", 
+            "SZ": "SWZ", "ET": "ETH", "FI": "FIN", "FR": "FRA", "GE": "GEO", 
+            "DE": "DEU", "GH": "GHA", "GR": "GRC", "HU": "HUN", "IS": "ISL", 
+            "IN": "IND", "ID": "IDN", "IR": "IRN", "IQ": "IRQ", "IE": "IRL", 
+            "IL": "ISR", "IT": "ITA", "JP": "JPN", "JO": "JOR", "KZ": "KAZ", 
+            "KE": "KEN", "KW": "KWT", "LV": "LVA", "LB": "LBN", "LT": "LTU", 
+            "LU": "LUX", "MT": "MLT", "MX": "MEX", "MD": "MDA", "MC": "MCO", 
+            "ME": "MNE", "MA": "MAR", "NL": "NLD", "NZ": "NZL", "NO": "NOR", 
+            "PK": "PAK", "PL": "POL", "PT": "PRT", "QA": "QAT", "RO": "ROU", 
+            "RU": "RUS", "SA": "SAU", "RS": "SRB", "SG": "SGP", "SK": "SVK", 
+            "SI": "SVN", "ZA": "ZAF", "KR": "KOR", "ES": "ESP", "SE": "SWE", 
+            "CH": "CHE", "TH": "THA", "TR": "TUR", "UA": "UKR", "AE": "ARE", 
+            "GB": "GBR", "UK": "GBR", "US": "USA", "VN": "VNM", "YE": "YEM", 
+            "ZM": "ZMB", "ZW": "ZWE", "XK": "XKX", "MK": "MKD", "LI": "LIE", 
+            "EL": "GRC"
         }
-    or raises an exception if the request fails.
-    """
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjangroup"
-    params = {
-        "format": "JSON",
-        "freq": "A",        # Annual
-        "sex": "T",         # Total
-        "age": "TOTAL",     # All ages combined
-        "unit": "NR"        # Number of persons
-        # no "geo" or "time" => means "ALL"
-    }
 
-    response = requests.get(base_url, params=params)
-    response.raise_for_status()  # Will raise an HTTPError if not 200
-    data = response.json()
+    def _make_request(self, endpoint: str, params: Dict, retry_count: int = 3) -> Dict:
+        """
+        Make a request to the Eurostat API with retries
+        """
+        url = f"{self.base_url}/{endpoint}"
+        for attempt in range(retry_count):
+            try:
+                response = requests.get(url, params=params)
+                response.raise_for_status()
+                return response.json()
+            except requests.exceptions.RequestException as e:
+                if attempt == retry_count - 1:  # Last attempt
+                    logger.error(f"API request failed for endpoint {endpoint}: {str(e)}")
+                    raise
+                time.sleep(1 * (attempt + 1))  # Simple backoff
+                continue
 
-    # Check if we got anything back
-    if "value" not in data or not data["value"]:
-        print("No population data returned from Eurostat for TOTAL population.")
-        return None
+    def connect_db(self) -> mysql.connector.connection.MySQLConnection:
+        """
+        Establish a database connection
+        """
+        try:
+            connection = mysql.connector.connect(**self.db_config)
+            return connection
+        except mysql.connector.Error as err:
+            logger.error(f"Database connection failed: {err}")
+            raise
 
-    return data
+    def setup_data_source(self, connection: mysql.connector.connection.MySQLConnection) -> int:
+        """Insert or retrieve Eurostat as a data source"""
+        cursor = connection.cursor(buffered=True)
+        try:
+            # Check if the data source is already in the table
+            cursor.execute("""
+                SELECT source_id FROM Data_Sources 
+                WHERE name = 'Eurostat'
+            """)
+            result = cursor.fetchone()
+            
+            if result:
+                return result[0]
+            
+            # If not, insert it
+            cursor.execute("""
+                INSERT INTO Data_Sources (name, website) 
+                VALUES ('Eurostat', 'https://ec.europa.eu/eurostat')
+            """)
+            connection.commit()
+            
+            # Retrieve the newly inserted source_id
+            cursor.execute("""
+                SELECT source_id FROM Data_Sources 
+                WHERE name = 'Eurostat'
+            """)
+            result = cursor.fetchone()
+            return result[0] if result else None
+            
+        finally:
+            cursor.close()
 
-# ========== 2) Parse and Insert the Data into MySQL ==========
-def insert_all_countries_years(data):
-    """
-    Given the JSON 'data' returned from Eurostat, loop over all
-    (country, year) pairs in the dimension, extract the population,
-    and insert into the Population table. Only 'sex=T' and 'age=TOTAL'.
-
-    The dimension order is typically: [freq, unit, sex, age, geo, time].
-    Since freq=1, unit=1, sex=1, age=1, we only vary over geo & time.
-    Thus index = geoIdx * timeSize + timeIdx in the 'value' dictionary.
-    """
-    dims = data["dimension"]
-    size = data["size"]  # e.g. [1, 1, 1, 1, geoSize, timeSize]
-
-    # Indices in 'size'
-    geo_size = size[4]
-    time_size = size[5]
-
-    # Maps from country-code -> geoIdx
-    geo_index = dims["geo"]["category"]["index"]    # e.g. {"CH": 0, "DE": 1, ...}
-    geo_label = dims["geo"]["category"]["label"]    # e.g. {"CH": "Switzerland", "DE": "Germany", ...}
-
-    # Maps from year-string -> timeIdx
-    time_index = dims["time"]["category"]["index"]  # e.g. {"2023": 0, "2022": 1, ...}
-    time_label = dims["time"]["category"]["label"]  # e.g. {"2023": "2023", "2022": "2022", ...}
-
-    values = data["value"]  # dict of flattened index -> population
-
-    # 1) Connect to MySQL
-    try:
-        cnx = mysql.connector.connect(**config)
-        cursor = cnx.cursor()
-
-        # 2) Prepare queries (we'll re-use them)
-        # Find (or create) a 'Eurostat' source
-        source_id = get_or_insert_datasource(cursor, "Eurostat", "https://ec.europa.eu/eurostat")
-
-        # For each geo-code and year, compute the flattened index -> population
-        for country_code, g_idx in geo_index.items():
-            country_name = geo_label[country_code]
-
-            # Make sure the Countries table has an entry
-            country_id = get_or_insert_country(cursor, country_name, country_code)
-
-            for year_str, t_idx in time_index.items():
-                # Flattened index:
-                # freq=0, unit=0, sex=0, age=0 => all are singletons => offset=0
-                # geoIdx = g_idx, timeIdx = t_idx
-                flat_idx = g_idx * time_size + t_idx
-
-                # Get the population value if it exists
-                pop_val = values.get(str(flat_idx))
-                if pop_val is None:
-                    # Means no data for that combination
+    def get_available_countries(self) -> List[Dict[str, Any]]:
+        """
+        Get available countries from the Eurostat API demo_gind table
+        """
+        try:
+            # Make a request to get a single indicator to extract the list of countries
+            params = {
+                'format': 'JSON',
+                'indic_de': 'GBIRTHRT',
+            }
+            response = self._make_request('demo_gind', params)
+            
+            countries = []
+            geo_index = response['dimension']['geo']['category']['index']
+            geo_label = response['dimension']['geo']['category']['label']
+            
+            for country_code, index in geo_index.items():
+                # Skip aggregate regions like EU27, EU28, etc.
+                if '_' in country_code or len(country_code) > 2:
                     continue
+                    
+                countries.append({
+                    'id': country_code,
+                    'name': geo_label[country_code],
+                    'iso3': self.country_code_map.get(country_code, country_code)
+                })
+                
+            return countries
+        except Exception as e:
+            logger.error(f"Error fetching countries: {e}")
+            return []
 
-                # Convert year_str to an integer (Eurostat labels are plain strings like "2023")
-                year_int = int(year_str)
+    def get_or_insert_country(self, cursor, country_name: str, country_code: str) -> int:
+        """
+        Returns the country_id from the Countries table if it exists,
+        otherwise inserts a new record and returns its ID.
+        """
+        # Convert 2-letter code to 3-letter if possible
+        iso3 = self.country_code_map.get(country_code, country_code)
+        
+        query = """
+            SELECT country_id
+            FROM Countries
+            WHERE country_code = %s
+            LIMIT 1
+        """
+        cursor.execute(query, (iso3,))
+        row = cursor.fetchone()
+        if row:
+            return row[0]
 
-                # Insert into the 'Population' table
-                insert_population(cursor, country_id, source_id, year_int, pop_val)
+        # Insert new country
+        insert_sql = """
+            INSERT INTO Countries (country_name, country_code)
+            VALUES (%s, %s)
+        """
+        cursor.execute(insert_sql, (country_name, iso3))
+        return cursor.lastrowid
 
-        # Commit all
-        cnx.commit()
-        print("All data inserted successfully.")
-
-    except mysql.connector.Error as err:
-        if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
-            print("Something is wrong with your user name or password.")
-        elif err.errno == errorcode.ER_BAD_DB_ERROR:
-            print("Database does not exist.")
+    def fetch_demographic_data(self, indicator_code: str, country_code: str) -> Dict:
+        """
+        Fetch demographic data for a specific indicator and country.
+        
+        Args:
+            indicator_code: The Eurostat indicator code (e.g., 'GBIRTHRT')
+            country_code: The country code (e.g., 'DE')
+            
+        Returns:
+            Dictionary with the data response
+        """
+        # For most indicators, they're in the demo_gind table
+        endpoint = 'demo_gind'
+        
+        # For total population (AVG_POP), we need to use demo_pjan
+        if indicator_code == 'AVG_POP':
+            endpoint = 'demo_pjan'
+            params = {
+                'format': 'JSON',
+                'unit': 'NR',
+                'sex': 'T',
+                'age': 'TOTAL',
+                'geo': country_code
+            }
         else:
-            print(err)
-    finally:
-        cursor.close()
-        cnx.close()
+            params = {
+                'format': 'JSON',
+                'indic_de': indicator_code,
+                'geo': country_code
+            }
+        
+        try:
+            logger.info(f"Fetching {indicator_code} data for {country_code}")
+            response = self._make_request(endpoint, params)
+            return response
+        except Exception as e:
+            logger.error(f"Error fetching {indicator_code} data for {country_code}: {e}")
+            return None
+
+    def insert_demographic_data(self, connection: mysql.connector.connection.MySQLConnection,
+                              data: Dict, indicator_code: str, country_id: int):
+        """
+        Insert demographic data for a specific country and indicator
+        """
+        if not data or 'value' not in data or not data['value']:
+            logger.warning(f"No data to insert for indicator {indicator_code}, country_id {country_id}")
+            return
+
+        cursor = connection.cursor(buffered=True)
+        try:
+            # Determine which table and column to use based on the indicator code
+            if indicator_code == 'GBIRTHRT':
+                table_name = 'Birth_Rate'
+                value_column = 'birth_rate'
+            elif indicator_code == 'GDEATHRT':
+                table_name = 'Death_Rate'
+                value_column = 'death_rate'
+            elif indicator_code == 'CNMIGRATRT':
+                table_name = 'Crude_Net_Migration_Rate'
+                value_column = 'migration_rate'
+            elif indicator_code == 'AVG_POP':
+                table_name = 'Population'
+                value_column = 'population'
+            elif indicator_code == 'GROWRT':
+                table_name = 'Population_Growth_Rate'
+                value_column = 'growth_rate'
+            elif indicator_code == 'NATGROWRT':
+                table_name = 'Natural_Growth_Rate'
+                value_column = 'growth_rate'
+            elif indicator_code == 'NATGROW':
+                table_name = 'Natural_Change'
+                value_column = 'change_value'
+            elif indicator_code == 'NPOPGROW':
+                table_name = 'Net_Population_Change'
+                value_column = 'change_value'
+            elif indicator_code == 'CNMIGRAT':
+                table_name = 'Total_Net_Migration'
+                value_column = 'net_migration'
+            else:
+                logger.warning(f"Unknown indicator code: {indicator_code}")
+                return
+                
+            # Extract time index mapping
+            time_index = data['dimension']['time']['category']['index']
+            
+            # Insert data for each time period
+            for year_str, time_idx in time_index.items():
+                value = data['value'].get(str(time_idx))
+                if value is None:
+                    continue
+                    
+                year_int = int(year_str)
+                
+                # Check if the entry already exists
+                check_sql = f"""
+                    SELECT 1 FROM {table_name}
+                    WHERE country_id = %s AND source_id = %s AND year = %s
+                    LIMIT 1
+                """
+                cursor.execute(check_sql, (country_id, self.source_id, year_int))
+                if cursor.fetchone():
+                    # Update existing record
+                    update_sql = f"""
+                        UPDATE {table_name}
+                        SET {value_column} = %s, last_updated = %s
+                        WHERE country_id = %s AND source_id = %s AND year = %s
+                    """
+                    cursor.execute(update_sql, (value, datetime.now(), country_id, self.source_id, year_int))
+                else:
+                    # Insert new record
+                    insert_sql = f"""
+                        INSERT INTO {table_name} (country_id, source_id, year, {value_column}, last_updated)
+                        VALUES (%s, %s, %s, %s, %s)
+                    """
+                    cursor.execute(insert_sql, (country_id, self.source_id, year_int, value, datetime.now()))
+            
+            connection.commit()
+            logger.info(f"Inserted/updated data for indicator {indicator_code}, country_id {country_id}")
+        except Exception as e:
+            logger.error(f"Error inserting data for indicator {indicator_code}, country_id {country_id}: {e}")
+            connection.rollback()
+        finally:
+            cursor.close()
+
+    def populate_database(self, selected_indicators=None):
+        """
+        Main function to populate the database with demographic data from Eurostat.
+        
+        Args:
+            selected_indicators: Optional list of indicator codes to fetch.
+                                If None, all available indicators will be fetched.
+        """
+        # All available indicators
+        all_indicators = {
+            'GBIRTHRT': 'Crude birth rate',
+            'GDEATHRT': 'Crude death rate',
+            'CNMIGRATRT': 'Crude rate of net migration plus statistical adjustment',
+            'AVG_POP': 'Average population',  # Total population (yearly average)
+            'GROWRT': 'Population change',
+            'NATGROWRT': 'Natural change of population',
+            'NATGROW': 'Natural change',
+            'NPOPGROW': 'Net change',
+            'CNMIGRAT': 'Net migration plus statistical adjustment'
+        }
+        
+        # If specific indicators are requested, filter the dictionary
+        if selected_indicators:
+            indicators = {k: v for k, v in all_indicators.items() if k in selected_indicators}
+        else:
+            indicators = all_indicators
+        
+        try:
+            connection = self.connect_db()
+            self.source_id = self.setup_data_source(connection)
+            
+            if not self.source_id:
+                raise ValueError("Failed to setup data source")
+                
+            # Get the list of available countries
+            countries = self.get_available_countries()
+            logger.info(f"Processing data for {len(countries)} countries")
+            
+            # For each indicator, fetch and insert data for every country
+            for indicator_code, indicator_name in indicators.items():
+                logger.info(f"Processing {indicator_name} data...")
+                
+                for country in countries:
+                    country_code = country['id']
+                    country_name = country['name']
+                    
+                    try:
+                        # Get or insert the country
+                        cursor = connection.cursor(buffered=True)
+                        country_id = self.get_or_insert_country(cursor, country_name, country_code)
+                        cursor.close()
+                        
+                        # Fetch demographic data
+                        data = self.fetch_demographic_data(indicator_code, country_code)
+                        
+                        if data:
+                            # Insert demographic data
+                            self.insert_demographic_data(connection, data, indicator_code, country_id)
+                            
+                        # Sleep a bit to respect rate limits
+                        time.sleep(0.5)
+                    except Exception as e:
+                        logger.error(f"Error processing {indicator_name} data for {country_name}: {e}")
+                        continue
+                        
+        except Exception as e:
+            logger.error(f"Error in database population: {e}")
+            raise
+        finally:
+            if 'connection' in locals():
+                connection.close()
 
 
-# ---------- Helper: get_or_insert_country ----------
-def get_or_insert_country(cursor, country_name, country_code):
-    """
-    Returns the country_id from the Countries table if it exists,
-    otherwise inserts a new record and returns its ID.
-    """
-    query = """
-        SELECT country_id
-        FROM Countries
-        WHERE country_code = %s
-        LIMIT 1
-    """
-
-    two_to_three_letter_map = {
-    "AF": "AFG",  # Afghanistan
-    "AL": "ALB",  # Albania
-    "DZ": "DZA",  # Algeria
-    "AS": "ASM",  # American Samoa
-    "AD": "AND",  # Andorra
-    "AO": "AGO",  # Angola
-    "AI": "AIA",  # Anguilla
-    "AQ": "ATA",  # Antarctica
-    "AG": "ATG",  # Antigua and Barbuda
-    "AR": "ARG",  # Argentina
-    "AM": "ARM",  # Armenia
-    "AW": "ABW",  # Aruba
-    "AU": "AUS",  # Australia
-    "AT": "AUT",  # Austria
-    "AZ": "AZE",  # Azerbaijan
-    "BS": "BHS",  # Bahamas
-    "BH": "BHR",  # Bahrain
-    "BD": "BGD",  # Bangladesh
-    "BB": "BRB",  # Barbados
-    "BY": "BLR",  # Belarus
-    "BE": "BEL",  # Belgium
-    "BZ": "BLZ",  # Belize
-    "BJ": "BEN",  # Benin
-    "BM": "BMU",  # Bermuda
-    "BT": "BTN",  # Bhutan
-    "BO": "BOL",  # Bolivia
-    "BQ": "BES",  # Bonaire, Sint Eustatius and Saba
-    "BA": "BIH",  # Bosnia and Herzegovina
-    "BW": "BWA",  # Botswana
-    "BV": "BVT",  # Bouvet Island
-    "BR": "BRA",  # Brazil
-    "IO": "IOT",  # British Indian Ocean Territory
-    "BN": "BRN",  # Brunei Darussalam
-    "BG": "BGR",  # Bulgaria
-    "BF": "BFA",  # Burkina Faso
-    "BI": "BDI",  # Burundi
-    "CV": "CPV",  # Cabo Verde
-    "KH": "KHM",  # Cambodia
-    "CM": "CMR",  # Cameroon
-    "CA": "CAN",  # Canada
-    "KY": "CYM",  # Cayman Islands
-    "CF": "CAF",  # Central African Republic
-    "TD": "TCD",  # Chad
-    "CL": "CHL",  # Chile
-    "CN": "CHN",  # China
-    "CX": "CXR",  # Christmas Island
-    "CC": "CCK",  # Cocos (Keeling) Islands
-    "CO": "COL",  # Colombia
-    "KM": "COM",  # Comoros
-    "CD": "COD",  # Democratic Republic of the Congo
-    "CG": "COG",  # Republic of the Congo
-    "CK": "COK",  # Cook Islands
-    "CR": "CRI",  # Costa Rica
-    "HR": "HRV",  # Croatia
-    "CU": "CUB",  # Cuba
-    "CW": "CUW",  # Curaçao
-    "CY": "CYP",  # Cyprus
-    "CZ": "CZE",  # Czechia
-    "CI": "CIV",  # Côte d'Ivoire
-    "DK": "DNK",  # Denmark
-    "DJ": "DJI",  # Djibouti
-    "DM": "DMA",  # Dominica
-    "DO": "DOM",  # Dominican Republic
-    "EC": "ECU",  # Ecuador
-    "EG": "EGY",  # Egypt
-    "SM": "SMR",  # San Marino
-    "SV": "SLV",  # El Salvador
-    "GQ": "GNQ",  # Equatorial Guinea
-    "ER": "ERI",  # Eritrea
-    "EE": "EST",  # Estonia
-    "SZ": "SWZ",  # Eswatini
-    "ET": "ETH",  # Ethiopia
-    "FI": "FIN",  # Finland
-    "FR": "FRA",  # France
-    "GE": "GEO",  # Georgia
-    "DE": "DEU",  # Germany
-    "GH": "GHA",  # Ghana
-    "GR": "GRC",  # Greece
-    "HU": "HUN",  # Hungary
-    "IS": "ISL",  # Iceland
-    "IN": "IND",  # India
-    "ID": "IDN",  # Indonesia
-    "IR": "IRN",  # Iran
-    "IQ": "IRQ",  # Iraq
-    "IE": "IRL",  # Ireland
-    "IL": "ISR",  # Israel
-    "IT": "ITA",  # Italy
-    "JP": "JPN",  # Japan
-    "JO": "JOR",  # Jordan
-    "KZ": "KAZ",  # Kazakhstan
-    "KE": "KEN",  # Kenya
-    "KW": "KWT",  # Kuwait
-    "LV": "LVA",  # Latvia
-    "LB": "LBN",  # Lebanon
-    "LT": "LTU",  # Lithuania
-    "LU": "LUX",  # Luxembourg
-    "MT": "MLT",  # Malta
-    "MX": "MEX",  # Mexico
-    "MD": "MDA",  # Moldova
-    "MC": "MCO",  # Monaco
-    "ME": "MNE",  # Montenegro
-    "MA": "MAR",  # Morocco
-    "NL": "NLD",  # Netherlands
-    "NZ": "NZL",  # New Zealand
-    "NO": "NOR",  # Norway
-    "PK": "PAK",  # Pakistan
-    "PL": "POL",  # Poland
-    "PT": "PRT",  # Portugal
-    "QA": "QAT",  # Qatar
-    "RO": "ROU",  # Romania
-    "RU": "RUS",  # Russia
-    "SA": "SAU",  # Saudi Arabia
-    "RS": "SRB",  # Serbia
-    "SG": "SGP",  # Singapore
-    "SK": "SVK",  # Slovakia
-    "SI": "SVN",  # Slovenia
-    "ZA": "ZAF",  # South Africa
-    "KR": "KOR",  # South Korea
-    "ES": "ESP",  # Spain
-    "SE": "SWE",  # Sweden
-    "CH": "CHE",  # Switzerland
-    "TH": "THA",  # Thailand
-    "TR": "TUR",  # Türkiye
-    "UA": "UKR",  # Ukraine
-    "AE": "ARE",  # United Arab Emirates
-    "GB": "GBR",  # United Kingdom
-    "UK": "GBR",  # United Kingdom
-    "US": "USA",  # United States
-    "VN": "VNM",  # Vietnam
-    "YE": "YEM",  # Yemen
-    "ZM": "ZMB",  # Zambia
-    "ZW": "ZWE",  # Zimbabwe
-    "XK": "XKX",   # Kosovo
-    "MK": "MKD",   # North Macedonia
-    "LI": "LIE",   # Liechtenstein
-    "EL": "GRC"   # Greece
+# Usage example:
+if __name__ == "__main__":
+    db_config = {
+        'user': 'root',
+        'password': 'LZ#amhe!32',
+        'host': '127.0.0.1',
+        'database': 'fyp1',
+        'raise_on_warnings': True
     }
 
-
-    if country_code in two_to_three_letter_map:
-        country_code = two_to_three_letter_map[country_code]
-
-    cursor.execute(query, (country_code,))
-    row = cursor.fetchone()
-    if row:
-        return row[0]
-
-    # Insert new country
-    insert_sql = """
-        INSERT INTO Countries (country_name, country_code)
-        VALUES (%s, %s)
-    """
-    cursor.execute(insert_sql, (country_name, country_code))
-    return cursor.lastrowid
-
-
-# ---------- Helper: get_or_insert_datasource ----------
-def get_or_insert_datasource(cursor, source_name, website):
-    """
-    Returns the source_id if the data source exists,
-    otherwise inserts a new record into Data_Sources.
-    """
-    query = """
-        SELECT source_id
-        FROM Data_Sources
-        WHERE name = %s
-        LIMIT 1
-    """
-    cursor.execute(query, (source_name,))
-    row = cursor.fetchone()
-    if row:
-        return row[0]
-
-    # Insert new source
-    insert_sql = """
-        INSERT INTO Data_Sources (name, website)
-        VALUES (%s, %s)
-    """
-    cursor.execute(insert_sql, (source_name, website))
-    return cursor.lastrowid
-
-
-# ---------- Helper: insert_population ----------
-def insert_population(cursor, country_id, source_id, year_int, population):
-    """
-    Inserts a row into the Population table.
-    """
-    insert_sql = """
-        INSERT INTO Population (country_id, source_id, year, population)
-        VALUES (%s, %s, %s, %s)
-    """
-    cursor.execute(insert_sql, (country_id, source_id, year_int, population))
-
-
-# ========== Main ==========
-if __name__ == "__main__":
-    data = fetch_all_eurostat_population()
-    if data:
-        insert_all_countries_years(data)
+    # Define which indicators to fetch
+    # Available options:
+    # - 'GBIRTHRT': Crude birth rate
+    # - 'GDEATHRT': Crude death rate
+    # - 'CNMIGRATRT': Crude rate of net migration plus statistical adjustment
+    # - 'AVG_POP': Average population (total population)
+    # - 'GROWRT': Population change
+    # - 'NATGROWRT': Natural change of population
+    # - 'NATGROW': Natural change
+    # - 'NPOPGROW': Net change
+    # - 'CNMIGRAT': Net migration plus statistical adjustment
+    
+    selected_indicators = [
+        'AVG_POP'        # Total population
+    ]
+    
+    eurostat_api = EurostatAPI(db_config)
+    eurostat_api.populate_database(selected_indicators)

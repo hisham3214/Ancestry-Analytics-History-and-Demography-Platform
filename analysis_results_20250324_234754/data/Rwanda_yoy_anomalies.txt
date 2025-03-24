@@ -1,0 +1,14 @@
+Year-over-Year Anomalies for Rwanda
+========================================
+Year 1994: decrease of -14.9%, Population 6,792,353, Source: United Nations Population Division
+Year 1995: decrease of -16.5%, Population 5,674,118, Source: United Nations Population Division
+Year 1996: increase of 18.2%, Population 6,708,764, Source: United Nations Population Division
+Year 1997: increase of 15.6%, Population 7,755,238, Source: United Nations Population Division
+Year 1994: decrease of -14.9%, Population 6,792,352, Source: World Bank
+Year 1995: decrease of -16.5%, Population 5,674,118, Source: World Bank
+Year 1996: increase of 18.2%, Population 6,708,764, Source: World Bank
+Year 1997: increase of 15.6%, Population 7,755,238, Source: World Bank
+Year 1994: decrease of -21.7%, Population 6,128,862, Source: Census Bureau
+Year 1995: decrease of -12.1%, Population 5,384,523, Source: Census Bureau
+Year 1996: increase of 20.3%, Population 6,479,294, Source: Census Bureau
+Year 1997: increase of 16.7%, Population 7,563,089, Source: Census Bureau

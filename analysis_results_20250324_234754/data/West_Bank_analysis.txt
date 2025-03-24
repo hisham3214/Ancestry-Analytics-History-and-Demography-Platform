@@ -1,0 +1,15 @@
+Population Analysis for West Bank
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2024
+Number of data sources: 1
+Latest population: 3,243,369
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (2):
+Year 1967: decrease of -11.7% from previous year, Source: Census Bureau
+Year 1968: decrease of -15.2% from previous year, Source: Census Bureau

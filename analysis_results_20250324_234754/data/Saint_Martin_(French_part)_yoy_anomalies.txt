@@ -1,0 +1,31 @@
+Year-over-Year Anomalies for Saint Martin (French part)
+========================================
+Year 1982: increase of 11.7%, Population 9,494, Source: United Nations Population Division
+Year 1983: increase of 21.0%, Population 11,485, Source: United Nations Population Division
+Year 1984: increase of 19.6%, Population 13,733, Source: United Nations Population Division
+Year 1985: increase of 17.2%, Population 16,095, Source: United Nations Population Division
+Year 1986: increase of 15.3%, Population 18,559, Source: United Nations Population Division
+Year 1987: increase of 13.7%, Population 21,108, Source: United Nations Population Division
+Year 1988: increase of 12.5%, Population 23,749, Source: United Nations Population Division
+Year 1989: increase of 11.4%, Population 26,453, Source: United Nations Population Division
+Year 2020: decrease of -7.2%, Population 31,786, Source: United Nations Population Division
+Year 2021: decrease of -5.7%, Population 29,961, Source: United Nations Population Division
+Year 2024: decrease of -5.0%, Population 26,129, Source: United Nations Population Division
+Year 1982: increase of 11.7%, Population 9,494, Source: World Bank
+Year 1983: increase of 21.0%, Population 11,485, Source: World Bank
+Year 1984: increase of 19.6%, Population 13,733, Source: World Bank
+Year 1985: increase of 17.2%, Population 16,095, Source: World Bank
+Year 1986: increase of 15.3%, Population 18,558, Source: World Bank
+Year 1987: increase of 13.7%, Population 21,108, Source: World Bank
+Year 1988: increase of 12.5%, Population 23,749, Source: World Bank
+Year 1989: increase of 11.4%, Population 26,453, Source: World Bank
+Year 2020: decrease of -7.2%, Population 31,786, Source: World Bank
+Year 2021: decrease of -5.7%, Population 29,961, Source: World Bank
+Year 1982: increase of 10.2%, Population 8,670, Source: Census Bureau
+Year 1983: increase of 21.6%, Population 10,547, Source: Census Bureau
+Year 1984: increase of 21.3%, Population 12,790, Source: Census Bureau
+Year 1985: increase of 20.3%, Population 15,392, Source: Census Bureau
+Year 1986: increase of 19.1%, Population 18,337, Source: Census Bureau
+Year 1987: increase of 17.9%, Population 21,628, Source: Census Bureau
+Year 1988: increase of 15.0%, Population 24,873, Source: Census Bureau
+Year 1989: increase of 11.3%, Population 27,676, Source: Census Bureau

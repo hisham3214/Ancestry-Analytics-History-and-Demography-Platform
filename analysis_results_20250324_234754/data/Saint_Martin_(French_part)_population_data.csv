@@ -1,0 +1,216 @@
+country_id,source_id,year,population,country_name,country_code,source_name,population_prev,yoy_change,is_decrease_anomaly,is_increase_anomaly,is_yoy_anomaly,is_anomaly,population_z,is_any_anomaly
+181,1,1950,2984,Saint Martin (French part),MAF,United Nations Population Division,,0.0,False,False,False,False,-1.2491233806676978,False
+181,1,1951,3113,Saint Martin (French part),MAF,United Nations Population Division,2984.0,0.043230563002680966,False,False,False,False,-1.2393152710857132,False
+181,1,1952,3232,Saint Martin (French part),MAF,United Nations Population Division,3113.0,0.03822679087696756,False,False,False,False,-1.2302674800759754,False
+181,1,1953,3353,Saint Martin (French part),MAF,United Nations Population Division,3232.0,0.03743811881188119,False,False,False,False,-1.221067625351788,False
+181,1,1954,3479,Saint Martin (French part),MAF,United Nations Population Division,3353.0,0.037578288100208766,False,False,False,False,-1.2114876113414774,False
+181,1,1955,3599,Saint Martin (French part),MAF,United Nations Population Division,3479.0,0.03449267030755964,False,False,False,False,-1.2023637884745149,False
+181,1,1956,3723,Saint Martin (French part),MAF,United Nations Population Division,3599.0,0.03445401500416782,False,False,False,False,-1.1929358381786537,False
+181,1,1957,3847,Saint Martin (French part),MAF,United Nations Population Division,3723.0,0.0333064732742412,False,False,False,False,-1.1835078878827925,False
+181,1,1958,3972,Saint Martin (French part),MAF,United Nations Population Division,3847.0,0.03249285157265402,False,False,False,False,-1.1740039057297065,False
+181,1,1959,4112,Saint Martin (French part),MAF,United Nations Population Division,3972.0,0.035246727089627394,False,False,False,False,-1.1633594457182501,False
+181,1,1960,4251,Saint Martin (French part),MAF,United Nations Population Division,4112.0,0.03380350194552529,False,False,False,False,-1.1527910175640186,False
+181,1,1961,4386,Saint Martin (French part),MAF,United Nations Population Division,4251.0,0.03175723359209598,False,False,False,False,-1.1425267168386857,False
+181,1,1962,4527,Saint Martin (French part),MAF,United Nations Population Division,4386.0,0.032147742818057455,False,False,False,False,-1.1318062249700047,False
+181,1,1963,4674,Saint Martin (French part),MAF,United Nations Population Division,4527.0,0.032471835652750164,False,False,False,False,-1.1206295419579757,False
+181,1,1964,4827,Saint Martin (French part),MAF,United Nations Population Division,4674.0,0.03273427471116817,False,False,False,False,-1.1089966678025984,False
+181,1,1965,4996,Saint Martin (French part),MAF,United Nations Population Division,4827.0,0.03501139424072923,False,False,False,False,-1.0961472839316262,False
+181,1,1966,5213,Saint Martin (French part),MAF,United Nations Population Division,4996.0,0.04343474779823859,False,False,False,False,-1.0796483709138691,False
+181,1,1967,5472,Saint Martin (French part),MAF,United Nations Population Division,5213.0,0.049683483598695566,False,False,False,False,-1.059956119892675,False
+181,1,1968,5693,Saint Martin (French part),MAF,United Nations Population Division,5472.0,0.0403874269005848,False,False,False,False,-1.0431530794460189,False
+181,1,1969,5868,Saint Martin (French part),MAF,United Nations Population Division,5693.0,0.030739504654839277,False,False,False,False,-1.0298475044316986,False
+181,1,1970,6047,Saint Martin (French part),MAF,United Nations Population Division,5868.0,0.03050443081117928,False,False,False,False,-1.0162378019884795,False
+181,1,1971,6228,Saint Martin (French part),MAF,United Nations Population Division,6047.0,0.029932197784025137,False,False,False,False,-1.0024760358308111,False
+181,1,1972,6409,Saint Martin (French part),MAF,United Nations Population Division,6228.0,0.029062299293513165,False,False,False,False,-0.9887142696731426,False
+181,1,1973,6597,Saint Martin (French part),MAF,United Nations Population Division,6409.0,0.029333749414885316,False,False,False,False,-0.9744202805149013,False
+181,1,1974,6801,Saint Martin (French part),MAF,United Nations Population Division,6597.0,0.030923146884947704,False,False,False,False,-0.958909781641065,False
+181,1,1975,7038,Saint Martin (French part),MAF,United Nations Population Division,6801.0,0.03484781649757389,False,False,False,False,-0.940890231478814,False
+181,1,1976,7304,Saint Martin (French part),MAF,United Nations Population Division,7038.0,0.037794828076158,False,False,False,False,-0.9206657574570472,False
+181,1,1977,7570,Saint Martin (French part),MAF,United Nations Population Division,7304.0,0.0364184008762322,False,False,False,False,-0.9004412834352802,False
+181,1,1978,7823,Saint Martin (French part),MAF,United Nations Population Division,7570.0,0.03342140026420079,False,False,False,False,-0.8812052235574342,False
+181,1,1979,8063,Saint Martin (French part),MAF,United Nations Population Division,7823.0,0.0306787677361626,False,False,False,False,-0.8629575778235091,False
+181,1,1980,8288,Saint Martin (French part),MAF,United Nations Population Division,8063.0,0.027905246186283022,False,False,False,False,-0.8458504099479545,False
+181,1,1981,8498,Saint Martin (French part),MAF,United Nations Population Division,8288.0,0.02533783783783784,False,False,False,False,-0.82988371993077,False
+181,1,1982,9494,Saint Martin (French part),MAF,United Nations Population Division,8498.0,0.11720404801129677,False,True,True,False,-0.7541559901349811,True
+181,1,1983,11485,Saint Martin (French part),MAF,United Nations Population Division,9494.0,0.20971139667158206,False,True,True,False,-0.6027765624006279,True
+181,1,1984,13733,Saint Martin (French part),MAF,United Nations Population Division,11485.0,0.1957335655202438,False,True,True,False,-0.43185694735953,True
+181,1,1985,16095,Saint Martin (French part),MAF,United Nations Population Division,13733.0,0.1719944658850943,False,True,True,False,-0.25226970059481774,True
+181,1,1986,18559,Saint Martin (French part),MAF,United Nations Population Division,16095.0,0.1530910220565393,False,True,True,False,-0.0649272043931873,True
+181,1,1987,21108,Saint Martin (French part),MAF,United Nations Population Division,18559.0,0.1373457621639097,False,True,True,False,0.1288779996725416,True
+181,1,1988,23749,Saint Martin (French part),MAF,United Nations Population Division,21108.0,0.1251184385067273,False,True,True,False,0.32967813460294176,True
+181,1,1989,26453,Saint Martin (French part),MAF,United Nations Population Division,23749.0,0.11385742557581371,False,True,True,False,0.5352682765384972,True
+181,1,1990,28225,Saint Martin (French part),MAF,United Nations Population Division,26453.0,0.06698673118360866,False,False,False,False,0.6699967275406438,False
+181,1,1991,28801,Saint Martin (French part),MAF,United Nations Population Division,28225.0,0.020407440212577503,False,False,False,False,0.7137910773020639,False
+181,1,1992,29082,Saint Martin (French part),MAF,United Nations Population Division,28801.0,0.009756605673414118,False,False,False,False,0.7351560291822011,False
+181,1,1993,29282,Saint Martin (French part),MAF,United Nations Population Division,29082.0,0.006877106113747335,False,False,False,False,0.7503624006271387,False
+181,1,1994,29413,Saint Martin (French part),MAF,United Nations Population Division,29282.0,0.004473738132641213,False,False,False,False,0.7603225739235727,False
+181,1,1995,29470,Saint Martin (French part),MAF,United Nations Population Division,29413.0,0.0019379186074184884,False,False,False,False,0.76465638978538,False
+181,1,1996,29443,Saint Martin (French part),MAF,United Nations Population Division,29470.0,-0.0009161859518154055,False,False,False,False,0.7626035296403134,False
+181,1,1997,29324,Saint Martin (French part),MAF,United Nations Population Division,29443.0,-0.004041707706415786,False,False,False,False,0.7535557386305756,False
+181,1,1998,29107,Saint Martin (French part),MAF,United Nations Population Division,29324.0,-0.007400081844223162,False,False,False,False,0.7370568256128184,False
+181,1,1999,29284,Saint Martin (French part),MAF,United Nations Population Division,29107.0,0.006081011440546948,False,False,False,False,0.7505144643415881,False
+181,1,2000,29996,Saint Martin (French part),MAF,United Nations Population Division,29284.0,0.024313618358147795,False,False,False,False,0.8046491466855656,False
+181,1,2001,30804,Saint Martin (French part),MAF,United Nations Population Division,29996.0,0.02693692492332311,False,False,False,False,0.8660828873231133,False
+181,1,2002,31604,Saint Martin (French part),MAF,United Nations Population Division,30804.0,0.025970653161927024,False,False,False,False,0.9269083731028634,False
+181,1,2003,32395,Saint Martin (French part),MAF,United Nations Population Division,31604.0,0.025028477407923046,False,False,False,False,0.9870495721675914,False
+181,1,2004,33171,Saint Martin (French part),MAF,United Nations Population Division,32395.0,0.02395431393733601,False,False,False,False,1.046050293373949,False
+181,1,2005,33928,Saint Martin (French part),MAF,United Nations Population Division,33171.0,0.022821138946670285,False,False,False,False,1.1036064092930375,False
+181,1,2006,34658,Saint Martin (French part),MAF,United Nations Population Division,33928.0,0.021516151850978542,False,False,False,False,1.1591096650670596,False
+181,1,2007,35338,Saint Martin (French part),MAF,United Nations Population Division,34658.0,0.019620289687806568,False,False,False,False,1.2108113279798474,False
+181,1,2008,35958,Saint Martin (French part),MAF,United Nations Population Division,35338.0,0.017544852566642143,False,False,False,False,1.2579510794591535,False
+181,1,2009,36503,Saint Martin (French part),MAF,United Nations Population Division,35958.0,0.015156571555703876,False,False,False,False,1.2993884416466084,False
+181,1,2010,36856,Saint Martin (French part),MAF,United Nations Population Division,36503.0,0.009670438046187984,False,False,False,False,1.3262276872469232,False
+181,1,2011,37069,Saint Martin (French part),MAF,United Nations Population Division,36856.0,0.005779248968960278,False,False,False,False,1.3424224728357816,False
+181,1,2012,37276,Saint Martin (French part),MAF,United Nations Population Division,37069.0,0.005584180851924789,False,False,False,False,1.358161067281292,False
+181,1,2013,37419,Saint Martin (French part),MAF,United Nations Population Division,37276.0,0.0038362485245197983,False,False,False,False,1.3690336228644222,False
+181,1,2014,37451,Saint Martin (French part),MAF,United Nations Population Division,37419.0,0.0008551805232635826,False,False,False,False,1.3714666422956123,False
+181,1,2015,37369,Saint Martin (French part),MAF,United Nations Population Division,37451.0,-0.0021895276494619635,False,False,False,False,1.365232030003188,False
+181,1,2016,37175,Saint Martin (French part),MAF,United Nations Population Division,37369.0,-0.005191468864566887,False,False,False,False,1.3504818497015985,False
+181,1,2017,36838,Saint Martin (French part),MAF,United Nations Population Division,37175.0,-0.009065232010759918,False,False,False,False,1.3248591138168788,False
+181,1,2018,36012,Saint Martin (French part),MAF,United Nations Population Division,36838.0,-0.02242249850697649,False,False,False,False,1.2620567997492866,False
+181,1,2019,34267,Saint Martin (French part),MAF,United Nations Population Division,36012.0,-0.048456070198822615,False,False,False,False,1.1293812088922068,False
+181,1,2020,31786,Saint Martin (French part),MAF,United Nations Population Division,34267.0,-0.0724020194356086,True,False,True,False,0.9407461711177566,True
+181,1,2021,29961,Saint Martin (French part),MAF,United Nations Population Division,31786.0,-0.05741521424526521,True,False,True,False,0.8019880316827016,True
+181,1,2022,28871,Saint Martin (French part),MAF,United Nations Population Division,29961.0,-0.03638062814992824,False,False,False,False,0.719113307307792,False
+181,1,2023,27515,Saint Martin (French part),MAF,United Nations Population Division,28871.0,-0.046967545287658896,False,False,False,False,0.6160141089111155,False
+181,1,2024,26129,Saint Martin (French part),MAF,United Nations Population Division,27515.0,-0.05037252407777576,True,False,True,False,0.5106339547976985,True
+181,1,2025,24941,Saint Martin (French part),MAF,United Nations Population Division,26129.0,-0.04546672279842321,False,False,False,False,0.42030810841476945,False
+181,2,1960,4250,Saint Martin (French part),MAF,World Bank,,0.0,False,False,False,False,-1.3812900396206191,False
+181,2,1961,4386,Saint Martin (French part),MAF,World Bank,4250.0,0.032,False,False,False,False,-1.3705254846002117,False
+181,2,1962,4527,Saint Martin (French part),MAF,World Bank,4386.0,0.032147742818057455,False,False,False,False,-1.3593651738805244,False
+181,2,1963,4673,Saint Martin (French part),MAF,World Bank,4527.0,0.032250938811574995,False,False,False,False,-1.3478091074615575,False
+181,2,1964,4827,Saint Martin (French part),MAF,World Bank,4673.0,0.03295527498395035,False,False,False,False,-1.335619831923743,False
+181,2,1965,4996,Saint Martin (French part),MAF,World Bank,4827.0,0.03501139424072923,False,False,False,False,-1.3222432892880895,False
+181,2,1966,5213,Saint Martin (French part),MAF,World Bank,4996.0,0.04343474779823859,False,False,False,False,-1.305067491939351,False
+181,2,1967,5472,Saint Martin (French part),MAF,World Bank,5213.0,0.049683483598695566,False,False,False,False,-1.284567346716663,False
+181,2,1968,5693,Saint Martin (French part),MAF,World Bank,5472.0,0.0403874269005848,False,False,False,False,-1.2670749448085006,False
+181,2,1969,5868,Saint Martin (French part),MAF,World Bank,5693.0,0.030739504654839277,False,False,False,False,-1.2532234953337116,False
+181,2,1970,6047,Saint Martin (French part),MAF,World Bank,5868.0,0.03050443081117928,False,False,False,False,-1.2390554412994985,False
+181,2,1971,6228,Saint Martin (French part),MAF,World Bank,6047.0,0.029932197784025137,False,False,False,False,-1.2247290849855739,False
+181,2,1972,6409,Saint Martin (French part),MAF,World Bank,6228.0,0.029062299293513165,False,False,False,False,-1.210402728671649,False
+181,2,1973,6596,Saint Martin (French part),MAF,World Bank,6409.0,0.029177718832891247,False,False,False,False,-1.1956014655185887,False
+181,2,1974,6801,Saint Martin (French part),MAF,World Bank,6596.0,0.031079442086112796,False,False,False,False,-1.1793754818481212,False
+181,2,1975,7038,Saint Martin (French part),MAF,World Bank,6801.0,0.03484781649757389,False,False,False,False,-1.160616661702264,False
+181,2,1976,7303,Saint Martin (French part),MAF,World Bank,7038.0,0.03765274225632282,False,False,False,False,-1.1396416096404405,False
+181,2,1977,7569,Saint Martin (French part),MAF,World Bank,7303.0,0.036423387648911405,False,False,False,False,-1.1185874064387609,False
+181,2,1978,7822,Saint Martin (French part),MAF,World Bank,7569.0,0.03342581582771832,False,False,False,False,-1.0985621680552087,False
+181,2,1979,8063,Saint Martin (French part),MAF,World Bank,7822.0,0.03081053439018154,False,False,False,False,-1.0794867433499276,False
+181,2,1980,8288,Saint Martin (French part),MAF,World Bank,8063.0,0.027905246186283022,False,False,False,False,-1.0616777368823416,False
+181,2,1981,8498,Saint Martin (French part),MAF,World Bank,8288.0,0.02533783783783784,False,False,False,False,-1.0450559975125946,False
+181,2,1982,9494,Saint Martin (French part),MAF,World Bank,8498.0,0.11720404801129677,False,True,True,False,-0.9662214622160802,True
+181,2,1983,11485,Saint Martin (French part),MAF,World Bank,9494.0,0.20971139667158206,False,True,True,False,-0.8086315427629076,True
+181,2,1984,13733,Saint Martin (French part),MAF,World Bank,11485.0,0.1957335655202438,False,True,True,False,-0.6306997803667589,True
+181,2,1985,16095,Saint Martin (French part),MAF,World Bank,13733.0,0.1719944658850943,False,True,True,False,-0.4437447880270333,True
+181,2,1986,18558,Saint Martin (French part),MAF,World Bank,16095.0,0.15302889095992545,False,True,True,False,-0.24879553056185794,True
+181,2,1987,21108,Saint Martin (French part),MAF,World Bank,18558.0,0.13740704817329455,False,True,True,False,-0.04696012392921598,True
+181,2,1988,23749,Saint Martin (French part),MAF,World Bank,21108.0,0.1251184385067273,False,True,True,False,0.16207803643031635,True
+181,2,1989,26453,Saint Martin (French part),MAF,World Bank,23749.0,0.11385742557581371,False,True,True,False,0.37610271860077277,True
+181,2,1990,28224,Saint Martin (French part),MAF,World Bank,26453.0,0.06694892828790686,False,False,False,False,0.516279387285639,False
+181,2,1991,28800,Saint Martin (French part),MAF,World Bank,28224.0,0.02040816326530612,False,False,False,False,0.5618704438426593,False
+181,2,1992,29081,Saint Martin (French part),MAF,World Bank,28800.0,0.009756944444444445,False,False,False,False,0.5841119141421779,False
+181,2,1993,29282,Saint Martin (French part),MAF,World Bank,29081.0,0.006911729307795468,False,False,False,False,0.6000212932532214,False
+181,2,1994,29413,Saint Martin (French part),MAF,World Bank,29282.0,0.004473738132641213,False,False,False,False,0.6103900925743493,False
+181,2,1995,29470,Saint Martin (French part),MAF,World Bank,29413.0,0.0019379186074184884,False,False,False,False,0.6149017075461378,False
+181,2,1996,29443,Saint Martin (French part),MAF,World Bank,29470.0,-0.0009161859518154055,False,False,False,False,0.6127646267700275,False
+181,2,1997,29323,Saint Martin (French part),MAF,World Bank,29443.0,-0.0040756716367218015,False,False,False,False,0.6032664899873149,False
+181,2,1998,29107,Saint Martin (French part),MAF,World Bank,29323.0,-0.007366231286021212,False,False,False,False,0.5861698437784323,False
+181,2,1999,29284,Saint Martin (French part),MAF,World Bank,29107.0,0.006081011440546948,False,False,False,False,0.6001795955329333,False
+181,2,2000,29996,Saint Martin (French part),MAF,World Bank,29284.0,0.024313618358147795,False,False,False,False,0.6565352071103612,False
+181,2,2001,30803,Saint Martin (French part),MAF,World Bank,29996.0,0.02690358714495266,False,False,False,False,0.7204101769741031,False
+181,2,2002,31604,Saint Martin (French part),MAF,World Bank,30803.0,0.026003960653183132,False,False,False,False,0.7838102399987096,False
+181,2,2003,32395,Saint Martin (French part),MAF,World Bank,31604.0,0.025028477407923046,False,False,False,False,0.8464187916247565,False
+181,2,2004,33171,Saint Martin (French part),MAF,World Bank,32395.0,0.02395431393733601,False,False,False,False,0.9078400761529645,False
+181,2,2005,33928,Saint Martin (French part),MAF,World Bank,33171.0,0.022821138946670285,False,False,False,False,0.9677574890239096,False
+181,2,2006,34658,Saint Martin (French part),MAF,World Bank,33928.0,0.021516151850978542,False,False,False,False,1.0255378211187443,False
+181,2,2007,35337,Saint Martin (French part),MAF,World Bank,34658.0,0.019591436320618615,False,False,False,False,1.0792814450809263,False
+181,2,2008,35958,Saint Martin (French part),MAF,World Bank,35337.0,0.017573648017658546,False,False,False,False,1.1284343029314636,False
+181,2,2009,36502,Saint Martin (French part),MAF,World Bank,35958.0,0.015128761332665887,False,False,False,False,1.171492523013094,False
+181,2,2010,36856,Saint Martin (French part),MAF,World Bank,36502.0,0.009698098734315928,False,False,False,False,1.199512026522096,False
+181,2,2011,37069,Saint Martin (French part),MAF,World Bank,36856.0,0.005779248968960278,False,False,False,False,1.216371219311411,False
+181,2,2012,37276,Saint Martin (French part),MAF,World Bank,37069.0,0.005584180851924789,False,False,False,False,1.23275550526159,False
+181,2,2013,37419,Saint Martin (French part),MAF,World Bank,37276.0,0.0038362485245197983,False,False,False,False,1.2440741182609891,False
+181,2,2014,37450,Saint Martin (French part),MAF,World Bank,37419.0,0.0008284561319115957,False,False,False,False,1.2465278035965233,False
+181,2,2015,37369,Saint Martin (French part),MAF,World Bank,37450.0,-0.0021628838451268357,False,False,False,False,1.2401165612681924,False
+181,2,2016,37175,Saint Martin (French part),MAF,World Bank,37369.0,-0.005191468864566887,False,False,False,False,1.2247612401361403,False
+181,2,2017,36837,Saint Martin (French part),MAF,World Bank,37175.0,-0.009092131809011432,False,False,False,False,1.1980081548648331,False
+181,2,2018,36012,Saint Martin (French part),MAF,World Bank,36837.0,-0.022395960583109373,False,False,False,False,1.1327084644836845,False
+181,2,2019,34267,Saint Martin (French part),MAF,World Bank,36012.0,-0.048456070198822615,False,False,False,False,0.9945897254350725,False
+181,2,2020,31786,Saint Martin (French part),MAF,World Bank,34267.0,-0.0724020194356086,True,False,True,False,0.7982157474524902,True
+181,2,2021,29961,Saint Martin (French part),MAF,World Bank,31786.0,-0.05741521424526521,True,False,True,False,0.6537649172154034,True
+181,2,2022,28870,Saint Martin (French part),MAF,World Bank,29961.0,-0.03641400487300157,False,False,False,False,0.567411023632575,False
+181,2,2023,27515,Saint Martin (French part),MAF,World Bank,28870.0,-0.04693453411846207,False,False,False,False,0.46016122912777896,False
+181,4,1950,2869,Saint Martin (French part),MAF,Census Bureau,,0.0,False,False,False,False,-1.2456312754640801,False
+181,4,1951,2986,Saint Martin (French part),MAF,Census Bureau,2869.0,0.04078075984663646,False,False,False,False,-1.2362413851986154,False
+181,4,1952,3108,Saint Martin (French part),MAF,Census Bureau,2986.0,0.04085733422638982,False,False,False,False,-1.2264502175713787,False
+181,4,1953,3234,Saint Martin (French part),MAF,Census Bureau,3108.0,0.04054054054054054,False,False,False,False,-1.2163380280547245,False
+181,4,1954,3366,Saint Martin (French part),MAF,Census Bureau,3234.0,0.04081632653061224,False,False,False,False,-1.2057443057039439,False
+181,4,1955,3503,Saint Martin (French part),MAF,Census Bureau,3366.0,0.04070112893642305,False,False,False,False,-1.1947493059913914,False
+181,4,1956,3646,Saint Martin (French part),MAF,Census Bureau,3503.0,0.04082215244076506,False,False,False,False,-1.1832727734447124,False
+181,4,1957,3795,Saint Martin (French part),MAF,Census Bureau,3646.0,0.040866703236423475,False,False,False,False,-1.171314708063907,False
+181,4,1958,3950,Saint Martin (French part),MAF,Census Bureau,3795.0,0.04084321475625823,False,False,False,False,-1.1588751098489751,False
+181,4,1959,4111,Saint Martin (French part),MAF,Census Bureau,3950.0,0.04075949367088608,False,False,False,False,-1.145953978799917,False
+181,4,1960,4279,Saint Martin (French part),MAF,Census Bureau,4111.0,0.04086596935052299,False,False,False,False,-1.1324710594443779,False
+181,4,1961,4453,Saint Martin (French part),MAF,Census Bureau,4279.0,0.040663706473475114,False,False,False,False,-1.1185066072547125,False
+181,4,1962,4566,Saint Martin (French part),MAF,Census Bureau,4453.0,0.025376150909499216,False,False,False,False,-1.1094377388786656,False
+181,4,1963,4656,Saint Martin (French part),MAF,Census Bureau,4566.0,0.01971090670170828,False,False,False,False,-1.1022147463667697,False
+181,4,1964,4748,Saint Martin (French part),MAF,Census Bureau,4656.0,0.019759450171821305,False,False,False,False,-1.094831242910165,False
+181,4,1965,4841,Saint Martin (French part),MAF,Census Bureau,4748.0,0.019587194608256107,False,False,False,False,-1.087367483981206,False
+181,4,1966,4936,Saint Martin (French part),MAF,Census Bureau,4841.0,0.019624044618880395,False,False,False,False,-1.079743214107538,False
+181,4,1967,5033,Saint Martin (French part),MAF,Census Bureau,4936.0,0.019651539708265803,False,False,False,False,-1.0719584332891614,False
+181,4,1968,5161,Saint Martin (French part),MAF,Census Bureau,5033.0,0.02543214782435923,False,False,False,False,-1.0616857328277984,False
+181,4,1969,5303,Saint Martin (French part),MAF,Census Bureau,5161.0,0.027514047665181167,False,False,False,False,-1.0502894557534737,False
+181,4,1970,5450,Saint Martin (French part),MAF,Census Bureau,5303.0,0.027720158400905148,False,False,False,False,-1.0384919013173772,False
+181,4,1971,5601,Saint Martin (French part),MAF,Census Bureau,5450.0,0.027706422018348623,False,False,False,False,-1.026373324991863,False
+181,4,1972,5756,Saint Martin (French part),MAF,Census Bureau,5601.0,0.02767362970898054,False,False,False,False,-1.0139337267769313,False
+181,4,1973,5915,Saint Martin (French part),MAF,Census Bureau,5756.0,0.02762334954829743,False,False,False,False,-1.0011731066725817,False
+181,4,1974,6078,Saint Martin (French part),MAF,Census Bureau,5915.0,0.027557058326289095,False,False,False,False,-0.9880914646788148,False
+181,4,1975,6291,Saint Martin (French part),MAF,Census Bureau,6078.0,0.03504442250740375,False,False,False,False,-0.9709970490673279,False
+181,4,1976,6530,Saint Martin (French part),MAF,Census Bureau,6291.0,0.03799078048005087,False,False,False,False,-0.9518159911746267,False
+181,4,1977,6778,Saint Martin (French part),MAF,Census Bureau,6530.0,0.03797856049004594,False,False,False,False,-0.9319126340307358,False
+181,4,1978,7035,Saint Martin (French part),MAF,Census Bureau,6778.0,0.0379167896134553,False,False,False,False,-0.9112869776356554,False
+181,4,1979,7303,Saint Martin (French part),MAF,Census Bureau,7035.0,0.0380952380952381,False,False,False,False,-0.8897785110446764,False
+181,4,1980,7580,Saint Martin (French part),MAF,Census Bureau,7303.0,0.03792961796521977,False,False,False,False,-0.867547745202508,False
+181,4,1981,7868,Saint Martin (French part),MAF,Census Bureau,7580.0,0.03799472295514512,False,False,False,False,-0.8444341691644413,False
+181,4,1982,8670,Saint Martin (French part),MAF,Census Bureau,7868.0,0.10193187595322827,False,True,True,False,-0.7800692803362135,True
+181,4,1983,10547,Saint Martin (French part),MAF,Census Bureau,8670.0,0.21649365628604383,False,True,True,False,-0.6294297587270072,True
+181,4,1984,12790,Saint Martin (French part),MAF,Census Bureau,10547.0,0.21266710913055845,False,True,True,False,-0.4494167342360911,True
+181,4,1985,15392,Saint Martin (French part),MAF,Census Bureau,12790.0,0.2034401876465989,False,True,True,False,-0.2405919951699458,True
+181,4,1986,18337,Saint Martin (French part),MAF,Census Bureau,15392.0,0.1913331600831601,False,True,True,False,-0.0042396290862417845,True
+181,4,1987,21628,Saint Martin (French part),MAF,Census Bureau,18337.0,0.17947319626983693,False,True,True,False,0.25988113043208416,True
+181,4,1988,24873,Saint Martin (French part),MAF,Census Bureau,21628.0,0.15003698908821897,False,True,True,False,0.5203101382221078,True
+181,4,1989,27676,Saint Martin (French part),MAF,Census Bureau,24873.0,0.11269247778715877,False,True,True,False,0.7452662272314872,True
+181,4,1990,30036,Saint Martin (French part),MAF,Census Bureau,27676.0,0.08527243821361469,False,False,False,False,0.934669141987868,False
+181,4,1991,31821,Saint Martin (French part),MAF,Census Bureau,30036.0,0.05942868557730723,False,False,False,False,1.0779251601404696,False
+181,4,1992,32892,Saint Martin (French part),MAF,Census Bureau,31821.0,0.033657018949750164,False,False,False,False,1.1638787710320306,False
+181,4,1993,33238,Saint Martin (French part),MAF,Census Bureau,32892.0,0.010519275203696948,False,False,False,False,1.1916471644666524,False
+181,4,1994,33098,Saint Martin (French part),MAF,Census Bureau,33238.0,-0.004212046452855165,False,False,False,False,1.1804113983370366,False
+181,4,1995,32711,Saint Martin (French part),MAF,Census Bureau,33098.0,-0.011692549398755211,False,False,False,False,1.1493525305358845,False
+181,4,1996,32101,Saint Martin (French part),MAF,Census Bureau,32711.0,-0.01864816116902571,False,False,False,False,1.1003966923997013,False
+181,4,1997,31302,Saint Martin (French part),MAF,Census Bureau,32101.0,-0.024890190336749635,False,False,False,False,1.0362725699885367,False
+181,4,1998,30355,Saint Martin (French part),MAF,Census Bureau,31302.0,-0.030253657913232382,False,False,False,False,0.9602706376689212,False
+181,4,1999,29301,Saint Martin (French part),MAF,Census Bureau,30355.0,-0.034722450996540935,False,False,False,False,0.875681369807385,False
+181,4,2000,28378,Saint Martin (French part),MAF,Census Bureau,29301.0,-0.03150063137776868,False,False,False,False,0.801605568824275,False
+181,4,2001,27774,Saint Martin (French part),MAF,Census Bureau,28378.0,-0.021284093311720348,False,False,False,False,0.7531312635222183,False
+181,4,2002,27440,Saint Martin (French part),MAF,Census Bureau,27774.0,-0.012025635486426154,False,False,False,False,0.7263259357558491,False
+181,4,2003,27353,Saint Martin (French part),MAF,Census Bureau,27440.0,-0.0031705539358600583,False,False,False,False,0.7193437096610165,False
+181,4,2004,27503,Saint Martin (French part),MAF,Census Bureau,27353.0,0.005483859174496399,False,False,False,False,0.7313820305141763,False
+181,4,2005,27893,Saint Martin (French part),MAF,Census Bureau,27503.0,0.014180271243137112,False,False,False,False,0.7626816647323917,False
+181,4,2006,28399,Saint Martin (French part),MAF,Census Bureau,27893.0,0.018140752160040154,False,False,False,False,0.8032909337437174,False
+181,4,2007,28889,Saint Martin (French part),MAF,Census Bureau,28399.0,0.01725412866650234,False,False,False,False,0.8426161151973728,False
+181,4,2008,29359,Saint Martin (French part),MAF,Census Bureau,28889.0,0.01626916819550694,False,False,False,False,0.8803361872039401,False
+181,4,2009,29804,Saint Martin (French part),MAF,Census Bureau,29359.0,0.0151571920024524,False,False,False,False,0.9160498724016475,False
+181,4,2010,30218,Saint Martin (French part),MAF,Census Bureau,29804.0,0.013890752919071266,False,False,False,False,0.9492756379563686,False
+181,4,2011,30599,Saint Martin (French part),MAF,Census Bureau,30218.0,0.012608379111787676,False,False,False,False,0.9798529729233945,False
+181,4,2012,30943,Saint Martin (French part),MAF,Census Bureau,30599.0,0.01124219745743325,False,False,False,False,1.0074608554133075,False
+181,4,2013,31248,Saint Martin (French part),MAF,Census Bureau,30943.0,0.009856833532624502,False,False,False,False,1.0319387744813993,False
+181,4,2014,31514,Saint Martin (French part),MAF,Census Bureau,31248.0,0.008512544802867384,False,False,False,False,1.0532867301276692,False
+181,4,2015,31740,Saint Martin (French part),MAF,Census Bureau,31514.0,0.007171415878657105,False,False,False,False,1.0714244668797632,False
+181,4,2016,31937,Saint Martin (French part),MAF,Census Bureau,31740.0,0.006206679269061122,False,False,False,False,1.0872347949335799,False
+181,4,2017,32117,Saint Martin (French part),MAF,Census Bureau,31937.0,0.005636096064126249,False,False,False,False,1.1016807799573716,False
+181,4,2018,32280,Saint Martin (French part),MAF,Census Bureau,32117.0,0.00507519382258617,False,False,False,False,1.1147624219511385,False
+181,4,2019,32427,Saint Martin (French part),MAF,Census Bureau,32280.0,0.004553903345724907,False,False,False,False,1.1265599763872352,False
+181,4,2020,32560,Saint Martin (French part),MAF,Census Bureau,32427.0,0.004101520337989947,False,False,False,False,1.1372339542103702,False
+181,4,2021,32680,Saint Martin (French part),MAF,Census Bureau,32560.0,0.0036855036855036856,False,False,False,False,1.146864610892898,False
+181,4,2022,32792,Saint Martin (French part),MAF,Census Bureau,32680.0,0.003427172582619339,False,False,False,False,1.1558532237965906,False
+181,4,2023,32897,Saint Martin (French part),MAF,Census Bureau,32792.0,0.003202000487923884,False,False,False,False,1.1642800483938025,False
+181,4,2024,32996,Saint Martin (French part),MAF,Census Bureau,32897.0,0.003009392953764781,False,False,False,False,1.172225340156888,False

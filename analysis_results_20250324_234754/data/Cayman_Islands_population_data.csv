@@ -1,0 +1,216 @@
+country_id,source_id,year,population,country_name,country_code,source_name,population_prev,yoy_change,is_decrease_anomaly,is_increase_anomaly,is_yoy_anomaly,is_anomaly,population_z,is_any_anomaly
+36,1,1950,7002,Cayman Islands,CYM,United Nations Population Division,,0.0,False,False,False,False,-1.0857969178493008,False
+36,1,1951,7134,Cayman Islands,CYM,United Nations Population Division,7002.0,0.018851756640959727,False,False,False,False,-1.0797598985401626,False
+36,1,1952,7258,Cayman Islands,CYM,United Nations Population Division,7134.0,0.017381553125876085,False,False,False,False,-1.0740887591891541,False
+36,1,1953,7408,Cayman Islands,CYM,United Nations Population Division,7258.0,0.020666850372003307,False,False,False,False,-1.0672285099742242,False
+36,1,1954,7554,Cayman Islands,CYM,United Nations Population Division,7408.0,0.01970842332613391,False,False,False,False,-1.0605512007383595,False
+36,1,1955,7694,Cayman Islands,CYM,United Nations Population Division,7554.0,0.018533227429176596,False,False,False,False,-1.0541483014710917,False
+36,1,1956,7841,Cayman Islands,CYM,United Nations Population Division,7694.0,0.019105796724720563,False,False,False,False,-1.0474252572404605,False
+36,1,1957,7990,Cayman Islands,CYM,United Nations Population Division,7841.0,0.019002678229817625,False,False,False,False,-1.0406107430202969,False
+36,1,1958,8130,Cayman Islands,CYM,United Nations Population Division,7990.0,0.017521902377972465,False,False,False,False,-1.034207843753029,False
+36,1,1959,8269,Cayman Islands,CYM,United Nations Population Division,8130.0,0.017097170971709718,False,False,False,False,-1.0278506794805276,False
+36,1,1960,8428,Cayman Islands,CYM,United Nations Population Division,8269.0,0.019228443584472125,False,False,False,False,-1.020578815312702,False
+36,1,1961,8602,Cayman Islands,CYM,United Nations Population Division,8428.0,0.02064546748932131,False,False,False,False,-1.0126209262233836,False
+36,1,1962,8781,Cayman Islands,CYM,United Nations Population Division,8602.0,0.02080911415949779,False,False,False,False,-1.004434362160234,False
+36,1,1963,8970,Cayman Islands,CYM,United Nations Population Division,8781.0,0.02152374444824052,False,False,False,False,-0.9957904481494226,False
+36,1,1964,9167,Cayman Islands,CYM,United Nations Population Division,8970.0,0.021962095875139354,False,False,False,False,-0.9867806541804816,False
+36,1,1965,9362,Cayman Islands,CYM,United Nations Population Division,9167.0,0.021271953747136467,False,False,False,False,-0.9778623302010729,False
+36,1,1966,9561,Cayman Islands,CYM,United Nations Population Division,9362.0,0.021256141850032044,False,False,False,False,-0.9687610662425995,False
+36,1,1967,9769,Cayman Islands,CYM,United Nations Population Division,9561.0,0.021755046543248613,False,False,False,False,-0.9592481873312302,False
+36,1,1968,9971,Cayman Islands,CYM,United Nations Population Division,9769.0,0.020677653802845735,False,False,False,False,-0.9500097183884582,False
+36,1,1969,10166,Cayman Islands,CYM,United Nations Population Division,9971.0,0.01955671447196871,False,False,False,False,-0.9410913944090495,False
+36,1,1970,10517,Cayman Islands,CYM,United Nations Population Division,10166.0,0.034526854219948847,False,False,False,False,-0.925038411246114,False
+36,1,1971,11098,Cayman Islands,CYM,United Nations Population Division,10517.0,0.055243890843396405,False,False,False,False,-0.8984663792869527,False
+36,1,1972,11764,Cayman Islands,CYM,United Nations Population Division,11098.0,0.06001081275905568,False,False,False,False,-0.8680068727726646,False
+36,1,1973,12439,Cayman Islands,CYM,United Nations Population Division,11764.0,0.057378442706562394,False,False,False,False,-0.8371357513054808,False
+36,1,1974,13114,Cayman Islands,CYM,United Nations Population Division,12439.0,0.054264812283945654,False,False,False,False,-0.806264629838297,False
+36,1,1975,13788,Cayman Islands,CYM,United Nations Population Division,13114.0,0.051395455238676224,False,False,False,False,-0.7754392433658793,False
+36,1,1976,14454,Cayman Islands,CYM,United Nations Population Division,13788.0,0.048302872062663184,False,False,False,False,-0.7449797368515914,False
+36,1,1977,15105,Cayman Islands,CYM,United Nations Population Division,14454.0,0.045039435450394356,False,False,False,False,-0.7152062552587962,False
+36,1,1978,15728,Cayman Islands,CYM,United Nations Population Division,15105.0,0.04124462098642834,False,False,False,False,-0.6867133535194547,False
+36,1,1979,16351,Cayman Islands,CYM,United Nations Population Division,15728.0,0.03961088504577823,False,False,False,False,-0.6582204517801132,False
+36,1,1980,17079,Cayman Islands,CYM,United Nations Population Division,16351.0,0.044523270747966484,False,False,False,False,-0.6249253755903209,False
+36,1,1981,17905,Cayman Islands,CYM,United Nations Population Division,17079.0,0.04836348732361379,False,False,False,False,-0.587148269913441,False
+36,1,1982,18750,Cayman Islands,CYM,United Nations Population Division,17905.0,0.047193521362747834,False,False,False,False,-0.5485021993360035,False
+36,1,1983,19598,Cayman Islands,CYM,United Nations Population Division,18750.0,0.045226666666666665,False,False,False,False,-0.5097189237742674,False
+36,1,1984,20455,Cayman Islands,CYM,United Nations Population Division,19598.0,0.0437289519338708,False,False,False,False,-0.4705240332596355,False
+36,1,1985,21324,Cayman Islands,CYM,United Nations Population Division,20455.0,0.042483500366658516,False,False,False,False,-0.4307803228078092,False
+36,1,1986,22197,Cayman Islands,CYM,United Nations Population Division,21324.0,0.04093978615644345,False,False,False,False,-0.3908536723769181,False
+36,1,1987,23073,Cayman Islands,CYM,United Nations Population Division,22197.0,0.03946479253953237,False,False,False,False,-0.3507898169617284,False
+36,1,1988,23951,Cayman Islands,CYM,United Nations Population Division,23073.0,0.03805313569973562,False,False,False,False,-0.31063449155700634,False
+36,1,1989,24874,Cayman Islands,CYM,United Nations Population Division,23951.0,0.03853701306834788,False,False,False,False,-0.26842109138780534,False
+36,1,1990,25999,Cayman Islands,CYM,United Nations Population Division,24874.0,0.04522794886226582,False,False,False,False,-0.21696922227583226,False
+36,1,1991,27295,Cayman Islands,CYM,United Nations Population Division,25999.0,0.04984807107965691,False,False,False,False,-0.1576966690588393,False
+36,1,1992,28621,Cayman Islands,CYM,United Nations Population Division,27295.0,0.048580326067045244,False,False,False,False,-0.09705206599886039,False
+36,1,1993,29976,Cayman Islands,CYM,United Nations Population Division,28621.0,0.04734286013766116,False,False,False,False,-0.035081148090661735,False
+36,1,1994,31352,Cayman Islands,CYM,United Nations Population Division,29976.0,0.0459033893781692,False,False,False,False,0.02785020470762709,False
+36,1,1995,32743,Cayman Islands,CYM,United Nations Population Division,31352.0,0.044367185506506764,False,False,False,False,0.09146758242740889,False
+36,1,1996,34143,Cayman Islands,CYM,United Nations Population Division,32743.0,0.04275723055309532,False,False,False,False,0.15549657510008646,False
+36,1,1997,35543,Cayman Islands,CYM,United Nations Population Division,34143.0,0.041004012535512405,False,False,False,False,0.21952556777276405,False
+36,1,1998,36922,Cayman Islands,CYM,United Nations Population Division,35543.0,0.03879807557043581,False,False,False,False,0.28259412555535146,False
+36,1,1999,38284,Cayman Islands,CYM,United Nations Population Division,36922.0,0.036888575916797575,False,False,False,False,0.3448851884269135,False
+36,1,2000,39674,Cayman Islands,CYM,United Nations Population Division,38284.0,0.036307595862501305,False,False,False,False,0.4084568311519291,False
+36,1,2001,41089,Cayman Islands,CYM,United Nations Population Division,39674.0,0.035665675253314516,False,False,False,False,0.4731718487460997,False
+36,1,2002,42514,Cayman Islands,CYM,United Nations Population Division,41089.0,0.03468081481661758,False,False,False,False,0.5383442162879322,False
+36,1,2003,43935,Cayman Islands,CYM,United Nations Population Division,42514.0,0.03342428376534789,False,False,False,False,0.6033336438507,False
+36,1,2004,45352,Cayman Islands,CYM,United Nations Population Division,43935.0,0.03225219073631501,False,False,False,False,0.6681401314344029,False
+36,1,2005,46788,Cayman Islands,CYM,United Nations Population Division,45352.0,0.03166343270418063,False,False,False,False,0.7338155839186636,False
+36,1,2006,48232,Cayman Islands,CYM,United Nations Population Division,46788.0,0.03086261434555869,False,False,False,False,0.7998569163610539,False
+36,1,2007,49687,Cayman Islands,CYM,United Nations Population Division,48232.0,0.030166694310830983,False,False,False,False,0.8664013337458725,False
+36,1,2008,51152,Cayman Islands,CYM,United Nations Population Division,49687.0,0.029484573429669734,False,False,False,False,0.9334031010783529,False
+36,1,2009,52619,Cayman Islands,CYM,United Nations Population Division,51152.0,0.02867923052862058,False,False,False,False,1.0004963384003658,False
+36,1,2010,54099,Cayman Islands,CYM,United Nations Population Division,52619.0,0.028126722286626504,False,False,False,False,1.0681841306543391,False
+36,1,2011,55607,Cayman Islands,CYM,United Nations Population Division,54099.0,0.02787482208543596,False,False,False,False,1.1371525027617662,False
+36,1,2012,57136,Cayman Islands,CYM,United Nations Population Division,55607.0,0.027496538205621594,False,False,False,False,1.2070813097592834,False
+36,1,2013,58655,Cayman Islands,CYM,United Nations Population Division,57136.0,0.02658569028283394,False,False,False,False,1.2765527668091385,False
+36,1,2014,60161,Cayman Islands,CYM,United Nations Population Division,58655.0,0.02567556048077743,False,False,False,False,1.345429668927033,False
+36,1,2015,61643,Cayman Islands,CYM,United Nations Population Division,60161.0,0.024633899037582487,False,False,False,False,1.413208931170539,False
+36,1,2016,63101,Cayman Islands,CYM,United Nations Population Division,61643.0,0.02365232062034619,False,False,False,False,1.479890553539656,False
+36,1,2017,64536,Cayman Islands,CYM,United Nations Population Division,63101.0,0.022741319471957656,False,False,False,False,1.5455202710291505,False
+36,1,2018,65941,Cayman Islands,CYM,United Nations Population Division,64536.0,0.02177079459526466,False,False,False,False,1.6097779386756592,False
+36,1,2019,67327,Cayman Islands,CYM,United Nations Population Division,65941.0,0.021018789523968396,False,False,False,False,1.67316664142161,False
+36,1,2020,68685,Cayman Islands,CYM,United Nations Population Division,67327.0,0.020170214030032527,False,False,False,False,1.735274764314107,False
+36,1,2021,70108,Cayman Islands,CYM,United Nations Population Division,68685.0,0.020717769527553324,False,False,False,False,1.8003556618664074,False
+36,1,2022,71592,Cayman Islands,CYM,United Nations Population Division,70108.0,0.021167341815484682,False,False,False,False,1.8682263940994457,False
+36,1,2023,73038,Cayman Islands,CYM,United Nations Population Division,71592.0,0.020197787462286287,False,False,False,False,1.9343591965313682,False
+36,1,2024,74458,Cayman Islands,CYM,United Nations Population Division,73038.0,0.01944193433555136,False,False,False,False,1.9993028890993698,False
+36,1,2025,75844,Cayman Islands,CYM,United Nations Population Division,74458.0,0.018614520937978458,False,False,False,False,2.062691591845321,False
+36,2,1960,8428,Cayman Islands,CYM,World Bank,,0.0,False,False,False,False,-1.200773911183475,False
+36,2,1961,8601,Cayman Islands,CYM,World Bank,8428.0,0.020526815377313715,False,False,False,False,-1.1923083610267244,False
+36,2,1962,8781,Cayman Islands,CYM,World Bank,8601.0,0.020927799093128707,False,False,False,False,-1.183500274158429,False
+36,2,1963,8970,Cayman Islands,CYM,World Bank,8781.0,0.02152374444824052,False,False,False,False,-1.174251782946719,False
+36,2,1964,9166,Cayman Islands,CYM,World Bank,8970.0,0.02185061315496098,False,False,False,False,-1.164660755023464,False
+36,2,1965,9361,Cayman Islands,CYM,World Bank,9166.0,0.021274274492690377,False,False,False,False,-1.155118660916144,False
+36,2,1966,9560,Cayman Islands,CYM,World Bank,9361.0,0.021258412562760388,False,False,False,False,-1.1453808315450842,False
+36,2,1967,9769,Cayman Islands,CYM,World Bank,9560.0,0.02186192468619247,False,False,False,False,-1.1351536640146744,False
+36,2,1968,9971,Cayman Islands,CYM,World Bank,9769.0,0.020677653802845735,False,False,False,False,-1.1252690331958097,False
+36,2,1969,10165,Cayman Islands,CYM,World Bank,9971.0,0.019456423628522717,False,False,False,False,-1.1157758729044247,False
+36,2,1970,10517,Cayman Islands,CYM,World Bank,10165.0,0.034628627643876045,False,False,False,False,-1.0985511696953139,False
+36,2,1971,11098,Cayman Islands,CYM,World Bank,10517.0,0.055243890843396405,False,False,False,False,-1.0701206226370938,False
+36,2,1972,11764,Cayman Islands,CYM,World Bank,11098.0,0.06001081275905568,False,False,False,False,-1.0375307012244008,False
+36,2,1973,12438,Cayman Islands,CYM,World Bank,11764.0,0.057293437606256374,False,False,False,False,-1.0045493092842284,False
+36,2,1974,13114,Cayman Islands,CYM,World Bank,12438.0,0.054349573886476925,False,False,False,False,-0.9714700497121856,False
+36,2,1975,13788,Cayman Islands,CYM,World Bank,13114.0,0.051395455238676224,False,False,False,False,-0.9384886577720131,False
+36,2,1976,14454,Cayman Islands,CYM,World Bank,13788.0,0.048302872062663184,False,False,False,False,-0.9058987363593202,False
+36,2,1977,15105,Cayman Islands,CYM,World Bank,14454.0,0.045039435450394356,False,False,False,False,-0.874042822185652,False
+36,2,1978,15727,Cayman Islands,CYM,World Bank,15105.0,0.04117841774246938,False,False,False,False,-0.843605988674098,False
+36,2,1979,16351,Cayman Islands,CYM,World Bank,15727.0,0.03967698861829974,False,False,False,False,-0.8130712875306741,False
+36,2,1980,17079,Cayman Islands,CYM,World Bank,16351.0,0.044523270747966484,False,False,False,False,-0.7774474695300129,False
+36,2,1981,17905,Cayman Islands,CYM,World Bank,17079.0,0.04836348732361379,False,False,False,False,-0.7370281375677241,False
+36,2,1982,18750,Cayman Islands,CYM,World Bank,17905.0,0.047193521362747834,False,False,False,False,-0.6956790631026709,False
+36,2,1983,19598,Cayman Islands,CYM,World Bank,18750.0,0.045226666666666665,False,False,False,False,-0.6541831871898127,False
+36,2,1984,20454,Cayman Islands,CYM,World Bank,19598.0,0.04367792631901214,False,False,False,False,-0.6122958407494749,False
+36,2,1985,21324,Cayman Islands,CYM,World Bank,20454.0,0.04253446758580229,False,False,False,False,-0.5697234208860472,False
+36,2,1986,22197,Cayman Islands,CYM,World Bank,21324.0,0.04093978615644345,False,False,False,False,-0.5270041995748147,False
+36,2,1987,23073,Cayman Islands,CYM,World Bank,22197.0,0.03946479253953237,False,False,False,False,-0.4841381768157773,False
+36,2,1988,23951,Cayman Islands,CYM,World Bank,23073.0,0.03805313569973562,False,False,False,False,-0.44117428642486994,False
+36,2,1989,24874,Cayman Islands,CYM,World Bank,23951.0,0.03853701306834788,False,False,False,False,-0.39600837431688873,False
+36,2,1990,25999,Cayman Islands,CYM,World Bank,24874.0,0.04522794886226582,False,False,False,False,-0.3409578313900427,False
+36,2,1991,27294,Cayman Islands,CYM,World Bank,25999.0,0.04980960806184853,False,False,False,False,-0.2775885397542511,False
+36,2,1992,28621,Cayman Islands,CYM,World Bank,27294.0,0.048618744046310544,False,False,False,False,-0.2126533660085403,False
+36,2,1993,29976,Cayman Islands,CYM,World Bank,28621.0,0.04734286013766116,False,False,False,False,-0.1463480454166502,False
+36,2,1994,31352,Cayman Islands,CYM,World Bank,29976.0,0.0459033893781692,False,False,False,False,-0.07901511469012566,False
+36,2,1995,32743,Cayman Islands,CYM,World Bank,31352.0,0.044367185506506764,False,False,False,False,-0.0109481767245765,False
+36,2,1996,34143,Cayman Islands,CYM,World Bank,32743.0,0.04275723055309532,False,False,False,False,0.05755916558438742,False
+36,2,1997,35543,Cayman Islands,CYM,World Bank,34143.0,0.041004012535512405,False,False,False,False,0.12606650789335136,False
+36,2,1998,36922,Cayman Islands,CYM,World Bank,35543.0,0.03879807557043581,False,False,False,False,0.1935462400676808,False
+36,2,1999,38284,Cayman Islands,CYM,World Bank,36922.0,0.036888575916797575,False,False,False,False,0.2601940973711157,False
+36,2,2000,39674,Cayman Islands,CYM,World Bank,38284.0,0.036307595862501305,False,False,False,False,0.3282121015207299,False
+36,2,2001,41089,Cayman Islands,CYM,World Bank,39674.0,0.035665675253314516,False,False,False,False,0.39745345106871843,False
+36,2,2002,42514,Cayman Islands,CYM,World Bank,41089.0,0.03468081481661758,False,False,False,False,0.4671841387760567,False
+36,2,2003,43934,Cayman Islands,CYM,World Bank,42514.0,0.033400762101895846,False,False,False,False,0.5366701574037201,False
+36,2,2004,45352,Cayman Islands,CYM,World Bank,43934.0,0.032275686256657714,False,False,False,False,0.6060583083995136,False
+36,2,2005,46788,Cayman Islands,CYM,World Bank,45352.0,0.03166343270418063,False,False,False,False,0.6763272680821366,False
+36,2,2006,48232,Cayman Islands,CYM,World Bank,46788.0,0.03086261434555869,False,False,False,False,0.7469876982922393,False
+36,2,2007,49687,Cayman Islands,CYM,World Bank,48232.0,0.030166694310830983,False,False,False,False,0.8181864004776269,False
+36,2,2008,51151,Cayman Islands,CYM,World Bank,49687.0,0.029464447440980538,False,False,False,False,0.8898255070064292,False
+36,2,2009,52618,Cayman Islands,CYM,World Bank,51151.0,0.028679791206428027,False,False,False,False,0.9616114149830364,False
+36,2,2010,54099,Cayman Islands,CYM,World Bank,52618.0,0.028146261735527766,False,False,False,False,1.0340823963827332,False
+36,2,2011,55606,Cayman Islands,CYM,World Bank,54099.0,0.02785633745540583,False,False,False,False,1.1078256569967393,False
+36,2,2012,57136,Cayman Islands,CYM,World Bank,55606.0,0.027515016365140452,False,False,False,False,1.18269439537725,False
+36,2,2013,58655,Cayman Islands,CYM,World Bank,57136.0,0.02658569028283394,False,False,False,False,1.2570248617824757,False
+36,2,2014,60160,Cayman Islands,CYM,World Bank,58655.0,0.025658511635836673,False,False,False,False,1.330670254764612,False
+36,2,2015,61642,Cayman Islands,CYM,World Bank,60160.0,0.0246343085106383,False,False,False,False,1.4031901699802438,False
+36,2,2016,63100,Cayman Islands,CYM,World Bank,61642.0,0.023652704324973232,False,False,False,False,1.4745356736134363,False
+36,2,2017,64535,Cayman Islands,CYM,World Bank,63100.0,0.022741679873217114,False,False,False,False,1.5447556994801244,False
+36,2,2018,65941,Cayman Islands,CYM,World Bank,64535.0,0.021786627411482143,False,False,False,False,1.613556644684698,False
+36,2,2019,67327,Cayman Islands,CYM,World Bank,65941.0,0.021018789523968396,False,False,False,False,1.6813789135705723,False
+36,2,2020,68684,Cayman Islands,CYM,World Bank,67327.0,0.020155361147830737,False,False,False,False,1.7477821017943322,False
+36,2,2021,70108,Cayman Islands,CYM,World Bank,68684.0,0.02073263059810145,False,False,False,False,1.8174638556857357,False
+36,2,2022,71591,Cayman Islands,CYM,World Bank,70108.0,0.021153078108061846,False,False,False,False,1.8900327047173024,False
+36,2,2023,73038,Cayman Islands,CYM,World Bank,71591.0,0.020212037825983714,False,False,False,False,1.9608399363752103,False
+36,4,1950,6286,Cayman Islands,CYM,Census Bureau,,0.0,False,False,False,False,-1.1390350234690279,False
+36,4,1951,6399,Cayman Islands,CYM,Census Bureau,6286.0,0.017976455615653832,False,False,False,False,-1.1331978765409108,False
+36,4,1952,6518,Cayman Islands,CYM,Census Bureau,6399.0,0.018596655727457414,False,False,False,False,-1.1270507926077609,False
+36,4,1953,6656,Cayman Islands,CYM,Census Bureau,6518.0,0.02117213869285057,False,False,False,False,-1.1199222414920071,False
+36,4,1954,6815,Cayman Islands,CYM,Census Bureau,6656.0,0.023888221153846152,False,False,False,False,-1.1117089108586387,False
+36,4,1955,6955,Cayman Islands,CYM,Census Bureau,6815.0,0.020542920029347028,False,False,False,False,-1.104477047407874,False
+36,4,1956,7086,Cayman Islands,CYM,Census Bureau,6955.0,0.018835370237239395,False,False,False,False,-1.0977100894646585,False
+36,4,1957,7225,Cayman Islands,CYM,Census Bureau,7086.0,0.019616144510302004,False,False,False,False,-1.0905298821813996,False
+36,4,1958,7347,Cayman Islands,CYM,Census Bureau,7225.0,0.01688581314878893,False,False,False,False,-1.0842278297457333,False
+36,4,1959,7486,Cayman Islands,CYM,Census Bureau,7347.0,0.018919286783721248,False,False,False,False,-1.077047622462474,False
+36,4,1960,7661,Cayman Islands,CYM,Census Bureau,7486.0,0.023376970344643335,False,False,False,False,-1.0680077931490182,False
+36,4,1961,7828,Cayman Islands,CYM,Census Bureau,7661.0,0.021798720793630075,False,False,False,False,-1.0593812131756062,False
+36,4,1962,8010,Cayman Islands,CYM,Census Bureau,7828.0,0.023249872253449155,False,False,False,False,-1.0499797906896122,False
+36,4,1963,8204,Cayman Islands,CYM,Census Bureau,8010.0,0.02421972534332085,False,False,False,False,-1.0399584941935527,False
+36,4,1964,8405,Cayman Islands,CYM,Census Bureau,8204.0,0.024500243783520233,False,False,False,False,-1.029575604524955,False
+36,4,1965,8612,Cayman Islands,CYM,Census Bureau,8405.0,0.02462819750148721,False,False,False,False,-1.0188827778513243,False
+36,4,1966,8831,Cayman Islands,CYM,Census Bureau,8612.0,0.025429633070134697,False,False,False,False,-1.0075700771676284,False
+36,4,1967,9102,Cayman Islands,CYM,Census Bureau,8831.0,0.030687351375835125,False,False,False,False,-0.9935712557736482,False
+36,4,1968,9476,Cayman Islands,CYM,Census Bureau,9102.0,0.04108987035816304,False,False,False,False,-0.9742518491266057,False
+36,4,1969,9986,Cayman Islands,CYM,Census Bureau,9476.0,0.05382017728999578,False,False,False,False,-0.9479072036988203,False
+36,4,1970,10068,Cayman Islands,CYM,Census Bureau,9986.0,0.008211496094532346,False,False,False,False,-0.9436713979633724,False
+36,4,1971,10885,Cayman Islands,CYM,Census Bureau,10068.0,0.0811481922924116,False,False,False,False,-0.9014683091114104,False
+36,4,1972,11680,Cayman Islands,CYM,Census Bureau,10885.0,0.07303628847037207,False,False,False,False,-0.8604016559445685,False
+36,4,1973,12536,Cayman Islands,CYM,Census Bureau,11680.0,0.07328767123287672,False,False,False,False,-0.8161839765598935,False
+36,4,1974,13352,Cayman Islands,CYM,Census Bureau,12536.0,0.0650925335035099,False,False,False,False,-0.7740325438754369,False
+36,4,1975,14140,Cayman Islands,CYM,Census Bureau,13352.0,0.05901737567405632,False,False,False,False,-0.7333274838811332,False
+36,4,1976,14028,Cayman Islands,CYM,Census Bureau,14140.0,-0.007920792079207921,False,False,False,False,-0.7391129746417449,False
+36,4,1977,14800,Cayman Islands,CYM,Census Bureau,14028.0,0.05503279155973767,False,False,False,False,-0.6992344133275286,False
+36,4,1978,15332,Cayman Islands,CYM,Census Bureau,14800.0,0.03594594594594595,False,False,False,False,-0.6717533322146231,False
+36,4,1979,16163,Cayman Islands,CYM,Census Bureau,15332.0,0.0542003652491521,False,False,False,False,-0.6288270570175846,False
+36,4,1980,17082,Cayman Islands,CYM,Census Bureau,16163.0,0.05685825651178618,False,False,False,False,-0.5813550390800655,False
+36,4,1981,17898,Cayman Islands,CYM,Census Bureau,17082.0,0.04776958201615736,False,False,False,False,-0.5392036063956089,False
+36,4,1982,18518,Cayman Islands,CYM,Census Bureau,17898.0,0.034640741982344396,False,False,False,False,-0.5071767825422228,False
+36,4,1983,19086,Cayman Islands,CYM,Census Bureau,18518.0,0.030672858840047522,False,False,False,False,-0.4778360793991206,False
+36,4,1984,20020,Cayman Islands,CYM,Census Bureau,19086.0,0.04893639316776695,False,False,False,False,-0.4295892189490196,False
+36,4,1985,20846,Cayman Islands,CYM,Census Bureau,20020.0,0.04125874125874126,False,False,False,False,-0.3869212245895084,False
+36,4,1986,21438,Cayman Islands,CYM,Census Bureau,20846.0,0.028398733569989447,False,False,False,False,-0.3563407734262752,False
+36,4,1987,22072,Cayman Islands,CYM,Census Bureau,21438.0,0.029573654258792798,False,False,False,False,-0.32359076322781255,False
+36,4,1988,24500,Cayman Islands,CYM,Census Bureau,22072.0,0.11000362450163102,False,True,True,False,-0.19816958852455205,True
+36,4,1989,25072,Cayman Islands,CYM,Census Bureau,24500.0,0.023346938775510206,False,False,False,False,-0.16862226071142808,False
+36,4,1990,26355,Cayman Islands,CYM,Census Bureau,25072.0,0.051172622846202935,False,False,False,False,-0.10234739780192097,False
+36,4,1991,27514,Cayman Islands,CYM,Census Bureau,26355.0,0.04397647505217226,False,False,False,False,-0.04247789966309109,False
+36,4,1992,28675,Cayman Islands,CYM,Census Bureau,27514.0,0.042196699861888495,False,False,False,False,0.017494910810749716,False
+36,4,1993,30006,Cayman Islands,CYM,Census Bureau,28675.0,0.04641673931996513,False,False,False,False,0.08624926976051897,False
+36,4,1994,31299,Cayman Islands,CYM,Census Bureau,30006.0,0.043091381723655266,False,False,False,False,0.1530406943450807,False
+36,4,1995,32488,Cayman Islands,CYM,Census Bureau,31299.0,0.03798843413527589,False,False,False,False,0.21445987750907441,False
+36,4,1996,33675,Cayman Islands,CYM,Census Bureau,32488.0,0.03653656734794385,False,False,False,False,0.27577574833805724,False
+36,4,1997,34860,Cayman Islands,CYM,Census Bureau,33675.0,0.03518930957683741,False,False,False,False,0.3369883068320291,False
+36,4,1998,36042,Cayman Islands,CYM,Census Bureau,34860.0,0.03390705679862306,False,False,False,False,0.39804589682348457,False
+36,4,1999,37222,Cayman Islands,CYM,Census Bureau,36042.0,0.032739581599245324,False,False,False,False,0.4590001744799292,False
+36,4,2000,38400,Cayman Islands,CYM,Census Bureau,37222.0,0.03164795013701574,False,False,False,False,0.5198511398013628,False
+36,4,2001,39576,Cayman Islands,CYM,Census Bureau,38400.0,0.030625,False,False,False,False,0.5805987927877856,False
+36,4,2002,40750,Cayman Islands,CYM,Census Bureau,39576.0,0.029664443096826358,False,False,False,False,0.6412431334391974,False
+36,4,2003,41923,Cayman Islands,CYM,Census Bureau,40750.0,0.028785276073619633,False,False,False,False,0.7018358179231037,False
+36,4,2004,43094,Cayman Islands,CYM,Census Bureau,41923.0,0.02793216134341531,False,False,False,False,0.7623251900719991,False
+36,4,2005,44264,Cayman Islands,CYM,Census Bureau,43094.0,0.027149951269318233,False,False,False,False,0.8227629060533891,False
+36,4,2006,45435,Cayman Islands,CYM,Census Bureau,44264.0,0.02645490692210374,False,False,False,False,0.8832522782022845,False
+36,4,2007,46606,Cayman Islands,CYM,Census Bureau,45435.0,0.02577308242544294,False,False,False,False,0.9437416503511799,False
+36,4,2008,47775,Cayman Islands,CYM,Census Bureau,46606.0,0.02508260738960649,False,False,False,False,1.0041277101650643,False
+36,4,2009,48946,Cayman Islands,CYM,Census Bureau,47775.0,0.024510727367870223,False,False,False,False,1.0646170823139598,False
+36,4,2010,50119,Cayman Islands,CYM,Census Bureau,48946.0,0.023965186123483022,False,False,False,False,1.1252097667978662,False
+36,4,2011,51296,Cayman Islands,CYM,Census Bureau,50119.0,0.023484107823380354,False,False,False,False,1.1860090759517943,False
+36,4,2012,52475,Cayman Islands,CYM,Census Bureau,51296.0,0.022984248284466626,False,False,False,False,1.2469116974407335,False
+36,4,2013,53657,Cayman Islands,CYM,Census Bureau,52475.0,0.02252501191043354,False,False,False,False,1.3079692874321889,False
+36,4,2014,54841,Cayman Islands,CYM,Census Bureau,53657.0,0.022066086437929813,False,False,False,False,1.3691301897586554,False
+36,4,2015,56027,Cayman Islands,CYM,Census Bureau,54841.0,0.02162615561350085,False,False,False,False,1.4303944044201327,False
+36,4,2016,57214,Cayman Islands,CYM,Census Bureau,56027.0,0.021186213789779928,False,False,False,False,1.4917102752491156,False
+36,4,2017,58401,Cayman Islands,CYM,Census Bureau,57214.0,0.02074667039535778,False,False,False,False,1.5530261460780983,False
+36,4,2018,59587,Cayman Islands,CYM,Census Bureau,58401.0,0.020307871440557526,False,False,False,False,1.6142903607395755,False
+36,4,2019,60770,Cayman Islands,CYM,Census Bureau,59587.0,0.01985332371154782,False,False,False,False,1.6753996068985366,False
+36,4,2020,61952,Cayman Islands,CYM,Census Bureau,60770.0,0.01945038670396577,False,False,False,False,1.736457196889992,False
+36,4,2021,63131,Cayman Islands,CYM,Census Bureau,61952.0,0.019030862603305786,False,False,False,False,1.7973598183789312,False
+36,4,2022,64309,Cayman Islands,CYM,Census Bureau,63131.0,0.018659612551678258,False,False,False,False,1.8582107837003647,False
+36,4,2023,65483,Cayman Islands,CYM,Census Bureau,64309.0,0.018255609634732307,False,False,False,False,1.9188551243517766,False
+36,4,2024,66653,Cayman Islands,CYM,Census Bureau,65483.0,0.01786723271688835,False,False,False,False,1.9792928403331667,False

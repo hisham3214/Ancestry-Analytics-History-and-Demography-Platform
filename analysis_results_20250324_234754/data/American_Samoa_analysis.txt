@@ -1,0 +1,17 @@
+Population Analysis for American Samoa
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 46,029
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (4):
+Year 1963: increase of 10.0% from previous year, Source: Census Bureau
+Year 1967: decrease of -6.0% from previous year, Source: Census Bureau
+Year 1968: increase of 12.0% from previous year, Source: Census Bureau
+Year 1970: decrease of -10.3% from previous year, Source: Census Bureau

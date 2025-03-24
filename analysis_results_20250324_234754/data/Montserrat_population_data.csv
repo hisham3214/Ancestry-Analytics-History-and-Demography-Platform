@@ -1,0 +1,152 @@
+country_id,source_id,year,population,country_name,country_code,source_name,population_prev,yoy_change,is_decrease_anomaly,is_increase_anomaly,is_yoy_anomaly,is_anomaly,population_z,is_any_anomaly
+136,1,1950,12944,Montserrat,MSR,United Nations Population Division,,0.0,False,False,False,False,1.2489373680368416,False
+136,1,1951,12846,Montserrat,MSR,United Nations Population Division,12944.0,-0.007571075401730532,False,False,False,False,1.2192506821883489,False
+136,1,1952,12755,Montserrat,MSR,United Nations Population Division,12846.0,-0.007083917172660751,False,False,False,False,1.1916844739004628,False
+136,1,1953,12656,Montserrat,MSR,United Nations Population Division,12755.0,-0.007761662093296746,False,False,False,False,1.1616948626861692,False
+136,1,1954,12561,Montserrat,MSR,United Nations Population Division,12656.0,-0.007506321112515803,False,False,False,False,1.1329169529350793,False
+136,1,1955,12482,Montserrat,MSR,United Nations Population Division,12561.0,-0.006289308176100629,False,False,False,False,1.1089858490368047,False
+136,1,1956,12390,Montserrat,MSR,United Nations Population Division,12482.0,-0.007370613683704535,False,False,False,False,1.0811167153831176,False
+136,1,1957,12299,Montserrat,MSR,United Nations Population Division,12390.0,-0.007344632768361582,False,False,False,False,1.0535505070952316,False
+136,1,1958,12207,Montserrat,MSR,United Nations Population Division,12299.0,-0.00748028294983332,False,False,False,False,1.0256813734415446,False
+136,1,1959,12112,Montserrat,MSR,United Nations Population Division,12207.0,-0.007782419922995003,False,False,False,False,0.9969034636904547,False
+136,1,1960,12035,Montserrat,MSR,United Nations Population Division,12112.0,-0.006357331571994716,False,False,False,False,0.9735782105237819,False
+136,1,1961,11963,Montserrat,MSR,United Nations Population Division,12035.0,-0.005982550893228085,False,False,False,False,0.9517675841861137,False
+136,1,1962,11884,Montserrat,MSR,United Nations Population Division,11963.0,-0.006603694725403327,False,False,False,False,0.927836480287839,False
+136,1,1963,11804,Montserrat,MSR,United Nations Population Division,11884.0,-0.006731740154830024,False,False,False,False,0.9036024510237634,False
+136,1,1964,11725,Montserrat,MSR,United Nations Population Division,11804.0,-0.00669264656048797,False,False,False,False,0.8796713471254887,False
+136,1,1965,11646,Montserrat,MSR,United Nations Population Division,11725.0,-0.0067377398720682305,False,False,False,False,0.8557402432272139,False
+136,1,1966,11572,Montserrat,MSR,United Nations Population Division,11646.0,-0.006354113000171733,False,False,False,False,0.8333237661579439,False
+136,1,1967,11502,Montserrat,MSR,United Nations Population Division,11572.0,-0.0060490839958520564,False,False,False,False,0.8121189905518778,False
+136,1,1968,11439,Montserrat,MSR,United Nations Population Division,11502.0,-0.005477308294209703,False,False,False,False,0.7930346925064181,False
+136,1,1969,11372,Montserrat,MSR,United Nations Population Division,11439.0,-0.005857155345747006,False,False,False,False,0.7727386929977548,False
+136,1,1970,11333,Montserrat,MSR,United Nations Population Division,11372.0,-0.00342947590573338,False,False,False,False,0.7609246037315178,False
+136,1,1971,11338,Montserrat,MSR,United Nations Population Division,11333.0,0.0004411894467484338,False,False,False,False,0.7624392305605225,False
+136,1,1972,11350,Montserrat,MSR,United Nations Population Division,11338.0,0.0010583877227024166,False,False,False,False,0.766074334950134,False
+136,1,1973,11366,Montserrat,MSR,United Nations Population Division,11350.0,0.0014096916299559472,False,False,False,False,0.770921140802949,False
+136,1,1974,11389,Montserrat,MSR,United Nations Population Division,11366.0,0.002023579095548126,False,False,False,False,0.7778884242163708,False
+136,1,1975,11409,Montserrat,MSR,United Nations Population Division,11389.0,0.0017560804284836246,False,False,False,False,0.7839469315323897,False
+136,1,1976,11422,Montserrat,MSR,United Nations Population Division,11409.0,0.0011394513103690068,False,False,False,False,0.787884961287802,False
+136,1,1977,11434,Montserrat,MSR,United Nations Population Division,11422.0,0.0010506040973559797,False,False,False,False,0.7915200656774134,False
+136,1,1978,11437,Montserrat,MSR,United Nations Population Division,11434.0,0.00026237537169844326,False,False,False,False,0.7924288417748162,False
+136,1,1979,11410,Montserrat,MSR,United Nations Population Division,11437.0,-0.0023607589402815424,False,False,False,False,0.7842498568981907,False
+136,1,1980,11340,Montserrat,MSR,United Nations Population Division,11410.0,-0.006134969325153374,False,False,False,False,0.7630450812921244,False
+136,1,1981,11253,Montserrat,MSR,United Nations Population Division,11340.0,-0.007671957671957672,False,False,False,False,0.7366905744674422,False
+136,1,1982,11182,Montserrat,MSR,United Nations Population Division,11253.0,-0.006309428596818626,False,False,False,False,0.7151828734955751,False
+136,1,1983,11120,Montserrat,MSR,United Nations Population Division,11182.0,-0.00554462529064568,False,False,False,False,0.6964015008159163,False
+136,1,1984,11056,Montserrat,MSR,United Nations Population Division,11120.0,-0.0057553956834532375,False,False,False,False,0.6770142774046558,False
+136,1,1985,10995,Montserrat,MSR,United Nations Population Division,11056.0,-0.005517366136034732,False,False,False,False,0.6585358300907982,False
+136,1,1986,10944,Montserrat,MSR,United Nations Population Division,10995.0,-0.004638472032742156,False,False,False,False,0.6430866364349499,False
+136,1,1987,10895,Montserrat,MSR,United Nations Population Division,10944.0,-0.0044773391812865495,False,False,False,False,0.6282432935107036,False
+136,1,1988,10846,Montserrat,MSR,United Nations Population Division,10895.0,-0.004497475906379073,False,False,False,False,0.6133999505864572,False
+136,1,1989,10777,Montserrat,MSR,United Nations Population Division,10846.0,-0.006361792365849161,False,False,False,False,0.592498100346192,False
+136,1,1990,10677,Montserrat,MSR,United Nations Population Division,10777.0,-0.009279020135473694,False,False,False,False,0.5622055637660973,False
+136,1,1991,10437,Montserrat,MSR,United Nations Population Division,10677.0,-0.022478224220286596,False,False,False,False,0.48950347597387034,False
+136,1,1992,9987,Montserrat,MSR,United Nations Population Division,10437.0,-0.04311583788444955,False,False,False,False,0.35318706136344474,False
+136,1,1993,9432,Montserrat,MSR,United Nations Population Division,9987.0,-0.05557224391709222,True,False,True,False,0.18506348334391975,True
+136,1,1994,8844,Montserrat,MSR,United Nations Population Division,9432.0,-0.062340966921119595,True,False,True,False,0.0069433682529635825,True
+136,1,1995,8235,Montserrat,MSR,United Nations Population Division,8844.0,-0.06886024423337857,True,False,True,False,-0.17753817951981246,True
+136,1,1996,7604,Montserrat,MSR,United Nations Population Division,8235.0,-0.07662416514875531,True,False,True,False,-0.3686840853402093,True
+136,1,1997,6958,Montserrat,MSR,United Nations Population Division,7604.0,-0.08495528669121515,True,False,True,False,-0.5643738716476203,True
+136,1,1998,6302,Montserrat,MSR,United Nations Population Division,6958.0,-0.09427996550732969,True,False,True,False,-0.7630929116130408,True
+136,1,1999,5659,Montserrat,MSR,United Nations Population Division,6302.0,-0.10203110123770232,True,False,True,False,-0.957873921823049,True
+136,1,2000,5029,Montserrat,MSR,United Nations Population Division,5659.0,-0.11132708959180067,True,False,True,False,-1.148716902277645,True
+136,1,2001,4591,Montserrat,MSR,United Nations Population Division,5029.0,-0.08709484987074965,True,False,True,False,-1.2813982124984593,True
+136,1,2002,4476,Montserrat,MSR,United Nations Population Division,4591.0,-0.025049008930516228,False,False,False,False,-1.316234629565568,False
+136,1,2003,4491,Montserrat,MSR,United Nations Population Division,4476.0,0.003351206434316354,False,False,False,False,-1.3116907490785539,False
+136,1,2004,4515,Montserrat,MSR,United Nations Population Division,4491.0,0.005344021376085505,False,False,False,False,-1.3044205402993312,False
+136,1,2005,4547,Montserrat,MSR,United Nations Population Division,4515.0,0.0070874861572535995,False,False,False,False,-1.2947269285937009,False
+136,1,2006,4582,Montserrat,MSR,United Nations Population Division,4547.0,0.007697382889817462,False,False,False,False,-1.2841245407906678,False
+136,1,2007,4623,Montserrat,MSR,United Nations Population Division,4582.0,0.00894805761676124,False,False,False,False,-1.271704600792829,False
+136,1,2008,4677,Montserrat,MSR,United Nations Population Division,4623.0,0.011680726800778715,False,False,False,False,-1.2553466310395778,False
+136,1,2009,4735,Montserrat,MSR,United Nations Population Division,4677.0,0.012401111823818688,False,False,False,False,-1.237776959823123,False
+136,1,2010,4794,Montserrat,MSR,United Nations Population Division,4735.0,0.01246040126715945,False,False,False,False,-1.2199043632408673,False
+136,1,2011,4823,Montserrat,MSR,United Nations Population Division,4794.0,0.006049228201919066,False,False,False,False,-1.2111195276326399,False
+136,1,2012,4796,Montserrat,MSR,United Nations Population Division,4823.0,-0.005598175409496164,False,False,False,False,-1.2192985125092652,False
+136,1,2013,4753,Montserrat,MSR,United Nations Population Division,4796.0,-0.00896580483736447,False,False,False,False,-1.232324303238706,False
+136,1,2014,4711,Montserrat,MSR,United Nations Population Division,4753.0,-0.008836524300441826,False,False,False,False,-1.2450471686023457,False
+136,1,2015,4673,Montserrat,MSR,United Nations Population Division,4711.0,-0.008066227977074932,False,False,False,False,-1.2565583325027816,False
+136,1,2016,4638,Montserrat,MSR,United Nations Population Division,4673.0,-0.0074898352236250805,False,False,False,False,-1.2671607203058148,False
+136,1,2017,4603,Montserrat,MSR,United Nations Population Division,4638.0,-0.007546356188012074,False,False,False,False,-1.2777631081088479,False
+136,1,2018,4569,Montserrat,MSR,United Nations Population Division,4603.0,-0.007386487073647621,False,False,False,False,-1.28806257054608,False
+136,1,2019,4540,Montserrat,MSR,United Nations Population Division,4569.0,-0.006347121908513898,False,False,False,False,-1.2968474061543074,False
+136,1,2020,4508,Montserrat,MSR,United Nations Population Division,4540.0,-0.007048458149779736,False,False,False,False,-1.3065410178599377,False
+136,1,2021,4480,Montserrat,MSR,United Nations Population Division,4508.0,-0.006211180124223602,False,False,False,False,-1.3150229281023642,False
+136,1,2022,4453,Montserrat,MSR,United Nations Population Division,4480.0,-0.0060267857142857146,False,False,False,False,-1.3232019129789898,False
+136,1,2023,4421,Montserrat,MSR,United Nations Population Division,4453.0,-0.007186166629238716,False,False,False,False,-1.33289552468462,False
+136,1,2024,4389,Montserrat,MSR,United Nations Population Division,4421.0,-0.007238181406921511,False,False,False,False,-1.3425891363902502,False
+136,1,2025,4360,Montserrat,MSR,United Nations Population Division,4389.0,-0.006607427660059239,False,False,False,False,-1.3513739719984776,False
+136,4,1950,13480,Montserrat,MSR,Census Bureau,,0.0,False,False,False,False,1.2764066493027146,False
+136,4,1951,13306,Montserrat,MSR,Census Bureau,13480.0,-0.012908011869436202,False,False,False,False,1.2248074250567784,False
+136,4,1952,13173,Montserrat,MSR,Census Bureau,13306.0,-0.009995490756049902,False,False,False,False,1.1853666387078732,False
+136,4,1953,13031,Montserrat,MSR,Census Bureau,13173.0,-0.010779624990510894,False,False,False,False,1.1432569269669366,False
+136,4,1954,12885,Montserrat,MSR,Census Bureau,13031.0,-0.01120405187629499,False,False,False,False,1.099961026162875,False
+136,4,1955,12766,Montserrat,MSR,Census Bureau,12885.0,-0.009235545207605743,False,False,False,False,1.064671901534907,False
+136,4,1956,12647,Montserrat,MSR,Census Bureau,12766.0,-0.009321635594548018,False,False,False,False,1.0293827769069392,False
+136,4,1957,12516,Montserrat,MSR,Census Bureau,12647.0,-0.010358187712500988,False,False,False,False,0.9905350850895963,False
+136,4,1958,12382,Montserrat,MSR,Census Bureau,12516.0,-0.01070629594119527,False,False,False,False,0.9507977514749097,False
+136,4,1959,12255,Montserrat,MSR,Census Bureau,12382.0,-0.010256824422548862,False,False,False,False,0.9131362487206918,False
+136,4,1960,12145,Montserrat,MSR,Census Bureau,12255.0,-0.00897592819257446,False,False,False,False,0.880516049484755,False
+136,4,1961,12040,Montserrat,MSR,Census Bureau,12145.0,-0.008645533141210375,False,False,False,False,0.8493785865777245,False
+136,4,1962,11933,Montserrat,MSR,Census Bureau,12040.0,-0.008887043189368771,False,False,False,False,0.8176480291391315,False
+136,4,1963,11849,Montserrat,MSR,Census Bureau,11933.0,-0.007039302773820498,False,False,False,False,0.792738058813507,False
+136,4,1964,11804,Montserrat,MSR,Census Bureau,11849.0,-0.0037977888429403324,False,False,False,False,0.7793934318533511,False
+136,4,1965,11776,Montserrat,MSR,Census Bureau,11804.0,-0.0023720772619451034,False,False,False,False,0.7710901084114763,False
+136,4,1966,11723,Montserrat,MSR,Census Bureau,11776.0,-0.004500679347826087,False,False,False,False,0.7553731033250705,False
+136,4,1967,11669,Montserrat,MSR,Census Bureau,11723.0,-0.004606329437857204,False,False,False,False,0.7393595509728833,False
+136,4,1968,11633,Montserrat,MSR,Census Bureau,11669.0,-0.0030850972662610334,False,False,False,False,0.7286838494047585,False
+136,4,1969,11563,Montserrat,MSR,Census Bureau,11633.0,-0.006017364394395255,False,False,False,False,0.7079255408000715,False
+136,4,1970,11591,Montserrat,MSR,Census Bureau,11563.0,0.002421516907376978,False,False,False,False,0.7162288642419463,False
+136,4,1971,11851,Montserrat,MSR,Census Bureau,11591.0,0.02243119661806574,False,False,False,False,0.7933311533450695,False
+136,4,1972,11978,Montserrat,MSR,Census Bureau,11851.0,0.01071639524090794,False,False,False,False,0.8309926560992874,False
+136,4,1973,11985,Montserrat,MSR,Census Bureau,11978.0,0.0005844047420270496,False,False,False,False,0.8330684869597561,False
+136,4,1974,12031,Montserrat,MSR,Census Bureau,11985.0,0.003838130997079683,False,False,False,False,0.8467096611856934,False
+136,4,1975,12121,Montserrat,MSR,Census Bureau,12031.0,0.007480674923115285,False,False,False,False,0.8733989151060052,False
+136,4,1976,12051,Montserrat,MSR,Census Bureau,12121.0,-0.005775101064268625,False,False,False,False,0.8526406065013182,False
+136,4,1977,11926,Montserrat,MSR,Census Bureau,12051.0,-0.010372583188117169,False,False,False,False,0.8155721982786628,False
+136,4,1978,11728,Montserrat,MSR,Census Bureau,11926.0,-0.016602381351668624,False,False,False,False,0.7568558396539766,False
+136,4,1979,11592,Montserrat,MSR,Census Bureau,11728.0,-0.011596180081855388,False,False,False,False,0.7165254115077275,False
+136,4,1980,11770,Montserrat,MSR,Census Bureau,11592.0,0.015355417529330572,False,False,False,False,0.7693108248167888,False
+136,4,1981,11787,Montserrat,MSR,Census Bureau,11770.0,0.0014443500424808837,False,False,False,False,0.77435212833507,False
+136,4,1982,11662,Montserrat,MSR,Census Bureau,11787.0,-0.010604903707474337,False,False,False,False,0.7372837201124146,False
+136,4,1983,11560,Montserrat,MSR,Census Bureau,11662.0,-0.008746355685131196,False,False,False,False,0.7070358990027278,False
+136,4,1984,11442,Montserrat,MSR,Census Bureau,11560.0,-0.010207612456747405,False,False,False,False,0.672043321640541,False
+136,4,1985,11323,Montserrat,MSR,Census Bureau,11442.0,-0.010400279671386122,False,False,False,False,0.6367541970125732,False
+136,4,1986,11205,Montserrat,MSR,Census Bureau,11323.0,-0.010421266448820984,False,False,False,False,0.6017616196503864,False
+136,4,1987,11087,Montserrat,MSR,Census Bureau,11205.0,-0.010531012940651495,False,False,False,False,0.5667690422881997,False
+136,4,1988,10969,Montserrat,MSR,Census Bureau,11087.0,-0.010643095517272482,False,False,False,False,0.531776464926013,False
+136,4,1989,10849,Montserrat,MSR,Census Bureau,10969.0,-0.010939921597228553,False,False,False,False,0.4961907930322639,False
+136,4,1990,10728,Montserrat,MSR,Census Bureau,10849.0,-0.01115310166835653,False,False,False,False,0.46030857387273344,False
+136,4,1991,10606,Montserrat,MSR,Census Bureau,10728.0,-0.011372110365398955,False,False,False,False,0.42412980744742174,False
+136,4,1992,10495,Montserrat,MSR,Census Bureau,10606.0,-0.010465774090137658,False,False,False,False,0.39121306094570374,False
+136,4,1993,10406,Montserrat,MSR,Census Bureau,10495.0,-0.008480228680323963,False,False,False,False,0.3648203542911731,False
+136,4,1994,10336,Montserrat,MSR,Census Bureau,10406.0,-0.0067268883336536614,False,False,False,False,0.3440620456864861,False
+136,4,1995,10268,Montserrat,MSR,Census Bureau,10336.0,-0.006578947368421052,False,False,False,False,0.3238968316133615,False
+136,4,1996,7947,Montserrat,MSR,Census Bureau,10268.0,-0.22604207245812233,True,False,True,False,-0.364389372264904,True
+136,4,1997,5950,Montserrat,MSR,Census Bureau,7947.0,-0.2512897948911539,True,False,True,False,-0.9565942620300466,True
+136,4,1998,3381,Montserrat,MSR,Census Bureau,5950.0,-0.43176470588235294,True,False,True,False,-1.7184241878220605,True
+136,4,1999,3378,Montserrat,MSR,Census Bureau,3381.0,-0.0008873114463176575,False,False,False,False,-1.7193138296194042,False
+136,4,2000,3951,Montserrat,MSR,Census Bureau,3378.0,0.16962699822380106,False,True,True,False,-1.5493922463267518,True
+136,4,2001,4239,Montserrat,MSR,Census Bureau,3951.0,0.07289293849658314,False,False,False,False,-1.4639866337817538,False
+136,4,2002,4810,Montserrat,MSR,Census Bureau,4239.0,0.13470158056145318,False,True,True,False,-1.294658145020664,True
+136,4,2003,4491,Montserrat,MSR,Census Bureau,4810.0,-0.06632016632016632,True,False,True,False,-1.3892567228048804,True
+136,4,2004,4963,Montserrat,MSR,Census Bureau,4491.0,0.10509908706301492,False,True,True,False,-1.2492864133561337,True
+136,4,2005,4530,Montserrat,MSR,Census Bureau,4963.0,-0.08724561757001813,True,False,True,False,-1.3776913794394121,True
+136,4,2006,4625,Montserrat,MSR,Census Bureau,4530.0,0.02097130242825607,False,False,False,False,-1.349519389190194,False
+136,4,2007,4512,Montserrat,MSR,Census Bureau,4625.0,-0.024432432432432434,False,False,False,False,-1.3830292302234743,False
+136,4,2008,5082,Montserrat,MSR,Census Bureau,4512.0,0.12632978723404256,False,True,True,False,-1.2139972887281658,True
+136,4,2009,5098,Montserrat,MSR,Census Bureau,5082.0,0.003148366784730421,False,False,False,False,-1.2092525324756658,False
+136,4,2010,5118,Montserrat,MSR,Census Bureau,5098.0,0.003923107100823852,False,False,False,False,-1.203321587160041,False
+136,4,2011,5140,Montserrat,MSR,Census Bureau,5118.0,0.0042985541227041815,False,False,False,False,-1.1967975473128536,False
+136,4,2012,5163,Montserrat,MSR,Census Bureau,5140.0,0.004474708171206225,False,False,False,False,-1.189976960199885,False
+136,4,2013,5187,Montserrat,MSR,Census Bureau,5163.0,0.004648460197559558,False,False,False,False,-1.1828598258211351,False
+136,4,2014,5211,Montserrat,MSR,Census Bureau,5187.0,0.004626951995373048,False,False,False,False,-1.1757426914423854,False
+136,4,2015,5236,Montserrat,MSR,Census Bureau,5211.0,0.004797543657647284,False,False,False,False,-1.1683290097978543,False
+136,4,2016,5260,Montserrat,MSR,Census Bureau,5236.0,0.004583651642475172,False,False,False,False,-1.1612118754191045,False
+136,4,2017,5283,Montserrat,MSR,Census Bureau,5260.0,0.004372623574144487,False,False,False,False,-1.1543912883061358,False
+136,4,2018,5306,Montserrat,MSR,Census Bureau,5283.0,0.004353586977096347,False,False,False,False,-1.1475707011931673,False
+136,4,2019,5331,Montserrat,MSR,Census Bureau,5306.0,0.004711647191858273,False,False,False,False,-1.1401570195486361,False
+136,4,2020,5359,Montserrat,MSR,Census Bureau,5331.0,0.0052522978803226416,False,False,False,False,-1.1318536961067613,False
+136,4,2021,5387,Montserrat,MSR,Census Bureau,5359.0,0.005224855383467065,False,False,False,False,-1.1235503726648866,False
+136,4,2022,5414,Montserrat,MSR,Census Bureau,5387.0,0.005012066085019491,False,False,False,False,-1.115543596488793,False
+136,4,2023,5440,Montserrat,MSR,Census Bureau,5414.0,0.004802364240857037,False,False,False,False,-1.1078333675784806,False
+136,4,2024,5468,Montserrat,MSR,Census Bureau,5440.0,0.005147058823529412,False,False,False,False,-1.0995300441366058,False

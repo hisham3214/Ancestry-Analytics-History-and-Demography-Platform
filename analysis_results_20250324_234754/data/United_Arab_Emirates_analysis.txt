@@ -1,0 +1,60 @@
+Population Analysis for United Arab Emirates
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 11,346,000
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (47):
+Year 1968: increase of 11.0% from previous year, Source: United Nations Population Division
+Year 1969: increase of 20.2% from previous year, Source: United Nations Population Division
+Year 1970: increase of 19.6% from previous year, Source: United Nations Population Division
+Year 1971: increase of 16.9% from previous year, Source: United Nations Population Division
+Year 1972: increase of 14.9% from previous year, Source: United Nations Population Division
+Year 1973: increase of 13.3% from previous year, Source: United Nations Population Division
+Year 1974: increase of 12.1% from previous year, Source: United Nations Population Division
+Year 1975: increase of 11.0% from previous year, Source: United Nations Population Division
+Year 1976: increase of 13.4% from previous year, Source: United Nations Population Division
+Year 1977: increase of 15.3% from previous year, Source: United Nations Population Division
+Year 1978: increase of 13.9% from previous year, Source: United Nations Population Division
+Year 1979: increase of 12.7% from previous year, Source: United Nations Population Division
+Year 1980: increase of 11.4% from previous year, Source: United Nations Population Division
+Year 2007: increase of 12.3% from previous year, Source: United Nations Population Division
+Year 2008: increase of 12.1% from previous year, Source: United Nations Population Division
+Year 1968: increase of 11.0% from previous year, Source: World Bank
+Year 1969: increase of 20.2% from previous year, Source: World Bank
+Year 1970: increase of 19.6% from previous year, Source: World Bank
+Year 1971: increase of 16.9% from previous year, Source: World Bank
+Year 1972: increase of 14.9% from previous year, Source: World Bank
+Year 1973: increase of 13.3% from previous year, Source: World Bank
+Year 1974: increase of 12.1% from previous year, Source: World Bank
+Year 1975: increase of 11.0% from previous year, Source: World Bank
+Year 1976: increase of 13.4% from previous year, Source: World Bank
+Year 1977: increase of 15.3% from previous year, Source: World Bank
+Year 1978: increase of 13.9% from previous year, Source: World Bank
+Year 1979: increase of 12.7% from previous year, Source: World Bank
+Year 1980: increase of 11.4% from previous year, Source: World Bank
+Year 2007: increase of 12.3% from previous year, Source: World Bank
+Year 2008: increase of 12.1% from previous year, Source: World Bank
+Year 1968: increase of 11.2% from previous year, Source: Census Bureau
+Year 1969: increase of 14.1% from previous year, Source: Census Bureau
+Year 1970: increase of 14.5% from previous year, Source: Census Bureau
+Year 1971: increase of 15.5% from previous year, Source: Census Bureau
+Year 1972: increase of 16.7% from previous year, Source: Census Bureau
+Year 1973: increase of 16.4% from previous year, Source: Census Bureau
+Year 1974: increase of 15.8% from previous year, Source: Census Bureau
+Year 1975: increase of 15.3% from previous year, Source: Census Bureau
+Year 1976: increase of 14.4% from previous year, Source: Census Bureau
+Year 1977: increase of 14.3% from previous year, Source: Census Bureau
+Year 1978: increase of 13.9% from previous year, Source: Census Bureau
+Year 1979: increase of 13.5% from previous year, Source: Census Bureau
+Year 1980: increase of 13.1% from previous year, Source: Census Bureau
+Year 2006: increase of 13.3% from previous year, Source: Census Bureau
+Year 2007: increase of 24.1% from previous year, Source: Census Bureau
+Year 2008: increase of 29.4% from previous year, Source: Census Bureau
+Year 2009: increase of 12.2% from previous year, Source: Census Bureau

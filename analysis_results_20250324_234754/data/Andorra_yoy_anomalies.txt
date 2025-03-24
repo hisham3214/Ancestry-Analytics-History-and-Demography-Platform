@@ -1,0 +1,14 @@
+Year-over-Year Anomalies for Andorra
+========================================
+Year 1952: decrease of -6.2%, Population 5,456, Source: United Nations Population Division
+Year 1955: increase of 10.1%, Population 6,166, Source: United Nations Population Division
+Year 2011: decrease of -7.1%, Population 78,115, Source: Eurostat
+Year 1952: decrease of -7.0%, Population 5,866, Source: Census Bureau
+Year 1955: increase of 12.5%, Population 6,189, Source: Census Bureau
+Year 1958: increase of 10.6%, Population 7,103, Source: Census Bureau
+Year 1960: increase of 15.9%, Population 8,392, Source: Census Bureau
+Year 1962: increase of 15.2%, Population 10,317, Source: Census Bureau
+Year 1963: increase of 10.1%, Population 11,356, Source: Census Bureau
+Year 1965: increase of 11.7%, Population 13,623, Source: Census Bureau
+Year 1968: increase of 10.6%, Population 17,216, Source: Census Bureau
+Year 1981: increase of 12.6%, Population 37,825, Source: Census Bureau

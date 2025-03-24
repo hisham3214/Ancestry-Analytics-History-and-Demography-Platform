@@ -4,9 +4,9 @@ from mysql.connector import errorcode
 # Replace with your MySQL connection details
 config = {
     'user': 'root',       # Your MySQL username
-    'password': 'MySQLraghid',   # Your MySQL password
+    'password': 'LZ#amhe!32',   # Your MySQL password
     'host': '127.0.0.1',           # The host where MySQL server is running
-    'database': 'fyp',   # The database name where you want to create tables
+    'database': 'fyp1',   # The database name where you want to create tables
     'raise_on_warnings': True
 }
 # Establish a connection to the MySQL database

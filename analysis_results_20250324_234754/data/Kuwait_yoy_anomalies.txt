@@ -1,0 +1,30 @@
+Year-over-Year Anomalies for Kuwait
+========================================
+Year 1956: increase of 11.3%, Population 207,215, Source: United Nations Population Division
+Year 1958: increase of 10.2%, Population 250,203, Source: United Nations Population Division
+Year 1959: increase of 11.7%, Population 279,525, Source: United Nations Population Division
+Year 1960: increase of 11.3%, Population 311,060, Source: United Nations Population Division
+Year 1961: increase of 11.2%, Population 345,945, Source: United Nations Population Division
+Year 1962: increase of 11.3%, Population 384,995, Source: United Nations Population Division
+Year 1963: increase of 11.1%, Population 427,694, Source: United Nations Population Division
+Year 1964: increase of 10.6%, Population 473,115, Source: United Nations Population Division
+Year 1965: increase of 10.2%, Population 521,174, Source: United Nations Population Division
+Year 1990: decrease of -24.0%, Population 1,684,819, Source: United Nations Population Division
+Year 1991: decrease of -19.8%, Population 1,351,399, Source: United Nations Population Division
+Year 1992: increase of 21.0%, Population 1,634,962, Source: United Nations Population Division
+Year 1961: increase of 11.2%, Population 345,945, Source: World Bank
+Year 1962: increase of 11.3%, Population 384,995, Source: World Bank
+Year 1963: increase of 11.1%, Population 427,694, Source: World Bank
+Year 1964: increase of 10.6%, Population 473,115, Source: World Bank
+Year 1965: increase of 10.2%, Population 521,174, Source: World Bank
+Year 1990: decrease of -24.0%, Population 1,684,819, Source: World Bank
+Year 1991: decrease of -19.8%, Population 1,351,399, Source: World Bank
+Year 1992: increase of 21.0%, Population 1,634,961, Source: World Bank
+Year 1958: increase of 10.3%, Population 234,855, Source: Census Bureau
+Year 1959: increase of 11.6%, Population 262,006, Source: Census Bureau
+Year 1960: increase of 11.5%, Population 292,229, Source: Census Bureau
+Year 1961: increase of 11.3%, Population 325,342, Source: Census Bureau
+Year 1962: increase of 10.1%, Population 358,266, Source: Census Bureau
+Year 1963: increase of 10.0%, Population 394,128, Source: Census Bureau
+Year 1991: decrease of -55.8%, Population 940,924, Source: Census Bureau
+Year 1992: increase of 49.1%, Population 1,402,699, Source: Census Bureau

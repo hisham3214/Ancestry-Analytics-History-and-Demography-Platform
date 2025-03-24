@@ -1,0 +1,30 @@
+Population Analysis for Northern Mariana Islands
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 43,541
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (17):
+Year 1971: increase of 10.8% from previous year, Source: United Nations Population Division
+Year 1972: increase of 12.1% from previous year, Source: United Nations Population Division
+Year 1981: increase of 12.5% from previous year, Source: United Nations Population Division
+Year 1982: increase of 12.7% from previous year, Source: United Nations Population Division
+Year 1983: increase of 11.6% from previous year, Source: United Nations Population Division
+Year 1984: increase of 10.6% from previous year, Source: United Nations Population Division
+Year 1971: increase of 10.8% from previous year, Source: World Bank
+Year 1972: increase of 12.1% from previous year, Source: World Bank
+Year 1981: increase of 12.5% from previous year, Source: World Bank
+Year 1982: increase of 12.7% from previous year, Source: World Bank
+Year 1983: increase of 11.6% from previous year, Source: World Bank
+Year 1984: increase of 10.6% from previous year, Source: World Bank
+Year 1987: increase of 10.3% from previous year, Source: Census Bureau
+Year 1988: increase of 14.4% from previous year, Source: Census Bureau
+Year 1989: increase of 21.5% from previous year, Source: Census Bureau
+Year 1990: increase of 24.8% from previous year, Source: Census Bureau
+Year 2010: decrease of -5.2% from previous year, Source: Census Bureau

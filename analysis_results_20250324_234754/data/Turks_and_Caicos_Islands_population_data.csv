@@ -1,0 +1,216 @@
+country_id,source_id,year,population,country_name,country_code,source_name,population_prev,yoy_change,is_decrease_anomaly,is_increase_anomaly,is_yoy_anomaly,is_anomaly,population_z,is_any_anomaly
+217,1,1950,5039,Turks and Caicos Islands,TCA,United Nations Population Division,,0.0,False,False,False,False,-0.8780374134734689,False
+217,1,1951,5052,Turks and Caicos Islands,TCA,United Nations Population Division,5039.0,0.002579876959714229,False,False,False,False,-0.8770747225978686,False
+217,1,1952,5016,Turks and Caicos Islands,TCA,United Nations Population Division,5052.0,-0.007125890736342043,False,False,False,False,-0.8797406357918386,False
+217,1,1953,4986,Turks and Caicos Islands,TCA,United Nations Population Division,5016.0,-0.005980861244019139,False,False,False,False,-0.8819622301201469,False
+217,1,1954,5028,Turks and Caicos Islands,TCA,United Nations Population Division,4986.0,0.00842358604091456,False,False,False,False,-0.8788519980605153,False
+217,1,1955,5135,Turks and Caicos Islands,TCA,United Nations Population Division,5028.0,0.021280827366746222,False,False,False,False,-0.8709283116228823,False
+217,1,1956,5251,Turks and Caicos Islands,TCA,United Nations Population Division,5135.0,0.022590068159688413,False,False,False,False,-0.8623381468867568,False
+217,1,1957,5358,Turks and Caicos Islands,TCA,United Nations Population Division,5251.0,0.020377071034088746,False,False,False,False,-0.8544144604491238,False
+217,1,1958,5446,Turks and Caicos Islands,TCA,United Nations Population Division,5358.0,0.016424038820455393,False,False,False,False,-0.8478977837527528,False
+217,1,1959,5534,Turks and Caicos Islands,TCA,United Nations Population Division,5446.0,0.016158648549394052,False,False,False,False,-0.8413811070563818,False
+217,1,1960,5600,Turks and Caicos Islands,TCA,United Nations Population Division,5534.0,0.011926273942898446,False,False,False,False,-0.8364935995341035,False
+217,1,1961,5622,Turks and Caicos Islands,TCA,United Nations Population Division,5600.0,0.003928571428571429,False,False,False,False,-0.8348644303600108,False
+217,1,1962,5636,Turks and Caicos Islands,TCA,United Nations Population Division,5622.0,0.0024902170046246885,False,False,False,False,-0.8338276863401336,False
+217,1,1963,5647,Turks and Caicos Islands,TCA,United Nations Population Division,5636.0,0.0019517388218594747,False,False,False,False,-0.8330131017530872,False
+217,1,1964,5658,Turks and Caicos Islands,TCA,United Nations Population Division,5647.0,0.0019479369576766426,False,False,False,False,-0.8321985171660408,False
+217,1,1965,5658,Turks and Caicos Islands,TCA,United Nations Population Division,5658.0,0.0,False,False,False,False,-0.8321985171660408,False
+217,1,1966,5654,Turks and Caicos Islands,TCA,United Nations Population Division,5658.0,-0.0007069635913750442,False,False,False,False,-0.8324947297431485,False
+217,1,1967,5658,Turks and Caicos Islands,TCA,United Nations Population Division,5654.0,0.0007074637424831977,False,False,False,False,-0.8321985171660408,False
+217,1,1968,5656,Turks and Caicos Islands,TCA,United Nations Population Division,5658.0,-0.0003534817956875221,False,False,False,False,-0.8323466234545946,False
+217,1,1969,5653,Turks and Caicos Islands,TCA,United Nations Population Division,5656.0,-0.0005304101838755304,False,False,False,False,-0.8325687828874255,False
+217,1,1970,5667,Turks and Caicos Islands,TCA,United Nations Population Division,5653.0,0.0024765611179904477,False,False,False,False,-0.8315320388675483,False
+217,1,1971,5754,Turks and Caicos Islands,TCA,United Nations Population Division,5667.0,0.015352038115404976,False,False,False,False,-0.8250894153154542,False
+217,1,1972,5915,Turks and Caicos Islands,TCA,United Nations Population Division,5754.0,0.027980535279805353,False,False,False,False,-0.8131668590868664,False
+217,1,1973,6090,Turks and Caicos Islands,TCA,United Nations Population Division,5915.0,0.029585798816568046,False,False,False,False,-0.8002075588384012,False
+217,1,1974,6273,Turks and Caicos Islands,TCA,United Nations Population Division,6090.0,0.030049261083743842,False,False,False,False,-0.7866558334357205,False
+217,1,1975,6463,Turks and Caicos Islands,TCA,United Nations Population Division,6273.0,0.030288538179499443,False,False,False,False,-0.7725857360231012,False
+217,1,1976,6660,Turks and Caicos Islands,TCA,United Nations Population Division,6463.0,0.03048120068079839,False,False,False,False,-0.7579972666005433,False
+217,1,1977,6864,Turks and Caicos Islands,TCA,United Nations Population Division,6660.0,0.03063063063063063,False,False,False,False,-0.7428904251680469,False
+217,1,1978,7084,Turks and Caicos Islands,TCA,United Nations Population Division,6864.0,0.03205128205128205,False,False,False,False,-0.7265987334271193,False
+217,1,1979,7306,Turks and Caicos Islands,TCA,United Nations Population Division,7084.0,0.031338226990400904,False,False,False,False,-0.7101589353976379,False
+217,1,1980,7564,Turks and Caicos Islands,TCA,United Nations Population Division,7306.0,0.035313441007391186,False,False,False,False,-0.6910532241741865,False
+217,1,1981,7908,Turks and Caicos Islands,TCA,United Nations Population Division,7564.0,0.04547858276044421,False,False,False,False,-0.6655789425429178,False
+217,1,1982,8297,Turks and Caicos Islands,TCA,United Nations Population Division,7908.0,0.04919069296914517,False,False,False,False,-0.6367722694191867,False
+217,1,1983,8697,Turks and Caicos Islands,TCA,United Nations Population Division,8297.0,0.04821019645655056,False,False,False,False,-0.6071510117084093,False
+217,1,1984,9108,Turks and Caicos Islands,TCA,United Nations Population Division,8697.0,0.04725767506036564,False,False,False,False,-0.5767151694105855,False
+217,1,1985,9522,Turks and Caicos Islands,TCA,United Nations Population Division,9108.0,0.045454545454545456,False,False,False,False,-0.546057167679931,False
+217,1,1986,9942,Turks and Caicos Islands,TCA,United Nations Population Division,9522.0,0.04410838059231254,False,False,False,False,-0.5149548470836147,False
+217,1,1987,10362,Turks and Caicos Islands,TCA,United Nations Population Division,9942.0,0.04224502112251056,False,False,False,False,-0.4838525264872984,False
+217,1,1988,10776,Turks and Caicos Islands,TCA,United Nations Population Division,10362.0,0.039953676896352056,False,False,False,False,-0.45319452475664374,False
+217,1,1989,11193,Turks and Caicos Islands,TCA,United Nations Population Division,10776.0,0.03869710467706013,False,False,False,False,-0.4223143635931583,False
+217,1,1990,11688,Turks and Caicos Islands,TCA,United Nations Population Division,11193.0,0.044224068614312516,False,False,False,False,-0.38565805717607127,False
+217,1,1991,12305,Turks and Caicos Islands,TCA,United Nations Population Division,11688.0,0.05278918548939083,False,False,False,False,-0.3399672671571971,False
+217,1,1992,12970,Turks and Caicos Islands,TCA,United Nations Population Division,12305.0,0.05404307192198293,False,False,False,False,-0.2907219262130296,False
+217,1,1993,13648,Turks and Caicos Islands,TCA,United Nations Population Division,12970.0,0.05227447956823439,False,False,False,False,-0.2405138943932619,False
+217,1,1994,14344,Turks and Caicos Islands,TCA,United Nations Population Division,13648.0,0.050996483001172335,False,False,False,False,-0.1889729059765092,False
+217,1,1995,15052,Turks and Caicos Islands,TCA,United Nations Population Division,14344.0,0.04935861684327942,False,False,False,False,-0.13654327982843317,False
+217,1,1996,15766,Turks and Caicos Islands,TCA,United Nations Population Division,15052.0,0.047435556736646296,False,False,False,False,-0.08366933481469548,False
+217,1,1997,16482,Turks and Caicos Islands,TCA,United Nations Population Division,15766.0,0.04541418241786122,False,False,False,False,-0.0306472835124039,False
+217,1,1998,17213,Turks and Caicos Islands,TCA,United Nations Population Division,16482.0,0.04435141366339036,False,False,False,False,0.023485564954041825,False
+217,1,1999,17959,Turks and Caicos Islands,TCA,United Nations Population Division,17213.0,0.04333933654795794,False,False,False,False,0.0787292105846417,False
+217,1,2000,18730,Turks and Caicos Islands,TCA,United Nations Population Division,17959.0,0.042931120886463614,False,False,False,False,0.13582418482216518,False
+217,1,2001,19577,Turks and Caicos Islands,TCA,United Nations Population Division,18730.0,0.04522156967431928,False,False,False,False,0.19854719802473636,False
+217,1,2002,20597,Turks and Caicos Islands,TCA,United Nations Population Division,19577.0,0.052101956377381624,False,False,False,False,0.2740814051872188,False
+217,1,2003,21728,Turks and Caicos Islands,TCA,United Nations Population Division,20597.0,0.05491090935573142,False,False,False,False,0.3578355113644419,False
+217,1,2004,22856,Turks and Caicos Islands,TCA,United Nations Population Division,21728.0,0.05191458026509573,False,False,False,False,0.4413674581088342,False
+217,1,2005,23988,Turks and Caicos Islands,TCA,United Nations Population Division,22856.0,0.04952747637381869,False,False,False,False,0.5251956174303343,False
+217,1,2006,25124,Turks and Caicos Islands,TCA,United Nations Population Division,23988.0,0.04735701183925296,False,False,False,False,0.6093199893289422,False
+217,1,2007,26270,Turks and Caicos Islands,TCA,United Nations Population Division,25124.0,0.045613755771373984,False,False,False,False,0.6941848926703195,False
+217,1,2008,27428,Turks and Caicos Islands,TCA,United Nations Population Division,26270.0,0.04408070041872859,False,False,False,False,0.7799384337430201,False
+217,1,2009,28589,Turks and Caicos Islands,TCA,United Nations Population Division,27428.0,0.042329006854309466,False,False,False,False,0.8659141342485516,False
+217,1,2010,29739,Turks and Caicos Islands,TCA,United Nations Population Division,28589.0,0.04022526146419952,False,False,False,False,0.9510752501670366,False
+217,1,2011,30846,Turks and Caicos Islands,TCA,United Nations Population Division,29739.0,0.037223847473015235,False,False,False,False,1.033052080881613,False
+217,1,2012,32127,Turks and Caicos Islands,TCA,United Nations Population Division,30846.0,0.04152888543085003,False,False,False,False,1.1279141587003778,False
+217,1,2013,33653,Turks and Caicos Islands,TCA,United Nations Population Division,32127.0,0.04749898838982787,False,False,False,False,1.2409192568669936,False
+217,1,2014,35050,Turks and Caicos Islands,TCA,United Nations Population Division,33653.0,0.04151190087065046,False,False,False,False,1.3443714994218838,False
+217,1,2015,36605,Turks and Caicos Islands,TCA,United Nations Population Division,35050.0,0.044365192582025675,False,False,False,False,1.459524138772531,False
+217,1,2016,38315,Turks and Caicos Islands,TCA,United Nations Population Division,36605.0,0.04671492965441879,False,False,False,False,1.5861550154861044,False
+217,1,2017,39913,Turks and Caicos Islands,TCA,United Nations Population Division,38315.0,0.041706903301579015,False,False,False,False,1.7044919400406602,False
+217,1,2018,41559,Turks and Caicos Islands,TCA,United Nations Population Division,39913.0,0.041239696339538494,False,False,False,False,1.8263834155205092,False
+217,1,2019,43166,Turks and Caicos Islands,TCA,United Nations Population Division,41559.0,0.03866791789985322,False,False,False,False,1.9453868183735576,False
+217,1,2020,44386,Turks and Caicos Islands,TCA,United Nations Population Division,43166.0,0.028262984756521337,False,False,False,False,2.035731654391429,False
+217,1,2021,45244,Turks and Caicos Islands,TCA,United Nations Population Division,44386.0,0.01933041950164466,False,False,False,False,2.0992692521810463,False
+217,1,2022,45848,Turks and Caicos Islands,TCA,United Nations Population Division,45244.0,0.013349836442401203,False,False,False,False,2.14399735132432,False
+217,1,2023,46198,Turks and Caicos Islands,TCA,United Nations Population Division,45848.0,0.007633920781713488,False,False,False,False,2.1699159518212503,False
+217,1,2024,46535,Turks and Caicos Islands,TCA,United Nations Population Division,46198.0,0.00729468808173514,False,False,False,False,2.1948718614425804,False
+217,1,2025,46855,Turks and Caicos Islands,TCA,United Nations Population Division,46535.0,0.006876544536370474,False,False,False,False,2.2185688676112023,False
+217,2,1960,5599,Turks and Caicos Islands,TCA,World Bank,,0.0,False,False,False,False,-0.944968648269491,False
+217,2,1961,5622,Turks and Caicos Islands,TCA,World Bank,5599.0,0.004107876406501161,False,False,False,False,-0.9431864538284597,False
+217,2,1962,5636,Turks and Caicos Islands,TCA,World Bank,5622.0,0.0024902170046246885,False,False,False,False,-0.9421016398208755,False
+217,2,1963,5647,Turks and Caicos Islands,TCA,World Bank,5636.0,0.0019517388218594747,False,False,False,False,-0.9412492859577736,False
+217,2,1964,5657,Turks and Caicos Islands,TCA,World Bank,5647.0,0.0017708517797060386,False,False,False,False,-0.9404744188094991,False
+217,2,1965,5658,Turks and Caicos Islands,TCA,World Bank,5657.0,0.00017677214071062401,False,False,False,False,-0.9403969320946717,False
+217,2,1966,5654,Turks and Caicos Islands,TCA,World Bank,5658.0,-0.0007069635913750442,False,False,False,False,-0.9407068789539814,False
+217,2,1967,5657,Turks and Caicos Islands,TCA,World Bank,5654.0,0.0005305978068623983,False,False,False,False,-0.9404744188094991,False
+217,2,1968,5656,Turks and Caicos Islands,TCA,World Bank,5657.0,-0.00017677214071062401,False,False,False,False,-0.9405519055243265,False
+217,2,1969,5652,Turks and Caicos Islands,TCA,World Bank,5656.0,-0.0007072135785007072,False,False,False,False,-0.9408618523836363,False
+217,2,1970,5667,Turks and Caicos Islands,TCA,World Bank,5652.0,0.002653927813163482,False,False,False,False,-0.9396995516612247,False
+217,2,1971,5754,Turks and Caicos Islands,TCA,World Bank,5667.0,0.015352038115404976,False,False,False,False,-0.9329582074712368,False
+217,2,1972,5915,Turks and Caicos Islands,TCA,World Bank,5754.0,0.027980535279805353,False,False,False,False,-0.920482846384018,False
+217,2,1973,6090,Turks and Caicos Islands,TCA,World Bank,5915.0,0.029585798816568046,False,False,False,False,-0.906922671289215,False
+217,2,1974,6273,Turks and Caicos Islands,TCA,World Bank,6090.0,0.030049261083743842,False,False,False,False,-0.8927426024757924,False
+217,2,1975,6463,Turks and Caicos Islands,TCA,World Bank,6273.0,0.030288538179499443,False,False,False,False,-0.8780201266585776,False
+217,2,1976,6660,Turks and Caicos Islands,TCA,World Bank,6463.0,0.03048120068079839,False,False,False,False,-0.8627552438375709,False
+217,2,1977,6864,Turks and Caicos Islands,TCA,World Bank,6660.0,0.03063063063063063,False,False,False,False,-0.8469479540127719,False
+217,2,1978,7083,Turks and Caicos Islands,TCA,World Bank,6864.0,0.03190559440559441,False,False,False,False,-0.8299783634655612,False
+217,2,1979,7306,Turks and Caicos Islands,TCA,World Bank,7083.0,0.03148383453338981,False,False,False,False,-0.8126988260590408,False
+217,2,1980,7564,Turks and Caicos Islands,TCA,World Bank,7306.0,0.035313441007391186,False,False,False,False,-0.7927072536335596,False
+217,2,1981,7908,Turks and Caicos Islands,TCA,World Bank,7564.0,0.04547858276044421,False,False,False,False,-0.7660518237329182,False
+217,2,1982,8297,Turks and Caicos Islands,TCA,World Bank,7908.0,0.04919069296914517,False,False,False,False,-0.7359094916650418,False
+217,2,1983,8697,Turks and Caicos Islands,TCA,World Bank,8297.0,0.04821019645655056,False,False,False,False,-0.7049148057340634,False
+217,2,1984,9107,Turks and Caicos Islands,TCA,World Bank,8697.0,0.0471426928826032,False,False,False,False,-0.6731452526548106,False
+217,2,1985,9521,Turks and Caicos Islands,TCA,World Bank,9107.0,0.045459536620182275,False,False,False,False,-0.641065752716248,False
+217,2,1986,9941,Turks and Caicos Islands,TCA,World Bank,9521.0,0.044113013338934984,False,False,False,False,-0.6085213324887206,False
+217,2,1987,10361,Turks and Caicos Islands,TCA,World Bank,9941.0,0.04224927069711296,False,False,False,False,-0.5759769122611934,False
+217,2,1988,10775,Turks and Caicos Islands,TCA,World Bank,10361.0,0.03995753305665476,False,False,False,False,-0.5438974123226308,False
+217,2,1989,11193,Turks and Caicos Islands,TCA,World Bank,10775.0,0.03879350348027842,False,False,False,False,-0.5115079655247584,False
+217,2,1990,11688,Turks and Caicos Islands,TCA,World Bank,11193.0,0.044224068614312516,False,False,False,False,-0.4731520416851726,False
+217,2,1991,12305,Turks and Caicos Islands,TCA,World Bank,11688.0,0.05278918548939083,False,False,False,False,-0.42534273863663846,False
+217,2,1992,12970,Turks and Caicos Islands,TCA,World Bank,12305.0,0.05404307192198293,False,False,False,False,-0.37381407327638694,False
+217,2,1993,13648,Turks and Caicos Islands,TCA,World Bank,12970.0,0.05227447956823439,False,False,False,False,-0.3212780806233786,False
+217,2,1994,14344,Turks and Caicos Islands,TCA,World Bank,13648.0,0.050996483001172335,False,False,False,False,-0.2673473271034762,False
+217,2,1995,15052,Turks and Caicos Islands,TCA,World Bank,14344.0,0.04935861684327942,False,False,False,False,-0.21248673300564447,False
+217,2,1996,15765,Turks and Caicos Islands,TCA,World Bank,15052.0,0.0473691203826734,False,False,False,False,-0.1572387053336755,False
+217,2,1997,16482,Turks and Caicos Islands,TCA,World Bank,15765.0,0.04548049476688868,False,False,False,False,-0.10168073080239676,False
+217,2,1998,17212,Turks and Caicos Islands,TCA,World Bank,16482.0,0.044290741414876836,False,False,False,False,-0.045115428978361224,False
+217,2,1999,17959,Turks and Caicos Islands,TCA,World Bank,17212.0,0.04339995352079944,False,False,False,False,0.012767146997740899,False
+217,2,2000,18730,Turks and Caicos Islands,TCA,World Bank,17959.0,0.042931120886463614,False,False,False,False,0.07250940412970172,False
+217,2,2001,19576,Turks and Caicos Islands,TCA,World Bank,18730.0,0.045168179391350774,False,False,False,False,0.138063164873721,False
+217,2,2002,20597,Turks and Caicos Islands,TCA,World Bank,19576.0,0.05215570085819371,False,False,False,False,0.2171771007125433,False
+217,2,2003,21727,Turks and Caicos Islands,TCA,World Bank,20597.0,0.05486235859591203,False,False,False,False,0.3047370884675572,False
+217,2,2004,22856,Turks and Caicos Islands,TCA,World Bank,21727.0,0.05196299535140608,False,False,False,False,0.39221958950774366,False
+217,2,2005,23988,Turks and Caicos Islands,TCA,World Bank,22856.0,0.04952747637381869,False,False,False,False,0.4799345506924125,False
+217,2,2006,25123,Turks and Caicos Islands,TCA,World Bank,23988.0,0.04731532432883108,False,False,False,False,0.5678819720215637,False
+217,2,2007,26270,Turks and Caicos Islands,TCA,World Bank,25123.0,0.045655375552282766,False,False,False,False,0.6567592339286441,False
+217,2,2008,27427,Turks and Caicos Islands,TCA,World Bank,26270.0,0.04404263418347926,False,False,False,False,0.7464113629839991,False
+217,2,2009,28588,Turks and Caicos Islands,TCA,World Bank,27427.0,0.042330550187771175,False,False,False,False,0.8363734388986639,False
+217,2,2010,29739,Turks and Caicos Islands,TCA,World Bank,28588.0,0.04026164824401847,False,False,False,False,0.9255606476650541,False
+217,2,2011,30846,Turks and Caicos Islands,TCA,World Bank,29739.0,0.037223847473015235,False,False,False,False,1.0113384409790367,False
+217,2,2012,32127,Turks and Caicos Islands,TCA,World Bank,30846.0,0.04152888543085003,False,False,False,False,1.110598922672995,False
+217,2,2013,33653,Turks and Caicos Islands,TCA,World Bank,32127.0,0.04749898838982787,False,False,False,False,1.2288436494996775,False
+217,2,2014,35050,Turks and Caicos Islands,TCA,World Bank,33653.0,0.04151190087065046,False,False,False,False,1.3370925901136195,False
+217,2,2015,36605,Turks and Caicos Islands,TCA,World Bank,35050.0,0.044365192582025675,False,False,False,False,1.457584431670298,False
+217,2,2016,38315,Turks and Caicos Islands,TCA,World Bank,36605.0,0.04671492965441879,False,False,False,False,1.5900867140252306,False
+217,2,2017,39913,Turks and Caicos Islands,TCA,World Bank,38315.0,0.041706903301579015,False,False,False,False,1.7139104843194892,False
+217,2,2018,41559,Turks and Caicos Islands,TCA,World Bank,39913.0,0.041239696339538494,False,False,False,False,1.8414536169254652,False
+217,2,2019,43166,Turks and Caicos Islands,TCA,World Bank,41559.0,0.03866791789985322,False,False,False,False,1.965974767653171,False
+217,2,2020,44386,Turks and Caicos Islands,TCA,World Bank,43166.0,0.028262984756521337,False,False,False,False,2.060508559742655,False
+217,2,2021,45243,Turks and Caicos Islands,TCA,World Bank,44386.0,0.01930788987518587,False,False,False,False,2.126914674349776,False
+217,2,2022,45847,Turks and Caicos Islands,TCA,World Bank,45243.0,0.013350131512057113,False,False,False,False,2.1737166501055536,False
+217,2,2023,46198,Turks and Caicos Islands,TCA,World Bank,45847.0,0.0076558989683076315,False,False,False,False,2.200914487009987,False
+217,4,1950,5037,Turks and Caicos Islands,TCA,Census Bureau,,0.0,False,False,False,False,-0.8052132333793919,False
+217,4,1951,5022,Turks and Caicos Islands,TCA,Census Bureau,5037.0,-0.0029779630732578916,False,False,False,False,-0.8060365014299657,False
+217,4,1952,5030,Turks and Caicos Islands,TCA,Census Bureau,5022.0,0.0015929908403026682,False,False,False,False,-0.8055974251363264,False
+217,4,1953,5033,Turks and Caicos Islands,TCA,Census Bureau,5030.0,0.0005964214711729623,False,False,False,False,-0.8054327715262115,False
+217,4,1954,5066,Turks and Caicos Islands,TCA,Census Bureau,5033.0,0.0065567256109676135,False,False,False,False,-0.8036215818149491,False
+217,4,1955,5162,Turks and Caicos Islands,TCA,Census Bureau,5066.0,0.0189498618239242,False,False,False,False,-0.7983526662912765,False
+217,4,1956,5269,Turks and Caicos Islands,TCA,Census Bureau,5162.0,0.020728399845021308,False,False,False,False,-0.7924800208638497,False
+217,4,1957,5382,Turks and Caicos Islands,TCA,Census Bureau,5269.0,0.021446194723856518,False,False,False,False,-0.7862780682161935,False
+217,4,1958,5508,Turks and Caicos Islands,TCA,Census Bureau,5382.0,0.023411371237458192,False,False,False,False,-0.7793626165913732,False
+217,4,1959,5624,Turks and Caicos Islands,TCA,Census Bureau,5508.0,0.021060275962236745,False,False,False,False,-0.7729960103336021,False
+217,4,1960,5726,Turks and Caicos Islands,TCA,Census Bureau,5624.0,0.01813655761024182,False,False,False,False,-0.7673977875897,False
+217,4,1961,5799,Turks and Caicos Islands,TCA,Census Bureau,5726.0,0.012748864827104436,False,False,False,False,-0.7633912164102407,False
+217,4,1962,5842,Turks and Caicos Islands,TCA,Census Bureau,5799.0,0.007415071564062769,False,False,False,False,-0.7610311813319289,False
+217,4,1963,5858,Turks and Caicos Islands,TCA,Census Bureau,5842.0,0.0027387880862718246,False,False,False,False,-0.7601530287446502,False
+217,4,1964,5842,Turks and Caicos Islands,TCA,Census Bureau,5858.0,-0.0027313076135199728,False,False,False,False,-0.7610311813319289,False
+217,4,1965,5768,Turks and Caicos Islands,TCA,Census Bureau,5842.0,-0.01266689489900719,False,False,False,False,-0.7650926370480933,False
+217,4,1966,5686,Turks and Caicos Islands,TCA,Census Bureau,5768.0,-0.014216366158113732,False,False,False,False,-0.7695931690578969,False
+217,4,1967,5639,Turks and Caicos Islands,TCA,Census Bureau,5686.0,-0.008265916285613788,False,False,False,False,-0.7721727422830282,False
+217,4,1968,5609,Turks and Caicos Islands,TCA,Census Bureau,5639.0,-0.005320092214931725,False,False,False,False,-0.773819278384176,False
+217,4,1969,5600,Turks and Caicos Islands,TCA,Census Bureau,5609.0,-0.0016045640934212871,False,False,False,False,-0.7743132392145203,False
+217,4,1970,5617,Turks and Caicos Islands,TCA,Census Bureau,5600.0,0.0030357142857142857,False,False,False,False,-0.7733802020905366,False
+217,4,1971,5788,Turks and Caicos Islands,TCA,Census Bureau,5617.0,0.030443297133701263,False,False,False,False,-0.7639949463139948,False
+217,4,1972,5960,Turks and Caicos Islands,TCA,Census Bureau,5788.0,0.029716655148583276,False,False,False,False,-0.7545548060007481,False
+217,4,1973,6135,Turks and Caicos Islands,TCA,Census Bureau,5960.0,0.02936241610738255,False,False,False,False,-0.7449500120773865,False
+217,4,1974,6308,Turks and Caicos Islands,TCA,Census Bureau,6135.0,0.02819885900570497,False,False,False,False,-0.7354549872274349,False
+217,4,1975,6468,Turks and Caicos Islands,TCA,Census Bureau,6308.0,0.025364616360177554,False,False,False,False,-0.7266734613546472,False
+217,4,1976,6651,Turks and Caicos Islands,TCA,Census Bureau,6468.0,0.02829313543599258,False,False,False,False,-0.7166295911376463,False
+217,4,1977,6859,Turks and Caicos Islands,TCA,Census Bureau,6651.0,0.031273492707863476,False,False,False,False,-0.7052136075030224,False
+217,4,1978,7049,Turks and Caicos Islands,TCA,Census Bureau,6859.0,0.027700831024930747,False,False,False,False,-0.694785545529087,False
+217,4,1979,7254,Turks and Caicos Islands,TCA,Census Bureau,7049.0,0.029082139310540503,False,False,False,False,-0.6835342155045778,False
+217,4,1980,7465,Turks and Caicos Islands,TCA,Census Bureau,7254.0,0.02908740005514199,False,False,False,False,-0.6719535782598391,False
+217,4,1981,7791,Turks and Caicos Islands,TCA,Census Bureau,7465.0,0.04367046215673141,False,False,False,False,-0.6540612192940343,False
+217,4,1982,8149,Turks and Caicos Islands,TCA,Census Bureau,7791.0,0.0459504556539597,False,False,False,False,-0.6344125551536719,False
+217,4,1983,8524,Turks and Caicos Islands,TCA,Census Bureau,8149.0,0.04601791630874954,False,False,False,False,-0.6138308538893258,False
+217,4,1984,8911,Turks and Caicos Islands,TCA,Census Bureau,8524.0,0.045401220084467384,False,False,False,False,-0.5925905381845206,False
+217,4,1985,9316,Turks and Caicos Islands,TCA,Census Bureau,8911.0,0.04544944450678936,False,False,False,False,-0.5703623008190268,False
+217,4,1986,9733,Turks and Caicos Islands,TCA,Census Bureau,9316.0,0.04476170030055818,False,False,False,False,-0.547475449013074,False
+217,4,1987,10163,Turks and Caicos Islands,TCA,Census Bureau,9733.0,0.04417959519161615,False,False,False,False,-0.5238750982299571,False
+217,4,1988,10610,Turks and Caicos Islands,TCA,Census Bureau,10163.0,0.04398307586342615,False,False,False,False,-0.4993417103228566,False
+217,4,1989,11060,Turks and Caicos Islands,TCA,Census Bureau,10610.0,0.04241281809613572,False,False,False,False,-0.47464366880564135,False
+217,4,1990,11514,Turks and Caicos Islands,TCA,Census Bureau,11060.0,0.04104882459312839,False,False,False,False,-0.44972608914160633,False
+217,4,1991,12140,Turks and Caicos Islands,TCA,Census Bureau,11514.0,0.05436859475421226,False,False,False,False,-0.4153683691643246,False
+217,4,1992,12798,Turks and Caicos Islands,TCA,Census Bureau,12140.0,0.05420098846787479,False,False,False,False,-0.37925434401248537,False
+217,4,1993,13485,Turks and Caicos Islands,TCA,Census Bureau,12798.0,0.05368026254102203,False,False,False,False,-0.34154866729620337,False
+217,4,1994,14199,Turks and Caicos Islands,TCA,Census Bureau,13485.0,0.052947719688542824,False,False,False,False,-0.3023611080888884,False
+217,4,1995,14940,Turks and Caicos Islands,TCA,Census Bureau,14199.0,0.052186773716458905,False,False,False,False,-0.26169166639054053,False
+217,4,1996,15719,Turks and Caicos Islands,TCA,Census Bureau,14940.0,0.05214190093708166,False,False,False,False,-0.21893661229740563,False
+217,4,1997,16542,Turks and Caicos Islands,TCA,Census Bureau,15719.0,0.052357020166677266,False,False,False,False,-0.1737666385892541,False
+217,4,1998,17420,Turks and Caicos Islands,TCA,Census Bureau,16542.0,0.053077016080280495,False,False,False,False,-0.1255780153623318,False
+217,4,1999,18342,Turks and Caicos Islands,TCA,Census Bureau,17420.0,0.05292766934557979,False,False,False,False,-0.07497447252039291,False
+217,4,2000,19271,Turks and Caicos Islands,TCA,Census Bureau,18342.0,0.05064878421110021,False,False,False,False,-0.023986737921519546,False
+217,4,2001,20215,Turks and Caicos Islands,TCA,Census Bureau,19271.0,0.048985522287374815,False,False,False,False,0.027824264727927657,False
+217,4,2002,21406,Turks and Caicos Islands,TCA,Census Bureau,20215.0,0.05891664605490972,False,False,False,False,0.0931917479434908,False
+217,4,2003,22919,Turks and Caicos Islands,TCA,Census Bureau,21406.0,0.07068111744370738,False,False,False,False,0.17623205197803912,False
+217,4,2004,24950,Turks and Caicos Islands,TCA,Census Bureau,22919.0,0.08861643178149134,False,False,False,False,0.2877025460257375,False
+217,4,2005,27588,Turks and Caicos Islands,TCA,Census Bureau,24950.0,0.1057314629258517,False,True,True,False,0.43248795385332406,True
+217,4,2006,30579,Turks and Caicos Islands,TCA,Census Bureau,27588.0,0.10841670291431058,False,True,True,False,0.5966476031377485,True
+217,4,2007,33904,Turks and Caicos Islands,TCA,Census Bureau,30579.0,0.10873475260799895,False,True,True,False,0.779138687681617,True
+217,4,2008,37605,Turks and Caicos Islands,TCA,Census Bureau,33904.0,0.10916116092496461,False,True,True,False,0.9822663580265366,True
+217,4,2009,40971,Turks and Caicos Islands,TCA,Census Bureau,37605.0,0.08950937375349023,False,False,False,False,1.167007708575307,False
+217,4,2010,43214,Turks and Caicos Islands,TCA,Census Bureau,40971.0,0.054746039881867666,False,False,False,False,1.290113724404449,False
+217,4,2011,44842,Turks and Caicos Islands,TCA,Census Bureau,43214.0,0.03767297635025686,False,False,False,False,1.3794657501600636,False
+217,4,2012,46379,Turks and Caicos Islands,TCA,Census Bureau,44842.0,0.034275902056108115,False,False,False,False,1.46382328307553,False
+217,4,2013,47820,Turks and Caicos Islands,TCA,Census Bureau,46379.0,0.031070096379827078,False,False,False,False,1.5429119004673237,False
+217,4,2014,49157,Turks and Caicos Islands,TCA,Census Bureau,47820.0,0.02795901296528649,False,False,False,False,1.6162925260418057,False
+217,4,2015,50386,Turks and Caicos Islands,TCA,Census Bureau,49157.0,0.02500152572370161,False,False,False,False,1.683745621652156,False
+217,4,2016,51555,Turks and Caicos Islands,TCA,Census Bureau,50386.0,0.023200889135871074,False,False,False,False,1.7479056450602108,False
+217,4,2017,52711,Turks and Caicos Islands,TCA,Census Bureau,51555.0,0.022422655416545437,False,False,False,False,1.8113521694911017,False
+217,4,2018,53854,Turks and Caicos Islands,TCA,Census Bureau,52711.0,0.021684278423858398,False,False,False,False,1.8740851949448285,False
+217,4,2019,54982,Turks and Caicos Islands,TCA,Census Bureau,53854.0,0.020945519367177926,False,False,False,False,1.9359949523479816,False
+217,4,2020,56095,Turks and Caicos Islands,TCA,Census Bureau,54982.0,0.02024298861445564,False,False,False,False,1.9970814417005607,False
+217,4,2021,57196,Turks and Caicos Islands,TCA,Census Bureau,56095.0,0.01962741777342009,False,False,False,False,2.057509316612681,False
+217,4,2022,58286,Turks and Caicos Islands,TCA,Census Bureau,57196.0,0.019057276732638646,False,False,False,False,2.1173334616210466,False
+217,4,2023,59367,Turks and Caicos Islands,TCA,Census Bureau,58286.0,0.018546477713344542,False,False,False,False,2.1766636457990685,False
+217,4,2024,60439,Turks and Caicos Islands,TCA,Census Bureau,59367.0,0.01805716980814257,False,False,False,False,2.2354998691467456,False

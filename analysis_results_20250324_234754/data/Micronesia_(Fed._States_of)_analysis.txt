@@ -1,0 +1,14 @@
+Population Analysis for Micronesia (Fed. States of)
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 113,683
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (1):
+Year 1994: decrease of -10.3% from previous year, Source: Census Bureau

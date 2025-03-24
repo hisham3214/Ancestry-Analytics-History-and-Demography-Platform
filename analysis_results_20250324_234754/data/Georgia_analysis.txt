@@ -1,0 +1,14 @@
+Population Analysis for Georgia
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 5
+Latest population: 3,806,671
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (1):
+Year 2015: decrease of -16.9% from previous year, Source: Eurostat

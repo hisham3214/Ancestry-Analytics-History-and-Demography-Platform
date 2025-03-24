@@ -1,0 +1,41 @@
+Population Analysis for Kuwait
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 5,026,078
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (28):
+Year 1956: increase of 11.3% from previous year, Source: United Nations Population Division
+Year 1958: increase of 10.2% from previous year, Source: United Nations Population Division
+Year 1959: increase of 11.7% from previous year, Source: United Nations Population Division
+Year 1960: increase of 11.3% from previous year, Source: United Nations Population Division
+Year 1961: increase of 11.2% from previous year, Source: United Nations Population Division
+Year 1962: increase of 11.3% from previous year, Source: United Nations Population Division
+Year 1963: increase of 11.1% from previous year, Source: United Nations Population Division
+Year 1964: increase of 10.6% from previous year, Source: United Nations Population Division
+Year 1965: increase of 10.2% from previous year, Source: United Nations Population Division
+Year 1990: decrease of -24.0% from previous year, Source: United Nations Population Division
+Year 1991: decrease of -19.8% from previous year, Source: United Nations Population Division
+Year 1992: increase of 21.0% from previous year, Source: United Nations Population Division
+Year 1961: increase of 11.2% from previous year, Source: World Bank
+Year 1962: increase of 11.3% from previous year, Source: World Bank
+Year 1963: increase of 11.1% from previous year, Source: World Bank
+Year 1964: increase of 10.6% from previous year, Source: World Bank
+Year 1965: increase of 10.2% from previous year, Source: World Bank
+Year 1990: decrease of -24.0% from previous year, Source: World Bank
+Year 1991: decrease of -19.8% from previous year, Source: World Bank
+Year 1992: increase of 21.0% from previous year, Source: World Bank
+Year 1958: increase of 10.3% from previous year, Source: Census Bureau
+Year 1959: increase of 11.6% from previous year, Source: Census Bureau
+Year 1960: increase of 11.5% from previous year, Source: Census Bureau
+Year 1961: increase of 11.3% from previous year, Source: Census Bureau
+Year 1962: increase of 10.1% from previous year, Source: Census Bureau
+Year 1963: increase of 10.0% from previous year, Source: Census Bureau
+Year 1991: decrease of -55.8% from previous year, Source: Census Bureau
+Year 1992: increase of 49.1% from previous year, Source: Census Bureau

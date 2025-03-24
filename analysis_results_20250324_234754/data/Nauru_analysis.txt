@@ -1,0 +1,16 @@
+Population Analysis for Nauru
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 12,026
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (3):
+Year 1952: decrease of -5.5% from previous year, Source: Census Bureau
+Year 1957: increase of 10.5% from previous year, Source: Census Bureau
+Year 1965: increase of 13.2% from previous year, Source: Census Bureau

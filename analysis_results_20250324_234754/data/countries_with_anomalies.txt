@@ -1,0 +1,57 @@
+Countries with Population Anomalies
+===============================
+
+Afghanistan: 10 anomalies
+Albania: 1 anomalies
+American Samoa: 4 anomalies
+Andorra: 12 anomalies
+Armenia: 3 anomalies
+Bosnia and Herzegovina: 6 anomalies
+Cambodia: 6 anomalies
+Cayman Islands: 1 anomalies
+China, Hong Kong SAR: 9 anomalies
+China, Macao SAR: 6 anomalies
+Cook Islands: 1 anomalies
+Cyprus: 1 anomalies
+Djibouti: 6 anomalies
+Dominica: 1 anomalies
+Equatorial Guinea: 5 anomalies
+Eritrea: 4 anomalies
+Gaza Strip: 1 anomalies
+Georgia: 1 anomalies
+Germany: 1 anomalies
+Guyana: 1 anomalies
+Israel: 1 anomalies
+Jordan: 7 anomalies
+Kosovo: 2 anomalies
+Kosovo (under UNSC res. 1244): 5 anomalies
+Kuwait: 28 anomalies
+Lebanon: 7 anomalies
+Liberia: 9 anomalies
+Malta: 1 anomalies
+Micronesia (Fed. States of): 1 anomalies
+Montserrat: 18 anomalies
+Nauru: 3 anomalies
+Niue: 5 anomalies
+North Macedonia: 3 anomalies
+Northern Mariana Islands: 17 anomalies
+Oman: 4 anomalies
+Qatar: 47 anomalies
+Republic of Moldova: 1 anomalies
+Rwanda: 12 anomalies
+Saint Helena: 3 anomalies
+Saint Martin (French part): 29 anomalies
+San Marino: 1 anomalies
+Seychelles: 1 anomalies
+Sint Maarten (Dutch part): 10 anomalies
+Somalia: 4 anomalies
+South Sudan: 2 anomalies
+Syrian Arab Republic: 5 anomalies
+Timor-Leste: 5 anomalies
+Tokelau: 3 anomalies
+Turks and Caicos Islands: 4 anomalies
+Ukraine: 7 anomalies
+United Arab Emirates: 47 anomalies
+United States Virgin Islands: 8 anomalies
+West Bank: 2 anomalies
+Western Sahara: 8 anomalies

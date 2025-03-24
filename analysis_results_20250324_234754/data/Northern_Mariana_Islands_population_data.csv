@@ -1,0 +1,216 @@
+country_id,source_id,year,population,country_name,country_code,source_name,population_prev,yoy_change,is_decrease_anomaly,is_increase_anomaly,is_yoy_anomaly,is_anomaly,population_z,is_any_anomaly
+156,1,1950,7111,Northern Mariana Islands,MNP,United Nations Population Division,,0.0,False,False,False,False,-1.253314732991034,False
+156,1,1951,7234,Northern Mariana Islands,MNP,United Nations Population Division,7111.0,0.01729714526789481,False,False,False,False,-1.2474364716840471,False
+156,1,1952,7329,Northern Mariana Islands,MNP,United Nations Population Division,7234.0,0.013132430190765827,False,False,False,False,-1.242896351162391,False
+156,1,1953,7441,Northern Mariana Islands,MNP,United Nations Population Division,7329.0,0.015281757402101241,False,False,False,False,-1.2375437880210698,False
+156,1,1954,7571,Northern Mariana Islands,MNP,United Nations Population Division,7441.0,0.01747077005778793,False,False,False,False,-1.2313309915177506,False
+156,1,1955,7728,Northern Mariana Islands,MNP,United Nations Population Division,7571.0,0.02073702285035002,False,False,False,False,-1.2238278449714344,False
+156,1,1956,7892,Northern Mariana Islands,MNP,United Nations Population Division,7728.0,0.021221532091097308,False,False,False,False,-1.2159901632287857,False
+156,1,1957,8071,Northern Mariana Islands,MNP,United Nations Population Division,7892.0,0.022681196147997972,False,False,False,False,-1.2074356203511385,False
+156,1,1958,8281,Northern Mariana Islands,MNP,United Nations Population Division,8071.0,0.026019080659150044,False,False,False,False,-1.1973995644611615,False
+156,1,1959,8497,Northern Mariana Islands,MNP,United Nations Population Division,8281.0,0.026083806303586525,False,False,False,False,-1.187076764117185,False
+156,1,1960,8737,Northern Mariana Islands,MNP,United Nations Population Division,8497.0,0.028245263034012005,False,False,False,False,-1.1756069859572111,False
+156,1,1961,8995,Northern Mariana Islands,MNP,United Nations Population Division,8737.0,0.02952958681469612,False,False,False,False,-1.1632769744352394,False
+156,1,1962,9280,Northern Mariana Islands,MNP,United Nations Population Division,8995.0,0.03168426903835464,False,False,False,False,-1.1496566128702703,False
+156,1,1963,9595,Northern Mariana Islands,MNP,United Nations Population Division,9280.0,0.03394396551724138,False,False,False,False,-1.1346025290353048,False
+156,1,1964,9926,Northern Mariana Islands,MNP,United Nations Population Division,9595.0,0.034497133923918705,False,False,False,False,-1.1187837933230076,False
+156,1,1965,10264,Northern Mariana Islands,MNP,United Nations Population Division,9926.0,0.03405198468668144,False,False,False,False,-1.1026305224143778,False
+156,1,1966,10612,Northern Mariana Islands,MNP,United Nations Population Division,10264.0,0.033904910366328915,False,False,False,False,-1.0859993440824158,False
+156,1,1967,10749,Northern Mariana Islands,MNP,United Nations Population Division,10612.0,0.01290991330569167,False,False,False,False,-1.079452012382764,False
+156,1,1968,10468,Northern Mariana Islands,MNP,United Nations Population Division,10749.0,-0.02614196669457624,False,False,False,False,-1.0928812109784,False
+156,1,1969,9989,Northern Mariana Islands,MNP,United Nations Population Division,10468.0,-0.0457585021016431,False,False,False,False,-1.1157729765560145,False
+156,1,1970,10170,Northern Mariana Islands,MNP,United Nations Population Division,9989.0,0.01811993192511763,False,False,False,False,-1.1071228521937009,False
+156,1,1971,11271,Northern Mariana Islands,MNP,United Nations Population Division,10170.0,0.10825958702064897,False,True,True,False,-1.054505244884821,True
+156,1,1972,12637,Northern Mariana Islands,MNP,United Nations Population Division,11271.0,0.12119598970810043,False,True,True,False,-0.9892230908576366,True
+156,1,1973,13881,Northern Mariana Islands,MNP,United Nations Population Division,12637.0,0.0984410857007201,False,False,False,False,-0.9297714073951057,False
+156,1,1974,14655,Northern Mariana Islands,MNP,United Nations Population Division,13881.0,0.055759671493408255,False,False,False,False,-0.8927813728291901,False
+156,1,1975,15065,Northern Mariana Islands,MNP,United Nations Population Division,14655.0,0.027976799727055614,False,False,False,False,-0.8731871684725682,False
+156,1,1976,15438,Northern Mariana Islands,MNP,United Nations Population Division,15065.0,0.024759376037172254,False,False,False,False,-0.8553612215822756,False
+156,1,1977,15787,Northern Mariana Islands,MNP,United Nations Population Division,15438.0,0.022606555253271148,False,False,False,False,-0.8386822525079802,False
+156,1,1978,16130,Northern Mariana Islands,MNP,United Nations Population Division,15787.0,0.02172673718882625,False,False,False,False,-0.8222900278876843,False
+156,1,1979,16488,Northern Mariana Islands,MNP,United Nations Population Division,16130.0,0.022194668319900804,False,False,False,False,-0.8051809421323901,False
+156,1,1980,17626,Northern Mariana Islands,MNP,United Nations Population Division,16488.0,0.06901989325570111,False,False,False,False,-0.7507950773571809,False
+156,1,1981,19826,Northern Mariana Islands,MNP,United Nations Population Division,17626.0,0.12481561329853626,False,True,True,False,-0.6456554442240876,True
+156,1,1982,22350,Northern Mariana Islands,MNP,United Nations Population Division,19826.0,0.12730757591042066,False,True,True,False,-0.5250316105750296,True
+156,1,1983,24936,Northern Mariana Islands,MNP,United Nations Population Division,22350.0,0.11570469798657718,False,True,True,False,-0.40144475090131165,True
+156,1,1984,27575,Northern Mariana Islands,MNP,United Nations Population Division,24936.0,0.10583092717356432,False,True,True,False,-0.2753249818839329,True
+156,1,1985,30258,Northern Mariana Islands,MNP,United Nations Population Division,27575.0,0.09729827742520399,False,False,False,False,-0.14710242020389225,False
+156,1,1986,32980,Northern Mariana Islands,MNP,United Nations Population Division,30258.0,0.08995968008460573,False,False,False,False,-0.017016019572855857,False
+156,1,1987,35737,Northern Mariana Islands,MNP,United Nations Population Division,32980.0,0.0835961188599151,False,False,False,False,0.11474305703984337,False
+156,1,1988,38519,Northern Mariana Islands,MNP,United Nations Population Division,35737.0,0.07784648963259368,False,False,False,False,0.24769690221087323,False
+156,1,1989,41304,Northern Mariana Islands,MNP,United Nations Population Division,38519.0,0.07230198084062411,False,False,False,False,0.38079411960890275,False
+156,1,1990,43342,Northern Mariana Islands,MNP,United Nations Population Division,41304.0,0.04934146813867906,False,False,False,False,0.47819165248401374,False
+156,1,1991,44393,Northern Mariana Islands,MNP,United Nations Population Division,43342.0,0.02424899635457524,False,False,False,False,0.5284197226762324,False
+156,1,1992,45182,Northern Mariana Islands,MNP,United Nations Population Division,44393.0,0.01777307233122339,False,False,False,False,0.5661266183771464,False
+156,1,1993,45952,Northern Mariana Islands,MNP,United Nations Population Division,45182.0,0.01704218494090567,False,False,False,False,0.602925489973729,False
+156,1,1994,46730,Northern Mariana Islands,MNP,United Nations Population Division,45952.0,0.016930710306406686,False,False,False,False,0.6401066875089775,False
+156,1,1995,48177,Northern Mariana Islands,MNP,United Nations Population Division,46730.0,0.03096511876738712,False,False,False,False,0.7092598916651529,False
+156,1,1996,51707,Northern Mariana Islands,MNP,United Nations Population Division,48177.0,0.07327147809120535,False,False,False,False,0.8779612121014345,False
+156,1,1997,56596,Northern Mariana Islands,MNP,United Nations Population Division,51707.0,0.09455199489430831,False,False,False,False,1.111610151368568,False
+156,1,1998,61337,Northern Mariana Islands,MNP,United Nations Population Division,56596.0,0.08376917096614601,False,False,False,False,1.338186060770384,False
+156,1,1999,65917,Northern Mariana Islands,MNP,United Nations Population Division,61337.0,0.07466944910902065,False,False,False,False,1.557067660656551,False
+156,1,2000,68357,Northern Mariana Islands,MNP,United Nations Population Division,65917.0,0.03701624770544776,False,False,False,False,1.6736770719496181,False
+156,1,2001,67985,Northern Mariana Islands,MNP,United Nations Population Division,68357.0,-0.0054420176426701,False,False,False,False,1.6558989158016588,False
+156,1,2002,66778,Northern Mariana Islands,MNP,United Nations Population Division,67985.0,-0.017753916305067296,False,False,False,False,1.598215489805457,False
+156,1,2003,65421,Northern Mariana Islands,MNP,United Nations Population Division,66778.0,-0.020321063823414896,False,False,False,False,1.5333634524592719,False
+156,1,2004,63939,Northern Mariana Islands,MNP,United Nations Population Division,65421.0,-0.02265327647085798,False,False,False,False,1.4625375723214336,False
+156,1,2005,62354,Northern Mariana Islands,MNP,United Nations Population Division,63939.0,-0.024789252256056556,False,False,False,False,1.3867892457232731,False
+156,1,2006,60683,Northern Mariana Islands,MNP,United Nations Population Division,62354.0,-0.02679860153318151,False,False,False,False,1.3069309152844553,False
+156,1,2007,58941,Northern Mariana Islands,MNP,United Nations Population Division,60683.0,-0.028706557025855676,False,False,False,False,1.2236794421399788,False
+156,1,2008,57150,Northern Mariana Islands,MNP,United Nations Population Division,58941.0,-0.030386318521911742,False,False,False,False,1.138086222621174,False
+156,1,2009,55326,Northern Mariana Islands,MNP,United Nations Population Division,57150.0,-0.03191601049868766,False,False,False,False,1.050915908605373,False
+156,1,2010,54091,Northern Mariana Islands,MNP,United Nations Population Division,55326.0,-0.022322235476990925,False,False,False,False,0.9918943418238412,False
+156,1,2011,53609,Northern Mariana Islands,MNP,United Nations Population Division,54091.0,-0.00891090939342959,False,False,False,False,0.9688592040192271,False
+156,1,2012,53234,Northern Mariana Islands,MNP,United Nations Population Division,53609.0,-0.006995094107332724,False,False,False,False,0.950937675644268,False
+156,1,2013,52758,Northern Mariana Islands,MNP,United Nations Population Division,53234.0,-0.008941653830258857,False,False,False,False,0.9281892822936533,False
+156,1,2014,52179,Northern Mariana Islands,MNP,United Nations Population Division,52758.0,-0.010974638917320596,False,False,False,False,0.9005184424827164,False
+156,1,2015,51514,Northern Mariana Islands,MNP,United Nations Population Division,52179.0,-0.012744590735736598,False,False,False,False,0.8687375988311222,False
+156,1,2016,50773,Northern Mariana Islands,MNP,United Nations Population Division,51514.0,-0.014384439181581705,False,False,False,False,0.8333246587622031,False
+156,1,2017,49959,Northern Mariana Islands,MNP,United Nations Population Division,50773.0,-0.016032143068166152,False,False,False,False,0.7944229945029586,False
+156,1,2018,49077,Northern Mariana Islands,MNP,United Nations Population Division,49959.0,-0.017654476670870115,False,False,False,False,0.7522715597650548,False
+156,1,2019,48129,Northern Mariana Islands,MNP,United Nations Population Division,49077.0,-0.01931658414328504,False,False,False,False,0.7069659360331582,False
+156,1,2020,47528,Northern Mariana Islands,MNP,United Nations Population Division,48129.0,-0.012487273785036048,False,False,False,False,0.6782436998908904,False
+156,1,2021,46979,Northern Mariana Islands,MNP,United Nations Population Division,47528.0,-0.011551085675812154,False,False,False,False,0.6520065823499503,False
+156,1,2022,46078,Northern Mariana Islands,MNP,United Nations Population Division,46979.0,-0.019178782008982737,False,False,False,False,0.6089471235077153,False
+156,1,2023,45143,Northern Mariana Islands,MNP,United Nations Population Division,46078.0,-0.02029167932635965,False,False,False,False,0.5642627794261507,False
+156,1,2024,44278,Northern Mariana Islands,MNP,United Nations Population Division,45143.0,-0.019161331767937443,False,False,False,False,0.5229237873079117,False
+156,1,2025,43541,Northern Mariana Islands,MNP,United Nations Population Division,44278.0,-0.01664483490672569,False,False,False,False,0.4877020102083254,False
+156,2,1960,8736,Northern Mariana Islands,MNP,World Bank,,0.0,False,False,False,False,-1.4130169374339112,False
+156,2,1961,8995,Northern Mariana Islands,MNP,World Bank,8736.0,0.029647435897435896,False,False,False,False,-1.4000725364163034,False
+156,2,1962,9280,Northern Mariana Islands,MNP,World Bank,8995.0,0.03168426903835464,False,False,False,False,-1.385828697458704,False
+156,2,1963,9595,Northern Mariana Islands,MNP,World Bank,9280.0,0.03394396551724138,False,False,False,False,-1.3700855070318836,False
+156,2,1964,9925,Northern Mariana Islands,MNP,World Bank,9595.0,0.034392912975508075,False,False,False,False,-1.3535926408704526,False
+156,2,1965,10264,Northern Mariana Islands,MNP,World Bank,9925.0,0.03415617128463476,False,False,False,False,-1.3366499692682554,False
+156,2,1966,10612,Northern Mariana Islands,MNP,World Bank,10264.0,0.033904910366328915,False,False,False,False,-1.3192574922252918,False
+156,2,1967,10749,Northern Mariana Islands,MNP,World Bank,10612.0,0.01290991330569167,False,False,False,False,-1.3124104538491825,False
+156,2,1968,10468,Northern Mariana Islands,MNP,World Bank,10749.0,-0.02614196669457624,False,False,False,False,-1.3264543792775525,False
+156,2,1969,9989,Northern Mariana Islands,MNP,World Bank,10468.0,-0.0457585021016431,False,False,False,False,-1.3503940244027812,False
+156,2,1970,10170,Northern Mariana Islands,MNP,World Bank,9989.0,0.01811993192511763,False,False,False,False,-1.3413479372051478,False
+156,2,1971,11271,Northern Mariana Islands,MNP,World Bank,10170.0,0.10825958702064897,False,True,True,False,-1.2863217382847374,True
+156,2,1972,12636,Northern Mariana Islands,MNP,World Bank,11271.0,0.12110726643598616,False,True,True,False,-1.2181012464351821,True
+156,2,1973,13880,Northern Mariana Islands,MNP,World Bank,12636.0,0.098448876226654,False,False,False,False,-1.1559281388448184,False
+156,2,1974,14655,Northern Mariana Islands,MNP,World Bank,13880.0,0.055835734870317004,False,False,False,False,-1.1171948925566093,False
+156,2,1975,15065,Northern Mariana Islands,MNP,World Bank,14655.0,0.027976799727055614,False,False,False,False,-1.0967037558105892,False
+156,2,1976,15438,Northern Mariana Islands,MNP,World Bank,15065.0,0.024759376037172254,False,False,False,False,-1.0780618192099416,False
+156,2,1977,15787,Northern Mariana Islands,MNP,World Bank,15438.0,0.022606555253271148,False,False,False,False,-1.0606193637846706,False
+156,2,1978,16130,Northern Mariana Islands,MNP,World Bank,15787.0,0.02172673718882625,False,False,False,False,-1.043476778653244,False
+156,2,1979,16488,Northern Mariana Islands,MNP,World Bank,16130.0,0.022194668319900804,False,False,False,False,-1.0255845177872067,False
+156,2,1980,17625,Northern Mariana Islands,MNP,World Bank,16488.0,0.06895924308588064,False,False,False,False,-0.9687590971037312,False
+156,2,1981,19826,Northern Mariana Islands,MNP,World Bank,17625.0,0.12487943262411348,False,True,True,False,-0.8587566776452177,True
+156,2,1982,22350,Northern Mariana Islands,MNP,World Bank,19826.0,0.12730757591042066,False,True,True,False,-0.7326112407014248,True
+156,2,1983,24936,Northern Mariana Islands,MNP,World Bank,22350.0,0.11570469798657718,False,True,True,False,-0.6033671440545753,True
+156,2,1984,27575,Northern Mariana Islands,MNP,World Bank,24936.0,0.10583092717356432,False,True,True,False,-0.4714741931454353,True
+156,2,1985,30258,Northern Mariana Islands,MNP,World Bank,27575.0,0.09729827742520399,False,False,False,False,-0.3373821934147712,False
+156,2,1986,32980,Northern Mariana Islands,MNP,World Bank,30258.0,0.08995968008460573,False,False,False,False,-0.20134103677411982,False
+156,2,1987,35736,Northern Mariana Islands,MNP,World Bank,32980.0,0.08356579745300181,False,False,False,False,-0.06360061513501798,False
+156,2,1988,38519,Northern Mariana Islands,MNP,World Bank,35736.0,0.07787665099619431,False,False,False,False,0.07548922282638276,False
+156,2,1989,41303,Northern Mariana Islands,MNP,World Bank,38519.0,0.07227601962667775,False,False,False,False,0.21462903917009088,False
+156,2,1990,43342,Northern Mariana Islands,MNP,World Bank,41303.0,0.04936687407694356,False,False,False,False,0.316534960694811,False
+156,2,1991,44393,Northern Mariana Islands,MNP,World Bank,43342.0,0.02424899635457524,False,False,False,False,0.3690622404998531,False
+156,2,1992,45181,Northern Mariana Islands,MNP,World Bank,44393.0,0.017750546257292818,False,False,False,False,0.4084452057580578,False
+156,2,1993,45952,Northern Mariana Islands,MNP,World Bank,45181.0,0.01706469533653527,False,False,False,False,0.44697853851703734,False
+156,2,1994,46730,Northern Mariana Islands,MNP,World Bank,45952.0,0.016930710306406686,False,False,False,False,0.4858617199521684,False
+156,2,1995,48176,Northern Mariana Islands,MNP,World Bank,46730.0,0.03094371923817676,False,False,False,False,0.5581304607686203,False
+156,2,1996,51706,Northern Mariana Islands,MNP,World Bank,48176.0,0.07327299900365328,False,False,False,False,0.7345541503136237,False
+156,2,1997,56596,Northern Mariana Islands,MNP,World Bank,51706.0,0.09457316365605539,False,False,False,False,0.9789484397966455,False
+156,2,1998,61337,Northern Mariana Islands,MNP,World Bank,56596.0,0.08376917096614601,False,False,False,False,1.2158959503158697,False
+156,2,1999,65916,Northern Mariana Islands,MNP,World Bank,61337.0,0.07465314573585274,False,False,False,False,1.4447469629013006,False
+156,2,2000,68356,Northern Mariana Islands,MNP,World Bank,65916.0,0.03701680927240731,False,False,False,False,1.5666942157312747,False
+156,2,2001,67984,Northern Mariana Islands,MNP,World Bank,68356.0,-0.005442097255544502,False,False,False,False,1.5481022575129342,False
+156,2,2002,66778,Northern Mariana Islands,MNP,World Bank,67984.0,-0.017739468110143562,False,False,False,False,1.4878283284502503,False
+156,2,2003,65421,Northern Mariana Islands,MNP,World Bank,66778.0,-0.020321063823414896,False,False,False,False,1.420007663659154,False
+156,2,2004,63938,Northern Mariana Islands,MNP,World Bank,65421.0,-0.022668562082511733,False,False,False,False,1.3458897226973296,False
+156,2,2005,62354,Northern Mariana Islands,MNP,World Bank,63938.0,-0.024773999812318183,False,False,False,False,1.2667239651224613,False
+156,2,2006,60682,Northern Mariana Islands,MNP,World Bank,62354.0,-0.026814638996696283,False,False,False,False,1.1831601099045446,False
+156,2,2007,58941,Northern Mariana Islands,MNP,World Bank,60682.0,-0.028690550739922875,False,False,False,False,1.0961477463074196,False
+156,2,2008,57150,Northern Mariana Islands,MNP,World Bank,58941.0,-0.030386318521911742,False,False,False,False,1.0066364635949265,False
+156,2,2009,55325,Northern Mariana Islands,MNP,World Bank,57150.0,-0.031933508311461065,False,False,False,False,0.9154259158839828,False
+156,2,2010,54091,Northern Mariana Islands,MNP,World Bank,55325.0,-0.022304563940352462,False,False,False,False,0.8537525921166926,False
+156,2,2011,53608,Northern Mariana Islands,MNP,World Bank,54091.0,-0.008929396757316374,False,False,False,False,0.8296130334622346,False
+156,2,2012,53234,Northern Mariana Islands,MNP,World Bank,53608.0,-0.006976570661095359,False,False,False,False,0.8109211184792796,False
+156,2,2013,52758,Northern Mariana Islands,MNP,World Bank,53234.0,-0.008941653830258857,False,False,False,False,0.7871314085009732,False
+156,2,2014,52178,Northern Mariana Islands,MNP,World Bank,52758.0,-0.01099359338868039,False,False,False,False,0.7581439467627007,False
+156,2,2015,51514,Northern Mariana Islands,MNP,World Bank,52178.0,-0.012725669822530568,False,False,False,False,0.7249583009106093,False
+156,2,2016,50773,Northern Mariana Islands,MNP,World Bank,51514.0,-0.014384439181581705,False,False,False,False,0.6879243196208509,False
+156,2,2017,49959,Northern Mariana Islands,MNP,World Bank,50773.0,-0.016032143068166152,False,False,False,False,0.6472419164226546,False
+156,2,2018,49077,Northern Mariana Islands,MNP,World Bank,49959.0,-0.017654476670870115,False,False,False,False,0.6031609832275574,False
+156,2,2019,48129,Northern Mariana Islands,MNP,World Bank,49077.0,-0.01931658414328504,False,False,False,False,0.555781476800174,False
+156,2,2020,47528,Northern Mariana Islands,MNP,World Bank,48129.0,-0.012487273785036048,False,False,False,False,0.5257444690334468,False
+156,2,2021,46979,Northern Mariana Islands,MNP,World Bank,47528.0,-0.011551085675812154,False,False,False,False,0.49830633714670264,False
+156,2,2022,46078,Northern Mariana Islands,MNP,World Bank,46979.0,-0.019178782008982737,False,False,False,False,0.4532758146877655,False
+156,2,2023,45143,Northern Mariana Islands,MNP,World Bank,46078.0,-0.02029167932635965,False,False,False,False,0.4065460272303779,False
+156,4,1950,6286,Northern Mariana Islands,MNP,Census Bureau,,0.0,False,False,False,False,-1.2189683322754081,False
+156,4,1951,6507,Northern Mariana Islands,MNP,Census Bureau,6286.0,0.03515749284123449,False,False,False,False,-1.209282399702879,False
+156,4,1952,6736,Northern Mariana Islands,MNP,Census Bureau,6507.0,0.03519286921776548,False,False,False,False,-1.1992458451367742,False
+156,4,1953,6973,Northern Mariana Islands,MNP,Census Bureau,6736.0,0.035184085510688835,False,False,False,False,-1.1888586685770937,False
+156,4,1954,7219,Northern Mariana Islands,MNP,Census Bureau,6973.0,0.035278933027391365,False,False,False,False,-1.1780770422746405,False
+156,4,1955,7473,Northern Mariana Islands,MNP,Census Bureau,7219.0,0.035184928660479294,False,False,False,False,-1.1669447939786115,False
+156,4,1956,7736,Northern Mariana Islands,MNP,Census Bureau,7473.0,0.0351933627726482,False,False,False,False,-1.1554180959398097,False
+156,4,1957,8008,Northern Mariana Islands,MNP,Census Bureau,7736.0,0.03516028955532575,False,False,False,False,-1.1434969481582353,False
+156,4,1958,8290,Northern Mariana Islands,MNP,Census Bureau,8008.0,0.035214785214785216,False,False,False,False,-1.1311375228846914,False
+156,4,1959,8571,Northern Mariana Islands,MNP,Census Bureau,8290.0,0.033896260554885406,False,False,False,False,-1.1188219253603444,False
+156,4,1960,8861,Northern Mariana Islands,MNP,Census Bureau,8571.0,0.033835025084587564,False,False,False,False,-1.1061118780932246,False
+156,4,1961,9160,Northern Mariana Islands,MNP,Census Bureau,8861.0,0.03374336982281909,False,False,False,False,-1.0930073810833323,False
+156,4,1962,9470,Northern Mariana Islands,MNP,Census Bureau,9160.0,0.03384279475982533,False,False,False,False,-1.0794207788322734,False
+156,4,1963,9791,Northern Mariana Islands,MNP,Census Bureau,9470.0,0.033896515311510035,False,False,False,False,-1.0653520713400477,False
+156,4,1964,10122,Northern Mariana Islands,MNP,Census Bureau,9791.0,0.03380655704218159,False,False,False,False,-1.0508450863558525,False
+156,4,1965,10465,Northern Mariana Islands,MNP,Census Bureau,10122.0,0.0338865836791148,False,False,False,False,-1.0358121683812938,False
+156,4,1966,10819,Northern Mariana Islands,MNP,Census Bureau,10465.0,0.033827042522694695,False,False,False,False,-1.0202971451655682,False
+156,4,1967,11185,Northern Mariana Islands,MNP,Census Bureau,10819.0,0.03382937424900638,False,False,False,False,-1.0042561889594792,False
+156,4,1968,11563,Northern Mariana Islands,MNP,Census Bureau,11185.0,0.03379526151095217,False,False,False,False,-0.9876892997630268,False
+156,4,1969,11954,Northern Mariana Islands,MNP,Census Bureau,11563.0,0.03381475395658566,False,False,False,False,-0.9705526498270136,False
+156,4,1970,12359,Northern Mariana Islands,MNP,Census Bureau,11954.0,0.03387987284590932,False,False,False,False,-0.952802411402243,False
+156,4,1971,12972,Northern Mariana Islands,MNP,Census Bureau,12359.0,0.04959948215875071,False,False,False,False,-0.9259360011445038,False
+156,4,1972,13572,Northern Mariana Islands,MNP,Census Bureau,12972.0,0.04625346901017576,False,False,False,False,-0.8996393516263251,False
+156,4,1973,14200,Northern Mariana Islands,MNP,Census Bureau,13572.0,0.04627173592690834,False,False,False,False,-0.8721155251306314,False
+156,4,1974,14596,Northern Mariana Islands,MNP,Census Bureau,14200.0,0.027887323943661974,False,False,False,False,-0.8547597364486335,False
+156,4,1975,14938,Northern Mariana Islands,MNP,Census Bureau,14596.0,0.023431077007399288,False,False,False,False,-0.8397706462232717,False
+156,4,1976,15316,Northern Mariana Islands,MNP,Census Bureau,14938.0,0.02530459231490159,False,False,False,False,-0.8232037570268191,False
+156,4,1977,15710,Northern Mariana Islands,MNP,Census Bureau,15316.0,0.02572473230608514,False,False,False,False,-0.805935623843215,False
+156,4,1978,16118,Northern Mariana Islands,MNP,Census Bureau,15710.0,0.025970719287078295,False,False,False,False,-0.7880539021708536,False
+156,4,1979,16497,Northern Mariana Islands,MNP,Census Bureau,16118.0,0.02351408363320511,False,False,False,False,-0.771443185225204,False
+156,4,1980,16890,Northern Mariana Islands,MNP,Census Bureau,16497.0,0.023822513184215313,False,False,False,False,-0.754218879790797,False
+156,4,1981,17576,Northern Mariana Islands,MNP,Census Bureau,16890.0,0.04061574896388395,False,False,False,False,-0.7241530438416794,False
+156,4,1982,18301,Northern Mariana Islands,MNP,Census Bureau,17576.0,0.04124943104233045,False,False,False,False,-0.6923779256738801,False
+156,4,1983,19139,Northern Mariana Islands,MNP,Census Bureau,18301.0,0.04578984754931425,False,False,False,False,-0.6556502718468239,False
+156,4,1984,20109,Northern Mariana Islands,MNP,Census Bureau,19139.0,0.05068185380636397,False,False,False,False,-0.6131373551257684,False
+156,4,1985,21386,Northern Mariana Islands,MNP,Census Bureau,20109.0,0.06350390372470038,False,False,False,False,-0.5571693194012448,False
+156,4,1986,23026,Northern Mariana Islands,MNP,Census Bureau,21386.0,0.0766856822220144,False,False,False,False,-0.485291810718223,False
+156,4,1987,25400,Northern Mariana Islands,MNP,Census Bureau,23026.0,0.10310084252584036,False,True,True,False,-0.3812447341246294,True
+156,4,1988,29053,Northern Mariana Islands,MNP,Census Bureau,25400.0,0.14381889763779526,False,True,True,False,-0.2211419663081182,True
+156,4,1989,35294,Northern Mariana Islands,MNP,Census Bureau,29053.0,0.21481430489106115,False,True,True,False,0.05238701643013705,True
+156,4,1990,44037,Northern Mariana Islands,MNP,Census Bureau,35294.0,0.24771915906386355,False,True,True,False,0.4355730276591974,True
+156,4,1991,46556,Northern Mariana Islands,MNP,Census Bureau,44037.0,0.05720189840361514,False,False,False,False,0.5459751278863509,False
+156,4,1992,49214,Northern Mariana Islands,MNP,Census Bureau,46556.0,0.05709253372282842,False,False,False,False,0.6624692852518824,False
+156,4,1993,51941,Northern Mariana Islands,MNP,Census Bureau,49214.0,0.05541106189295729,False,False,False,False,0.7819875573120045,False
+156,4,1994,54619,Northern Mariana Islands,MNP,Census Bureau,51941.0,0.051558499066248244,False,False,False,False,0.8993582696614754,False
+156,4,1995,57237,Northern Mariana Islands,MNP,Census Bureau,54619.0,0.04793203830168989,False,False,False,False,1.0140993170591284,False
+156,4,1996,59832,Northern Mariana Islands,MNP,Census Bureau,57237.0,0.045337805964673204,False,False,False,False,1.1278323262252512,False
+156,4,1997,62401,Northern Mariana Islands,MNP,Census Bureau,59832.0,0.042936889958550606,False,False,False,False,1.2404258139122528,False
+156,4,1998,64904,Northern Mariana Islands,MNP,Census Bureau,62401.0,0.040111536674091765,False,False,False,False,1.350126670152255,False
+156,4,1999,67319,Northern Mariana Islands,MNP,Census Bureau,64904.0,0.03720880069025022,False,False,False,False,1.455970684462924,False
+156,4,2000,69726,Northern Mariana Islands,MNP,Census Bureau,67319.0,0.03575513599429581,False,False,False,False,1.5614640767800176,False
+156,4,2001,69424,Northern Mariana Islands,MNP,Census Bureau,69726.0,-0.00433123942288386,False,False,False,False,1.5482280965225343,False
+156,4,2002,69035,Northern Mariana Islands,MNP,Census Bureau,69424.0,-0.005603249596681263,False,False,False,False,1.5311791020849153,False
+156,4,2003,68590,Northern Mariana Islands,MNP,Census Bureau,69035.0,-0.006446005649308322,False,False,False,False,1.511675753692266,False
+156,4,2004,68174,Northern Mariana Islands,MNP,Census Bureau,68590.0,-0.006065024055984837,False,False,False,False,1.4934434100263287,False
+156,4,2005,67737,Northern Mariana Islands,MNP,Census Bureau,68174.0,-0.00641006835450465,False,False,False,False,1.4742906836272553,False
+156,4,2006,66233,Northern Mariana Islands,MNP,Census Bureau,67737.0,-0.022203522447111622,False,False,False,False,1.4083737488350208,False
+156,4,2007,63650,Northern Mariana Islands,MNP,Census Bureau,66233.0,-0.038998686455392326,False,False,False,False,1.2951666726592614,False
+156,4,2008,60971,Northern Mariana Islands,MNP,Census Bureau,63650.0,-0.04208955223880597,False,False,False,False,1.1777521325605937,False
+156,4,2009,58115,Northern Mariana Islands,MNP,Census Bureau,60971.0,-0.04684194125075856,False,False,False,False,1.052580080854063,False
+156,4,2010,55121,Northern Mariana Islands,MNP,Census Bureau,58115.0,-0.051518540824227826,True,False,True,False,0.9213597997583516,True
+156,4,2011,53535,Northern Mariana Islands,MNP,Census Bureau,55121.0,-0.02877306289798806,False,False,False,False,0.8518489895319659,False
+156,4,2012,53405,Northern Mariana Islands,MNP,Census Bureau,53535.0,-0.0024283179228542077,False,False,False,False,0.8461513821363605,False
+156,4,2013,53260,Northern Mariana Islands,MNP,Census Bureau,53405.0,-0.002715101582248853,False,False,False,False,0.8397963585028007,False
+156,4,2014,53069,Northern Mariana Islands,MNP,Census Bureau,53260.0,-0.003586180998873451,False,False,False,False,0.8314252584061804,False
+156,4,2015,52863,Northern Mariana Islands,MNP,Census Bureau,53069.0,-0.0038817388682658425,False,False,False,False,0.8223967420716057,False
+156,4,2016,52653,Northern Mariana Islands,MNP,Census Bureau,52863.0,-0.003972532773395381,False,False,False,False,0.8131929147402432,False
+156,4,2017,52448,Northern Mariana Islands,MNP,Census Bureau,52653.0,-0.0038934153799403642,False,False,False,False,0.8042082261548655,False
+156,4,2018,52247,Northern Mariana Islands,MNP,Census Bureau,52448.0,-0.003832367297132398,False,False,False,False,0.7953988485662756,False
+156,4,2019,52048,Northern Mariana Islands,MNP,Census Bureau,52247.0,-0.0038088311290600417,False,False,False,False,0.7866771264760798,False
+156,4,2020,51851,Northern Mariana Islands,MNP,Census Bureau,52048.0,-0.0037849677221026743,False,False,False,False,0.7780430598842778,False
+156,4,2021,51659,Northern Mariana Islands,MNP,Census Bureau,51851.0,-0.003702917976509614,False,False,False,False,0.7696281320384606,False
+156,4,2022,51475,Northern Mariana Islands,MNP,Census Bureau,51659.0,-0.0035618188505391122,False,False,False,False,0.7615638261862191,False
+156,4,2023,51295,Northern Mariana Islands,MNP,Census Bureau,51475.0,-0.0034968431277319087,False,False,False,False,0.7536748313307655,False
+156,4,2024,51118,Northern Mariana Islands,MNP,Census Bureau,51295.0,-0.003450628716249147,False,False,False,False,0.7459173197229028,False

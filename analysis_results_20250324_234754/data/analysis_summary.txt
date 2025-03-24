@@ -1,0 +1,32 @@
+Population Data Analysis Summary
+==============================
+
+Analysis Date: 2025-03-24 23:48:03
+Date Range: 1950 to 2025
+
+Data Summary:
+Total countries analyzed: 240
+Total data sources: 5
+Total data points: 51550
+
+Anomaly Detection Results:
+Z-score anomalies: 6
+Significant decreases: 131
+Significant increases: 254
+Total countries with anomalies: 54
+
+Source Discrepancy Summary:
+Total country-year combinations with multiple sources: 16899
+Significant discrepancies: 2128
+
+Top 10 Countries with Most Source Discrepancies:
+1. Eritrea: 75 years with significant discrepancies
+2. Saudi Arabia: 66 years with significant discrepancies
+3. Republic of Moldova: 65 years with significant discrepancies
+4. Djibouti: 63 years with significant discrepancies
+5. Equatorial Guinea: 62 years with significant discrepancies
+6. Georgia: 62 years with significant discrepancies
+7. Afghanistan: 56 years with significant discrepancies
+8. Cyprus: 50 years with significant discrepancies
+9. Oman: 44 years with significant discrepancies
+10. Mali: 42 years with significant discrepancies

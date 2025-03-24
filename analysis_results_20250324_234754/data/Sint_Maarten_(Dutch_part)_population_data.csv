@@ -1,0 +1,216 @@
+country_id,source_id,year,population,country_name,country_code,source_name,population_prev,yoy_change,is_decrease_anomaly,is_increase_anomaly,is_yoy_anomaly,is_anomaly,population_z,is_any_anomaly
+146,1,1950,1450,Sint Maarten (Dutch part),SXM,United Nations Population Division,,0.0,False,False,False,False,-1.3515817589202208,False
+146,1,1951,1553,Sint Maarten (Dutch part),SXM,United Nations Population Division,1450.0,0.07103448275862069,False,False,False,False,-1.3444461880986545,False
+146,1,1952,1648,Sint Maarten (Dutch part),SXM,United Nations Population Division,1553.0,0.061171925305859624,False,False,False,False,-1.3378648363700254,False
+146,1,1953,1738,Sint Maarten (Dutch part),SXM,United Nations Population Division,1648.0,0.05461165048543689,False,False,False,False,-1.331629871574482,False
+146,1,1954,1835,Sint Maarten (Dutch part),SXM,United Nations Population Division,1738.0,0.05581127733026467,False,False,False,False,-1.3249099650726188,False
+146,1,1955,1949,Sint Maarten (Dutch part),SXM,United Nations Population Division,1835.0,0.06212534059945504,False,False,False,False,-1.3170123429982639,False
+146,1,1956,2077,Sint Maarten (Dutch part),SXM,United Nations Population Division,1949.0,0.06567470497691123,False,False,False,False,-1.308144837511269,False
+146,1,1957,2216,Sint Maarten (Dutch part),SXM,United Nations Population Division,2077.0,0.06692344727973037,False,False,False,False,-1.2985152807714855,False
+146,1,1958,2366,Sint Maarten (Dutch part),SXM,United Nations Population Division,2216.0,0.06768953068592058,False,False,False,False,-1.2881236727789132,False
+146,1,1959,2521,Sint Maarten (Dutch part),SXM,United Nations Population Division,2366.0,0.06551141166525781,False,False,False,False,-1.2773856778532553,False
+146,1,1960,2715,Sint Maarten (Dutch part),SXM,United Nations Population Division,2521.0,0.07695358984529949,False,False,False,False,-1.2639458648495285,False
+146,1,1961,2970,Sint Maarten (Dutch part),SXM,United Nations Population Division,2715.0,0.09392265193370165,False,False,False,False,-1.2462801312621559,False
+146,1,1962,3264,Sint Maarten (Dutch part),SXM,United Nations Population Division,2970.0,0.09898989898989899,False,False,False,False,-1.2259125795967143,False
+146,1,1963,3584,Sint Maarten (Dutch part),SXM,United Nations Population Division,3264.0,0.09803921568627451,False,False,False,False,-1.203743815879227,False
+146,1,1964,3923,Sint Maarten (Dutch part),SXM,United Nations Population Division,3584.0,0.09458705357142858,False,False,False,False,-1.1802587818160137,False
+146,1,1965,4283,Sint Maarten (Dutch part),SXM,United Nations Population Division,3923.0,0.09176650522559265,False,False,False,False,-1.1553189226338405,False
+146,1,1966,4664,Sint Maarten (Dutch part),SXM,United Nations Population Division,4283.0,0.08895633901470931,False,False,False,False,-1.1289242383327072,False
+146,1,1967,5071,Sint Maarten (Dutch part),SXM,United Nations Population Division,4664.0,0.08726415094339622,False,False,False,False,-1.100728341979528,False
+146,1,1968,5501,Sint Maarten (Dutch part),SXM,United Nations Population Division,5071.0,0.0847958982449221,False,False,False,False,-1.0709390657341542,False
+146,1,1969,5948,Sint Maarten (Dutch part),SXM,United Nations Population Division,5501.0,0.08125795309943647,False,False,False,False,-1.0399720739162892,False
+146,1,1970,6414,Sint Maarten (Dutch part),SXM,United Nations Population Division,5948.0,0.07834566240753195,False,False,False,False,-1.007688811752698,False
+146,1,1971,6888,Sint Maarten (Dutch part),SXM,United Nations Population Division,6414.0,0.07390084190832553,False,False,False,False,-0.97485133049617,False
+146,1,1972,7381,Sint Maarten (Dutch part),SXM,United Nations Population Division,6888.0,0.07157375145180023,False,False,False,False,-0.940697578893916,False
+146,1,1973,7917,Sint Maarten (Dutch part),SXM,United Nations Population Division,7381.0,0.07261888632976561,False,False,False,False,-0.9035648996671247,False
+146,1,1974,8493,Sint Maarten (Dutch part),SXM,United Nations Population Division,7917.0,0.07275483137552104,False,False,False,False,-0.8636611249756475,False
+146,1,1975,9094,Sint Maarten (Dutch part),SXM,United Nations Population Division,8493.0,0.07076415871894501,False,False,False,False,-0.8220254156187415,False
+146,1,1976,9716,Sint Maarten (Dutch part),SXM,United Nations Population Division,9094.0,0.06839674510666373,False,False,False,False,-0.7789348811428755,False
+146,1,1977,10365,Sint Maarten (Dutch part),SXM,United Nations Population Division,9716.0,0.06679703581720872,False,False,False,False,-0.7339738572283464,False
+146,1,1978,11039,Sint Maarten (Dutch part),SXM,United Nations Population Division,10365.0,0.06502653159671973,False,False,False,False,-0.6872808986483887,False
+146,1,1979,11723,Sint Maarten (Dutch part),SXM,United Nations Population Division,11039.0,0.06196213425129088,False,False,False,False,-0.6398951662022595,False
+146,1,1980,12410,Sint Maarten (Dutch part),SXM,United Nations Population Division,11723.0,0.05860274673718331,False,False,False,False,-0.5923016015962788,False
+146,1,1981,13302,Sint Maarten (Dutch part),SXM,United Nations Population Division,12410.0,0.07187751813053989,False,False,False,False,-0.5305061727337828,False
+146,1,1982,14607,Sint Maarten (Dutch part),SXM,United Nations Population Division,13302.0,0.09810554803788904,False,False,False,False,-0.4400991831984047,False
+146,1,1983,16133,Sint Maarten (Dutch part),SXM,United Nations Population Division,14607.0,0.10447045936879579,False,True,True,False,-0.33438189122063683,True
+146,1,1984,17694,Sint Maarten (Dutch part),SXM,United Nations Population Division,16133.0,0.09675819748341907,False,False,False,False,-0.22623989071126882,False
+146,1,1985,19291,Sint Maarten (Dutch part),SXM,United Nations Population Division,17694.0,0.09025658415282016,False,False,False,False,-0.11560390428368349,False
+146,1,1986,20931,Sint Maarten (Dutch part),SXM,United Nations Population Division,19291.0,0.08501373697579181,False,False,False,False,-0.0019889902315607887,False
+146,1,1987,22618,Sint Maarten (Dutch part),SXM,United Nations Population Division,20931.0,0.08059815584539679,False,False,False,False,0.11488196099156787,False
+146,1,1988,24357,Sint Maarten (Dutch part),SXM,United Nations Population Division,22618.0,0.07688566628349103,False,False,False,False,0.23535533631878822,False
+146,1,1989,26169,Sint Maarten (Dutch part),SXM,United Nations Population Division,24357.0,0.07439339820174898,False,False,False,False,0.3608859608690604,False
+146,1,1990,28061,Sint Maarten (Dutch part),SXM,United Nations Population Division,26169.0,0.07229928541403952,False,False,False,False,0.4919587763487044,False
+146,1,1991,30046,Sint Maarten (Dutch part),SXM,United Nations Population Division,28061.0,0.07073874772816365,False,False,False,False,0.6294743887837432,False
+146,1,1992,31568,Sint Maarten (Dutch part),SXM,United Nations Population Division,30046.0,0.05065566131931039,False,False,False,False,0.7349145712150423,False
+146,1,1993,32026,Sint Maarten (Dutch part),SXM,United Nations Population Division,31568.0,0.014508362899138368,False,False,False,False,0.7666436142856962,False
+146,1,1994,31917,Sint Maarten (Dutch part),SXM,United Nations Population Division,32026.0,-0.003403484668706676,False,False,False,False,0.7590923791444271,False
+146,1,1995,31772,Sint Maarten (Dutch part),SXM,United Nations Population Division,31917.0,-0.0045430334931227875,False,False,False,False,0.7490471580849406,False
+146,1,1996,31598,Sint Maarten (Dutch part),SXM,United Nations Population Division,31772.0,-0.005476520206471107,False,False,False,False,0.7369928928135568,False
+146,1,1997,31404,Sint Maarten (Dutch part),SXM,United Nations Population Division,31598.0,-0.006139629090448763,False,False,False,False,0.7235530798098301,False
+146,1,1998,31193,Sint Maarten (Dutch part),SXM,United Nations Population Division,31404.0,-0.006718889313463253,False,False,False,False,0.7089355512336118,False
+146,1,1999,30977,Sint Maarten (Dutch part),SXM,United Nations Population Division,31193.0,-0.006924630526079569,False,False,False,False,0.6939716357243079,False
+146,1,2000,30774,Sint Maarten (Dutch part),SXM,United Nations Population Division,30977.0,-0.006553249184879104,False,False,False,False,0.6799083262410269,False
+146,1,2001,30726,Sint Maarten (Dutch part),SXM,United Nations Population Division,30774.0,-0.0015597582374731916,False,False,False,False,0.6765830116834037,False
+146,1,2002,30961,Sint Maarten (Dutch part),SXM,United Nations Population Division,30726.0,0.007648245785328386,False,False,False,False,0.6928631975384335,False
+146,1,2003,31327,Sint Maarten (Dutch part),SXM,United Nations Population Division,30961.0,0.011821323600658894,False,False,False,False,0.7182187210403097,False
+146,1,2004,31690,Sint Maarten (Dutch part),SXM,United Nations Population Division,31327.0,0.01158744852682989,False,False,False,False,0.7433664123823345,False
+146,1,2005,32057,Sint Maarten (Dutch part),SXM,United Nations Population Division,31690.0,0.011580940359734932,False,False,False,False,0.7687912132708278,False
+146,1,2006,32429,Sint Maarten (Dutch part),SXM,United Nations Population Division,32057.0,0.011604329787565898,False,False,False,False,0.7945624010924068,False
+146,1,2007,32791,Sint Maarten (Dutch part),SXM,United Nations Population Division,32429.0,0.011162848068087206,False,False,False,False,0.8196408150478144,False
+146,1,2008,33145,Sint Maarten (Dutch part),SXM,United Nations Population Division,32791.0,0.01079564514653411,False,False,False,False,0.8441650099102848,False
+146,1,2009,33491,Sint Maarten (Dutch part),SXM,United Nations Population Division,33145.0,0.010438980238346659,False,False,False,False,0.868134985679818,False
+146,1,2010,33795,Sint Maarten (Dutch part),SXM,United Nations Population Division,33491.0,0.009077065480278283,False,False,False,False,0.8891953112114309,False
+146,1,2011,34267,Sint Maarten (Dutch part),SXM,United Nations Population Division,33795.0,0.01396656310105045,False,False,False,False,0.9218942376947248,False
+146,1,2012,35023,Sint Maarten (Dutch part),SXM,United Nations Population Division,34267.0,0.022062042198033094,False,False,False,False,0.9742679419772887,False
+146,1,2013,35854,Sint Maarten (Dutch part),SXM,United Nations Population Division,35023.0,0.023727264940182166,False,False,False,False,1.0318374502561387,False
+146,1,2014,36672,Sint Maarten (Dutch part),SXM,United Nations Population Division,35854.0,0.022814748703073578,False,False,False,False,1.0885063525089658,False
+146,1,2015,37472,Sint Maarten (Dutch part),SXM,United Nations Population Division,36672.0,0.02181500872600349,False,False,False,False,1.143928261802684,False
+146,1,2016,38249,Sint Maarten (Dutch part),SXM,United Nations Population Division,37472.0,0.020735482493595216,False,False,False,False,1.1977567912042082,False
+146,1,2017,38997,Sint Maarten (Dutch part),SXM,United Nations Population Division,38249.0,0.01955606682527648,False,False,False,False,1.2495762763938347,False
+146,1,2018,39712,Sint Maarten (Dutch part),SXM,United Nations Population Division,38997.0,0.018334743698233198,False,False,False,False,1.2991096078250957,False
+146,1,2019,40385,Sint Maarten (Dutch part),SXM,United Nations Population Division,39712.0,0.016947018533440772,False,False,False,False,1.3457332890184361,False
+146,1,2020,41008,Sint Maarten (Dutch part),SXM,United Nations Population Division,40385.0,0.015426519747430976,False,False,False,False,1.3888931008809193,False
+146,1,2021,41571,Sint Maarten (Dutch part),SXM,United Nations Population Division,41008.0,0.013729028482247366,False,False,False,False,1.4278962695463737,False
+146,1,2022,42139,Sint Maarten (Dutch part),SXM,United Nations Population Division,41571.0,0.013663371100045705,False,False,False,False,1.4672458251449139,False
+146,1,2023,42749,Sint Maarten (Dutch part),SXM,United Nations Population Division,42139.0,0.014475901184176179,False,False,False,False,1.509505030981374,False
+146,1,2024,43351,Sint Maarten (Dutch part),SXM,United Nations Population Division,42749.0,0.014082200753233994,False,False,False,False,1.551210017724897,False
+146,1,2025,43923,Sint Maarten (Dutch part),SXM,United Nations Population Division,43351.0,0.013194620654656179,False,False,False,False,1.5908366828699059,False
+146,2,1960,2715,Sint Maarten (Dutch part),SXM,World Bank,,0.0,False,False,False,False,-1.5744846658297653,False
+146,2,1961,2970,Sint Maarten (Dutch part),SXM,World Bank,2715.0,0.09392265193370165,False,False,False,False,-1.5549076106127337,False
+146,2,1962,3264,Sint Maarten (Dutch part),SXM,World Bank,2970.0,0.09898989898989899,False,False,False,False,-1.5323364175389798,False
+146,2,1963,3584,Sint Maarten (Dutch part),SXM,World Bank,3264.0,0.09803921568627451,False,False,False,False,-1.5077691325607439,False
+146,2,1964,3922,Sint Maarten (Dutch part),SXM,World Bank,3584.0,0.09430803571428571,False,False,False,False,-1.4818199378024826,False
+146,2,1965,4282,Sint Maarten (Dutch part),SXM,World Bank,3922.0,0.09178990311065782,False,False,False,False,-1.4541817422019674,False
+146,2,1966,4664,Sint Maarten (Dutch part),SXM,World Bank,4282.0,0.08921064922933208,False,False,False,False,-1.4248545457591983,False
+146,2,1967,5071,Sint Maarten (Dutch part),SXM,World Bank,4664.0,0.08726415094339622,False,False,False,False,-1.393608030177505,False
+146,2,1968,5500,Sint Maarten (Dutch part),SXM,World Bank,5071.0,0.08459869848156182,False,False,False,False,-1.3606725137535576,False
+146,2,1969,5948,Sint Maarten (Dutch part),SXM,World Bank,5500.0,0.08145454545454546,False,False,False,False,-1.3262783147840276,False
+146,2,1970,6414,Sint Maarten (Dutch part),SXM,World Bank,5948.0,0.07834566240753195,False,False,False,False,-1.2905022060344717,False
+146,2,1971,6888,Sint Maarten (Dutch part),SXM,World Bank,6414.0,0.07390084190832553,False,False,False,False,-1.2541119151604603,False
+146,2,1972,7380,Sint Maarten (Dutch part),SXM,World Bank,6888.0,0.07142857142857142,False,False,False,False,-1.2163397145064228,False
+146,2,1973,7917,Sint Maarten (Dutch part),SXM,World Bank,7380.0,0.07276422764227643,False,False,False,False,-1.1751127394023209,False
+146,2,1974,8492,Sint Maarten (Dutch part),SXM,World Bank,7917.0,0.07262852090438297,False,False,False,False,-1.1309683992070536,False
+146,2,1975,9094,Sint Maarten (Dutch part),SXM,World Bank,8492.0,0.07089024964672633,False,False,False,False,-1.0847511943417478,False
+146,2,1976,9716,Sint Maarten (Dutch part),SXM,World Bank,9094.0,0.06839674510666373,False,False,False,False,-1.036998534165302,False
+146,2,1977,10364,Sint Maarten (Dutch part),SXM,World Bank,9716.0,0.06669411280362289,False,False,False,False,-0.9872497820843747,False
+146,2,1978,11039,Sint Maarten (Dutch part),SXM,World Bank,10364.0,0.06512929370899266,False,False,False,False,-0.9354281653334088,False
+146,2,1979,11723,Sint Maarten (Dutch part),SXM,World Bank,11039.0,0.06196213425129088,False,False,False,False,-0.8829155936924299,False
+146,2,1980,12410,Sint Maarten (Dutch part),SXM,World Bank,11723.0,0.05860274673718331,False,False,False,False,-0.8301727037547801,False
+146,2,1981,13302,Sint Maarten (Dutch part),SXM,World Bank,12410.0,0.07187751813053989,False,False,False,False,-0.7616913968779481,False
+146,2,1982,14607,Sint Maarten (Dutch part),SXM,World Bank,13302.0,0.09810554803788904,False,False,False,False,-0.6615029378260805,False
+146,2,1983,16133,Sint Maarten (Dutch part),SXM,World Bank,14607.0,0.10447045936879579,False,True,True,False,-0.544347697586119,True
+146,2,1984,17694,Sint Maarten (Dutch part),SXM,World Bank,16133.0,0.09675819748341907,False,False,False,False,-0.42450541055166285,False
+146,2,1985,19291,Sint Maarten (Dutch part),SXM,World Bank,17694.0,0.09025658415282016,False,False,False,False,-0.30189930395715525,False
+146,2,1986,20930,Sint Maarten (Dutch part),SXM,World Bank,19291.0,0.08496189933129439,False,False,False,False,-0.17606874120925417,False
+146,2,1987,22617,Sint Maarten (Dutch part),SXM,World Bank,20930.0,0.08060200668896321,False,False,False,False,-0.046553085714617755,False
+146,2,1988,24357,Sint Maarten (Dutch part),SXM,World Bank,22617.0,0.07693328027589866,False,False,False,False,0.08703152635453895,False
+146,2,1989,26169,Sint Maarten (Dutch part),SXM,World Bank,24357.0,0.07439339820174898,False,False,False,False,0.2261437775437987,False
+146,2,1990,28061,Sint Maarten (Dutch part),SXM,World Bank,26169.0,0.07229928541403952,False,False,False,False,0.3713978499776174,False
+146,2,1991,30046,Sint Maarten (Dutch part),SXM,World Bank,28061.0,0.07073874772816365,False,False,False,False,0.5237917896082358,False
+146,2,1992,31567,Sint Maarten (Dutch part),SXM,World Bank,30046.0,0.05062237901883778,False,False,False,False,0.6405631660204124,False
+146,2,1993,32026,Sint Maarten (Dutch part),SXM,World Bank,31567.0,0.014540501156270789,False,False,False,False,0.6758018654110692,False
+146,2,1994,31917,Sint Maarten (Dutch part),SXM,World Bank,32026.0,-0.003403484668706676,False,False,False,False,0.6674336339653577,False
+146,2,1995,31772,Sint Maarten (Dutch part),SXM,World Bank,31917.0,-0.0045430334931227875,False,False,False,False,0.6563015829595947,False
+146,2,1996,31598,Sint Maarten (Dutch part),SXM,World Bank,31772.0,-0.005476520206471107,False,False,False,False,0.642943121752679,False
+146,2,1997,31404,Sint Maarten (Dutch part),SXM,World Bank,31598.0,-0.006139629090448763,False,False,False,False,0.6280492052346236,False
+146,2,1998,31193,Sint Maarten (Dutch part),SXM,World Bank,31404.0,-0.006718889313463253,False,False,False,False,0.6118501517020994,False
+146,2,1999,30977,Sint Maarten (Dutch part),SXM,World Bank,31193.0,-0.006924630526079569,False,False,False,False,0.5952672343417903,False
+146,2,2000,30773,Sint Maarten (Dutch part),SXM,World Bank,30977.0,-0.006585531200568163,False,False,False,False,0.579605590168165,False
+146,2,2001,30726,Sint Maarten (Dutch part),SXM,World Bank,30773.0,-0.0015273129041692393,False,False,False,False,0.5759972701869867,False
+146,2,2002,30960,Sint Maarten (Dutch part),SXM,World Bank,30726.0,0.007615700058582308,False,False,False,False,0.5939620973273215,False
+146,2,2003,31327,Sint Maarten (Dutch part),SXM,World Bank,30960.0,0.011854005167958656,False,False,False,False,0.6221377022867356,False
+146,2,2004,31690,Sint Maarten (Dutch part),SXM,World Bank,31327.0,0.01158744852682989,False,False,False,False,0.6500062161839217,False
+146,2,2005,32057,Sint Maarten (Dutch part),SXM,World Bank,31690.0,0.011580940359734932,False,False,False,False,0.6781818211433359,False
+146,2,2006,32428,Sint Maarten (Dutch part),SXM,World Bank,32057.0,0.011573135352653087,False,False,False,False,0.7066645171649779,False
+146,2,2007,32791,Sint Maarten (Dutch part),SXM,World Bank,32428.0,0.011194029850746268,False,False,False,False,0.734533031062164,False
+146,2,2008,33145,Sint Maarten (Dutch part),SXM,World Bank,32791.0,0.01079564514653411,False,False,False,False,0.7617105900693373,False
+146,2,2009,33491,Sint Maarten (Dutch part),SXM,World Bank,33145.0,0.010438980238346659,False,False,False,False,0.7882739669520546,False
+146,2,2010,33794,Sint Maarten (Dutch part),SXM,World Bank,33491.0,0.009047206712251052,False,False,False,False,0.8115361149158216,False
+146,2,2011,34267,Sint Maarten (Dutch part),SXM,World Bank,33794.0,0.013996567438006747,False,False,False,False,0.8478496330242763,False
+146,2,2012,35023,Sint Maarten (Dutch part),SXM,World Bank,34267.0,0.022062042198033094,False,False,False,False,0.9058898437853582,False
+146,2,2013,35854,Sint Maarten (Dutch part),SXM,World Bank,35023.0,0.023727264940182166,False,False,False,False,0.9696880119632141,False
+146,2,2014,36672,Sint Maarten (Dutch part),SXM,World Bank,35854.0,0.022814748703073578,False,False,False,False,1.032488134188829,False
+146,2,2015,37471,Sint Maarten (Dutch part),SXM,World Bank,36672.0,0.021787739965095986,False,False,False,False,1.0938295738688615,False
+146,2,2016,38249,Sint Maarten (Dutch part),SXM,World Bank,37471.0,0.0207627231725868,False,False,False,False,1.153558785472197,False
+146,2,2017,38996,Sint Maarten (Dutch part),SXM,World Bank,38249.0,0.019529922350911135,False,False,False,False,1.210908041343266,False
+146,2,2018,39712,Sint Maarten (Dutch part),SXM,World Bank,38996.0,0.0183608575238486,False,False,False,False,1.2658773414820683,False
+146,2,2019,40385,Sint Maarten (Dutch part),SXM,World Bank,39712.0,0.016947018533440772,False,False,False,False,1.3175454127019204,False
+146,2,2020,41008,Sint Maarten (Dutch part),SXM,World Bank,40385.0,0.015426519747430976,False,False,False,False,1.365374845643923,False
+146,2,2021,41571,Sint Maarten (Dutch part),SXM,World Bank,41008.0,0.013729028482247366,False,False,False,False,1.4085979126525066,False
+146,2,2022,42139,Sint Maarten (Dutch part),SXM,World Bank,41571.0,0.013663371100045705,False,False,False,False,1.4522048434888748,False
+146,2,2023,42749,Sint Maarten (Dutch part),SXM,World Bank,42139.0,0.014475901184176179,False,False,False,False,1.4990362304786367,False
+146,4,1950,2280,Sint Maarten (Dutch part),SXM,Census Bureau,,0.0,False,False,False,False,-1.282917409945331,False
+146,4,1951,2320,Sint Maarten (Dutch part),SXM,Census Bureau,2280.0,0.017543859649122806,False,False,False,False,-1.2802849655063187,False
+146,4,1952,2360,Sint Maarten (Dutch part),SXM,Census Bureau,2320.0,0.017241379310344827,False,False,False,False,-1.2776525210673062,False
+146,4,1953,2400,Sint Maarten (Dutch part),SXM,Census Bureau,2360.0,0.01694915254237288,False,False,False,False,-1.2750200766282935,False
+146,4,1954,2442,Sint Maarten (Dutch part),SXM,Census Bureau,2400.0,0.0175,False,False,False,False,-1.2722560099673306,False
+146,4,1955,2484,Sint Maarten (Dutch part),SXM,Census Bureau,2442.0,0.0171990171990172,False,False,False,False,-1.2694919433063674,False
+146,4,1956,2526,Sint Maarten (Dutch part),SXM,Census Bureau,2484.0,0.016908212560386472,False,False,False,False,-1.2667278766454044,False
+146,4,1957,2570,Sint Maarten (Dutch part),SXM,Census Bureau,2526.0,0.01741884402216944,False,False,False,False,-1.2638321877624905,False
+146,4,1958,2614,Sint Maarten (Dutch part),SXM,Census Bureau,2570.0,0.017120622568093387,False,False,False,False,-1.2609364988795768,False
+146,4,1959,2659,Sint Maarten (Dutch part),SXM,Census Bureau,2614.0,0.017214996174445295,False,False,False,False,-1.2579749988856879,False
+146,4,1960,2705,Sint Maarten (Dutch part),SXM,Census Bureau,2659.0,0.017299736743136517,False,False,False,False,-1.2549476877808234,False
+146,4,1961,2854,Sint Maarten (Dutch part),SXM,Census Bureau,2705.0,0.05508317929759704,False,False,False,False,-1.2451418322455021,False
+146,4,1962,3123,Sint Maarten (Dutch part),SXM,Census Bureau,2854.0,0.09425367904695164,False,False,False,False,-1.2274386433931432,False
+146,4,1963,3418,Sint Maarten (Dutch part),SXM,Census Bureau,3123.0,0.09446045469100224,False,False,False,False,-1.2080243656554261,False
+146,4,1964,3740,Sint Maarten (Dutch part),SXM,Census Bureau,3418.0,0.09420713867758923,False,False,False,False,-1.1868331879213758,False
+146,4,1965,4093,Sint Maarten (Dutch part),SXM,Census Bureau,3740.0,0.09438502673796792,False,False,False,False,-1.1636018657470906,False
+146,4,1966,4479,Sint Maarten (Dutch part),SXM,Census Bureau,4093.0,0.09430735401905693,False,False,False,False,-1.1381987769106203,False
+146,4,1967,4875,Sint Maarten (Dutch part),SXM,Census Bureau,4479.0,0.0884125920964501,False,False,False,False,-1.1121375769643969,False
+146,4,1968,5306,Sint Maarten (Dutch part),SXM,Census Bureau,4875.0,0.0884102564102564,False,False,False,False,-1.0837729881340374,False
+146,4,1969,5814,Sint Maarten (Dutch part),SXM,Census Bureau,5306.0,0.09574067093856012,False,False,False,False,-1.050340943758579,False
+146,4,1970,6481,Sint Maarten (Dutch part),SXM,Census Bureau,5814.0,0.11472308221534228,False,True,True,False,-1.006444932738046,True
+146,4,1971,7330,Sint Maarten (Dutch part),SXM,Census Bureau,6481.0,0.13099830273106003,False,True,True,False,-0.9505712995200062,True
+146,4,1972,8374,Sint Maarten (Dutch part),SXM,Census Bureau,7330.0,0.14242837653478854,False,True,True,False,-0.8818644996617806,True
+146,4,1973,9400,Sint Maarten (Dutch part),SXM,Census Bureau,8374.0,0.12252209219011226,False,True,True,False,-0.8143422998011106,True
+146,4,1974,10070,Sint Maarten (Dutch part),SXM,Census Bureau,9400.0,0.07127659574468086,False,False,False,False,-0.7702488554476516,False
+146,4,1975,10384,Sint Maarten (Dutch part),SXM,Census Bureau,10070.0,0.03118172790466733,False,False,False,False,-0.7495841666014038,False
+146,4,1976,10918,Sint Maarten (Dutch part),SXM,Census Bureau,10384.0,0.05142526964560863,False,False,False,False,-0.7144410333405873,False
+146,4,1977,11793,Sint Maarten (Dutch part),SXM,Census Bureau,10918.0,0.0801428833119619,False,False,False,False,-0.6568563112371893,False
+146,4,1978,11198,Sint Maarten (Dutch part),SXM,Census Bureau,11793.0,-0.05045365895022471,True,False,True,False,-0.6960139222674999,True
+146,4,1979,10932,Sint Maarten (Dutch part),SXM,Census Bureau,11198.0,-0.02375424182889802,False,False,False,False,-0.7135196777869328,False
+146,4,1980,12414,Sint Maarten (Dutch part),SXM,Census Bureau,10932.0,0.13556531284302964,False,True,True,False,-0.6159876113215207,True
+146,4,1981,13898,Sint Maarten (Dutch part),SXM,Census Bureau,12414.0,0.11954245207024328,False,True,True,False,-0.5183239226341579,True
+146,4,1982,15307,Sint Maarten (Dutch part),SXM,Census Bureau,13898.0,0.1013814937401065,False,True,True,False,-0.4255960672699435,True
+146,4,1983,16643,Sint Maarten (Dutch part),SXM,Census Bureau,15307.0,0.08728032926112236,False,False,False,False,-0.33767242300692685,False
+146,4,1984,17979,Sint Maarten (Dutch part),SXM,Census Bureau,16643.0,0.08027398906447154,False,False,False,False,-0.24974877874391022,False
+146,4,1985,19315,Sint Maarten (Dutch part),SXM,Census Bureau,17979.0,0.07430891595750598,False,False,False,False,-0.16182513448089356,False
+146,4,1986,20894,Sint Maarten (Dutch part),SXM,Census Bureau,19315.0,0.08174993528345845,False,False,False,False,-0.057909390250876144,False
+146,4,1987,22790,Sint Maarten (Dutch part),SXM,Census Bureau,20894.0,0.09074375418780511,False,False,False,False,0.06686847615831513,False
+146,4,1988,24475,Sint Maarten (Dutch part),SXM,Census Bureau,22790.0,0.07393593681439228,False,False,False,False,0.17776019815171562,False
+146,4,1989,26780,Sint Maarten (Dutch part),SXM,Census Bureau,24475.0,0.09417773237997958,False,False,False,False,0.32945480894980944,False
+146,4,1990,29286,Sint Maarten (Dutch part),SXM,Census Bureau,26780.0,0.09357729648991785,False,False,False,False,0.494377453053941,False
+146,4,1991,31202,Sint Maarten (Dutch part),SXM,Census Bureau,29286.0,0.06542375196339548,False,False,False,False,0.6204715416826385,False
+146,4,1992,32423,Sint Maarten (Dutch part),SXM,Census Bureau,31202.0,0.03913210691622332,False,False,False,False,0.7008269081834942,False
+146,4,1993,32258,Sint Maarten (Dutch part),SXM,Census Bureau,32423.0,-0.005088980045029763,False,False,False,False,0.6899680748725678,False
+146,4,1994,32093,Sint Maarten (Dutch part),SXM,Census Bureau,32258.0,-0.00511501023002046,False,False,False,False,0.6791092415616413,False
+146,4,1995,31928,Sint Maarten (Dutch part),SXM,Census Bureau,32093.0,-0.005141308073411647,False,False,False,False,0.6682504082507149,False
+146,4,1996,31766,Sint Maarten (Dutch part),SXM,Census Bureau,31928.0,-0.005073916311701328,False,False,False,False,0.6575890082727144,False
+146,4,1997,31594,Sint Maarten (Dutch part),SXM,Census Bureau,31766.0,-0.005414594220235472,False,False,False,False,0.6462694971849607,False
+146,4,1998,31372,Sint Maarten (Dutch part),SXM,Census Bureau,31594.0,-0.0070266506298664305,False,False,False,False,0.6316594305484415,False
+146,4,1999,31095,Sint Maarten (Dutch part),SXM,Census Bureau,31372.0,-0.008829529516766544,False,False,False,False,0.6134297528082802,False
+146,4,2000,30784,Sint Maarten (Dutch part),SXM,Census Bureau,31095.0,-0.010001607975558772,False,False,False,False,0.5929624972949581,False
+146,4,2001,30453,Sint Maarten (Dutch part),SXM,Census Bureau,30784.0,-0.010752338877338877,False,False,False,False,0.5711790195621299,False
+146,4,2002,30636,Sint Maarten (Dutch part),SXM,Census Bureau,30453.0,0.006009260171411683,False,False,False,False,0.5832224528706119,False
+146,4,2003,31644,Sint Maarten (Dutch part),SXM,Census Bureau,30636.0,0.03290246768507638,False,False,False,False,0.6495600527337263,False
+146,4,2004,32771,Sint Maarten (Dutch part),SXM,Census Bureau,31644.0,0.035614966502338516,False,False,False,False,0.7237291748029028,False
+146,4,2005,33674,Sint Maarten (Dutch part),SXM,Census Bureau,32771.0,0.027554850324982453,False,False,False,False,0.7831566080136094,False
+146,4,2006,34559,Sint Maarten (Dutch part),SXM,Census Bureau,33674.0,0.02628140405060284,False,False,False,False,0.8413994412267604,False
+146,4,2007,35432,Sint Maarten (Dutch part),SXM,Census Bureau,34559.0,0.02526114760265054,False,False,False,False,0.8988525411082077,False
+146,4,2008,36233,Sint Maarten (Dutch part),SXM,Census Bureau,35432.0,0.02260668322420411,False,False,False,False,0.9515672409994325,False
+146,4,2009,37099,Sint Maarten (Dutch part),SXM,Census Bureau,36233.0,0.023900863853393316,False,False,False,False,1.0085596631040525,False
+146,4,2010,37896,Sint Maarten (Dutch part),SXM,Census Bureau,37099.0,0.021483058842556402,False,False,False,False,1.061011118551376,False
+146,4,2011,38520,Sint Maarten (Dutch part),SXM,Census Bureau,37896.0,0.016466117796073463,False,False,False,False,1.1020772517999706,False
+146,4,2012,39143,Sint Maarten (Dutch part),SXM,Census Bureau,38520.0,0.016173416407061266,False,False,False,False,1.14307757393759,False
+146,4,2013,39763,Sint Maarten (Dutch part),SXM,Census Bureau,39143.0,0.015839358250517334,False,False,False,False,1.1838804627422832,False
+146,4,2014,40380,Sint Maarten (Dutch part),SXM,Census Bureau,39763.0,0.01551693785680155,False,False,False,False,1.2244859182140506,False
+146,4,2015,40993,Sint Maarten (Dutch part),SXM,Census Bureau,40380.0,0.015180782565626548,False,False,False,False,1.2648281292419168,False
+146,4,2016,41604,Sint Maarten (Dutch part),SXM,Census Bureau,40993.0,0.014904983777718147,False,False,False,False,1.3050387180478324,False
+146,4,2017,42212,Sint Maarten (Dutch part),SXM,Census Bureau,41604.0,0.014613979425055284,False,False,False,False,1.3450518735208221,False
+146,4,2018,42814,Sint Maarten (Dutch part),SXM,Census Bureau,42212.0,0.014261347484127737,False,False,False,False,1.3846701623279598,False
+146,4,2019,43408,Sint Maarten (Dutch part),SXM,Census Bureau,42814.0,0.013873966459569299,False,False,False,False,1.423761962247295,False
+146,4,2020,43991,Sint Maarten (Dutch part),SXM,Census Bureau,43408.0,0.013430704017692592,False,False,False,False,1.4621298399459017,False
+146,4,2021,44564,Sint Maarten (Dutch part),SXM,Census Bureau,43991.0,0.013025391557364006,False,False,False,False,1.4998396065347555,False
+146,4,2022,45126,Sint Maarten (Dutch part),SXM,Census Bureau,44564.0,0.012611076205008526,False,False,False,False,1.5368254509028807,False
+146,4,2023,45677,Sint Maarten (Dutch part),SXM,Census Bureau,45126.0,0.01221025572840491,False,False,False,False,1.5730873730502777,False
+146,4,2024,46215,Sint Maarten (Dutch part),SXM,Census Bureau,45677.0,0.011778356722201545,False,False,False,False,1.6084937507549955,False

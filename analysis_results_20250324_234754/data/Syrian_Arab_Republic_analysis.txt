@@ -1,0 +1,18 @@
+Population Analysis for Syrian Arab Republic
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 25,620,427
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (5):
+Year 2014: decrease of -6.4% from previous year, Source: United Nations Population Division
+Year 2014: decrease of -6.4% from previous year, Source: World Bank
+Year 2013: decrease of -6.1% from previous year, Source: Census Bureau
+Year 2014: decrease of -7.6% from previous year, Source: Census Bureau
+Year 2015: decrease of -5.4% from previous year, Source: Census Bureau

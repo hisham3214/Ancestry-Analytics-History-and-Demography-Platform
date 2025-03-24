@@ -1,0 +1,42 @@
+Population Analysis for Saint Martin (French part)
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 24,941
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (29):
+Year 1982: increase of 11.7% from previous year, Source: United Nations Population Division
+Year 1983: increase of 21.0% from previous year, Source: United Nations Population Division
+Year 1984: increase of 19.6% from previous year, Source: United Nations Population Division
+Year 1985: increase of 17.2% from previous year, Source: United Nations Population Division
+Year 1986: increase of 15.3% from previous year, Source: United Nations Population Division
+Year 1987: increase of 13.7% from previous year, Source: United Nations Population Division
+Year 1988: increase of 12.5% from previous year, Source: United Nations Population Division
+Year 1989: increase of 11.4% from previous year, Source: United Nations Population Division
+Year 2020: decrease of -7.2% from previous year, Source: United Nations Population Division
+Year 2021: decrease of -5.7% from previous year, Source: United Nations Population Division
+Year 2024: decrease of -5.0% from previous year, Source: United Nations Population Division
+Year 1982: increase of 11.7% from previous year, Source: World Bank
+Year 1983: increase of 21.0% from previous year, Source: World Bank
+Year 1984: increase of 19.6% from previous year, Source: World Bank
+Year 1985: increase of 17.2% from previous year, Source: World Bank
+Year 1986: increase of 15.3% from previous year, Source: World Bank
+Year 1987: increase of 13.7% from previous year, Source: World Bank
+Year 1988: increase of 12.5% from previous year, Source: World Bank
+Year 1989: increase of 11.4% from previous year, Source: World Bank
+Year 2020: decrease of -7.2% from previous year, Source: World Bank
+Year 2021: decrease of -5.7% from previous year, Source: World Bank
+Year 1982: increase of 10.2% from previous year, Source: Census Bureau
+Year 1983: increase of 21.6% from previous year, Source: Census Bureau
+Year 1984: increase of 21.3% from previous year, Source: Census Bureau
+Year 1985: increase of 20.3% from previous year, Source: Census Bureau
+Year 1986: increase of 19.1% from previous year, Source: Census Bureau
+Year 1987: increase of 17.9% from previous year, Source: Census Bureau
+Year 1988: increase of 15.0% from previous year, Source: Census Bureau
+Year 1989: increase of 11.3% from previous year, Source: Census Bureau

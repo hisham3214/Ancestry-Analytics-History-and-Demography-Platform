@@ -1,0 +1,12 @@
+Year-over-Year Anomalies for Afghanistan
+========================================
+Year 1981: decrease of -9.4%, Population 11,937,581, Source: United Nations Population Division
+Year 1982: decrease of -7.9%, Population 10,991,378, Source: United Nations Population Division
+Year 1993: increase of 12.5%, Population 14,943,172, Source: United Nations Population Division
+Year 1981: decrease of -9.4%, Population 11,937,581, Source: World Bank
+Year 1982: decrease of -7.9%, Population 10,991,378, Source: World Bank
+Year 1993: increase of 12.5%, Population 14,943,172, Source: World Bank
+Year 1981: decrease of -9.1%, Population 13,677,009, Source: Census Bureau
+Year 1982: decrease of -8.0%, Population 12,585,122, Source: Census Bureau
+Year 1992: increase of 10.0%, Population 15,303,331, Source: Census Bureau
+Year 1993: increase of 13.3%, Population 17,343,318, Source: Census Bureau

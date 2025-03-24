@@ -4,9 +4,9 @@ import pandas as pd
 # MySQL connection details
 config = {
     'user': 'root',       # Your MySQL username
-    'password': 'khalil_13579',   # Your MySQL password
+    'password': 'LZ#amhe!32',   # Your MySQL password
     'host': '127.0.0.1',           # The host where MySQL server is running
-    'database': 'fyp',   # The database name where you want to insert data
+    'database': 'fyp1',   # The database name where you want to insert data
     'raise_on_warnings': True
 }
 

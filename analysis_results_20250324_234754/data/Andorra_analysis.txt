@@ -1,0 +1,25 @@
+Population Analysis for Andorra
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 5
+Latest population: 82,905
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (12):
+Year 1952: decrease of -6.2% from previous year, Source: United Nations Population Division
+Year 1955: increase of 10.1% from previous year, Source: United Nations Population Division
+Year 2011: decrease of -7.1% from previous year, Source: Eurostat
+Year 1952: decrease of -7.0% from previous year, Source: Census Bureau
+Year 1955: increase of 12.5% from previous year, Source: Census Bureau
+Year 1958: increase of 10.6% from previous year, Source: Census Bureau
+Year 1960: increase of 15.9% from previous year, Source: Census Bureau
+Year 1962: increase of 15.2% from previous year, Source: Census Bureau
+Year 1963: increase of 10.1% from previous year, Source: Census Bureau
+Year 1965: increase of 11.7% from previous year, Source: Census Bureau
+Year 1968: increase of 10.6% from previous year, Source: Census Bureau
+Year 1981: increase of 12.6% from previous year, Source: Census Bureau

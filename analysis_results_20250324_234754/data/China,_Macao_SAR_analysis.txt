@@ -1,0 +1,19 @@
+Population Analysis for China, Macao SAR
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 722,007
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (6):
+Year 1964: increase of 23.9% from previous year, Source: United Nations Population Division
+Year 1965: increase of 17.7% from previous year, Source: United Nations Population Division
+Year 1973: decrease of -8.4% from previous year, Source: United Nations Population Division
+Year 1974: decrease of -11.6% from previous year, Source: United Nations Population Division
+Year 1964: increase of 23.9% from previous year, Source: World Bank
+Year 1965: increase of 17.7% from previous year, Source: World Bank

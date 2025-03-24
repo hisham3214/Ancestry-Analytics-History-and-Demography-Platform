@@ -1,0 +1,217 @@
+country_id,source_id,year,population,country_name,country_code,source_name,population_prev,yoy_change,is_decrease_anomaly,is_increase_anomaly,is_yoy_anomaly,is_anomaly,population_z,is_any_anomaly
+213,1,1950,74512,United Arab Emirates,ARE,United Nations Population Division,,0.0,False,False,False,False,-0.8870875261131878,False
+213,1,1951,79540,United Arab Emirates,ARE,United Nations Population Division,74512.0,0.06747906377496242,False,False,False,False,-0.8856446962662443,False
+213,1,1952,84761,United Arab Emirates,ARE,United Nations Population Division,79540.0,0.06563992959517224,False,False,False,False,-0.884146483332495,False
+213,1,1953,90147,United Arab Emirates,ARE,United Nations Population Division,84761.0,0.06354337490119276,False,False,False,False,-0.8826009221639117,False
+213,1,1954,95653,United Arab Emirates,ARE,United Nations Population Division,90147.0,0.06107801701665058,False,False,False,False,-0.881020925915449,False
+213,1,1955,101258,United Arab Emirates,ARE,United Nations Population Division,95653.0,0.05859722120581686,False,False,False,False,-0.879412520726086,False
+213,1,1956,106963,United Arab Emirates,ARE,United Nations Population Division,101258.0,0.05634122735981355,False,False,False,False,-0.8777754196368234,False
+213,1,1957,112784,United Arab Emirates,ARE,United Nations Population Division,106963.0,0.05442068752746277,False,False,False,False,-0.8761050313036776,False
+213,1,1958,118762,United Arab Emirates,ARE,United Nations Population Division,112784.0,0.05300397219463754,False,False,False,False,-0.8743895904076896,False
+213,1,1959,124937,United Arab Emirates,ARE,United Nations Population Division,118762.0,0.051994745794109225,False,False,False,False,-0.8726176185888997,False
+213,1,1960,131335,United Arab Emirates,ARE,United Nations Population Division,124937.0,0.05120980974411103,False,False,False,False,-0.8707816549133341,False
+213,1,1961,137989,United Arab Emirates,ARE,United Nations Population Division,131335.0,0.050664331670917884,False,False,False,False,-0.868872229734026,False
+213,1,1962,144946,United Arab Emirates,ARE,United Nations Population Division,137989.0,0.05041706222959801,False,False,False,False,-0.8668758559780225,False
+213,1,1963,152211,United Arab Emirates,ARE,United Nations Population Division,144946.0,0.05012211444262001,False,False,False,False,-0.8647910988503289,False
+213,1,1964,159692,United Arab Emirates,ARE,United Nations Population Division,152211.0,0.049148878858952375,False,False,False,False,-0.8626443585788525,False
+213,1,1965,167104,United Arab Emirates,ARE,United Nations Population Division,159692.0,0.04641434761916689,False,False,False,False,-0.8605174184783067,False
+213,1,1966,173977,United Arab Emirates,ARE,United Nations Population Division,167104.0,0.04113007468402911,False,False,False,False,-0.8585451492782188,False
+213,1,1967,179700,United Arab Emirates,ARE,United Nations Population Division,173977.0,0.03289515280755502,False,False,False,False,-0.8569028829269744,False
+213,1,1968,199416,United Arab Emirates,ARE,United Nations Population Division,179700.0,0.10971619365609349,False,True,True,False,-0.8512451993028025,True
+213,1,1969,239660,United Arab Emirates,ARE,United Nations Population Division,199416.0,0.20180928310667148,False,True,True,False,-0.8396968213472755,True
+213,1,1970,286536,United Arab Emirates,ARE,United Nations Population Division,239660.0,0.1955937578235834,False,True,True,False,-0.8262453313104183,True
+213,1,1971,335027,United Arab Emirates,ARE,United Nations Population Division,286536.0,0.16923178937376107,False,True,True,False,-0.8123304024901853,True
+213,1,1972,385014,United Arab Emirates,ARE,United Nations Population Division,335027.0,0.1492029000647709,False,True,True,False,-0.7979861830074567,True
+213,1,1973,436399,United Arab Emirates,ARE,United Nations Population Division,385014.0,0.13346267927919503,False,True,True,False,-0.7832407948441341,True
+213,1,1974,489087,United Arab Emirates,ARE,United Nations Population Division,436399.0,0.12073354888530909,False,True,True,False,-0.768121499105122,True
+213,1,1975,542857,United Arab Emirates,ARE,United Nations Population Division,489087.0,0.1099395404089661,False,True,True,False,-0.752691713729198,True
+213,1,1976,615866,United Arab Emirates,ARE,United Nations Population Division,542857.0,0.13449029855007857,False,True,True,False,-0.7317411241716224,True
+213,1,1977,710209,United Arab Emirates,ARE,United Nations Population Division,615866.0,0.15318754404367182,False,True,True,False,-0.7046685513295022,True
+213,1,1978,809274,United Arab Emirates,ARE,United Nations Population Division,710209.0,0.13948710872433326,False,True,True,False,-0.676240958094131,True
+213,1,1979,912011,United Arab Emirates,ARE,United Nations Population Division,809274.0,0.1269495869137029,False,True,True,False,-0.6467596514144527,True
+213,1,1980,1015700,United Arab Emirates,ARE,United Nations Population Division,912011.0,0.11369270765374541,False,True,True,False,-0.6170051597677317,True
+213,1,1981,1099855,United Arab Emirates,ARE,United Nations Population Division,1015700.0,0.08285418922910308,False,False,False,False,-0.5928561252073656,False
+213,1,1982,1166370,United Arab Emirates,ARE,United Nations Population Division,1099855.0,0.06047615367480259,False,False,False,False,-0.5737690473892592,False
+213,1,1983,1235306,United Arab Emirates,ARE,United Nations Population Division,1166370.0,0.059103029055959946,False,False,False,False,-0.5539872418345875,False
+213,1,1984,1305996,United Arab Emirates,ARE,United Nations Population Division,1235306.0,0.05722468764824262,False,False,False,False,-0.5337021101956797,False
+213,1,1985,1377912,United Arab Emirates,ARE,United Nations Population Division,1305996.0,0.055066018578923674,False,False,False,False,-0.5130651668240049,False
+213,1,1986,1467383,United Arab Emirates,ARE,United Nations Population Division,1377912.0,0.06493230336915565,False,False,False,False,-0.48739065822498506,False
+213,1,1987,1574244,United Arab Emirates,ARE,United Nations Population Division,1467383.0,0.07282420472364748,False,False,False,False,-0.4567259326334542,False
+213,1,1988,1681788,United Arab Emirates,ARE,United Nations Population Division,1574244.0,0.06831469581589639,False,False,False,False,-0.4258652140456102,False
+213,1,1989,1789851,United Arab Emirates,ARE,United Nations Population Division,1681788.0,0.0642548287893599,False,False,False,False,-0.39485556373728814,False
+213,1,1990,1898220,United Arab Emirates,ARE,United Nations Population Division,1789851.0,0.060546380676380324,False,False,False,False,-0.36375810397527386,False
+213,1,1991,2006626,United Arab Emirates,ARE,United Nations Population Division,1898220.0,0.057109291862903144,False,False,False,False,-0.33265002673029676,False
+213,1,1992,2114730,United Arab Emirates,ARE,United Nations Population Division,2006626.0,0.05387351703805293,False,False,False,False,-0.3016286111030159,False
+213,1,1993,2222094,United Arab Emirates,ARE,United Nations Population Division,2114730.0,0.050769601793136714,False,False,False,False,-0.2708195451349909,False
+213,1,1994,2328188,United Arab Emirates,ARE,United Nations Population Division,2222094.0,0.047745054889667134,False,False,False,False,-0.24037491709568864,False
+213,1,1995,2434663,United Arab Emirates,ARE,United Nations Population Division,2328188.0,0.04573299063477692,False,False,False,False,-0.20982095767776954,False
+213,1,1996,2597564,United Arab Emirates,ARE,United Nations Population Division,2434663.0,0.06690905476445816,False,False,False,False,-0.16307504978259757,False
+213,1,1997,2817410,United Arab Emirates,ARE,United Nations Population Division,2597564.0,0.0846354507530902,False,False,False,False,-0.09998826168969463,False
+213,1,1998,3040422,United Arab Emirates,ARE,United Nations Population Division,2817410.0,0.07915496857042462,False,False,False,False,-0.03599296140597571,False
+213,1,1999,3266009,United Arab Emirates,ARE,United Nations Population Division,3040422.0,0.07419595043056523,False,False,False,False,0.028741258300153557,False
+213,1,2000,3493576,United Arab Emirates,ARE,United Nations Population Division,3266009.0,0.0696773952551876,False,False,False,False,0.09404365682429155,False
+213,1,2001,3723591,United Arab Emirates,ARE,United Nations Population Division,3493576.0,0.06583941497193706,False,False,False,False,0.16004853097796762,False
+213,1,2002,3956826,United Arab Emirates,ARE,United Nations Population Division,3723591.0,0.06263711562306387,False,False,False,False,0.22697741310840536,False
+213,1,2003,4192457,United Arab Emirates,ARE,United Nations Population Division,3956826.0,0.05955050841255087,False,False,False,False,0.29459384900043345,False
+213,1,2004,4428967,United Arab Emirates,ARE,United Nations Population Division,4192457.0,0.0564132202190744,False,False,False,False,0.36246252185257755,False
+213,1,2005,4664790,United Arab Emirates,ARE,United Nations Population Division,4428967.0,0.05324559880441647,False,False,False,False,0.4301340538724126,False
+213,1,2006,5009100,United Arab Emirates,ARE,United Nations Population Division,4664790.0,0.07381039660949368,False,False,False,False,0.5289369068161432,False
+213,1,2007,5624635,United Arab Emirates,ARE,United Nations Population Division,5009100.0,0.12288335229881615,False,True,True,False,0.7055702142621054,True
+213,1,2008,6302665,United Arab Emirates,ARE,United Nations Population Division,5624635.0,0.120546488794384,False,True,True,False,0.900137024350217,True
+213,1,2009,6707058,United Arab Emirates,ARE,United Nations Population Division,6302665.0,0.0641622234404018,False,False,False,False,1.0161812348305228,False
+213,1,2010,6938363,United Arab Emirates,ARE,United Nations Population Division,6707058.0,0.03448680479578378,False,False,False,False,1.0825562860929014,False
+213,1,2011,7199424,United Arab Emirates,ARE,United Nations Population Division,6938363.0,0.037625733908704405,False,False,False,False,1.1574700893293548,False
+213,1,2012,7497119,United Arab Emirates,ARE,United Nations Population Division,7199424.0,0.04134983576463895,False,False,False,False,1.242896348534966,False
+213,1,2013,7831847,United Arab Emirates,ARE,United Nations Population Division,7497119.0,0.044647550612441925,False,False,False,False,1.3389495603503332,False
+213,1,2014,8236875,United Arab Emirates,ARE,United Nations Population Division,7831847.0,0.05171551487152392,False,False,False,False,1.4551759897950003,False
+213,1,2015,8674633,United Arab Emirates,ARE,United Nations Population Division,8236875.0,0.05314612641323317,False,False,False,False,1.580794587276751,False
+213,1,2016,9030873,United Arab Emirates,ARE,United Nations Population Division,8674633.0,0.04106686703633456,False,False,False,False,1.6830208610784838,False
+213,1,2017,9234327,United Arab Emirates,ARE,United Nations Population Division,9030873.0,0.02252871898431082,False,False,False,False,1.741403817259872,False
+213,1,2018,9346870,United Arab Emirates,ARE,United Nations Population Division,9234327.0,0.01218746098118466,False,False,False,False,1.7736990438836886,False
+213,1,2019,9377848,United Arab Emirates,ARE,United Nations Population Division,9346870.0,0.003314264561291641,False,False,False,False,1.7825884597545343,False
+213,1,2020,9448524,United Arab Emirates,ARE,United Nations Population Division,9377848.0,0.007536483850026147,False,False,False,False,1.802869573967456,False
+213,1,2021,9789048,United Arab Emirates,ARE,United Nations Population Division,9448524.0,0.036039914805741084,False,False,False,False,1.9005860001409944,False
+213,1,2022,10242087,United Arab Emirates,ARE,United Nations Population Division,9789048.0,0.04628018986115912,False,False,False,False,2.030589618086377,False
+213,1,2023,10642081,United Arab Emirates,ARE,United Nations Population Division,10242087.0,0.03905395453094667,False,False,False,False,2.145371495930107,False
+213,1,2024,11027129,United Arab Emirates,ARE,United Nations Population Division,10642081.0,0.03618164530038815,False,False,False,False,2.2558644845748677,False
+213,1,2025,11346000,United Arab Emirates,ARE,United Nations Population Division,11027129.0,0.028916955628251015,False,False,False,False,2.347367387543182,False
+213,2,1960,131334,United Arab Emirates,ARE,World Bank,,0.0,False,False,False,False,-0.9930588836518591,False
+213,2,1961,137989,United Arab Emirates,ARE,World Bank,131334.0,0.05067233161252989,False,False,False,False,-0.9910200740391657,False
+213,2,1962,144946,United Arab Emirates,ARE,World Bank,137989.0,0.05041706222959801,False,False,False,False,-0.9888887444410427,False
+213,2,1963,152211,United Arab Emirates,ARE,World Bank,144946.0,0.05012211444262001,False,False,False,False,-0.9866630567120843,False
+213,2,1964,159692,United Arab Emirates,ARE,World Bank,152211.0,0.049148878858952375,False,False,False,False,-0.9843711957485141,False
+213,2,1965,167103,United Arab Emirates,ARE,World Bank,159692.0,0.04640808556471207,False,False,False,False,-0.9821007798146791,False
+213,2,1966,173976,United Arab Emirates,ARE,World Bank,167103.0,0.041130320820093,False,False,False,False,-0.9799951842522385,False
+213,2,1967,179700,United Arab Emirates,ARE,World Bank,173976.0,0.03290108980549041,False,False,False,False,-0.9782415935350248,False
+213,2,1968,199416,United Arab Emirates,ARE,World Bank,179700.0,0.10971619365609349,False,True,True,False,-0.9722014477312886,True
+213,2,1969,239660,United Arab Emirates,ARE,World Bank,199416.0,0.20180928310667148,False,True,True,False,-0.9598723937788864,True
+213,2,1970,286536,United Arab Emirates,ARE,World Bank,239660.0,0.1955937578235834,False,True,True,False,-0.9455115764378468,True
+213,2,1971,335027,United Arab Emirates,ARE,World Bank,286536.0,0.16923178937376107,False,True,True,False,-0.9306559916250565,True
+213,2,1972,385014,United Arab Emirates,ARE,World Bank,335027.0,0.1492029000647709,False,True,True,False,-0.9153420958910657,True
+213,2,1973,436399,United Arab Emirates,ARE,World Bank,385014.0,0.13346267927919503,False,True,True,False,-0.8995999122775039,True
+213,2,1974,489087,United Arab Emirates,ARE,World Bank,436399.0,0.12073354888530909,False,True,True,False,-0.8834585447532975,True
+213,2,1975,542856,United Arab Emirates,ARE,World Bank,489087.0,0.10993749578295886,False,True,True,False,-0.8669860046984643,True
+213,2,1976,615866,United Arab Emirates,ARE,World Bank,542856.0,0.13449238840502822,False,True,True,False,-0.8446188386845274,True
+213,2,1977,710209,United Arab Emirates,ARE,World Bank,615866.0,0.15318754404367182,False,True,True,False,-0.8157161466799683,True
+213,2,1978,809274,United Arab Emirates,ARE,World Bank,710209.0,0.13948710872433326,False,True,True,False,-0.7853668342409783,True
+213,2,1979,912010,United Arab Emirates,ARE,World Bank,809274.0,0.12694835123827036,False,True,True,False,-0.7538928831711547,True
+213,2,1980,1015700,United Arab Emirates,ARE,World Bank,912010.0,0.11369392879464041,False,True,True,False,-0.7221266669817953,True
+213,2,1981,1099855,United Arab Emirates,ARE,World Bank,1015700.0,0.08285418922910308,False,False,False,False,-0.696345145876428,False
+213,2,1982,1166370,United Arab Emirates,ARE,World Bank,1099855.0,0.06047615367480259,False,False,False,False,-0.675967772264361,False
+213,2,1983,1235305,United Arab Emirates,ARE,World Bank,1166370.0,0.059102171695088176,False,False,False,False,-0.6548490133385872,False
+213,2,1984,1305996,United Arab Emirates,ARE,World Bank,1235305.0,0.05722554348925974,False,False,False,False,-0.6331922905240246,False
+213,2,1985,1377911,United Arab Emirates,ARE,World Bank,1305996.0,0.05506525287979443,False,False,False,False,-0.6111605860466616,False
+213,2,1986,1467383,United Arab Emirates,ARE,World Bank,1377911.0,0.06493307622916139,False,False,False,False,-0.5837501617541131,False
+213,2,1987,1574244,United Arab Emirates,ARE,World Bank,1467383.0,0.07282420472364748,False,False,False,False,-0.5510124857177439,False
+213,2,1988,1681788,United Arab Emirates,ARE,World Bank,1574244.0,0.06831469581589639,False,False,False,False,-0.5180655674626715,False
+213,2,1989,1789851,United Arab Emirates,ARE,World Bank,1681788.0,0.0642548287893599,False,False,False,False,-0.4849596496299901,False
+213,2,1990,1898220,United Arab Emirates,ARE,World Bank,1789851.0,0.060546380676380324,False,False,False,False,-0.45175998638160864,False
+213,2,1991,2006626,United Arab Emirates,ARE,World Bank,1898220.0,0.057109291862903144,False,False,False,False,-0.41854898790322415,False
+213,2,1992,2114730,United Arab Emirates,ARE,World Bank,2006626.0,0.05387351703805293,False,False,False,False,-0.38543050941026924,False
+213,2,1993,2222093,United Arab Emirates,ARE,World Bank,2114730.0,0.0507691289195311,False,False,False,False,-0.352539041874941,False
+213,2,1994,2328188,United Arab Emirates,ARE,World Bank,2222093.0,0.047745526402360294,False,False,False,False,-0.32003603573538975,False
+213,2,1995,2434662,United Arab Emirates,ARE,World Bank,2328188.0,0.04573256111619852,False,False,False,False,-0.2874169200777001,False
+213,2,1996,2597564,United Arab Emirates,ARE,World Bank,2434662.0,0.06690949298095587,False,False,False,False,-0.2375106595928027,False
+213,2,1997,2817410,United Arab Emirates,ARE,World Bank,2597564.0,0.0846354507530902,False,False,False,False,-0.1701591737757916,False
+213,2,1998,3040421,United Arab Emirates,ARE,World Bank,2817410.0,0.07915461363450829,False,False,False,False,-0.10183806625717645,False
+213,2,1999,3266009,United Arab Emirates,ARE,World Bank,3040421.0,0.0741963037355682,False,False,False,False,-0.03272747528673395,False
+213,2,2000,3493575,United Arab Emirates,ARE,World Bank,3266009.0,0.06967708907109564,False,False,False,False,0.036989090952515125,False
+213,2,2001,3723590,United Arab Emirates,ARE,World Bank,3493575.0,0.0658394338177941,False,False,False,False,0.10745592687493269,False
+213,2,2002,3956826,United Arab Emirates,ARE,World Bank,3723590.0,0.06263740100279569,False,False,False,False,0.17890954052274255,False
+213,2,2003,4192457,United Arab Emirates,ARE,World Bank,3956826.0,0.05955050841255087,False,False,False,False,0.2510968805450679,False
+213,2,2004,4428967,United Arab Emirates,ARE,World Bank,4192457.0,0.0564132202190744,False,False,False,False,0.32355350886935536,False
+213,2,2005,4664790,United Arab Emirates,ARE,World Bank,4428967.0,0.05324559880441647,False,False,False,False,0.39579966954466905,False
+213,2,2006,5009100,United Arab Emirates,ARE,World Bank,4664790.0,0.07381039660949368,False,False,False,False,0.5012816436613466,False
+213,2,2007,5624635,United Arab Emirates,ARE,World Bank,5009100.0,0.12288335229881615,False,True,True,False,0.6898554490631913,True
+213,2,2008,6302664,United Arab Emirates,ARE,World Bank,5624635.0,0.12054631100506966,False,True,True,False,0.8975747642975928,True
+213,2,2009,6707058,United Arab Emirates,ARE,World Bank,6302664.0,0.06416239228364387,False,False,False,False,1.0214639265087968,False
+213,2,2010,6869838,United Arab Emirates,ARE,World Bank,6707058.0,0.024269955619885798,False,False,False,False,1.0713328113704412,False
+213,2,2011,7104538,United Arab Emirates,ARE,World Bank,6869838.0,0.03416383326651953,False,False,False,False,1.143234932497287,False
+213,2,2012,7391448,United Arab Emirates,ARE,World Bank,7104538.0,0.04038404749189884,False,False,False,False,1.2311319822310036,False
+213,2,2013,7693031,United Arab Emirates,ARE,World Bank,7391448.0,0.04080161289100593,False,False,False,False,1.3235242165548105,False
+213,2,2014,8059440,United Arab Emirates,ARE,World Bank,7693031.0,0.047628691474140686,False,False,False,False,1.435776386558928,False
+213,2,2015,8505237,United Arab Emirates,ARE,World Bank,8059440.0,0.05531364462046991,False,False,False,False,1.5723496711434377,False
+213,2,2016,8935095,United Arab Emirates,ARE,World Bank,8505237.0,0.0505403905852359,False,False,False,False,1.7040399224572154,False
+213,2,2017,9223225,United Arab Emirates,ARE,World Bank,8935095.0,0.0322469990526122,False,False,False,False,1.7923107284234618,False
+213,2,2018,9346701,United Arab Emirates,ARE,World Bank,9223225.0,0.013387508165527785,False,False,False,False,1.8301385354462925,False
+213,2,2019,9445785,United Arab Emirates,ARE,World Bank,9346701.0,0.01060095963270891,False,False,False,False,1.8604936686790678,False
+213,2,2020,9401038,United Arab Emirates,ARE,World Bank,9445785.0,-0.004737245236896669,False,False,False,False,1.8467850865995494,False
+213,2,2021,9575152,United Arab Emirates,ARE,World Bank,9401038.0,0.01852072079700135,False,False,False,False,1.9001262281329097,False
+213,2,2022,10074977,United Arab Emirates,ARE,World Bank,9575152.0,0.052200215725034964,False,False,False,False,2.053251399382273,False
+213,2,2023,10483751,United Arab Emirates,ARE,World Bank,10074977.0,0.04057319436064221,False,False,False,False,2.178482407739773,False
+213,4,1950,71520,United Arab Emirates,ARE,Census Bureau,,0.0,False,False,False,False,-0.8581143492586765,False
+213,4,1951,73298,United Arab Emirates,ARE,Census Bureau,71520.0,0.024860178970917225,False,False,False,False,-0.85760831713574,False
+213,4,1952,75273,United Arab Emirates,ARE,Census Bureau,73298.0,0.026944800676689678,False,False,False,False,-0.8570462173366402,False
+213,4,1953,77480,United Arab Emirates,ARE,Census Bureau,75273.0,0.02931994207750455,False,False,False,False,-0.8564180885991145,False
+213,4,1954,79947,United Arab Emirates,ARE,Census Bureau,77480.0,0.031840474961280334,False,False,False,False,-0.8557159619133529,False
+213,4,1955,82715,United Arab Emirates,ARE,Census Bureau,79947.0,0.034622937696223745,False,False,False,False,-0.8549281683721335,False
+213,4,1956,85831,United Arab Emirates,ARE,Census Bureau,82715.0,0.03767152269842229,False,False,False,False,-0.8540413314232752,False
+213,4,1957,89353,United Arab Emirates,ARE,Census Bureau,85831.0,0.04103412519951999,False,False,False,False,-0.8530389438321717,False
+213,4,1958,93340,United Arab Emirates,ARE,Census Bureau,89353.0,0.044620773784875715,False,False,False,False,-0.8519042137567231,False
+213,4,1959,97870,United Arab Emirates,ARE,Census Bureau,93340.0,0.0485322476965931,False,False,False,False,-0.8506149418124587,False
+213,4,1960,103048,United Arab Emirates,ARE,Census Bureau,97870.0,0.05290691733932768,False,False,False,False,-0.8491412442125909,False
+213,4,1961,108989,United Arab Emirates,ARE,Census Bureau,103048.0,0.057652744352146575,False,False,False,False,-0.8474503910954,False
+213,4,1962,115827,United Arab Emirates,ARE,Census Bureau,108989.0,0.06274027654166935,False,False,False,False,-0.8455042450567952,False
+213,4,1963,123751,United Arab Emirates,ARE,Census Bureau,115827.0,0.06841237362618388,False,False,False,False,-0.8432490152805587,False
+213,4,1964,132980,United Arab Emirates,ARE,Census Bureau,123751.0,0.07457717513393831,False,False,False,False,-0.8406223727256766,False
+213,4,1965,143798,United Arab Emirates,ARE,Census Bureau,132980.0,0.08135057903444128,False,False,False,False,-0.8375434888640757,False
+213,4,1966,156574,United Arab Emirates,ARE,Census Bureau,143798.0,0.0888468546155023,False,False,False,False,-0.8339073435307596,False
+213,4,1967,171745,United Arab Emirates,ARE,Census Bureau,156574.0,0.09689348167639583,False,False,False,False,-0.8295895632511934,False
+213,4,1968,190974,United Arab Emirates,ARE,Census Bureau,171745.0,0.1119625025473813,False,True,True,False,-0.8241168457641602,True
+213,4,1969,217858,United Arab Emirates,ARE,Census Bureau,190974.0,0.140773089530512,False,True,True,False,-0.8164654579165656,True
+213,4,1970,249369,United Arab Emirates,ARE,Census Bureau,217858.0,0.1446400866619541,False,True,True,False,-0.8074971911978647,True
+213,4,1971,288136,United Arab Emirates,ARE,Census Bureau,249369.0,0.15546038200417855,False,True,True,False,-0.7964638125083949,True
+213,4,1972,336325,United Arab Emirates,ARE,Census Bureau,288136.0,0.16724394036149595,False,True,True,False,-0.7827488620178525,True
+213,4,1973,391337,United Arab Emirates,ARE,Census Bureau,336325.0,0.1635679774028098,False,True,True,False,-0.7670920346011036,True
+213,4,1974,453222,United Arab Emirates,ARE,Census Bureau,391337.0,0.15813735987141517,False,True,True,False,-0.7494790998834874,True
+213,4,1975,522571,United Arab Emirates,ARE,Census Bureau,453222.0,0.1530133135637723,False,True,True,False,-0.7297418548365135,True
+213,4,1976,598023,United Arab Emirates,ARE,Census Bureau,522571.0,0.14438612169446832,False,True,True,False,-0.708267650258448,True
+213,4,1977,683672,United Arab Emirates,ARE,Census Bureau,598023.0,0.1432202440374367,False,True,True,False,-0.6838913030720681,True
+213,4,1978,778736,United Arab Emirates,ARE,Census Bureau,683672.0,0.13904913467276706,False,True,True,False,-0.6568353763370681,True
+213,4,1979,884040,United Arab Emirates,ARE,Census Bureau,778736.0,0.13522426085348566,False,True,True,False,-0.6268650688715455,True
+213,4,1980,1000285,United Arab Emirates,ARE,Census Bureau,884040.0,0.1314929188724492,False,True,True,False,-0.5937808708227564,True
+213,4,1981,1069722,United Arab Emirates,ARE,Census Bureau,1000285.0,0.06941721609341338,False,False,False,False,-0.5740185803163798,False
+213,4,1982,1137549,United Arab Emirates,ARE,Census Bureau,1069722.0,0.06340619338482335,False,False,False,False,-0.5547145078740793,False
+213,4,1983,1209100,United Arab Emirates,ARE,Census Bureau,1137549.0,0.0628992685150266,False,False,False,False,-0.5343505571270458,False
+213,4,1984,1284385,United Arab Emirates,ARE,Census Bureau,1209100.0,0.06226532131337358,False,False,False,False,-0.5129238820003472,False
+213,4,1985,1363482,United Arab Emirates,ARE,Census Bureau,1284385.0,0.0615835594467391,False,False,False,False,-0.4904122831095127,False
+213,4,1986,1446574,United Arab Emirates,ARE,Census Bureau,1363482.0,0.06094103185813968,False,False,False,False,-0.4667636772832838,False
+213,4,1987,1524243,United Arab Emirates,ARE,Census Bureau,1446574.0,0.05369168808508932,False,False,False,False,-0.44465849789276035,False
+213,4,1988,1609623,United Arab Emirates,ARE,Census Bureau,1524243.0,0.056014690570991635,False,False,False,False,-0.42035871012205533,False
+213,4,1989,1701214,United Arab Emirates,ARE,Census Bureau,1609623.0,0.05690214416667754,False,False,False,False,-0.39429122521099136,False
+213,4,1990,1796829,United Arab Emirates,ARE,Census Bureau,1701214.0,0.05620398139211175,False,False,False,False,-0.3670784797472298,False
+213,4,1991,1897767,United Arab Emirates,ARE,Census Bureau,1796829.0,0.056175629400460475,False,False,False,False,-0.3383507685970843,False
+213,4,1992,2006800,United Arab Emirates,ARE,Census Bureau,1897767.0,0.05745331223485286,False,False,False,False,-0.3073191597893626,False
+213,4,1993,2122994,United Arab Emirates,ARE,Census Bureau,2006800.0,0.05790013952561292,False,False,False,False,-0.27424947672272754,False
+213,4,1994,2245060,United Arab Emirates,ARE,Census Bureau,2122994.0,0.057497100792559944,False,False,False,False,-0.23950857845593343,False
+213,4,1995,2369781,United Arab Emirates,ARE,Census Bureau,2245060.0,0.055553526409093744,False,False,False,False,-0.20401204729465325,False
+213,4,1996,2536143,United Arab Emirates,ARE,Census Bureau,2369781.0,0.07020142367585866,False,False,False,False,-0.1566641755084032,False
+213,4,1997,2704660,United Arab Emirates,ARE,Census Bureau,2536143.0,0.06644617436792799,False,False,False,False,-0.10870297457427461,False
+213,4,1998,2876234,United Arab Emirates,ARE,Census Bureau,2704660.0,0.06343643933063675,False,False,False,False,-0.059871728533387465,False
+213,4,1999,3051363,United Arab Emirates,ARE,Census Bureau,2876234.0,0.0608883004651221,False,False,False,False,-0.010028702854120651,False
+213,4,2000,3230742,United Arab Emirates,ARE,Census Bureau,3051363.0,0.05878651605856137,False,False,False,False,0.04102390467131033,False
+213,4,2001,3402348,United Arab Emirates,ARE,Census Bureau,3230742.0,0.05311659055412039,False,False,False,False,0.08986425815198035,False
+213,4,2002,3555027,United Arab Emirates,ARE,Census Bureau,3402348.0,0.04487459836559929,False,False,False,False,0.13331784560856821,False
+213,4,2003,3693043,United Arab Emirates,ARE,Census Bureau,3555027.0,0.038822771247588275,False,False,False,False,0.1725982333921431,False
+213,4,2004,3819555,United Arab Emirates,ARE,Census Bureau,3693043.0,0.03425684455880963,False,False,False,False,0.20860449657377153,False
+213,4,2005,3935820,United Arab Emirates,ARE,Census Bureau,3819555.0,0.030439409826537384,False,False,False,False,0.24169438677242486,False
+213,4,2006,4458540,United Arab Emirates,ARE,Census Bureau,3935820.0,0.13281095172035307,False,True,True,False,0.3904644156258206,True
+213,4,2007,5532409,United Arab Emirates,ARE,Census Bureau,4458540.0,0.24085664814042265,False,True,True,False,0.6960955797572242,True
+213,4,2008,7159278,United Arab Emirates,ARE,Census Bureau,5532409.0,0.29406159233708135,False,True,True,False,1.1591146876365768,True
+213,4,2009,8032709,United Arab Emirates,ARE,Census Bureau,7159278.0,0.1219998720541373,False,True,True,False,1.4076996950429326,True
+213,4,2010,8020877,United Arab Emirates,ARE,Census Bureau,8032709.0,-0.0014729775471761769,False,False,False,False,1.4043322191832115,False
+213,4,2011,8302211,United Arab Emirates,ARE,Census Bureau,8020877.0,0.035075216837261065,False,False,False,False,1.4844019836793878,False
+213,4,2012,8606553,United Arab Emirates,ARE,Census Bureau,8302211.0,0.0366579456966343,False,False,False,False,1.571019997379457,False
+213,4,2013,8930981,United Arab Emirates,ARE,Census Bureau,8606553.0,0.037695462980359265,False,False,False,False,1.6633546371882446,False
+213,4,2014,9170474,United Arab Emirates,ARE,Census Bureau,8930981.0,0.026815979118083446,False,False,False,False,1.7315161395608079,False
+213,4,2015,9308415,United Arab Emirates,ARE,Census Bureau,9170474.0,0.015041861522097985,False,False,False,False,1.7707751817823918,False
+213,4,2016,9432801,United Arab Emirates,ARE,Census Bureau,9308415.0,0.013362747578400834,False,False,False,False,1.806176369433445,False
+213,4,2017,9543192,United Arab Emirates,ARE,Census Bureau,9432801.0,0.011702886555117616,False,False,False,False,1.8375944752169526,False
+213,4,2018,9638206,United Arab Emirates,ARE,Census Bureau,9543192.0,0.009956207524694043,False,False,False,False,1.864636171577292,False
+213,4,2019,9720156,United Arab Emirates,ARE,Census Bureau,9638206.0,0.008502619678392432,False,False,False,False,1.8879597556462693,False
+213,4,2020,9792173,United Arab Emirates,ARE,Census Bureau,9720156.0,0.00740903746812294,False,False,False,False,1.9084563334851408,False
+213,4,2021,9856612,United Arab Emirates,ARE,Census Bureau,9792173.0,0.006580663964985096,False,False,False,False,1.9267961557404285,False
+213,4,2022,9915803,United Arab Emirates,ARE,Census Bureau,9856612.0,0.0060052074688544095,False,False,False,False,1.9436423578713233,False
+213,4,2023,9973449,United Arab Emirates,ARE,Census Bureau,9915803.0,0.005813548332898506,False,False,False,False,1.9600488414252009,False
+213,4,2024,10032213,United Arab Emirates,ARE,Census Bureau,9973449.0,0.005892043965933951,False,False,False,False,1.9767735161564928,False
+213,5,1950,74512,United Arab Emirates,ARE,GM-Population,,0.0,False,False,False,False,0.0,False

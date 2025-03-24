@@ -1,0 +1,11 @@
+Year-over-Year Anomalies for China, Hong Kong SAR
+========================================
+Year 1962: decrease of -6.1%, Population 2,889,085, Source: United Nations Population Division
+Year 1963: decrease of -7.8%, Population 2,662,601, Source: United Nations Population Division
+Year 1964: increase of 17.8%, Population 3,136,029, Source: United Nations Population Division
+Year 1965: increase of 22.9%, Population 3,855,421, Source: United Nations Population Division
+Year 1967: decrease of -13.5%, Population 3,474,128, Source: United Nations Population Division
+Year 1968: decrease of -11.8%, Population 3,065,327, Source: United Nations Population Division
+Year 1969: increase of 10.8%, Population 3,395,521, Source: United Nations Population Division
+Year 1970: increase of 10.1%, Population 3,739,916, Source: United Nations Population Division
+Year 1951: decrease of -9.9%, Population 2,015,300, Source: Census Bureau

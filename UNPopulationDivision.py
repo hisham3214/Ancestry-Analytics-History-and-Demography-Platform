@@ -80,7 +80,7 @@ class UNPopulationAPI:
                     break
                     
                 page += 1
-                time.sleep(0.5)
+                time.sleep(0.1)
                 
             except requests.exceptions.RequestException as e:
                 logger.error(f"Failed to fetch data for indicator {indicator_id}, "
@@ -154,7 +154,7 @@ class UNPopulationAPI:
                     break
                     
                 page += 1
-                time.sleep(0.5)  # Add a small delay to be respectful to the API
+                time.sleep(0.1)  # Add a small delay to be respectful to the API
                 
             except requests.exceptions.RequestException as e:
                 logger.error(f"Failed to fetch location data, page {page}: {e}")
@@ -311,7 +311,7 @@ class UNPopulationAPI:
                             self.source_id,
                             record['timeLabel'],
                             record['value'],
-                            datetime.now()
+                            datetime.datetime.now()
                         ))
                     
                     # If this is population data, also prepare sex-specific data
@@ -323,7 +323,7 @@ class UNPopulationAPI:
                             record['sexId'],
                             record['sex'],
                             record['value'],
-                            datetime.now()
+                            datetime.datetime.now()
                         ))
                 
                 # Batch insert both sexes data
@@ -367,7 +367,7 @@ class UNPopulationAPI:
                         record['ageStart'],
                         record['ageEnd'],
                         record['value'],
-                        datetime.now()
+                        datetime.datetime.now()
                     ))
                 
                 # Batch insert age group data
@@ -397,7 +397,7 @@ class UNPopulationAPI:
                         record['sexId'],
                         record['sex'],
                         record['value'],
-                        datetime.now()
+                        datetime.datetime.now()
                     ))
                 
                 # Batch insert sex-specific data
@@ -597,7 +597,7 @@ if __name__ == "__main__":
         'user': 'root',
         'password': 'LZ#amhe!32',
         'host': '127.0.0.1',
-        'database': 'fyp',
+        'database': 'fyp1',
         'raise_on_warnings': True
     }
 
@@ -613,4 +613,7 @@ if __name__ == "__main__":
     #    max_workers=5  # Adjust based on your system capabilities
     #)
     # Example 3: Process everything in parallel (faster)
-    un_api.populate_database(max_workers=10)
+    un_api.populate_database(
+        indicators_to_process=["49"], # Population, Birth Rate, Death Rate, Net Migration rate
+        max_workers=10
+    )

@@ -1,0 +1,14 @@
+Population Analysis for Germany
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 5
+Latest population: 84,075,075
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (1):
+Year 1991: increase of 27.2% from previous year, Source: Eurostat

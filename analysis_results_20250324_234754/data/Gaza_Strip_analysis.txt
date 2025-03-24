@@ -1,0 +1,14 @@
+Population Analysis for Gaza Strip
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2024
+Number of data sources: 1
+Latest population: 2,141,643
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (1):
+Year 1968: decrease of -6.7% from previous year, Source: Census Bureau

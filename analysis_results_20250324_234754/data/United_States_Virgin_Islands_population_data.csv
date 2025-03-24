@@ -1,0 +1,216 @@
+country_id,source_id,year,population,country_name,country_code,source_name,population_prev,yoy_change,is_decrease_anomaly,is_increase_anomaly,is_yoy_anomaly,is_anomaly,population_z,is_any_anomaly
+229,1,1950,27081,United States Virgin Islands,VIR,United Nations Population Division,,0.0,False,False,False,False,-1.9255955751927252,False
+229,1,1951,27745,United States Virgin Islands,VIR,United Nations Population Division,27081.0,0.02451903548613419,False,False,False,False,-1.9022112341372608,False
+229,1,1952,28195,United States Virgin Islands,VIR,United Nations Population Division,27745.0,0.016219138583528563,False,False,False,False,-1.8863634126388285,False
+229,1,1953,28650,United States Virgin Islands,VIR,United Nations Population Division,28195.0,0.016137613051959567,False,False,False,False,-1.870339504234858,False
+229,1,1954,29158,United States Virgin Islands,VIR,United Nations Population Division,28650.0,0.017731239092495635,False,False,False,False,-1.8524490746321836,False
+229,1,1955,29658,United States Virgin Islands,VIR,United Nations Population Division,29158.0,0.017147952534467385,False,False,False,False,-1.8348403840783698,False
+229,1,1956,30132,United States Virgin Islands,VIR,United Nations Population Division,29658.0,0.01598219704632814,False,False,False,False,-1.8181473454333545,False
+229,1,1957,30612,United States Virgin Islands,VIR,United Nations Population Division,30132.0,0.01592990840302668,False,False,False,False,-1.8012430025016934,False
+229,1,1958,31128,United States Virgin Islands,VIR,United Nations Population Division,30612.0,0.01685613484907879,False,False,False,False,-1.7830708338501577,False
+229,1,1959,31690,United States Virgin Islands,VIR,United Nations Population Division,31128.0,0.01805448470830121,False,False,False,False,-1.7632786656676713,False
+229,1,1960,33023,United States Virgin Islands,VIR,United Nations Population Division,31690.0,0.04206374250552224,False,False,False,False,-1.7163338966512043,False
+229,1,1961,35433,United States Virgin Islands,VIR,United Nations Population Division,33023.0,0.0729794385731157,False,False,False,False,-1.6314600081818227,False
+229,1,1962,38315,United States Virgin Islands,VIR,United Nations Population Division,35433.0,0.08133660711765868,False,False,False,False,-1.5299635158296412,False
+229,1,1963,41437,United States Virgin Islands,VIR,United Nations Population Division,38315.0,0.08148244812736526,False,False,False,False,-1.420014852011629,False
+229,1,1964,44839,United States Virgin Islands,VIR,United Nations Population Division,41437.0,0.08210053816637305,False,False,False,False,-1.3002053214834812,False
+229,1,1965,48385,United States Virgin Islands,VIR,United Nations Population Division,44839.0,0.07908294118958942,False,False,False,False,-1.1753244880758351,False
+229,1,1966,51766,United States Virgin Islands,VIR,United Nations Population Division,48385.0,0.06987702800454687,False,False,False,False,-1.0562545225509476,False
+229,1,1967,54910,United States Virgin Islands,VIR,United Nations Population Division,51766.0,0.060734845265232006,False,False,False,False,-0.9455310763485677,False
+229,1,1968,57829,United States Virgin Islands,VIR,United Nations Population Division,54910.0,0.053159715898743395,False,False,False,False,-0.8427315408954038,False
+229,1,1969,60537,United States Virgin Islands,VIR,United Nations Population Division,57829.0,0.04682771619775545,False,False,False,False,-0.7473628728559494,False
+229,1,1970,63857,United States Virgin Islands,VIR,United Nations Population Division,60537.0,0.054842493020797196,False,False,False,False,-0.6304411675786271,False
+229,1,1971,67910,United States Virgin Islands,VIR,United Nations Population Division,63857.0,0.0634699406486368,False,False,False,False,-0.487705121949414,False
+229,1,1972,71914,United States Virgin Islands,VIR,United Nations Population Division,67910.0,0.058960388749815934,False,False,False,False,-0.34669472799447465,False
+229,1,1973,75719,United States Virgin Islands,VIR,United Nations Population Division,71914.0,0.05291042078037656,False,False,False,False,-0.21269259287995315,False
+229,1,1974,79301,United States Virgin Islands,VIR,United Nations Population Division,75719.0,0.04730648846392583,False,False,False,False,-0.08654393375243251,False
+229,1,1975,82611,United States Virgin Islands,VIR,United Nations Population Division,79301.0,0.04173970063429213,False,False,False,False,0.030025597713813537,False
+229,1,1976,85703,United States Virgin Islands,VIR,United Nations Population Division,82611.0,0.03742842962801564,False,False,False,False,0.13891774009859686,False
+229,1,1977,88716,United States Virgin Islands,VIR,United Nations Population Division,85703.0,0.03515629557891789,False,False,False,False,0.24502770937587762,False
+229,1,1978,91615,United States Virgin Islands,VIR,United Nations Population Division,88716.0,0.032677307362820686,False,False,False,False,0.3471228972068889,False
+229,1,1979,94433,United States Virgin Islands,VIR,United Nations Population Division,91615.0,0.030759155160181195,False,False,False,False,0.44636547716818237,False
+229,1,1980,96568,United States Virgin Islands,VIR,United Nations Population Division,94433.0,0.0226086219859583,False,False,False,False,0.5215545858329664,False
+229,1,1981,97758,United States Virgin Islands,VIR,United Nations Population Division,96568.0,0.012322922707315052,False,False,False,False,0.5634632693510429,False
+229,1,1982,98642,United States Virgin Islands,VIR,United Nations Population Division,97758.0,0.009042738190224841,False,False,False,False,0.5945954342501852,False
+229,1,1983,99446,United States Virgin Islands,VIR,United Nations Population Division,98642.0,0.008150686320228705,False,False,False,False,0.6229102086607176,False
+229,1,1984,100166,United States Virgin Islands,VIR,United Nations Population Division,99446.0,0.007240110210566538,False,False,False,False,0.6482667230582091,False
+229,1,1985,100799,United States Virgin Islands,VIR,United Nations Population Division,100166.0,0.0063195096140406925,False,False,False,False,0.6705593252993372,False
+229,1,1986,101330,United States Virgin Islands,VIR,United Nations Population Division,100799.0,0.005267909403863133,False,False,False,False,0.6892597546674872,False
+229,1,1987,101727,United States Virgin Islands,VIR,United Nations Population Division,101330.0,0.003917892035922234,False,False,False,False,0.7032410549672152,False
+229,1,1988,101947,United States Virgin Islands,VIR,United Nations Population Division,101727.0,0.0021626510169374894,False,False,False,False,0.7109888788108931,False
+229,1,1989,101928,United States Virgin Islands,VIR,United Nations Population Division,101947.0,-0.0001863713498190236,False,False,False,False,0.7103197485698483,False
+229,1,1990,102308,United States Virgin Islands,VIR,United Nations Population Division,101928.0,0.0037281218114747663,False,False,False,False,0.7237023533907466,False
+229,1,1991,103337,United States Virgin Islands,VIR,United Nations Population Division,102308.0,0.010057864487625601,False,False,False,False,0.759941038550495,False
+229,1,1992,104419,United States Virgin Islands,VIR,United Nations Population Division,103337.0,0.010470596204650802,False,False,False,False,0.7980462449089476,False
+229,1,1993,105378,United States Virgin Islands,VIR,United Nations Population Division,104419.0,0.009184152309445599,False,False,False,False,0.8318197133911621,False
+229,1,1994,106232,United States Virgin Islands,VIR,United Nations Population Division,105378.0,0.00810415836322572,False,False,False,False,0.8618953568570757,False
+229,1,1995,106971,United States Virgin Islands,VIR,United Nations Population Division,106232.0,0.00695647262595075,False,False,False,False,0.8879210014956123,False
+229,1,1996,107594,United States Virgin Islands,VIR,United Nations Population Division,106971.0,0.005824008376101934,False,False,False,False,0.909861429925664,False
+229,1,1997,108087,United States Virgin Islands,VIR,United Nations Population Division,107594.0,0.004582039890700225,False,False,False,False,0.9272235988117242,False
+229,1,1998,108422,United States Virgin Islands,VIR,United Nations Population Division,108087.0,0.0030993551490928603,False,False,False,False,0.9390214214827793,False
+229,1,1999,108578,United States Virgin Islands,VIR,United Nations Population Division,108422.0,0.0014388223792219292,False,False,False,False,0.9445153329355692,False
+229,1,2000,108579,United States Virgin Islands,VIR,United Nations Population Division,108578.0,9.209968870305219e-06,False,False,False,False,0.9445505503166768,False
+229,1,2001,108526,United States Virgin Islands,VIR,United Nations Population Division,108579.0,-0.0004881238545206716,False,False,False,False,0.9426840291179726,False
+229,1,2002,108418,United States Virgin Islands,VIR,United Nations Population Division,108526.0,-0.0009951532351694524,False,False,False,False,0.9388805519583489,False
+229,1,2003,108170,United States Virgin Islands,VIR,United Nations Population Division,108418.0,-0.002287443044512904,False,False,False,False,0.9301466414436572,False
+229,1,2004,107835,United States Virgin Islands,VIR,United Nations Population Division,108170.0,-0.0030969769806785613,False,False,False,False,0.9183488187726021,False
+229,1,2005,107607,United States Virgin Islands,VIR,United Nations Population Division,107835.0,-0.002114341354847684,False,False,False,False,0.9103192558800631,False
+229,1,2006,107450,United States Virgin Islands,VIR,United Nations Population Division,107607.0,-0.0014590128894960365,False,False,False,False,0.9047901270461657,False
+229,1,2007,107229,United States Virgin Islands,VIR,United Nations Population Division,107450.0,-0.0020567705909725455,False,False,False,False,0.8970070858213801,False
+229,1,2008,106960,United States Virgin Islands,VIR,United Nations Population Division,107229.0,-0.0025086497122979792,False,False,False,False,0.8875336103034284,False
+229,1,2009,106759,United States Virgin Islands,VIR,United Nations Population Division,106960.0,-0.0018792071802543008,False,False,False,False,0.8804549167007952,False
+229,1,2010,106311,United States Virgin Islands,VIR,United Nations Population Division,106759.0,-0.004196367519366049,False,False,False,False,0.8646775299645783,False
+229,1,2011,105391,United States Virgin Islands,VIR,United Nations Population Division,106311.0,-0.008653855198427256,False,False,False,False,0.8322775393455613,False
+229,1,2012,104298,United States Virgin Islands,VIR,United Nations Population Division,105391.0,-0.010370904536440493,False,False,False,False,0.7937849417949248,False
+229,1,2013,103158,United States Virgin Islands,VIR,United Nations Population Division,104298.0,-0.010930219179658286,False,False,False,False,0.7536371273322298,False
+229,1,2014,102000,United States Virgin Islands,VIR,United Nations Population Division,103158.0,-0.011225498749491072,False,False,False,False,0.7128554000095975,False
+229,1,2015,100248,United States Virgin Islands,VIR,United Nations Population Division,102000.0,-0.017176470588235293,False,False,False,False,0.6511545483090345,False
+229,1,2016,97787,United States Virgin Islands,VIR,United Nations Population Division,100248.0,-0.024549118186896497,False,False,False,False,0.564484573403164,False
+229,1,2017,95118,United States Virgin Islands,VIR,United Nations Population Division,97787.0,-0.027294016587071902,False,False,False,False,0.470489383226907,False
+229,1,2018,92302,United States Virgin Islands,VIR,United Nations Population Division,95118.0,-0.02960533232406064,False,False,False,False,0.3713172380278288,False
+229,1,2019,89373,United States Virgin Islands,VIR,United Nations Population Division,92302.0,-0.03173279018872831,False,False,False,False,0.2681655287635887,False
+229,1,2020,87707,United States Virgin Islands,VIR,United Nations Population Division,89373.0,-0.018640976581294127,False,False,False,False,0.20949337183828176,False
+229,1,2021,87223,United States Virgin Islands,VIR,United Nations Population Division,87707.0,-0.005518373675989374,False,False,False,False,0.1924481593821902,False
+229,1,2022,86507,United States Virgin Islands,VIR,United Nations Population Division,87223.0,-0.008208843997569448,False,False,False,False,0.16723251450912913,False
+229,1,2023,85701,United States Virgin Islands,VIR,United Nations Population Division,86507.0,-0.009317165084906424,False,False,False,False,0.1388473053363816,False
+229,1,2024,84905,United States Virgin Islands,VIR,United Nations Population Division,85701.0,-0.009288106323146755,False,False,False,False,0.11081426997471035,False
+229,1,2025,84139,United States Virgin Islands,VIR,United Nations Population Division,84905.0,-0.00902184794770626,False,False,False,False,0.0838377560462679,False
+229,2,1960,32500,United States Virgin Islands,VIR,World Bank,,0.0,False,False,False,False,-2.607353446319593,False
+229,2,1961,34300,United States Virgin Islands,VIR,World Bank,32500.0,0.055384615384615386,False,False,False,False,-2.52987538140526,False
+229,2,1962,35000,United States Virgin Islands,VIR,World Bank,34300.0,0.02040816326530612,False,False,False,False,-2.499745022827464,False
+229,2,1963,39800,United States Virgin Islands,VIR,World Bank,35000.0,0.13714285714285715,False,True,True,False,-2.293136849722575,True
+229,2,1964,40800,United States Virgin Islands,VIR,World Bank,39800.0,0.02512562814070352,False,False,False,False,-2.250093480325723,False
+229,2,1965,43500,United States Virgin Islands,VIR,World Bank,40800.0,0.0661764705882353,False,False,False,False,-2.1338763829542233,False
+229,2,1966,46200,United States Virgin Islands,VIR,World Bank,43500.0,0.06206896551724138,False,False,False,False,-2.0176592855827233,False
+229,2,1967,49100,United States Virgin Islands,VIR,World Bank,46200.0,0.06277056277056277,False,False,False,False,-1.8928335143318529,False
+229,2,1968,55700,United States Virgin Islands,VIR,World Bank,49100.0,0.13441955193482688,False,True,True,False,-1.6087472763126307,True
+229,2,1969,60300,United States Virgin Islands,VIR,World Bank,55700.0,0.08258527827648116,False,False,False,False,-1.4107477770871124,False
+229,2,1970,63476,United States Virgin Islands,VIR,World Bank,60300.0,0.05266998341625207,False,False,False,False,-1.274042035882711,False
+229,2,1971,70937,United States Virgin Islands,VIR,World Bank,63476.0,0.11754048774339908,False,True,True,False,-0.9528954568127994,True
+229,2,1972,76319,United States Virgin Islands,VIR,World Bank,70937.0,0.07587013829172365,False,False,False,False,-0.7212360427189429,False
+229,2,1973,84121,United States Virgin Islands,VIR,World Bank,76319.0,0.10222880278829649,False,True,True,False,-0.38541167468470494,True
+229,2,1974,89941,United States Virgin Islands,VIR,World Bank,84121.0,0.06918605342304537,False,False,False,False,-0.13489926479502728,False
+229,2,1975,94484,United States Virgin Islands,VIR,World Bank,89941.0,0.05051089047264318,False,False,False,False,0.06064676237487058,False
+229,2,1976,96166,United States Virgin Islands,VIR,World Bank,94484.0,0.017801955886710977,False,False,False,False,0.13304570970037535,False
+229,2,1977,93203,United States Virgin Islands,VIR,World Bank,96166.0,-0.030811305450990995,False,False,False,False,0.0055082061775033825,False
+229,2,1978,95929,United States Virgin Islands,VIR,World Bank,93203.0,0.02924798557986331,False,False,False,False,0.12284443115332147,False
+229,2,1979,96183,United States Virgin Islands,VIR,World Bank,95929.0,0.002647791595867777,False,False,False,False,0.13377744698012184,False
+229,2,1980,99636,United States Virgin Islands,VIR,World Bank,96183.0,0.035900315024484576,False,False,False,False,0.2824062015074512,False
+229,2,1981,99853,United States Virgin Islands,VIR,World Bank,99636.0,0.00217792765667028,False,False,False,False,0.29174661266656804,False
+229,2,1982,100068,United States Virgin Islands,VIR,World Bank,99853.0,0.0021531651527745784,False,False,False,False,0.3010009370868912,False
+229,2,1983,100348,United States Virgin Islands,VIR,World Bank,100068.0,0.0027980972938401885,False,False,False,False,0.31305308051800973,False
+229,2,1984,100600,United States Virgin Islands,VIR,World Bank,100348.0,0.0025112608123729423,False,False,False,False,0.3239000096060164,False
+229,2,1985,100760,United States Virgin Islands,VIR,World Bank,100600.0,0.0015904572564612327,False,False,False,False,0.33078694870951264,False
+229,2,1986,100842,United States Virgin Islands,VIR,World Bank,100760.0,0.0008138150059547439,False,False,False,False,0.3343165050000545,False
+229,2,1987,100901,United States Virgin Islands,VIR,World Bank,100842.0,0.0005850736796176196,False,False,False,False,0.33685606379446875,False
+229,2,1988,100952,United States Virgin Islands,VIR,World Bank,100901.0,0.0005054459321513166,False,False,False,False,0.33905127563370824,False
+229,2,1989,101041,United States Virgin Islands,VIR,World Bank,100952.0,0.0008816071004041525,False,False,False,False,0.342882135510028,False
+229,2,1990,103963,United States Virgin Islands,VIR,World Bank,101041.0,0.028918953692065597,False,False,False,False,0.4686548608876291,False
+229,2,1991,104807,United States Virgin Islands,VIR,World Bank,103963.0,0.008118272847070592,False,False,False,False,0.504983464658572,False
+229,2,1992,105712,United States Virgin Islands,VIR,World Bank,104807.0,0.008634919423320961,False,False,False,False,0.543937713962723,False
+229,2,1993,106578,United States Virgin Islands,VIR,World Bank,105712.0,0.00819206901770849,False,False,False,False,0.5812132718603966,False
+229,2,1994,107318,United States Virgin Islands,VIR,World Bank,106578.0,0.006943271594512939,False,False,False,False,0.613065365214067,False
+229,2,1995,107818,United States Virgin Islands,VIR,World Bank,107318.0,0.004659050671835107,False,False,False,False,0.6345870499124929,False
+229,2,1996,108095,United States Virgin Islands,VIR,World Bank,107818.0,0.0025691442987256304,False,False,False,False,0.6465100632354208,False
+229,2,1997,108357,United States Virgin Islands,VIR,World Bank,108095.0,0.0024237938850085574,False,False,False,False,0.657787426017396,False
+229,2,1998,108537,United States Virgin Islands,VIR,World Bank,108357.0,0.0016611755585702816,False,False,False,False,0.6655352325088293,False
+229,2,1999,108599,United States Virgin Islands,VIR,World Bank,108537.0,0.0005712337728148005,False,False,False,False,0.6682039214114341,False
+229,2,2000,108642,United States Virgin Islands,VIR,World Bank,108599.0,0.0003959520805900607,False,False,False,False,0.6700547862954987,False
+229,2,2001,108549,United States Virgin Islands,VIR,World Bank,108642.0,-0.0008560225327221517,False,False,False,False,0.6660517529415916,False
+229,2,2002,108509,United States Virgin Islands,VIR,World Bank,108549.0,-0.00036849717639038593,False,False,False,False,0.6643300181657175,False
+229,2,2003,108505,United States Virgin Islands,VIR,World Bank,108509.0,-3.686330166161332e-05,False,False,False,False,0.6641578446881301,False
+229,2,2004,108466,United States Virgin Islands,VIR,World Bank,108505.0,-0.0003594304409935026,False,False,False,False,0.6624791532816529,False
+229,2,2005,108453,United States Virgin Islands,VIR,World Bank,108466.0,-0.00011985322589567237,False,False,False,False,0.6619195894794938,False
+229,2,2006,108369,United States Virgin Islands,VIR,World Bank,108453.0,-0.0007745290586705762,False,False,False,False,0.6583039464501582,False
+229,2,2007,108337,United States Virgin Islands,VIR,World Bank,108369.0,-0.00029528739768753056,False,False,False,False,0.6569265586294589,False
+229,2,2008,108397,United States Virgin Islands,VIR,World Bank,108337.0,0.0005538274089184673,False,False,False,False,0.65950916079327,False
+229,2,2009,108404,United States Virgin Islands,VIR,World Bank,108397.0,6.457743295478657e-05,False,False,False,False,0.659810464379048,False
+229,2,2010,108357,United States Virgin Islands,VIR,World Bank,108404.0,-0.0004335633371462308,False,False,False,False,0.657787426017396,False
+229,2,2011,108290,United States Virgin Islands,VIR,World Bank,108357.0,-0.0006183264579122715,False,False,False,False,0.654903520267807,False
+229,2,2012,108188,United States Virgin Islands,VIR,World Bank,108290.0,-0.0009419152276295133,False,False,False,False,0.6505130965893281,False
+229,2,2013,108041,United States Virgin Islands,VIR,World Bank,108188.0,-0.0013587458867896625,False,False,False,False,0.6441857212879908,False
+229,2,2014,107882,United States Virgin Islands,VIR,World Bank,108041.0,-0.0014716635351394378,False,False,False,False,0.6373418255538914,False
+229,2,2015,107712,United States Virgin Islands,VIR,World Bank,107882.0,-0.001575795776867318,False,False,False,False,0.6300244527564266,False
+229,2,2016,107516,United States Virgin Islands,VIR,World Bank,107712.0,-0.0018196672608437315,False,False,False,False,0.6215879523546436,False
+229,2,2017,107281,United States Virgin Islands,VIR,World Bank,107516.0,-0.0021857211949849326,False,False,False,False,0.6114727605463834,False
+229,2,2018,107001,United States Virgin Islands,VIR,World Bank,107281.0,-0.0026099682143156757,False,False,False,False,0.599420617115265,False
+229,2,2019,106669,United States Virgin Islands,VIR,World Bank,107001.0,-0.003102774740422987,False,False,False,False,0.5851302184755102,False
+229,2,2020,106290,United States Virgin Islands,VIR,World Bank,106669.0,-0.0035530472770908136,False,False,False,False,0.5688167814741033,False
+229,2,2021,105870,United States Virgin Islands,VIR,World Bank,106290.0,-0.003951453570420547,False,False,False,False,0.5507385663274255,False
+229,2,2022,105413,United States Virgin Islands,VIR,World Bank,105870.0,-0.00431661471616133,False,False,False,False,0.5310677465130642,False
+229,2,2023,104917,United States Virgin Islands,VIR,World Bank,105413.0,-0.0047053020025993,False,False,False,False,0.5097182352922257,False
+229,4,1950,26900,United States Virgin Islands,VIR,Census Bureau,,0.0,False,False,False,False,-1.871732277467128,False
+229,4,1951,27700,United States Virgin Islands,VIR,Census Bureau,26900.0,0.02973977695167286,False,False,False,False,-1.845776125728571,False
+229,4,1952,27900,United States Virgin Islands,VIR,Census Bureau,27700.0,0.007220216606498195,False,False,False,False,-1.8392870877939318,False
+229,4,1953,26900,United States Virgin Islands,VIR,Census Bureau,27900.0,-0.035842293906810034,False,False,False,False,-1.871732277467128,False
+229,4,1954,27200,United States Virgin Islands,VIR,Census Bureau,26900.0,0.011152416356877323,False,False,False,False,-1.8619987205651691,False
+229,4,1955,27600,United States Virgin Islands,VIR,Census Bureau,27200.0,0.014705882352941176,False,False,False,False,-1.8490206446958906,False
+229,4,1956,28400,United States Virgin Islands,VIR,Census Bureau,27600.0,0.028985507246376812,False,False,False,False,-1.8230644929573336,False
+229,4,1957,29400,United States Virgin Islands,VIR,Census Bureau,28400.0,0.035211267605633804,False,False,False,False,-1.7906193032841375,False
+229,4,1958,30000,United States Virgin Islands,VIR,Census Bureau,29400.0,0.02040816326530612,False,False,False,False,-1.7711521894802198,False
+229,4,1959,31000,United States Virgin Islands,VIR,Census Bureau,30000.0,0.03333333333333333,False,False,False,False,-1.7387069998070237,False
+229,4,1960,32500,United States Virgin Islands,VIR,Census Bureau,31000.0,0.04838709677419355,False,False,False,False,-1.6900392152972294,False
+229,4,1961,34300,United States Virgin Islands,VIR,Census Bureau,32500.0,0.055384615384615386,False,False,False,False,-1.6316378738854764,False
+229,4,1962,35000,United States Virgin Islands,VIR,Census Bureau,34300.0,0.02040816326530612,False,False,False,False,-1.608926241114239,False
+229,4,1963,39800,United States Virgin Islands,VIR,Census Bureau,35000.0,0.13714285714285715,False,True,True,False,-1.4531893306828978,True
+229,4,1964,40800,United States Virgin Islands,VIR,Census Bureau,39800.0,0.02512562814070352,False,False,False,False,-1.4207441410097015,False
+229,4,1965,43500,United States Virgin Islands,VIR,Census Bureau,40800.0,0.0661764705882353,False,False,False,False,-1.333142128892072,False
+229,4,1966,46200,United States Virgin Islands,VIR,Census Bureau,43500.0,0.06206896551724138,False,False,False,False,-1.2455401167744424,False
+229,4,1967,49100,United States Virgin Islands,VIR,Census Bureau,46200.0,0.06277056277056277,False,False,False,False,-1.1514490667221735,False
+229,4,1968,55700,United States Virgin Islands,VIR,Census Bureau,49100.0,0.13441955193482688,False,True,True,False,-0.9373108148790791,True
+229,4,1969,60300,United States Virgin Islands,VIR,Census Bureau,55700.0,0.08258527827648116,False,False,False,False,-0.7880629423823768,False
+229,4,1970,63476,United States Virgin Islands,VIR,Census Bureau,60300.0,0.05266998341625207,False,False,False,False,-0.6850170199803058,False
+229,4,1971,70937,United States Virgin Islands,VIR,Census Bureau,63476.0,0.11754048774339908,False,True,True,False,-0.4429434598285895,True
+229,4,1972,76319,United States Virgin Islands,VIR,Census Bureau,70937.0,0.07587013829172365,False,False,False,False,-0.26832344900744787,False
+229,4,1973,84121,United States Virgin Islands,VIR,Census Bureau,76319.0,0.10222880278829649,False,True,True,False,-0.015186079177171578,True
+229,4,1974,89941,United States Virgin Islands,VIR,Census Bureau,84121.0,0.06918605342304537,False,False,False,False,0.17364492472082996,False
+229,4,1975,94484,United States Virgin Islands,VIR,Census Bureau,89941.0,0.05051089047264318,False,False,False,False,0.32104342140616005,False
+229,4,1976,96166,United States Virgin Islands,VIR,Census Bureau,94484.0,0.017801955886710977,False,False,False,False,0.3756162304364759,False
+229,4,1977,93203,United States Virgin Islands,VIR,Census Bureau,96166.0,-0.030811305450990995,False,False,False,False,0.27948113343479575,False
+229,4,1978,95929,United States Virgin Islands,VIR,Census Bureau,93203.0,0.02924798557986331,False,False,False,False,0.36792672048392844,False
+229,4,1979,96183,United States Virgin Islands,VIR,Census Bureau,95929.0,0.002647791595867777,False,False,False,False,0.37616779866092026,False
+229,4,1980,99636,United States Virgin Islands,VIR,Census Bureau,96183.0,0.035900315024484576,False,False,False,False,0.48820103860246655,False
+229,4,1981,99853,United States Virgin Islands,VIR,Census Bureau,99636.0,0.00217792765667028,False,False,False,False,0.4952416447615501,False
+229,4,1982,100068,United States Virgin Islands,VIR,Census Bureau,99853.0,0.0021531651527745784,False,False,False,False,0.5022173605412873,False
+229,4,1983,100348,United States Virgin Islands,VIR,Census Bureau,100068.0,0.0027980972938401885,False,False,False,False,0.5113020136497822,False
+229,4,1984,100600,United States Virgin Islands,VIR,Census Bureau,100348.0,0.0025112608123729423,False,False,False,False,0.5194782014474276,False
+229,4,1985,100760,United States Virgin Islands,VIR,Census Bureau,100600.0,0.0015904572564612327,False,False,False,False,0.524669431795139,False
+229,4,1986,100842,United States Virgin Islands,VIR,Census Bureau,100760.0,0.0008138150059547439,False,False,False,False,0.5273299373483411,False
+229,4,1987,100901,United States Virgin Islands,VIR,Census Bureau,100842.0,0.0005850736796176196,False,False,False,False,0.5292442035390597,False
+229,4,1988,100952,United States Virgin Islands,VIR,Census Bureau,100901.0,0.0005054459321513166,False,False,False,False,0.5308989082123926,False
+229,4,1989,101041,United States Virgin Islands,VIR,Census Bureau,100952.0,0.0008816071004041525,False,False,False,False,0.5337865300933071,False
+229,4,1990,103963,United States Virgin Islands,VIR,Census Bureau,101041.0,0.028918953692065597,False,False,False,False,0.6285913743183862,False
+229,4,1991,104807,United States Virgin Islands,VIR,Census Bureau,103963.0,0.008118272847070592,False,False,False,False,0.6559751144025637,False
+229,4,1992,105712,United States Virgin Islands,VIR,Census Bureau,104807.0,0.008634919423320961,False,False,False,False,0.6853380110568063,False
+229,4,1993,106578,United States Virgin Islands,VIR,Census Bureau,105712.0,0.00819206901770849,False,False,False,False,0.7134355453137942,False
+229,4,1994,107318,United States Virgin Islands,VIR,Census Bureau,106578.0,0.006943271594512939,False,False,False,False,0.7374449856719593,False
+229,4,1995,107818,United States Virgin Islands,VIR,Census Bureau,107318.0,0.004659050671835107,False,False,False,False,0.7536675805085573,False
+229,4,1996,108095,United States Virgin Islands,VIR,Census Bureau,107818.0,0.0025691442987256304,False,False,False,False,0.7626548980480327,False
+229,4,1997,108357,United States Virgin Islands,VIR,Census Bureau,108095.0,0.0024237938850085574,False,False,False,False,0.7711555377424101,False
+229,4,1998,108537,United States Virgin Islands,VIR,Census Bureau,108357.0,0.0016611755585702816,False,False,False,False,0.7769956718835854,False
+229,4,1999,108599,United States Virgin Islands,VIR,Census Bureau,108537.0,0.0005712337728148005,False,False,False,False,0.7790072736433236,False
+229,4,2000,108642,United States Virgin Islands,VIR,Census Bureau,108599.0,0.0003959520805900607,False,False,False,False,0.780402416799271,False
+229,4,2001,108549,United States Virgin Islands,VIR,Census Bureau,108642.0,-0.0008560225327221517,False,False,False,False,0.7773850141596638,False
+229,4,2002,108509,United States Virgin Islands,VIR,Census Bureau,108549.0,-0.00036849717639038593,False,False,False,False,0.7760872065727359,False
+229,4,2003,108505,United States Virgin Islands,VIR,Census Bureau,108509.0,-3.686330166161332e-05,False,False,False,False,0.7759574258140431,False
+229,4,2004,108466,United States Virgin Islands,VIR,Census Bureau,108505.0,-0.0003594304409935026,False,False,False,False,0.7746920634167884,False
+229,4,2005,108453,United States Virgin Islands,VIR,Census Bureau,108466.0,-0.00011985322589567237,False,False,False,False,0.7742702759510369,False
+229,4,2006,108369,United States Virgin Islands,VIR,Census Bureau,108453.0,-0.0007745290586705762,False,False,False,False,0.7715448800184884,False
+229,4,2007,108337,United States Virgin Islands,VIR,Census Bureau,108369.0,-0.00029528739768753056,False,False,False,False,0.7705066339489461,False
+229,4,2008,108397,United States Virgin Islands,VIR,Census Bureau,108337.0,0.0005538274089184673,False,False,False,False,0.772453345329338,False
+229,4,2009,108404,United States Virgin Islands,VIR,Census Bureau,108397.0,6.457743295478657e-05,False,False,False,False,0.7726804616570503,False
+229,4,2010,108357,United States Virgin Islands,VIR,Census Bureau,108404.0,-0.0004335633371462308,False,False,False,False,0.7711555377424101,False
+229,4,2011,108290,United States Virgin Islands,VIR,Census Bureau,108357.0,-0.0006183264579122715,False,False,False,False,0.7689817100343059,False
+229,4,2012,108188,United States Virgin Islands,VIR,Census Bureau,108290.0,-0.0009419152276295133,False,False,False,False,0.7656723006876399,False
+229,4,2013,108041,United States Virgin Islands,VIR,Census Bureau,108188.0,-0.0013587458867896625,False,False,False,False,0.7609028578056801,False
+229,4,2014,107882,United States Virgin Islands,VIR,Census Bureau,108041.0,-0.0014716635351394378,False,False,False,False,0.7557440726476419,False
+229,4,2015,107712,United States Virgin Islands,VIR,Census Bureau,107882.0,-0.001575795776867318,False,False,False,False,0.7502283904031986,False
+229,4,2016,107516,United States Virgin Islands,VIR,Census Bureau,107712.0,-0.0018196672608437315,False,False,False,False,0.7438691332272521,False
+229,4,2017,107281,United States Virgin Islands,VIR,Census Bureau,107516.0,-0.0021857211949849326,False,False,False,False,0.7362445136540511,False
+229,4,2018,107001,United States Virgin Islands,VIR,Census Bureau,107281.0,-0.0026099682143156757,False,False,False,False,0.7271598605455561,False
+229,4,2019,106669,United States Virgin Islands,VIR,Census Bureau,107001.0,-0.003102774740422987,False,False,False,False,0.716388057574055,False
+229,4,2020,106290,United States Virgin Islands,VIR,Census Bureau,106669.0,-0.0035530472770908136,False,False,False,False,0.7040913306879136,False
+229,4,2021,105870,United States Virgin Islands,VIR,Census Bureau,106290.0,-0.003951453570420547,False,False,False,False,0.6904643510251712,False
+229,4,2022,105413,United States Virgin Islands,VIR,Census Bureau,105870.0,-0.00431661471616133,False,False,False,False,0.6756368993445206,False
+229,4,2023,104917,United States Virgin Islands,VIR,Census Bureau,105413.0,-0.0047053020025993,False,False,False,False,0.6595440852666153,False
+229,4,2024,104377,United States Virgin Islands,VIR,Census Bureau,104917.0,-0.005146925665049516,False,False,False,False,0.6420236828430894,False

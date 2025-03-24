@@ -1,0 +1,49 @@
+Year-over-Year Anomalies for United Arab Emirates
+========================================
+Year 1968: increase of 11.0%, Population 199,416, Source: United Nations Population Division
+Year 1969: increase of 20.2%, Population 239,660, Source: United Nations Population Division
+Year 1970: increase of 19.6%, Population 286,536, Source: United Nations Population Division
+Year 1971: increase of 16.9%, Population 335,027, Source: United Nations Population Division
+Year 1972: increase of 14.9%, Population 385,014, Source: United Nations Population Division
+Year 1973: increase of 13.3%, Population 436,399, Source: United Nations Population Division
+Year 1974: increase of 12.1%, Population 489,087, Source: United Nations Population Division
+Year 1975: increase of 11.0%, Population 542,857, Source: United Nations Population Division
+Year 1976: increase of 13.4%, Population 615,866, Source: United Nations Population Division
+Year 1977: increase of 15.3%, Population 710,209, Source: United Nations Population Division
+Year 1978: increase of 13.9%, Population 809,274, Source: United Nations Population Division
+Year 1979: increase of 12.7%, Population 912,011, Source: United Nations Population Division
+Year 1980: increase of 11.4%, Population 1,015,700, Source: United Nations Population Division
+Year 2007: increase of 12.3%, Population 5,624,635, Source: United Nations Population Division
+Year 2008: increase of 12.1%, Population 6,302,665, Source: United Nations Population Division
+Year 1968: increase of 11.0%, Population 199,416, Source: World Bank
+Year 1969: increase of 20.2%, Population 239,660, Source: World Bank
+Year 1970: increase of 19.6%, Population 286,536, Source: World Bank
+Year 1971: increase of 16.9%, Population 335,027, Source: World Bank
+Year 1972: increase of 14.9%, Population 385,014, Source: World Bank
+Year 1973: increase of 13.3%, Population 436,399, Source: World Bank
+Year 1974: increase of 12.1%, Population 489,087, Source: World Bank
+Year 1975: increase of 11.0%, Population 542,856, Source: World Bank
+Year 1976: increase of 13.4%, Population 615,866, Source: World Bank
+Year 1977: increase of 15.3%, Population 710,209, Source: World Bank
+Year 1978: increase of 13.9%, Population 809,274, Source: World Bank
+Year 1979: increase of 12.7%, Population 912,010, Source: World Bank
+Year 1980: increase of 11.4%, Population 1,015,700, Source: World Bank
+Year 2007: increase of 12.3%, Population 5,624,635, Source: World Bank
+Year 2008: increase of 12.1%, Population 6,302,664, Source: World Bank
+Year 1968: increase of 11.2%, Population 190,974, Source: Census Bureau
+Year 1969: increase of 14.1%, Population 217,858, Source: Census Bureau
+Year 1970: increase of 14.5%, Population 249,369, Source: Census Bureau
+Year 1971: increase of 15.5%, Population 288,136, Source: Census Bureau
+Year 1972: increase of 16.7%, Population 336,325, Source: Census Bureau
+Year 1973: increase of 16.4%, Population 391,337, Source: Census Bureau
+Year 1974: increase of 15.8%, Population 453,222, Source: Census Bureau
+Year 1975: increase of 15.3%, Population 522,571, Source: Census Bureau
+Year 1976: increase of 14.4%, Population 598,023, Source: Census Bureau
+Year 1977: increase of 14.3%, Population 683,672, Source: Census Bureau
+Year 1978: increase of 13.9%, Population 778,736, Source: Census Bureau
+Year 1979: increase of 13.5%, Population 884,040, Source: Census Bureau
+Year 1980: increase of 13.1%, Population 1,000,285, Source: Census Bureau
+Year 2006: increase of 13.3%, Population 4,458,540, Source: Census Bureau
+Year 2007: increase of 24.1%, Population 5,532,409, Source: Census Bureau
+Year 2008: increase of 29.4%, Population 7,159,278, Source: Census Bureau
+Year 2009: increase of 12.2%, Population 8,032,709, Source: Census Bureau

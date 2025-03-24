@@ -1,0 +1,17 @@
+Population Analysis for Eritrea
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 3,607,003
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (4):
+Year 1991: decrease of -5.6% from previous year, Source: United Nations Population Division
+Year 1992: decrease of -6.3% from previous year, Source: United Nations Population Division
+Year 1991: decrease of -5.6% from previous year, Source: World Bank
+Year 1992: decrease of -6.3% from previous year, Source: World Bank
