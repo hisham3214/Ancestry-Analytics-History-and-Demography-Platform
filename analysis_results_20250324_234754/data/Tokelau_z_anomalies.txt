@@ -1,5 +1,0 @@
-Z-Score Anomalies for Tokelau
-========================================
-Year 2023: Population 2,398, Z-score: 3.08, Source: United Nations Population Division
-Year 2024: Population 2,507, Z-score: 3.61, Source: United Nations Population Division
-Year 2025: Population 2,608, Z-score: 4.11, Source: United Nations Population Division

@@ -1,5 +1,0 @@
-Year-over-Year Anomalies for North Macedonia
-========================================
-Year 1990: decrease of -10.8%, Population 1,873,109, Source: Eurostat
-Year 1994: decrease of -6.0%, Population 1,936,741, Source: Eurostat
-Year 2022: decrease of -11.2%, Population 1,837,114, Source: Eurostat

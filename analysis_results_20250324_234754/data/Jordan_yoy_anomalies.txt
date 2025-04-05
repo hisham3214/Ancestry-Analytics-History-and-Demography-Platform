@@ -1,9 +1,0 @@
-Year-over-Year Anomalies for Jordan
-========================================
-Year 2014: increase of 10.0%, Population 8,791,711, Source: United Nations Population Division
-Year 2014: increase of 10.0%, Population 8,791,710, Source: World Bank
-Year 1967: increase of 13.4%, Population 1,263,879, Source: Census Bureau
-Year 1968: increase of 10.2%, Population 1,392,830, Source: Census Bureau
-Year 1991: increase of 11.3%, Population 3,696,745, Source: Census Bureau
-Year 2013: increase of 10.9%, Population 7,845,361, Source: Census Bureau
-Year 2014: increase of 14.7%, Population 8,998,365, Source: Census Bureau

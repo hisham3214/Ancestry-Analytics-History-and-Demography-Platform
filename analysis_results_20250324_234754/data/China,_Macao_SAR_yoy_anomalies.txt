@@ -1,8 +1,0 @@
-Year-over-Year Anomalies for China, Macao SAR
-========================================
-Year 1964: increase of 23.9%, Population 225,655, Source: United Nations Population Division
-Year 1965: increase of 17.7%, Population 265,631, Source: United Nations Population Division
-Year 1973: decrease of -8.4%, Population 250,324, Source: United Nations Population Division
-Year 1974: decrease of -11.6%, Population 221,387, Source: United Nations Population Division
-Year 1964: increase of 23.9%, Population 225,655, Source: World Bank
-Year 1965: increase of 17.7%, Population 265,631, Source: World Bank

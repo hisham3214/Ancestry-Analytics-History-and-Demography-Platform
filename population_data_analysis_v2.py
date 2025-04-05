@@ -196,52 +196,185 @@ class PopulationDataAnalyzer:
             logger.warning("No data available for Z-score anomaly detection")
             return pd.DataFrame()
 
-    def detect_anomalies_yoy_change(self, df: pd.DataFrame, 
-                                    decrease_threshold: float = -0.05, 
-                                    increase_threshold: float = 0.10) -> pd.DataFrame:
+    def detect_anomalies_yoy_advanced(self, df: pd.DataFrame,
+                                  z_threshold: float = 2.0,
+                                  window_size: int = 5,
+                                  second_deriv_threshold: float = 0.03) -> pd.DataFrame:
         """
-        Detect anomalies based on year-over-year population changes
+        Advanced YoY anomaly detection combining multiple methods:
+        1. Country-specific statistical thresholds
+        2. Rolling window analysis
+        3. Second derivative analysis
+        4. Combined flag if any method detects an anomaly
 
         Parameters:
         -----------
         df : pd.DataFrame
             DataFrame containing population data
-        decrease_threshold : float
-            Threshold for significant population decrease (negative value)
-        increase_threshold : float
-            Threshold for significant population increase
+        z_threshold : float
+            Number of standard deviations for anomaly detection
+        window_size : int
+            Size of the rolling window for local trend analysis
+        second_deriv_threshold : float
+            Threshold for second derivative (change in the change rate)
 
         Returns:
         --------
         pd.DataFrame
-            DataFrame with YoY changes and anomalies flagged
+            DataFrame with comprehensive anomaly flags
         """
-        logger.info(f"Detecting anomalies using YoY change with thresholds: decrease {decrease_threshold}, increase {increase_threshold}")
+        logger.info("Detecting YoY anomalies using advanced methods")
         result_dfs = []
 
+        # Group by (country, source) to handle each combination's patterns independently
         for (country_name, source_name), group_data in df.groupby(['country_name', 'source_name']):
-            group_data = group_data.sort_values('year').copy()
-            
-            group_data['population_prev'] = group_data['population'].shift(1)
-            # Calculate yoy_change in a single assignment:
-            group_data['yoy_change'] = (
-                (group_data['population'] - group_data['population_prev']) 
-                / group_data['population_prev']
-            )
-            # Replace inf or -inf with NaN, then fill with 0
-            group_data['yoy_change'] = group_data['yoy_change'].replace([np.inf, -np.inf], np.nan)
-            group_data['yoy_change'] = group_data['yoy_change'].fillna(0)
+            # Skip if insufficient data points
+            if len(group_data) < max(3, window_size):
+                continue
 
-            group_data['is_decrease_anomaly'] = group_data['yoy_change'] <= decrease_threshold
-            group_data['is_increase_anomaly'] = group_data['yoy_change'] >= increase_threshold
-            group_data['is_yoy_anomaly'] = group_data['is_decrease_anomaly'] | group_data['is_increase_anomaly']
+            # Sort by year, so shifts/rolling windows are correct
+            group_data = group_data.sort_values('year').copy()
+
+            # ----------------------------
+            # 1. Year-over-Year (YoY) change
+            # ----------------------------
+            group_data['population_prev'] = group_data['population'].shift(1)
+            # yoy_change = (Pop_t - Pop_(t-1)) / Pop_(t-1)
+            group_data['yoy_change'] = ((group_data['population'] - group_data['population_prev'])
+                                        / group_data['population_prev'])
+            # Replace inf/-inf with NaN and then fill with 0
+            group_data['yoy_change'] = group_data['yoy_change'].replace([np.inf, -np.inf], np.nan).fillna(0)
+
+            # ----------------------------
+            # 2. Country-specific global z-score
+            #    (based on mean & std of *all* yoy_change for that country+source)
+            # ----------------------------
+            mean_change = group_data['yoy_change'].mean()
+            std_change = group_data['yoy_change'].std()
+
+            if std_change > 0:
+                group_data['global_z_score'] = (group_data['yoy_change'] - mean_change) / std_change
+                group_data['is_global_anomaly'] = abs(group_data['global_z_score']) > z_threshold
+            else:
+                # If std = 0, all yoy_change are identical → no global anomalies
+                group_data['global_z_score'] = 0
+                group_data['is_global_anomaly'] = False
+
+            # ----------------------------
+            # 3. Rolling Window Analysis (local z-score)
+            # ----------------------------
+            if len(group_data) >= window_size:
+                group_data['rolling_mean'] = (
+                    group_data['yoy_change']
+                    .rolling(window=window_size, min_periods=2)
+                    .mean()
+                )
+                group_data['rolling_std'] = (
+                    group_data['yoy_change']
+                    .rolling(window=window_size, min_periods=2)
+                    .std()
+                )
+
+                # Calculate local z-score
+                group_data['rolling_z'] = np.nan
+                valid_mask = group_data['rolling_std'] > 0
+                group_data.loc[valid_mask, 'rolling_z'] = (
+                    (group_data.loc[valid_mask, 'yoy_change']
+                    - group_data.loc[valid_mask, 'rolling_mean'])
+                    / group_data.loc[valid_mask, 'rolling_std']
+                )
+
+                group_data['is_rolling_anomaly'] = abs(group_data['rolling_z']) > z_threshold
+            else:
+                # Not enough data for rolling window
+                group_data['rolling_mean'] = np.nan
+                group_data['rolling_std'] = np.nan
+                group_data['rolling_z'] = np.nan
+                group_data['is_rolling_anomaly'] = False
+
+            # ----------------------------
+            # 4. Second Derivative (acceleration/deceleration)
+            # ----------------------------
+            group_data['yoy_change_prev'] = group_data['yoy_change'].shift(1)
+            group_data['second_derivative'] = group_data['yoy_change'] - group_data['yoy_change_prev']
+            group_data['is_acceleration_anomaly'] = abs(group_data['second_derivative']) > second_deriv_threshold
+            group_data['is_acceleration_anomaly'] = group_data['is_acceleration_anomaly'].fillna(False)
+
+            # ----------------------------
+            # 5. Combined flag
+            # ----------------------------
+            group_data['is_yoy_anomaly'] = (
+                group_data['is_global_anomaly']
+                | group_data['is_rolling_anomaly']
+                | group_data['is_acceleration_anomaly']
+            )
+
+            # ----------------------------
+            # 6. Distinguish between "increase" or "decrease" anomalies
+            #    so we don’t break code that references is_decrease_anomaly/is_increase_anomaly
+            # ----------------------------
+            group_data['is_decrease_anomaly'] = group_data['is_yoy_anomaly'] & (group_data['yoy_change'] < 0)
+            group_data['is_increase_anomaly'] = group_data['is_yoy_anomaly'] & (group_data['yoy_change'] > 0)
+
+            # ----------------------------
+            # 7. Category and Description (optional but useful)
+            # ----------------------------
+            # This categorizes the anomaly based on which method(s) triggered it:
+            group_data['anomaly_type'] = ''
+            any_anomaly_mask = group_data['is_yoy_anomaly']
+            if any_anomaly_mask.any():
+
+                def categorize_anomaly(row):
+                    methods = []
+                    if row['is_global_anomaly']:
+                        methods.append('global')
+                    if row['is_rolling_anomaly']:
+                        methods.append('local')
+                    if row['is_acceleration_anomaly']:
+                        methods.append('acceleration')
+                    return '+'.join(methods) if methods else ''
+
+                group_data.loc[any_anomaly_mask, 'anomaly_type'] = (
+                    group_data.loc[any_anomaly_mask].apply(categorize_anomaly, axis=1)
+                )
+
+                def describe_anomaly(row):
+                    year = row.get('year', 'unknown')
+                    yoy_pct = row.get('yoy_change', 0) * 100
+                    avg_pct = mean_change * 100  # compare to overall average yoy
+                    if pd.isna(yoy_pct):
+                        return f"Insufficient data for year {year}"
+
+                    # Distinguish increase/decrease in text
+                    change_type = "increase" if yoy_pct > 0 else "decrease"
+                    relative_to_avg = "above" if yoy_pct > avg_pct else "below"
+                    difference = abs(yoy_pct - avg_pct)
+
+                    # Acceleration
+                    accel_pct = (row.get('second_derivative', 0)) * 100
+                    # If acceleration is large, mention it
+                    if abs(accel_pct) > 1:
+                        accel_type = "acceleration" if accel_pct > 0 else "deceleration"
+                        return (f"Year {year}: {change_type} of {abs(yoy_pct):.1f}% "
+                                f"({relative_to_avg} average by {difference:.1f}%), "
+                                f"showing {accel_type} of {abs(accel_pct):.1f}%")
+                    else:
+                        return (f"Year {year}: {change_type} of {abs(yoy_pct):.1f}% "
+                                f"({relative_to_avg} average by {difference:.1f}%)")
+
+                group_data['anomaly_description'] = ''
+                group_data.loc[any_anomaly_mask, 'anomaly_description'] = (
+                    group_data.loc[any_anomaly_mask].apply(describe_anomaly, axis=1)
+                )
+            else:
+                group_data['anomaly_description'] = ''
+
             result_dfs.append(group_data)
 
         if result_dfs:
             result_df = pd.concat(result_dfs)
-            decrease_count = result_df['is_decrease_anomaly'].sum()
-            increase_count = result_df['is_increase_anomaly'].sum()
-            logger.info(f"Detected {decrease_count} significant decreases and {increase_count} significant increases")
+            anomaly_count = result_df['is_yoy_anomaly'].sum()
+            logger.info(f"Detected {anomaly_count} YoY anomalies using advanced methods")
             return result_df
         else:
             logger.warning("No data available for YoY change anomaly detection")
@@ -521,7 +654,7 @@ class PopulationDataAnalyzer:
                 return {"status": "error", "message": "No population data available"}
 
             z_score_results = self.detect_anomalies_z_score(pop_df)
-            yoy_results = self.detect_anomalies_yoy_change(pop_df)
+            yoy_results = self.detect_anomalies_yoy_advanced(pop_df)
             discrepancy_results = self.detect_source_discrepancies(pop_df)
 
             # Merge yoy and z, but also include 'population_z'

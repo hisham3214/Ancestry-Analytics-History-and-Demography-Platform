@@ -1,8 +1,0 @@
-Year-over-Year Anomalies for Cambodia
-========================================
-Year 1976: decrease of -6.8%, Population 6,134,991, Source: United Nations Population Division
-Year 1977: decrease of -7.6%, Population 5,668,551, Source: United Nations Population Division
-Year 1978: decrease of -8.1%, Population 5,211,653, Source: United Nations Population Division
-Year 1976: decrease of -6.8%, Population 6,134,991, Source: World Bank
-Year 1977: decrease of -7.6%, Population 5,668,551, Source: World Bank
-Year 1978: decrease of -8.1%, Population 5,211,653, Source: World Bank

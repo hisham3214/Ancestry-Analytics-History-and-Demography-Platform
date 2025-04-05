@@ -1,7 +1,0 @@
-Year-over-Year Anomalies for Timor-Leste
-========================================
-Year 1999: decrease of -11.4%, Population 834,697, Source: United Nations Population Division
-Year 2000: decrease of -10.7%, Population 745,088, Source: United Nations Population Division
-Year 1999: decrease of -11.4%, Population 834,697, Source: World Bank
-Year 2000: decrease of -10.7%, Population 745,088, Source: World Bank
-Year 2000: decrease of -18.2%, Population 757,290, Source: Census Bureau

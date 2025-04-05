@@ -1,3 +1,0 @@
-Z-Score Anomalies for Ukraine
-========================================
-Year 2023: Population 37,732,836, Z-score: -3.40, Source: World Bank
