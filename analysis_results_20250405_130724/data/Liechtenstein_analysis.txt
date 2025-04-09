@@ -1,0 +1,14 @@
+Population Analysis for Liechtenstein
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 40,128
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (17):
+Year 1960: increase of 3.31% (Global z=2.07, Rolling z=1.27, 2nd deriv=0.40), Type(s): global, Description: Year 1960: increase of 3.3% (above average by 1.8%), Source: Census Bureau

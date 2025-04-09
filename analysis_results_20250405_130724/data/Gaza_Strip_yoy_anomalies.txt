@@ -1,0 +1,14 @@
+Year-over-Year Anomalies for Gaza Strip
+========================================
+Year 1959: increase of 7.0%, Population 299,189, Source: Census Bureau
+Year 1960: increase of 3.0%, Population 308,158, Source: Census Bureau
+Year 1961: decrease of -2.4%, Population 300,820, Source: Census Bureau
+Year 1962: increase of 3.8%, Population 312,235, Source: Census Bureau
+Year 1968: decrease of -6.7%, Population 343,960, Source: Census Bureau
+Year 1969: decrease of -2.2%, Population 336,247, Source: Census Bureau
+Year 1970: increase of 1.9%, Population 342,656, Source: Census Bureau
+Year 1994: increase of 7.4%, Population 817,688, Source: Census Bureau
+Year 1995: increase of 8.3%, Population 885,169, Source: Census Bureau
+Year 1996: increase of 7.4%, Population 950,388, Source: Census Bureau
+Year 1997: increase of 7.1%, Population 1,018,271, Source: Census Bureau
+Year 1998: increase of 3.7%, Population 1,056,039, Source: Census Bureau

@@ -1,0 +1,14 @@
+Population Analysis for Suriname
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 639,850
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (10):
+Year 1981: increase of 1.93% (Global z=0.29, Rolling z=0.73, 2nd deriv=4.35), Type(s): acceleration, Description: Year 1981: increase of 1.9% (above average by 0.4%), showing acceleration of 4.4%, Source: Census Bureau

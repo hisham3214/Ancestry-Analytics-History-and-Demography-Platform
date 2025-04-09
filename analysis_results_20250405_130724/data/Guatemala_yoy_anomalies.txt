@@ -1,0 +1,7 @@
+Year-over-Year Anomalies for Guatemala
+========================================
+Year 1950: decrease of 0.0%, Population 3,097,198, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 4,063,655, Source: World Bank
+Year 1961: increase of 3.0%, Population 4,186,201, Source: World Bank
+Year 1950: decrease of 0.0%, Population 2,968,976, Source: Census Bureau
+Year 1951: increase of 3.3%, Population 3,065,784, Source: Census Bureau

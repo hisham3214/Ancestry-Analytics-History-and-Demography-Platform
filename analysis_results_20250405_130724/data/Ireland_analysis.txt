@@ -1,0 +1,14 @@
+Population Analysis for Ireland
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 5,308,039
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (13):
+Year 2007: increase of 2.58% (Global z=2.25, Rolling z=0.56, 2nd deriv=-0.04), Type(s): global, Description: Year 2007: increase of 2.6% (above average by 1.8%), Source: Census Bureau

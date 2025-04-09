@@ -1,0 +1,14 @@
+Population Analysis for Sierra Leone
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 8,819,794
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (13):
+Year 2002: increase of 6.15% (Global z=2.73, Rolling z=0.99, 2nd deriv=-0.27), Type(s): global, Description: Year 2002: increase of 6.2% (above average by 4.2%), Source: Census Bureau

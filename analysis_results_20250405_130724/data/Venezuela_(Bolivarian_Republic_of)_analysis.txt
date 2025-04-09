@@ -1,0 +1,14 @@
+Population Analysis for Venezuela (Bolivarian Republic of)
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 28,516,896
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (12):
+Year 2020: decrease of -0.18% (Global z=-1.82, Rolling z=0.55, 2nd deriv=3.07), Type(s): acceleration, Description: Year 2020: decrease of 0.2% (below average by 2.7%), showing acceleration of 3.1%, Source: Census Bureau

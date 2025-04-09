@@ -1,0 +1,14 @@
+Population Analysis for Barbados
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 282,624
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (15):
+Year 1961: decrease of -1.18% (Global z=-3.67, Rolling z=-1.43, 2nd deriv=-1.59), Type(s): global, Description: Year 1961: decrease of 1.2% (below average by 1.7%), showing deceleration of 1.6%, Source: Census Bureau

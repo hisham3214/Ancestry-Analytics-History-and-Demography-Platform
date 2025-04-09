@@ -1,0 +1,10 @@
+Year-over-Year Anomalies for Mauritania
+========================================
+Year 1950: decrease of 0.0%, Population 657,715, Source: United Nations Population Division
+Year 1992: increase of 3.9%, Population 2,088,135, Source: United Nations Population Division
+Year 1993: increase of 4.1%, Population 2,174,328, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 824,298, Source: World Bank
+Year 1992: increase of 3.9%, Population 2,088,135, Source: World Bank
+Year 1993: increase of 4.1%, Population 2,174,328, Source: World Bank
+Year 1950: decrease of 0.0%, Population 1,005,595, Source: Census Bureau
+Year 1996: increase of 0.2%, Population 2,262,435, Source: Census Bureau

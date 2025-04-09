@@ -1,0 +1,10 @@
+Year-over-Year Anomalies for India
+========================================
+Year 1950: decrease of 0.0%, Population 346,278,821, Source: United Nations Population Division
+Year 2022: increase of 0.8%, Population 1,425,423,213, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 435,990,338, Source: World Bank
+Year 2022: increase of 0.8%, Population 1,425,423,212, Source: World Bank
+Year 1950: decrease of 0.0%, Population 369,880,000, Source: Census Bureau
+Year 2022: increase of 0.6%, Population 1,389,637,446, Source: Census Bureau
+Year 2023: increase of 0.7%, Population 1,399,179,585, Source: Census Bureau
+Year 2024: increase of 0.7%, Population 1,409,128,296, Source: Census Bureau

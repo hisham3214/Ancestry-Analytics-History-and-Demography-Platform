@@ -1,0 +1,9 @@
+Year-over-Year Anomalies for Philippines
+========================================
+Year 1950: decrease of 0.0%, Population 18,849,528, Source: United Nations Population Division
+Year 1951: increase of 3.8%, Population 19,568,081, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 27,891,897, Source: World Bank
+Year 1961: increase of 3.2%, Population 28,792,621, Source: World Bank
+Year 2022: increase of 0.8%, Population 113,964,338, Source: World Bank
+Year 2023: increase of 0.8%, Population 114,891,199, Source: World Bank
+Year 1950: decrease of 0.0%, Population 21,131,264, Source: Census Bureau

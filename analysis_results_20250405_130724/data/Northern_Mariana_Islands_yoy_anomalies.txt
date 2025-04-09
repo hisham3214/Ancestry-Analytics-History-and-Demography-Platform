@@ -1,0 +1,30 @@
+Year-over-Year Anomalies for Northern Mariana Islands
+========================================
+Year 1968: decrease of -2.6%, Population 10,468, Source: United Nations Population Division
+Year 1970: increase of 1.8%, Population 10,170, Source: United Nations Population Division
+Year 1971: increase of 10.8%, Population 11,271, Source: United Nations Population Division
+Year 1972: increase of 12.1%, Population 12,637, Source: United Nations Population Division
+Year 1974: increase of 5.6%, Population 14,655, Source: United Nations Population Division
+Year 1980: increase of 6.9%, Population 17,626, Source: United Nations Population Division
+Year 1981: increase of 12.5%, Population 19,826, Source: United Nations Population Division
+Year 1982: increase of 12.7%, Population 22,350, Source: United Nations Population Division
+Year 1983: increase of 11.6%, Population 24,936, Source: United Nations Population Division
+Year 1996: increase of 7.3%, Population 51,707, Source: United Nations Population Division
+Year 2000: increase of 3.7%, Population 68,357, Source: United Nations Population Division
+Year 2001: decrease of -0.5%, Population 67,985, Source: United Nations Population Division
+Year 1968: decrease of -2.6%, Population 10,468, Source: World Bank
+Year 1970: increase of 1.8%, Population 10,170, Source: World Bank
+Year 1971: increase of 10.8%, Population 11,271, Source: World Bank
+Year 1974: increase of 5.6%, Population 14,655, Source: World Bank
+Year 1980: increase of 6.9%, Population 17,625, Source: World Bank
+Year 1981: increase of 12.5%, Population 19,826, Source: World Bank
+Year 1982: increase of 12.7%, Population 22,350, Source: World Bank
+Year 1996: increase of 7.3%, Population 51,706, Source: World Bank
+Year 2000: increase of 3.7%, Population 68,356, Source: World Bank
+Year 2001: decrease of -0.5%, Population 67,984, Source: World Bank
+Year 1951: increase of 3.5%, Population 6,507, Source: Census Bureau
+Year 1988: increase of 14.4%, Population 29,053, Source: Census Bureau
+Year 1989: increase of 21.5%, Population 35,294, Source: Census Bureau
+Year 1990: increase of 24.8%, Population 44,037, Source: Census Bureau
+Year 1991: increase of 5.7%, Population 46,556, Source: Census Bureau
+Year 2001: decrease of -0.4%, Population 69,424, Source: Census Bureau

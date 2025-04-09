@@ -520,16 +520,28 @@ class PopulationDataAnalyzer:
                 if 'is_yoy_anomaly' in country_data.columns:
                     yoy_anomalies = country_data[country_data['is_yoy_anomaly']]
                     f.write(f"Year-over-Year Anomalies ({len(yoy_anomalies)}):\n")
+
                     if not yoy_anomalies.empty:
                         for _, row in yoy_anomalies.iterrows():
                             change_type = "increase" if row.get('is_increase_anomaly', False) else "decrease"
-                            f.write(
-                                f"Year {row['year']}: {change_type} of "
-                                f"{row['yoy_change']*100:.1f}% from previous year, "
-                                f"Source: {row['source_name']}\n"
-                            )
-                    else:
-                        f.write("No YoY anomalies detected.\n")
+
+                        # Safely retrieve any fields that might not exist or could be NaN
+                        yoy_pct = row.get('yoy_change', 0) * 100
+                        g_z = row.get('global_z_score', float('nan'))
+                        r_z = row.get('rolling_z', float('nan'))
+                        second_deriv = row.get('second_derivative', float('nan')) * 100
+                        anomaly_desc = row.get('anomaly_description', '')
+                        anomaly_type = row.get('anomaly_type', '')
+
+                        # Print or format them however you'd like
+                        f.write(
+                            f"Year {row['year']}: {change_type} of {yoy_pct:.2f}% "
+                            f"(Global z={g_z:.2f}, Rolling z={r_z:.2f}, 2nd deriv={second_deriv:.2f}), "
+                            f"Type(s): {anomaly_type}, Description: {anomaly_desc}, "
+                            f"Source: {row['source_name']}\n"
+                        )
+                else:
+                    f.write("No YoY anomalies detected.\n")
         else:
             plt.show()
 

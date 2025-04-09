@@ -1,0 +1,6 @@
+Year-over-Year Anomalies for China
+========================================
+Year 1961: decrease of -1.0%, Population 660,330,000, Source: World Bank
+Year 1961: decrease of -0.9%, Population 645,409,760, Source: Census Bureau
+Year 1963: increase of 3.2%, Population 675,163,262, Source: Census Bureau
+Year 1964: increase of 3.2%, Population 697,081,762, Source: Census Bureau

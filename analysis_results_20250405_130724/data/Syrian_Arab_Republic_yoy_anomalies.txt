@@ -1,0 +1,15 @@
+Year-over-Year Anomalies for Syrian Arab Republic
+========================================
+Year 2013: decrease of -4.8%, Population 21,666,918, Source: United Nations Population Division
+Year 2014: decrease of -6.4%, Population 20,273,659, Source: United Nations Population Division
+Year 2015: decrease of -4.2%, Population 19,424,618, Source: United Nations Population Division
+Year 1961: increase of 3.0%, Population 4,815,466, Source: World Bank
+Year 2013: decrease of -4.8%, Population 21,666,917, Source: World Bank
+Year 2014: decrease of -6.4%, Population 20,273,659, Source: World Bank
+Year 2015: decrease of -4.2%, Population 19,424,618, Source: World Bank
+Year 2013: decrease of -6.1%, Population 21,064,653, Source: Census Bureau
+Year 2014: decrease of -7.6%, Population 19,469,277, Source: Census Bureau
+Year 2015: decrease of -5.4%, Population 18,415,482, Source: Census Bureau
+Year 2016: decrease of -3.3%, Population 17,807,789, Source: Census Bureau
+Year 2018: increase of 1.6%, Population 17,738,965, Source: Census Bureau
+Year 2019: increase of 4.8%, Population 18,584,688, Source: Census Bureau

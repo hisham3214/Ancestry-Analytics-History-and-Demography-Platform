@@ -1,0 +1,14 @@
+Population Analysis for China
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 1,416,096,094
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (4):
+Year 1964: increase of 3.25% (Global z=2.21, Rolling z=1.00, 2nd deriv=0.03), Type(s): global, Description: Year 1964: increase of 3.2% (above average by 2.0%), Source: Census Bureau

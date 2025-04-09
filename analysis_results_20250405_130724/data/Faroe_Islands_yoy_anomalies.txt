@@ -1,0 +1,14 @@
+Year-over-Year Anomalies for Faroe Islands
+========================================
+Year 1991: decrease of -1.4%, Population 46,816, Source: United Nations Population Division
+Year 1992: decrease of -1.7%, Population 46,023, Source: United Nations Population Division
+Year 1993: decrease of -1.9%, Population 45,135, Source: United Nations Population Division
+Year 1994: decrease of -2.1%, Population 44,171, Source: United Nations Population Division
+Year 1993: decrease of -1.7%, Population 46,473, Source: World Bank
+Year 1994: decrease of -3.8%, Population 44,694, Source: World Bank
+Year 1995: decrease of -2.4%, Population 43,610, Source: World Bank
+Year 1965: increase of 4.5%, Population 37,000, Source: Census Bureau
+Year 1966: increase of 0.8%, Population 37,300, Source: Census Bureau
+Year 1993: decrease of -3.5%, Population 46,085, Source: Census Bureau
+Year 1994: decrease of -3.4%, Population 44,504, Source: Census Bureau
+Year 1995: decrease of -2.2%, Population 43,537, Source: Census Bureau

@@ -1,0 +1,14 @@
+Population Analysis for Kiribati
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 136,489
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (16):
+Year 1990: increase of 2.76% (Global z=2.20, Rolling z=-1.43, 2nd deriv=-0.10), Type(s): global, Description: Year 1990: increase of 2.8% (above average by 1.1%), Source: Census Bureau

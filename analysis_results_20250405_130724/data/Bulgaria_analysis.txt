@@ -1,0 +1,14 @@
+Population Analysis for Bulgaria
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 6,714,560
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (7):
+Year 1993: decrease of -2.50% (Global z=-3.19, Rolling z=-1.38, 2nd deriv=-1.20), Type(s): global, Description: Year 1993: decrease of 2.5% (below average by 2.4%), showing deceleration of 1.2%, Source: Census Bureau

@@ -1,0 +1,44 @@
+Year-over-Year Anomalies for Andorra
+========================================
+Year 1952: decrease of -6.2%, Population 5,456, Source: United Nations Population Division
+Year 1953: decrease of -2.4%, Population 5,323, Source: United Nations Population Division
+Year 1954: increase of 5.2%, Population 5,602, Source: United Nations Population Division
+Year 1955: increase of 10.1%, Population 6,166, Source: United Nations Population Division
+Year 1991: increase of 7.7%, Population 56,668, Source: United Nations Population Division
+Year 1995: decrease of -1.1%, Population 63,912, Source: United Nations Population Division
+Year 2003: increase of 4.5%, Population 69,486, Source: United Nations Population Division
+Year 2010: decrease of -3.8%, Population 80,706, Source: United Nations Population Division
+Year 1961: increase of 8.1%, Population 10,283, Source: World Bank
+Year 1991: increase of 7.7%, Population 56,667, Source: World Bank
+Year 1995: decrease of -1.1%, Population 63,912, Source: World Bank
+Year 2003: increase of 4.5%, Population 69,486, Source: World Bank
+Year 2010: decrease of -3.8%, Population 80,706, Source: World Bank
+Year 2011: decrease of -3.6%, Population 77,783, Source: World Bank
+Year 1987: increase of 5.3%, Population 46,976, Source: Eurostat
+Year 1990: increase of 0.7%, Population 50,887, Source: Eurostat
+Year 1991: increase of 7.1%, Population 54,507, Source: Eurostat
+Year 1993: increase of 4.3%, Population 61,599, Source: Eurostat
+Year 1995: decrease of -1.4%, Population 64,311, Source: Eurostat
+Year 2004: increase of 7.7%, Population 72,320, Source: Eurostat
+Year 2006: increase of 2.2%, Population 78,549, Source: Eurostat
+Year 2011: decrease of -7.1%, Population 78,115, Source: Eurostat
+Year 2012: decrease of 0.0%, Population 78,115, Source: Eurostat
+Year 1952: decrease of -7.0%, Population 5,866, Source: Census Bureau
+Year 1954: decrease of -1.6%, Population 5,503, Source: Census Bureau
+Year 1955: increase of 12.5%, Population 6,189, Source: Census Bureau
+Year 1956: increase of 0.5%, Population 6,221, Source: Census Bureau
+Year 1958: increase of 10.6%, Population 7,103, Source: Census Bureau
+Year 1959: increase of 1.9%, Population 7,239, Source: Census Bureau
+Year 1960: increase of 15.9%, Population 8,392, Source: Census Bureau
+Year 1961: increase of 6.8%, Population 8,959, Source: Census Bureau
+Year 1962: increase of 15.2%, Population 10,317, Source: Census Bureau
+Year 1963: increase of 10.1%, Population 11,356, Source: Census Bureau
+Year 1965: increase of 11.7%, Population 13,623, Source: Census Bureau
+Year 1966: increase of 5.6%, Population 14,380, Source: Census Bureau
+Year 1969: increase of 5.9%, Population 18,233, Source: Census Bureau
+Year 1973: increase of 7.8%, Population 23,092, Source: Census Bureau
+Year 1977: increase of 3.1%, Population 29,396, Source: Census Bureau
+Year 1980: increase of 7.4%, Population 33,584, Source: Census Bureau
+Year 1981: increase of 12.6%, Population 37,825, Source: Census Bureau
+Year 1982: increase of 5.6%, Population 39,940, Source: Census Bureau
+Year 2003: increase of 4.2%, Population 68,782, Source: Census Bureau

@@ -1,0 +1,26 @@
+Year-over-Year Anomalies for Lebanon
+========================================
+Year 2013: increase of 9.7%, Population 5,743,437, Source: United Nations Population Division
+Year 2014: increase of 10.5%, Population 6,346,991, Source: United Nations Population Division
+Year 2015: increase of 2.0%, Population 6,472,469, Source: United Nations Population Division
+Year 2016: decrease of -2.3%, Population 6,323,060, Source: United Nations Population Division
+Year 2017: decrease of -2.6%, Population 6,160,128, Source: United Nations Population Division
+Year 2018: decrease of -2.9%, Population 5,984,120, Source: United Nations Population Division
+Year 2019: decrease of -3.2%, Population 5,794,594, Source: United Nations Population Division
+Year 1961: increase of 3.1%, Population 1,850,084, Source: World Bank
+Year 2013: increase of 9.7%, Population 5,743,436, Source: World Bank
+Year 2014: increase of 10.5%, Population 6,346,990, Source: World Bank
+Year 2015: increase of 2.0%, Population 6,472,469, Source: World Bank
+Year 2016: decrease of -2.3%, Population 6,323,060, Source: World Bank
+Year 2017: decrease of -2.6%, Population 6,160,128, Source: World Bank
+Year 2018: decrease of -2.9%, Population 5,984,119, Source: World Bank
+Year 2019: decrease of -3.2%, Population 5,794,594, Source: World Bank
+Year 1976: increase of 12.6%, Population 3,256,799, Source: Census Bureau
+Year 1977: increase of 11.3%, Population 3,624,174, Source: Census Bureau
+Year 1978: decrease of -8.4%, Population 3,318,766, Source: Census Bureau
+Year 1979: decrease of -9.5%, Population 3,002,178, Source: Census Bureau
+Year 1980: increase of 0.9%, Population 3,028,695, Source: Census Bureau
+Year 2013: increase of 9.4%, Population 5,546,122, Source: Census Bureau
+Year 2014: increase of 10.2%, Population 6,114,048, Source: Census Bureau
+Year 2015: increase of 2.4%, Population 6,258,586, Source: Census Bureau
+Year 2016: decrease of -0.9%, Population 6,203,409, Source: Census Bureau

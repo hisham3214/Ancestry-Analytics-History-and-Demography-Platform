@@ -1,0 +1,14 @@
+Population Analysis for Chad
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 21,003,705
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (19):
+Year 1993: decrease of -1.02% (Global z=-3.14, Rolling z=-1.70, 2nd deriv=-5.02), Type(s): global+acceleration, Description: Year 1993: decrease of 1.0% (below average by 3.7%), showing deceleration of 5.0%, Source: Census Bureau

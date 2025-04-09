@@ -1,0 +1,14 @@
+Population Analysis for Cook Islands
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 2
+Latest population: 13,263
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (2):
+Year 1977: increase of 1.96% (Global z=1.22, Rolling z=1.60, 2nd deriv=7.70), Type(s): acceleration, Description: Year 1977: increase of 2.0% (above average by 2.8%), showing acceleration of 7.7%, Source: Census Bureau

@@ -1,0 +1,12 @@
+Year-over-Year Anomalies for Montenegro
+========================================
+Year 1952: increase of 2.2%, Population 418,900, Source: United Nations Population Division
+Year 2023: increase of 3.1%, Population 633,552, Source: United Nations Population Division
+Year 1961: increase of 2.2%, Population 491,140, Source: World Bank
+Year 1962: increase of 2.3%, Population 502,558, Source: World Bank
+Year 1963: increase of 2.2%, Population 513,409, Source: World Bank
+Year 2022: decrease of -0.5%, Population 617,683, Source: Eurostat
+Year 2024: increase of 1.1%, Population 623,680, Source: Eurostat
+Year 1980: decrease of -1.9%, Population 560,000, Source: Census Bureau
+Year 1992: increase of 5.2%, Population 621,621, Source: Census Bureau
+Year 1993: increase of 0.1%, Population 622,526, Source: Census Bureau

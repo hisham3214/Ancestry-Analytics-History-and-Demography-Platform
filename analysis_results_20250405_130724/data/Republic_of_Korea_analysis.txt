@@ -1,0 +1,14 @@
+Population Analysis for Republic of Korea
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 51,667,030
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (12):
+Year 1962: increase of 3.15% (Global z=2.07, Rolling z=-0.07, 2nd deriv=-0.20), Type(s): global, Description: Year 1962: increase of 3.1% (above average by 1.9%), Source: Census Bureau

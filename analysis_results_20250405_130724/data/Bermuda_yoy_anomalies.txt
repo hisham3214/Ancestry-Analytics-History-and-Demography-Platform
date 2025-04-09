@@ -1,0 +1,18 @@
+Year-over-Year Anomalies for Bermuda
+========================================
+Year 1961: increase of 2.2%, Population 43,123, Source: United Nations Population Division
+Year 1962: increase of 2.6%, Population 44,240, Source: United Nations Population Division
+Year 1963: increase of 2.5%, Population 45,340, Source: United Nations Population Division
+Year 1964: increase of 2.4%, Population 46,411, Source: United Nations Population Division
+Year 1965: increase of 2.3%, Population 47,461, Source: United Nations Population Division
+Year 1966: increase of 2.3%, Population 48,534, Source: United Nations Population Division
+Year 1961: increase of 2.2%, Population 43,123, Source: World Bank
+Year 1962: increase of 2.6%, Population 44,239, Source: World Bank
+Year 1963: increase of 2.5%, Population 45,340, Source: World Bank
+Year 1964: increase of 2.4%, Population 46,410, Source: World Bank
+Year 1965: increase of 2.3%, Population 47,461, Source: World Bank
+Year 1966: increase of 2.3%, Population 48,534, Source: World Bank
+Year 1962: increase of 2.2%, Population 46,146, Source: Census Bureau
+Year 1963: increase of 2.2%, Population 47,141, Source: Census Bureau
+Year 1964: increase of 2.0%, Population 48,107, Source: Census Bureau
+Year 1965: increase of 1.9%, Population 48,998, Source: Census Bureau

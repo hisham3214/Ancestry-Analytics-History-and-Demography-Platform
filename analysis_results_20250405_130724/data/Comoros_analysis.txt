@@ -1,0 +1,14 @@
+Population Analysis for Comoros
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 882,848
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (6):
+Year 1978: increase of 3.19% (Global z=0.83, Rolling z=-0.43, 2nd deriv=-5.50), Type(s): acceleration, Description: Year 1978: increase of 3.2% (above average by 0.7%), showing deceleration of 5.5%, Source: Census Bureau

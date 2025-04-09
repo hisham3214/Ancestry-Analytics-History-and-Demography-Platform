@@ -1,0 +1,14 @@
+Year-over-Year Anomalies for Zimbabwe
+========================================
+Year 1950: decrease of 0.0%, Population 2,790,906, Source: United Nations Population Division
+Year 1951: increase of 3.2%, Population 2,880,892, Source: United Nations Population Division
+Year 1980: increase of 5.9%, Population 7,041,303, Source: United Nations Population Division
+Year 1981: increase of 6.5%, Population 7,498,635, Source: United Nations Population Division
+Year 1961: increase of 3.2%, Population 3,930,401, Source: World Bank
+Year 1980: increase of 5.9%, Population 7,041,303, Source: World Bank
+Year 1981: increase of 6.5%, Population 7,498,635, Source: World Bank
+Year 1950: decrease of 0.0%, Population 2,853,151, Source: Census Bureau
+Year 1951: increase of 3.4%, Population 2,950,941, Source: Census Bureau
+Year 2006: decrease of -0.1%, Population 13,146,773, Source: Census Bureau
+Year 2007: decrease of -0.1%, Population 13,128,369, Source: Census Bureau
+Year 2008: decrease of -0.1%, Population 13,119,805, Source: Census Bureau

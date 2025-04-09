@@ -1,0 +1,12 @@
+Year-over-Year Anomalies for Namibia
+========================================
+Year 1950: decrease of 0.0%, Population 514,591, Source: United Nations Population Division
+Year 1989: increase of 6.6%, Population 1,288,948, Source: United Nations Population Division
+Year 1990: increase of 6.2%, Population 1,369,303, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 591,465, Source: World Bank
+Year 1989: increase of 6.6%, Population 1,288,947, Source: World Bank
+Year 1990: increase of 6.2%, Population 1,369,303, Source: World Bank
+Year 1950: decrease of 0.0%, Population 463,729, Source: Census Bureau
+Year 1988: increase of 4.1%, Population 1,323,014, Source: Census Bureau
+Year 1989: increase of 5.6%, Population 1,397,510, Source: Census Bureau
+Year 1990: increase of 4.4%, Population 1,458,648, Source: Census Bureau

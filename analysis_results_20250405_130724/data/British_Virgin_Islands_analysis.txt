@@ -1,0 +1,14 @@
+Population Analysis for British Virgin Islands
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 39,732
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (12):
+Year 1971: increase of 0.13% (Global z=-2.40, Rolling z=-1.75, 2nd deriv=-2.60), Type(s): global, Description: Year 1971: increase of 0.1% (below average by 2.4%), showing deceleration of 2.6%, Source: Census Bureau

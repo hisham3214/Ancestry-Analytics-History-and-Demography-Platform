@@ -1,0 +1,14 @@
+Population Analysis for Greece
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 9,938,845
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (15):
+Year 2015: decrease of -0.68% (Global z=-2.06, Rolling z=-0.50, 2nd deriv=-0.02), Type(s): global, Description: Year 2015: decrease of 0.7% (below average by 1.1%), Source: Census Bureau

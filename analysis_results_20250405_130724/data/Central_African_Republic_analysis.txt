@@ -1,0 +1,14 @@
+Population Analysis for Central African Republic
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 5,513,282
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (13):
+Year 2015: decrease of -0.20% (Global z=-3.09, Rolling z=-0.89, 2nd deriv=0.36), Type(s): global, Description: Year 2015: decrease of 0.2% (below average by 2.2%), Source: Census Bureau

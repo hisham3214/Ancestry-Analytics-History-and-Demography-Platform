@@ -1,0 +1,14 @@
+Population Analysis for Cayman Islands
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 75,844
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (13):
+Year 1989: increase of 2.33% (Global z=-0.48, Rolling z=-0.64, 2nd deriv=-8.67), Type(s): acceleration, Description: Year 1989: increase of 2.3% (below average by 0.9%), showing deceleration of 8.7%, Source: Census Bureau

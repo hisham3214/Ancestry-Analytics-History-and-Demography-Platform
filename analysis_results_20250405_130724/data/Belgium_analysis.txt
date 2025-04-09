@@ -1,0 +1,14 @@
+Population Analysis for Belgium
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 11,758,603
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (7):
+Year 2023: increase of 1.08% (Global z=2.25, Rolling z=1.64, 2nd deriv=0.53), Type(s): global, Description: Year 2023: increase of 1.1% (above average by 0.7%), Source: Eurostat

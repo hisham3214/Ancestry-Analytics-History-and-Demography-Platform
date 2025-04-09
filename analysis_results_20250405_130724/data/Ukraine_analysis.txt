@@ -1,0 +1,14 @@
+Population Analysis for Ukraine
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 38,980,377
+
+Z-Score Anomalies (1):
+Year 2023: Population 37,732,836, Z-score: -3.40, Source: World Bank
+
+Year-over-Year Anomalies (10):
+Year 2024: increase of 2.39% (Global z=1.28, Rolling z=1.06, 2nd deriv=12.26), Type(s): acceleration, Description: Year 2024: increase of 2.4% (above average by 2.4%), showing acceleration of 12.3%, Source: Census Bureau

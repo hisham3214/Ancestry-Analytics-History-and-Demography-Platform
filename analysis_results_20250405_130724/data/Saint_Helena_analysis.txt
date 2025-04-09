@@ -1,0 +1,14 @@
+Population Analysis for Saint Helena
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 2
+Latest population: 5,197
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (10):
+Year 1988: increase of 0.67% (Global z=0.02, Rolling z=0.04, 2nd deriv=21.92), Type(s): acceleration, Description: Year 1988: increase of 0.7% (above average by 0.1%), showing acceleration of 21.9%, Source: Census Bureau

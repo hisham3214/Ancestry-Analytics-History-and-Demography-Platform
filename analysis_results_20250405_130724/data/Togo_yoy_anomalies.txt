@@ -1,0 +1,17 @@
+Year-over-Year Anomalies for Togo
+========================================
+Year 1950: decrease of 0.0%, Population 1,399,600, Source: United Nations Population Division
+Year 1968: increase of 4.2%, Population 2,080,226, Source: United Nations Population Division
+Year 1993: decrease of -0.6%, Population 4,207,454, Source: United Nations Population Division
+Year 1994: increase of 0.4%, Population 4,222,940, Source: United Nations Population Division
+Year 1995: increase of 4.4%, Population 4,410,832, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 1,673,110, Source: World Bank
+Year 1993: decrease of -0.6%, Population 4,207,453, Source: World Bank
+Year 1994: increase of 0.4%, Population 4,222,940, Source: World Bank
+Year 1995: increase of 4.4%, Population 4,410,832, Source: World Bank
+Year 1950: decrease of 0.0%, Population 1,171,897, Source: Census Bureau
+Year 1970: increase of 7.3%, Population 1,964,128, Source: Census Bureau
+Year 1971: increase of 2.9%, Population 2,021,064, Source: Census Bureau
+Year 1993: decrease of -0.7%, Population 3,884,109, Source: Census Bureau
+Year 1994: increase of 0.4%, Population 3,897,985, Source: Census Bureau
+Year 1995: increase of 5.1%, Population 4,097,531, Source: Census Bureau

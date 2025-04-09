@@ -1,0 +1,21 @@
+Year-over-Year Anomalies for Guinea-Bissau
+========================================
+Year 1965: decrease of -2.3%, Population 575,006, Source: United Nations Population Division
+Year 1966: decrease of -1.4%, Population 566,908, Source: United Nations Population Division
+Year 1975: increase of 6.1%, Population 650,966, Source: United Nations Population Division
+Year 1976: increase of 6.6%, Population 694,191, Source: United Nations Population Division
+Year 1977: increase of 6.9%, Population 741,790, Source: United Nations Population Division
+Year 1978: increase of 6.7%, Population 791,695, Source: United Nations Population Division
+Year 1979: increase of 3.6%, Population 819,868, Source: United Nations Population Division
+Year 1965: decrease of -2.3%, Population 575,005, Source: World Bank
+Year 1966: decrease of -1.4%, Population 566,908, Source: World Bank
+Year 1975: increase of 6.1%, Population 650,966, Source: World Bank
+Year 1976: increase of 6.6%, Population 694,191, Source: World Bank
+Year 1977: increase of 6.9%, Population 741,789, Source: World Bank
+Year 1978: increase of 6.7%, Population 791,694, Source: World Bank
+Year 1979: increase of 3.6%, Population 819,867, Source: World Bank
+Year 1964: decrease of -3.7%, Population 610,284, Source: Census Bureau
+Year 1965: decrease of -1.1%, Population 603,780, Source: Census Bureau
+Year 1975: increase of 6.4%, Population 680,919, Source: Census Bureau
+Year 1976: increase of 7.6%, Population 732,707, Source: Census Bureau
+Year 1977: increase of 1.7%, Population 745,228, Source: Census Bureau

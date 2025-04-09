@@ -1,0 +1,14 @@
+Population Analysis for Burkina Faso
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 24,074,580
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (4):
+Year 2002: increase of 4.66% (Global z=2.41, Rolling z=1.51, 2nd deriv=0.96), Type(s): global, Description: Year 2002: increase of 4.7% (above average by 2.4%), Source: Census Bureau

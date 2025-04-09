@@ -1,0 +1,14 @@
+Population Analysis for Faroe Islands
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 56,002
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (12):
+Year 1995: decrease of -2.17% (Global z=-2.71, Rolling z=-0.25, 2nd deriv=1.26), Type(s): global, Description: Year 1995: decrease of 2.2% (below average by 2.9%), showing acceleration of 1.3%, Source: Census Bureau

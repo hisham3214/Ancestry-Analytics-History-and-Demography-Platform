@@ -1,0 +1,18 @@
+Year-over-Year Anomalies for Saint Kitts and Nevis
+========================================
+Year 1966: decrease of -2.4%, Population 49,899, Source: United Nations Population Division
+Year 1967: decrease of -2.6%, Population 48,605, Source: United Nations Population Division
+Year 1968: decrease of -2.8%, Population 47,245, Source: United Nations Population Division
+Year 1969: decrease of -3.2%, Population 45,731, Source: United Nations Population Division
+Year 1970: decrease of -2.5%, Population 44,607, Source: United Nations Population Division
+Year 1966: decrease of -2.4%, Population 49,898, Source: World Bank
+Year 1967: decrease of -2.6%, Population 48,605, Source: World Bank
+Year 1968: decrease of -2.8%, Population 47,245, Source: World Bank
+Year 1969: decrease of -3.2%, Population 45,731, Source: World Bank
+Year 1970: decrease of -2.5%, Population 44,606, Source: World Bank
+Year 1960: decrease of -2.2%, Population 51,112, Source: Census Bureau
+Year 1961: decrease of -4.0%, Population 49,048, Source: Census Bureau
+Year 1962: decrease of -1.0%, Population 48,562, Source: Census Bureau
+Year 1967: decrease of -4.0%, Population 46,730, Source: Census Bureau
+Year 1968: increase of 0.4%, Population 46,933, Source: Census Bureau
+Year 1970: decrease of -2.3%, Population 46,116, Source: Census Bureau

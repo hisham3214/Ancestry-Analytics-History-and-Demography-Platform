@@ -1,0 +1,14 @@
+Population Analysis for Hungary
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 9,632,287
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (11):
+Year 1988: decrease of -1.60% (Global z=-3.60, Rolling z=-1.79, 2nd deriv=-1.44), Type(s): global, Description: Year 1988: decrease of 1.6% (below average by 1.7%), showing deceleration of 1.4%, Source: Census Bureau

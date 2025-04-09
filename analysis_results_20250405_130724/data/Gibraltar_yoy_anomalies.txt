@@ -1,0 +1,15 @@
+Year-over-Year Anomalies for Gibraltar
+========================================
+Year 1990: decrease of -1.2%, Population 27,200, Source: United Nations Population Division
+Year 1990: decrease of -1.2%, Population 27,200, Source: World Bank
+Year 1991: decrease of -1.1%, Population 26,898, Source: World Bank
+Year 1971: increase of 5.3%, Population 27,638, Source: Census Bureau
+Year 1972: increase of 3.4%, Population 28,578, Source: Census Bureau
+Year 1974: decrease of -2.0%, Population 28,549, Source: Census Bureau
+Year 1975: increase of 1.7%, Population 29,038, Source: Census Bureau
+Year 1977: decrease of -2.7%, Population 28,538, Source: Census Bureau
+Year 1982: decrease of -1.5%, Population 28,848, Source: Census Bureau
+Year 1990: decrease of -4.3%, Population 29,107, Source: Census Bureau
+Year 1991: decrease of -3.5%, Population 28,101, Source: Census Bureau
+Year 1992: decrease of -0.0%, Population 28,089, Source: Census Bureau
+Year 1993: decrease of -3.1%, Population 27,217, Source: Census Bureau

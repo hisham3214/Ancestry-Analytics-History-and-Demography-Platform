@@ -1,0 +1,14 @@
+Population Analysis for Western Sahara
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 1
+Latest population: 600,904
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (11):
+Year 1981: increase of 8.11% (Global z=0.61, Rolling z=-1.38, 2nd deriv=-3.69), Type(s): acceleration, Description: Year 1981: increase of 8.1% (above average by 2.8%), showing deceleration of 3.7%, Source: United Nations Population Division

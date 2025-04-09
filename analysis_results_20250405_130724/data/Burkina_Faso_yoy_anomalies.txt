@@ -1,0 +1,6 @@
+Year-over-Year Anomalies for Burkina Faso
+========================================
+Year 1950: decrease of 0.0%, Population 4,213,152, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 4,778,621, Source: World Bank
+Year 1950: decrease of 0.0%, Population 4,376,162, Source: Census Bureau
+Year 2002: increase of 4.7%, Population 12,406,620, Source: Census Bureau

@@ -1,0 +1,14 @@
+Population Analysis for Czechia
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 10,609,240
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (15):
+Year 1969: decrease of -0.45% (Global z=-2.04, Rolling z=-1.65, 2nd deriv=-0.61), Type(s): global, Description: Year 1969: decrease of 0.5% (below average by 0.7%), Source: Census Bureau

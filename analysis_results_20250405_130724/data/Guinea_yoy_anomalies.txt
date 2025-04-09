@@ -1,0 +1,14 @@
+Year-over-Year Anomalies for Guinea
+========================================
+Year 1950: decrease of 0.0%, Population 3,013,178, Source: United Nations Population Division
+Year 1990: increase of 3.5%, Population 6,434,374, Source: United Nations Population Division
+Year 1991: increase of 4.1%, Population 6,697,166, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 3,556,749, Source: World Bank
+Year 1990: increase of 3.5%, Population 6,434,374, Source: World Bank
+Year 1991: increase of 4.1%, Population 6,697,166, Source: World Bank
+Year 1950: decrease of 0.0%, Population 2,585,509, Source: Census Bureau
+Year 1984: increase of 4.5%, Population 4,760,634, Source: Census Bureau
+Year 1985: increase of 5.4%, Population 5,015,682, Source: Census Bureau
+Year 1990: increase of 5.2%, Population 5,806,512, Source: Census Bureau
+Year 1991: increase of 7.0%, Population 6,215,029, Source: Census Bureau
+Year 1992: increase of 3.6%, Population 6,435,916, Source: Census Bureau

@@ -1,0 +1,21 @@
+Year-over-Year Anomalies for Eritrea
+========================================
+Year 1991: decrease of -5.6%, Population 1,919,571, Source: United Nations Population Division
+Year 1992: decrease of -6.3%, Population 1,798,748, Source: United Nations Population Division
+Year 1993: increase of 3.2%, Population 1,856,007, Source: United Nations Population Division
+Year 1995: increase of 5.8%, Population 2,025,267, Source: United Nations Population Division
+Year 1997: increase of 1.1%, Population 2,152,135, Source: United Nations Population Division
+Year 1991: decrease of -5.6%, Population 1,919,571, Source: World Bank
+Year 1992: decrease of -6.3%, Population 1,798,748, Source: World Bank
+Year 1993: increase of 3.2%, Population 1,856,006, Source: World Bank
+Year 1995: increase of 5.8%, Population 2,025,267, Source: World Bank
+Year 1997: increase of 1.1%, Population 2,152,135, Source: World Bank
+Year 1969: increase of 8.1%, Population 2,007,110, Source: Census Bureau
+Year 1970: increase of 7.6%, Population 2,160,460, Source: Census Bureau
+Year 1971: increase of 2.2%, Population 2,208,336, Source: Census Bureau
+Year 1986: decrease of -2.1%, Population 2,877,999, Source: Census Bureau
+Year 1987: decrease of -2.3%, Population 2,812,612, Source: Census Bureau
+Year 1988: increase of 2.8%, Population 2,890,943, Source: Census Bureau
+Year 1991: decrease of -1.9%, Population 3,001,349, Source: Census Bureau
+Year 1992: decrease of -2.3%, Population 2,933,383, Source: Census Bureau
+Year 1993: increase of 4.1%, Population 3,053,544, Source: Census Bureau

@@ -1,0 +1,9 @@
+Year-over-Year Anomalies for Belgium
+========================================
+Year 2009: increase of 1.0%, Population 10,812,936, Source: United Nations Population Division
+Year 2010: increase of 1.1%, Population 10,936,626, Source: United Nations Population Division
+Year 2011: increase of 0.9%, Population 11,038,632, Source: United Nations Population Division
+Year 2011: increase of 1.3%, Population 11,038,264, Source: World Bank
+Year 1965: increase of 1.1%, Population 9,428,100, Source: Eurostat
+Year 2011: increase of 1.5%, Population 11,000,638, Source: Eurostat
+Year 2023: increase of 1.1%, Population 11,742,796, Source: Eurostat

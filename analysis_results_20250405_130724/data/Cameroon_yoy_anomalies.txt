@@ -1,0 +1,8 @@
+Year-over-Year Anomalies for Cameroon
+========================================
+Year 1950: decrease of 0.0%, Population 4,330,084, Source: United Nations Population Division
+Year 1951: increase of 1.5%, Population 4,395,353, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 5,159,057, Source: World Bank
+Year 1961: increase of 1.6%, Population 5,239,273, Source: World Bank
+Year 1950: decrease of 0.0%, Population 4,887,591, Source: Census Bureau
+Year 1981: increase of 4.0%, Population 9,057,764, Source: Census Bureau

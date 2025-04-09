@@ -1,0 +1,22 @@
+Year-over-Year Anomalies for Switzerland
+========================================
+Year 1961: increase of 2.0%, Population 5,434,123, Source: United Nations Population Division
+Year 1962: increase of 2.6%, Population 5,573,696, Source: United Nations Population Division
+Year 1963: increase of 2.2%, Population 5,694,165, Source: United Nations Population Division
+Year 1976: decrease of -0.6%, Population 6,302,555, Source: United Nations Population Division
+Year 1977: decrease of -0.3%, Population 6,281,360, Source: United Nations Population Division
+Year 1961: increase of 2.0%, Population 5,434,294, Source: World Bank
+Year 1962: increase of 2.6%, Population 5,573,815, Source: World Bank
+Year 1963: increase of 2.2%, Population 5,694,247, Source: World Bank
+Year 1976: decrease of -0.6%, Population 6,302,504, Source: World Bank
+Year 1977: decrease of -0.3%, Population 6,281,174, Source: World Bank
+Year 1962: increase of 2.8%, Population 5,508,435, Source: Eurostat
+Year 1963: increase of 2.4%, Population 5,639,195, Source: Eurostat
+Year 1964: increase of 2.0%, Population 5,749,299, Source: Eurostat
+Year 1976: decrease of -0.6%, Population 6,320,978, Source: Eurostat
+Year 1977: decrease of -0.6%, Population 6,284,029, Source: Eurostat
+Year 1961: increase of 2.8%, Population 5,512,000, Source: Census Bureau
+Year 1962: increase of 2.8%, Population 5,666,000, Source: Census Bureau
+Year 1963: increase of 2.2%, Population 5,789,000, Source: Census Bureau
+Year 1975: decrease of -0.9%, Population 6,403,500, Source: Census Bureau
+Year 1976: decrease of -1.1%, Population 6,333,313, Source: Census Bureau

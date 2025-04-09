@@ -1,0 +1,6 @@
+Year-over-Year Anomalies for Sri Lanka
+========================================
+Year 1950: decrease of 0.0%, Population 7,811,047, Source: United Nations Population Division
+Year 2013: decrease of -2.8%, Population 20,585,000, Source: World Bank
+Year 2014: increase of 0.9%, Population 20,778,000, Source: World Bank
+Year 2023: decrease of -0.6%, Population 22,037,000, Source: World Bank

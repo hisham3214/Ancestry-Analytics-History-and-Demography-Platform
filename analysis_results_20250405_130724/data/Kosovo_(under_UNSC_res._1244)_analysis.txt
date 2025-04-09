@@ -1,0 +1,14 @@
+Population Analysis for Kosovo (under UNSC res. 1244)
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 1,674,125
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (10):
+Year 2016: decrease of -1.26% (Global z=-0.14, Rolling z=0.23, 2nd deriv=17.49), Type(s): acceleration, Description: Year 2016: decrease of 1.3% (below average by 0.7%), showing acceleration of 17.5%, Source: Eurostat

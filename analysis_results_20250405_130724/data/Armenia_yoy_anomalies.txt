@@ -1,0 +1,14 @@
+Year-over-Year Anomalies for Armenia
+========================================
+Year 1993: decrease of -3.3%, Population 3,453,333, Source: United Nations Population Division
+Year 1994: decrease of -2.6%, Population 3,364,610, Source: United Nations Population Division
+Year 1961: increase of 3.4%, Population 1,927,484, Source: World Bank
+Year 1993: decrease of -3.3%, Population 3,453,332, Source: World Bank
+Year 1994: decrease of -2.6%, Population 3,364,610, Source: World Bank
+Year 2015: decrease of -8.1%, Population 3,010,598, Source: Eurostat
+Year 2016: decrease of -0.4%, Population 2,998,577, Source: Eurostat
+Year 1989: decrease of -5.0%, Population 3,472,148, Source: Census Bureau
+Year 1990: increase of 1.6%, Population 3,529,365, Source: Census Bureau
+Year 1992: decrease of -2.2%, Population 3,508,953, Source: Census Bureau
+Year 1993: decrease of -5.1%, Population 3,328,558, Source: Census Bureau
+Year 1994: decrease of -3.9%, Population 3,198,062, Source: Census Bureau

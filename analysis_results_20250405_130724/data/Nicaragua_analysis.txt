@@ -1,0 +1,14 @@
+Population Analysis for Nicaragua
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 7,007,502
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (6):
+Year 1991: increase of 5.34% (Global z=2.88, Rolling z=1.42, 2nd deriv=0.99), Type(s): global, Description: Year 1991: increase of 5.3% (above average by 2.9%), Source: Census Bureau

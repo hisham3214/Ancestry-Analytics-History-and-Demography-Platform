@@ -1,0 +1,14 @@
+Population Analysis for Sudan
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 51,662,148
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (6):
+Year 1950: decrease of 0.00% (Global z=-4.81, Rolling z=nan, 2nd deriv=nan), Type(s): global, Description: Year 1950: decrease of 0.0% (below average by 2.8%), Source: Census Bureau

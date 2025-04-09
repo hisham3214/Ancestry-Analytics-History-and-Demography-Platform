@@ -1,0 +1,14 @@
+Population Analysis for France
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 66,650,805
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (9):
+Year 1963: increase of 1.48% (Global z=2.71, Rolling z=0.31, 2nd deriv=-0.56), Type(s): global, Description: Year 1963: increase of 1.5% (above average by 0.8%), Source: Census Bureau

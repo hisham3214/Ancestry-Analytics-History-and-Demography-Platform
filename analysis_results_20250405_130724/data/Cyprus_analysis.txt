@@ -1,0 +1,14 @@
+Population Analysis for Cyprus
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 1,370,754
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (12):
+Year 1976: decrease of -1.85% (Global z=-3.21, Rolling z=-0.49, 2nd deriv=2.77), Type(s): global, Description: Year 1976: decrease of 1.8% (below average by 3.2%), showing acceleration of 2.8%, Source: Census Bureau

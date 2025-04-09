@@ -1,0 +1,10 @@
+Year-over-Year Anomalies for Ghana
+========================================
+Year 1950: decrease of 0.0%, Population 5,080,664, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 6,961,215, Source: World Bank
+Year 1950: decrease of 0.0%, Population 5,297,454, Source: Census Bureau
+Year 1970: decrease of -2.4%, Population 8,788,945, Source: Census Bureau
+Year 1971: increase of 2.7%, Population 9,030,377, Source: Census Bureau
+Year 1983: increase of 7.0%, Population 11,999,096, Source: Census Bureau
+Year 1984: increase of 5.6%, Population 12,668,882, Source: Census Bureau
+Year 1985: increase of 1.7%, Population 12,888,548, Source: Census Bureau

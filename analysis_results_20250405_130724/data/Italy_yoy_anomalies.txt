@@ -1,0 +1,6 @@
+Year-over-Year Anomalies for Italy
+========================================
+Year 1996: decrease of -0.4%, Population 57,162,092, Source: United Nations Population Division
+Year 2013: increase of 1.2%, Population 60,233,948, Source: World Bank
+Year 2019: decrease of -1.1%, Population 59,729,081, Source: World Bank
+Year 2021: decrease of -0.7%, Population 59,236,213, Source: Eurostat

@@ -1,0 +1,25 @@
+Year-over-Year Anomalies for South Sudan
+========================================
+Year 1988: decrease of -2.3%, Population 4,848,029, Source: United Nations Population Division
+Year 1989: decrease of -2.8%, Population 4,713,229, Source: United Nations Population Division
+Year 1990: increase of 0.5%, Population 4,737,633, Source: United Nations Population Division
+Year 2014: increase of 0.6%, Population 11,235,073, Source: United Nations Population Division
+Year 2016: decrease of -2.5%, Population 10,830,102, Source: United Nations Population Division
+Year 2017: decrease of -5.3%, Population 10,259,154, Source: United Nations Population Division
+Year 2018: decrease of -1.3%, Population 10,122,977, Source: United Nations Population Division
+Year 2019: increase of 3.0%, Population 10,423,384, Source: United Nations Population Division
+Year 1988: decrease of -2.3%, Population 4,848,029, Source: World Bank
+Year 1989: decrease of -2.8%, Population 4,713,229, Source: World Bank
+Year 1990: increase of 0.5%, Population 4,737,633, Source: World Bank
+Year 2014: increase of 0.6%, Population 11,235,073, Source: World Bank
+Year 2016: decrease of -2.5%, Population 10,830,102, Source: World Bank
+Year 2017: decrease of -5.3%, Population 10,259,154, Source: World Bank
+Year 2018: decrease of -1.3%, Population 10,122,977, Source: World Bank
+Year 2019: increase of 3.0%, Population 10,423,384, Source: World Bank
+Year 1974: increase of 6.6%, Population 3,186,691, Source: Census Bureau
+Year 1983: increase of 3.2%, Population 5,471,046, Source: Census Bureau
+Year 1984: decrease of -1.4%, Population 5,394,840, Source: Census Bureau
+Year 1994: increase of 4.1%, Population 5,004,476, Source: Census Bureau
+Year 2014: increase of 0.7%, Population 11,266,497, Source: Census Bureau
+Year 2017: decrease of -4.3%, Population 10,507,302, Source: Census Bureau
+Year 2019: increase of 0.7%, Population 10,280,050, Source: Census Bureau

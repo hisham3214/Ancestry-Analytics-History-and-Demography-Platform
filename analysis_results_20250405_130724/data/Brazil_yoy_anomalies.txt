@@ -1,0 +1,7 @@
+Year-over-Year Anomalies for Brazil
+========================================
+Year 1950: decrease of 0.0%, Population 53,408,551, Source: United Nations Population Division
+Year 1951: increase of 3.0%, Population 55,018,852, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 72,388,126, Source: World Bank
+Year 1961: increase of 3.1%, Population 74,605,447, Source: World Bank
+Year 1950: decrease of 0.0%, Population 53,443,075, Source: Census Bureau

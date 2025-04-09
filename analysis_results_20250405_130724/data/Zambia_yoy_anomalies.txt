@@ -1,0 +1,8 @@
+Year-over-Year Anomalies for Zambia
+========================================
+Year 1950: decrease of 0.0%, Population 2,321,303, Source: United Nations Population Division
+Year 1951: increase of 3.1%, Population 2,393,302, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 3,153,729, Source: World Bank
+Year 1961: increase of 3.2%, Population 3,254,086, Source: World Bank
+Year 1950: decrease of 0.0%, Population 2,553,000, Source: Census Bureau
+Year 1983: increase of 3.7%, Population 6,144,224, Source: Census Bureau

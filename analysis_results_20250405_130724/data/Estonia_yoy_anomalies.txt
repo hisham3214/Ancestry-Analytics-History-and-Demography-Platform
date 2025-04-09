@@ -1,0 +1,17 @@
+Year-over-Year Anomalies for Estonia
+========================================
+Year 1992: decrease of -1.6%, Population 1,540,212, Source: United Nations Population Division
+Year 1993: decrease of -2.3%, Population 1,504,342, Source: United Nations Population Division
+Year 1994: decrease of -1.9%, Population 1,475,714, Source: United Nations Population Division
+Year 1995: decrease of -1.6%, Population 1,452,777, Source: United Nations Population Division
+Year 1992: decrease of -1.8%, Population 1,533,091, Source: World Bank
+Year 1993: decrease of -2.5%, Population 1,494,128, Source: World Bank
+Year 1994: decrease of -2.1%, Population 1,462,514, Source: World Bank
+Year 1995: decrease of -1.8%, Population 1,436,634, Source: World Bank
+Year 1993: decrease of -2.8%, Population 1,511,303, Source: Eurostat
+Year 1994: decrease of -2.3%, Population 1,476,952, Source: Eurostat
+Year 1995: decrease of -2.0%, Population 1,448,075, Source: Eurostat
+Year 2023: increase of 2.6%, Population 1,365,884, Source: Eurostat
+Year 1992: decrease of -2.0%, Population 1,528,715, Source: Census Bureau
+Year 1993: decrease of -2.4%, Population 1,491,426, Source: Census Bureau
+Year 1994: decrease of -1.6%, Population 1,467,535, Source: Census Bureau

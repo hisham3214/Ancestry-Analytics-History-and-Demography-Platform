@@ -1,0 +1,15 @@
+Year-over-Year Anomalies for Ethiopia
+========================================
+Year 1950: decrease of 0.0%, Population 17,670,412, Source: United Nations Population Division
+Year 1980: increase of 0.6%, Population 34,428,515, Source: United Nations Population Division
+Year 1991: increase of 4.4%, Population 49,717,198, Source: United Nations Population Division
+Year 1992: increase of 4.3%, Population 51,853,748, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 21,376,693, Source: World Bank
+Year 1980: increase of 0.6%, Population 34,428,514, Source: World Bank
+Year 1991: increase of 4.4%, Population 49,717,198, Source: World Bank
+Year 1992: increase of 4.3%, Population 51,853,747, Source: World Bank
+Year 1950: decrease of 0.0%, Population 20,174,562, Source: Census Bureau
+Year 1981: increase of 4.7%, Population 37,720,093, Source: Census Bureau
+Year 1982: increase of 4.7%, Population 39,478,541, Source: Census Bureau
+Year 1984: decrease of -1.5%, Population 40,072,730, Source: Census Bureau
+Year 1985: increase of 1.5%, Population 40,684,471, Source: Census Bureau

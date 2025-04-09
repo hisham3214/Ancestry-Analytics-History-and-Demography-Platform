@@ -1,0 +1,14 @@
+Population Analysis for Zambia
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 21,913,874
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (6):
+Year 1983: increase of 3.75% (Global z=2.08, Rolling z=1.10, 2nd deriv=0.05), Type(s): global, Description: Year 1983: increase of 3.7% (above average by 0.9%), Source: Census Bureau

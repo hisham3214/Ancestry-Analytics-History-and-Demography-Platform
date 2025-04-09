@@ -1,0 +1,14 @@
+Population Analysis for Latvia
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 1,853,559
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (3):
+Year 2010: decrease of -2.12% (Global z=-2.13, Rolling z=-1.45, 2nd deriv=-0.47), Type(s): global, Description: Year 2010: decrease of 2.1% (below average by 2.1%), Source: Census Bureau

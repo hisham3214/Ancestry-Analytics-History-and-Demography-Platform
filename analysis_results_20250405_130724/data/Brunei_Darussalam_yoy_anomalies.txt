@@ -1,0 +1,15 @@
+Year-over-Year Anomalies for Brunei Darussalam
+========================================
+Year 1951: increase of 6.0%, Population 51,190, Source: United Nations Population Division
+Year 1955: increase of 6.5%, Population 65,210, Source: United Nations Population Division
+Year 1956: increase of 6.7%, Population 69,548, Source: United Nations Population Division
+Year 1957: increase of 6.6%, Population 74,164, Source: United Nations Population Division
+Year 1958: increase of 6.5%, Population 78,973, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 88,347, Source: World Bank
+Year 1961: increase of 4.7%, Population 92,517, Source: World Bank
+Year 1951: increase of 5.9%, Population 47,632, Source: Census Bureau
+Year 1955: increase of 6.9%, Population 60,983, Source: Census Bureau
+Year 1956: increase of 7.2%, Population 65,347, Source: Census Bureau
+Year 1959: increase of 6.8%, Population 78,540, Source: Census Bureau
+Year 1971: increase of 7.1%, Population 136,621, Source: Census Bureau
+Year 1972: increase of 3.6%, Population 141,500, Source: Census Bureau

@@ -1,0 +1,7 @@
+Year-over-Year Anomalies for Uganda
+========================================
+Year 1950: decrease of 0.0%, Population 5,750,914, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 7,640,973, Source: World Bank
+Year 1950: decrease of 0.0%, Population 5,521,758, Source: Census Bureau
+Year 1973: increase of 1.8%, Population 10,334,537, Source: Census Bureau
+Year 2017: increase of 4.4%, Population 39,184,992, Source: Census Bureau

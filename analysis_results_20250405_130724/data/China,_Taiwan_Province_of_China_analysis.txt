@@ -1,0 +1,14 @@
+Population Analysis for China, Taiwan Province of China
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 2
+Latest population: 23,112,793
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (2):
+Year 1951: increase of 3.38% (Global z=1.63, Rolling z=0.71, 2nd deriv=3.38), Type(s): acceleration, Description: Year 1951: increase of 3.4% (above average by 1.9%), showing acceleration of 3.4%, Source: Census Bureau

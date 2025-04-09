@@ -1,0 +1,14 @@
+Population Analysis for Anguilla
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 2
+Latest population: 14,728
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (9):
+Year 1985: increase of 4.17% (Global z=1.99, Rolling z=1.79, 2nd deriv=3.48), Type(s): acceleration, Description: Year 1985: increase of 4.2% (above average by 2.4%), showing acceleration of 3.5%, Source: Census Bureau

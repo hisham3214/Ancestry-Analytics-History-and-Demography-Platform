@@ -1,0 +1,15 @@
+Year-over-Year Anomalies for Azerbaijan
+========================================
+Year 1950: decrease of 0.0%, Population 3,131,972, Source: United Nations Population Division
+Year 1960: increase of 3.1%, Population 3,982,707, Source: United Nations Population Division
+Year 1961: increase of 3.2%, Population 4,108,980, Source: United Nations Population Division
+Year 1962: increase of 3.2%, Population 4,239,407, Source: United Nations Population Division
+Year 1963: increase of 3.1%, Population 4,372,049, Source: United Nations Population Division
+Year 1961: increase of 3.9%, Population 4,045,750, Source: World Bank
+Year 1964: increase of 3.4%, Population 4,439,250, Source: World Bank
+Year 2009: increase of 3.1%, Population 8,896,900, Source: Eurostat
+Year 2023: decrease of -0.3%, Population 10,127,145, Source: Eurostat
+Year 1951: increase of 3.4%, Population 2,983,082, Source: Census Bureau
+Year 1952: increase of 3.6%, Population 3,090,973, Source: Census Bureau
+Year 1960: increase of 3.8%, Population 3,881,546, Source: Census Bureau
+Year 1961: increase of 3.9%, Population 4,033,503, Source: Census Bureau

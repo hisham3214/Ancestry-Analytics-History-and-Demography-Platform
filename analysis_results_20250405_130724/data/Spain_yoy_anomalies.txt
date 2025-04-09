@@ -1,0 +1,16 @@
+Year-over-Year Anomalies for Spain
+========================================
+Year 2003: increase of 1.8%, Population 42,506,543, Source: United Nations Population Division
+Year 2004: increase of 1.7%, Population 43,234,566, Source: United Nations Population Division
+Year 2007: increase of 1.8%, Population 45,516,507, Source: United Nations Population Division
+Year 2013: decrease of -0.3%, Population 46,860,389, Source: United Nations Population Division
+Year 2014: decrease of -0.3%, Population 46,720,188, Source: United Nations Population Division
+Year 2003: increase of 1.8%, Population 42,187,645, Source: World Bank
+Year 2007: increase of 1.9%, Population 45,226,803, Source: World Bank
+Year 2013: decrease of -0.3%, Population 46,620,045, Source: World Bank
+Year 2003: increase of 1.9%, Population 41,827,838, Source: Eurostat
+Year 2008: increase of 2.0%, Population 45,668,939, Source: Eurostat
+Year 2014: decrease of -0.5%, Population 46,495,744, Source: Eurostat
+Year 2007: increase of 1.8%, Population 45,211,636, Source: Census Bureau
+Year 2013: decrease of -0.3%, Population 46,290,810, Source: Census Bureau
+Year 2014: decrease of -0.3%, Population 46,151,087, Source: Census Bureau

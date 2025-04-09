@@ -1,0 +1,14 @@
+Population Analysis for Honduras
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 11,005,850
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (5):
+Year 2020: increase of 0.47% (Global z=-2.41, Rolling z=-0.94, 2nd deriv=0.14), Type(s): global, Description: Year 2020: increase of 0.5% (below average by 2.1%), Source: Census Bureau

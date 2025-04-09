@@ -1,0 +1,14 @@
+Population Analysis for Montenegro
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 632,729
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (10):
+Year 1993: increase of 0.15% (Global z=-0.44, Rolling z=-0.73, 2nd deriv=-5.06), Type(s): acceleration, Description: Year 1993: increase of 0.1% (below average by 0.4%), showing deceleration of 5.1%, Source: Census Bureau

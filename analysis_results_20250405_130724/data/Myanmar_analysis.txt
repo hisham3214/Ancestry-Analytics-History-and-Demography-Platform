@@ -1,0 +1,14 @@
+Population Analysis for Myanmar
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 54,850,648
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (6):
+Year 2018: increase of 0.33% (Global z=-2.24, Rolling z=-1.05, 2nd deriv=0.03), Type(s): global, Description: Year 2018: increase of 0.3% (below average by 1.1%), Source: Census Bureau

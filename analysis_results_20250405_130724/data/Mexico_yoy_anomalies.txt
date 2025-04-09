@@ -1,0 +1,6 @@
+Year-over-Year Anomalies for Mexico
+========================================
+Year 1950: decrease of 0.0%, Population 27,587,939, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 36,724,615, Source: World Bank
+Year 1961: increase of 3.2%, Population 37,890,118, Source: World Bank
+Year 1950: decrease of 0.0%, Population 28,485,180, Source: Census Bureau

@@ -1,0 +1,6 @@
+Year-over-Year Anomalies for Kenya
+========================================
+Year 1950: decrease of 0.0%, Population 5,769,185, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 7,695,307, Source: World Bank
+Year 1961: increase of 3.8%, Population 7,987,770, Source: World Bank
+Year 1950: decrease of 0.0%, Population 6,121,184, Source: Census Bureau

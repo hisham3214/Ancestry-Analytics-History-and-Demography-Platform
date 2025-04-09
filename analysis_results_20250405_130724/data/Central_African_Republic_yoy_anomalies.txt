@@ -1,0 +1,15 @@
+Year-over-Year Anomalies for Central African Republic
+========================================
+Year 1950: decrease of 0.0%, Population 1,438,058, Source: United Nations Population Division
+Year 2009: decrease of -0.7%, Population 4,529,047, Source: United Nations Population Division
+Year 2010: decrease of -0.8%, Population 4,492,996, Source: United Nations Population Division
+Year 2014: decrease of -0.4%, Population 4,623,182, Source: United Nations Population Division
+Year 2022: decrease of -0.3%, Population 5,098,040, Source: United Nations Population Division
+Year 2009: decrease of -0.7%, Population 4,529,047, Source: World Bank
+Year 2010: decrease of -0.8%, Population 4,492,995, Source: World Bank
+Year 2014: decrease of -0.4%, Population 4,623,182, Source: World Bank
+Year 2022: decrease of -0.3%, Population 5,098,039, Source: World Bank
+Year 1950: decrease of 0.0%, Population 1,259,816, Source: Census Bureau
+Year 1966: increase of 3.5%, Population 1,685,107, Source: Census Bureau
+Year 2014: decrease of -0.6%, Population 4,910,238, Source: Census Bureau
+Year 2015: decrease of -0.2%, Population 4,900,242, Source: Census Bureau

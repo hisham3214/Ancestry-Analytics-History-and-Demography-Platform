@@ -1,0 +1,14 @@
+Population Analysis for Guyana
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 835,986
+
+Z-Score Anomalies (1):
+Year 1960: Population 569,143, Z-score: -3.14, Source: World Bank
+
+Year-over-Year Anomalies (5):
+Year 1959: increase of 3.30% (Global z=2.05, Rolling z=1.36, 2nd deriv=0.13), Type(s): global, Description: Year 1959: increase of 3.3% (above average by 2.5%), Source: Census Bureau

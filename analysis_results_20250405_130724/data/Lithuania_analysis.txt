@@ -1,0 +1,14 @@
+Population Analysis for Lithuania
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 2,830,145
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (7):
+Year 2011: decrease of -2.39% (Global z=-2.45, Rolling z=-1.22, 2nd deriv=-0.17), Type(s): global, Description: Year 2011: decrease of 2.4% (below average by 2.5%), Source: Census Bureau

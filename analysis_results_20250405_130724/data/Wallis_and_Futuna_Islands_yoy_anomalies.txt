@@ -1,0 +1,16 @@
+Year-over-Year Anomalies for Wallis and Futuna Islands
+========================================
+Year 1951: increase of 3.3%, Population 8,817, Source: United Nations Population Division
+Year 1961: decrease of -3.7%, Population 8,305, Source: United Nations Population Division
+Year 1978: increase of 4.4%, Population 10,179, Source: United Nations Population Division
+Year 1979: increase of 4.5%, Population 10,636, Source: United Nations Population Division
+Year 1980: increase of 4.5%, Population 11,117, Source: United Nations Population Division
+Year 1981: increase of 4.5%, Population 11,616, Source: United Nations Population Division
+Year 1982: increase of 4.5%, Population 12,140, Source: United Nations Population Division
+Year 1971: decrease of -2.3%, Population 8,500, Source: Census Bureau
+Year 1976: increase of 4.5%, Population 9,200, Source: Census Bureau
+Year 1977: decrease of 0.0%, Population 9,200, Source: Census Bureau
+Year 1978: increase of 8.7%, Population 10,000, Source: Census Bureau
+Year 1979: increase of 2.0%, Population 10,200, Source: Census Bureau
+Year 1980: increase of 5.9%, Population 10,800, Source: Census Bureau
+Year 1982: increase of 6.2%, Population 11,900, Source: Census Bureau

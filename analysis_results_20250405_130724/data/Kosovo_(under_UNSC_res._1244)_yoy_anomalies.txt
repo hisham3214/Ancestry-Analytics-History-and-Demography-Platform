@@ -1,0 +1,12 @@
+Year-over-Year Anomalies for Kosovo (under UNSC res. 1244)
+========================================
+Year 1998: decrease of -5.4%, Population 2,078,964, Source: United Nations Population Division
+Year 1999: decrease of -10.0%, Population 1,871,524, Source: United Nations Population Division
+Year 2000: decrease of -3.7%, Population 1,802,493, Source: United Nations Population Division
+Year 2001: increase of 1.0%, Population 1,820,009, Source: United Nations Population Division
+Year 1998: decrease of -5.4%, Population 2,078,964, Source: World Bank
+Year 1999: decrease of -10.0%, Population 1,871,524, Source: World Bank
+Year 2000: decrease of -3.7%, Population 1,802,493, Source: World Bank
+Year 2001: increase of 1.0%, Population 1,820,009, Source: World Bank
+Year 2011: decrease of -18.7%, Population 1,794,180, Source: Eurostat
+Year 2016: decrease of -1.3%, Population 1,771,604, Source: Eurostat

@@ -1,0 +1,14 @@
+Population Analysis for Malta
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 545,405
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (20):
+Year 2019: increase of 4.12% (Global z=3.01, Rolling z=1.12, 2nd deriv=0.47), Type(s): global, Description: Year 2019: increase of 4.1% (above average by 3.4%), Source: Census Bureau

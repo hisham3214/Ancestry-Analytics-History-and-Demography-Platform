@@ -1,0 +1,18 @@
+Year-over-Year Anomalies for Botswana
+========================================
+Year 1974: increase of 5.1%, Population 685,448, Source: United Nations Population Division
+Year 1975: increase of 5.1%, Population 720,380, Source: United Nations Population Division
+Year 1976: increase of 5.3%, Population 758,508, Source: United Nations Population Division
+Year 1977: increase of 5.4%, Population 799,574, Source: United Nations Population Division
+Year 1978: increase of 6.2%, Population 849,239, Source: United Nations Population Division
+Year 1979: increase of 6.2%, Population 901,743, Source: United Nations Population Division
+Year 1976: increase of 5.3%, Population 758,508, Source: World Bank
+Year 1977: increase of 5.4%, Population 799,574, Source: World Bank
+Year 1978: increase of 6.2%, Population 849,239, Source: World Bank
+Year 1979: increase of 6.2%, Population 901,742, Source: World Bank
+Year 1950: decrease of 0.0%, Population 430,413, Source: Census Bureau
+Year 1975: increase of 4.9%, Population 704,591, Source: Census Bureau
+Year 1976: increase of 5.2%, Population 741,273, Source: Census Bureau
+Year 1977: increase of 5.4%, Population 781,472, Source: Census Bureau
+Year 1978: increase of 5.2%, Population 822,247, Source: Census Bureau
+Year 1979: increase of 4.9%, Population 862,602, Source: Census Bureau

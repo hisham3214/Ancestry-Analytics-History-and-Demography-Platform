@@ -1,0 +1,14 @@
+Population Analysis for Rwanda
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 14,569,341
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (19):
+Year 1999: increase of 1.13% (Global z=-0.30, Rolling z=-0.38, 2nd deriv=-3.28), Type(s): acceleration, Description: Year 1999: increase of 1.1% (below average by 1.3%), showing deceleration of 3.3%, Source: Census Bureau

@@ -1,0 +1,14 @@
+Population Analysis for Mongolia
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 3,517,100
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (9):
+Year 1989: increase of 3.89% (Global z=2.65, Rolling z=1.79, 2nd deriv=1.57), Type(s): global, Description: Year 1989: increase of 3.9% (above average by 1.9%), showing acceleration of 1.6%, Source: Census Bureau

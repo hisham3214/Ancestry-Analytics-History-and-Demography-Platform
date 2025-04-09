@@ -1,0 +1,12 @@
+Year-over-Year Anomalies for Saint Helena
+========================================
+Year 2005: decrease of -1.9%, Population 5,543, Source: United Nations Population Division
+Year 2006: decrease of -2.0%, Population 5,433, Source: United Nations Population Division
+Year 2007: decrease of -2.0%, Population 5,323, Source: United Nations Population Division
+Year 1979: increase of 8.0%, Population 6,948, Source: Census Bureau
+Year 1980: decrease of -6.9%, Population 6,469, Source: Census Bureau
+Year 1981: increase of 1.7%, Population 6,577, Source: Census Bureau
+Year 1984: increase of 11.0%, Population 7,488, Source: Census Bureau
+Year 1985: increase of 6.0%, Population 7,941, Source: Census Bureau
+Year 1987: decrease of -21.3%, Population 6,544, Source: Census Bureau
+Year 1988: increase of 0.7%, Population 6,588, Source: Census Bureau

@@ -1,0 +1,14 @@
+Population Analysis for Jordan
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 11,520,685
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (30):
+Year 2016: increase of 3.75% (Global z=-0.13, Rolling z=-0.75, 2nd deriv=-3.79), Type(s): acceleration, Description: Year 2016: increase of 3.8% (below average by 0.3%), showing deceleration of 3.8%, Source: Census Bureau

@@ -1,0 +1,14 @@
+Population Analysis for Togo
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 9,721,608
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (15):
+Year 1995: increase of 5.12% (Global z=2.52, Rolling z=1.15, 2nd deriv=4.76), Type(s): global+acceleration, Description: Year 1995: increase of 5.1% (above average by 2.4%), showing acceleration of 4.8%, Source: Census Bureau

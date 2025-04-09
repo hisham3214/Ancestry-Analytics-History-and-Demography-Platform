@@ -1,0 +1,40 @@
+Year-over-Year Anomalies for United States Virgin Islands
+========================================
+Year 1961: increase of 7.3%, Population 35,433, Source: United Nations Population Division
+Year 1962: increase of 8.1%, Population 38,315, Source: United Nations Population Division
+Year 1963: increase of 8.1%, Population 41,437, Source: United Nations Population Division
+Year 1964: increase of 8.2%, Population 44,839, Source: United Nations Population Division
+Year 1965: increase of 7.9%, Population 48,385, Source: United Nations Population Division
+Year 1961: increase of 5.5%, Population 34,300, Source: World Bank
+Year 1962: increase of 2.0%, Population 35,000, Source: World Bank
+Year 1963: increase of 13.7%, Population 39,800, Source: World Bank
+Year 1964: increase of 2.5%, Population 40,800, Source: World Bank
+Year 1965: increase of 6.6%, Population 43,500, Source: World Bank
+Year 1968: increase of 13.4%, Population 55,700, Source: World Bank
+Year 1969: increase of 8.3%, Population 60,300, Source: World Bank
+Year 1971: increase of 11.8%, Population 70,937, Source: World Bank
+Year 1972: increase of 7.6%, Population 76,319, Source: World Bank
+Year 1973: increase of 10.2%, Population 84,121, Source: World Bank
+Year 1974: increase of 6.9%, Population 89,941, Source: World Bank
+Year 1976: increase of 1.8%, Population 96,166, Source: World Bank
+Year 1977: decrease of -3.1%, Population 93,203, Source: World Bank
+Year 1978: increase of 2.9%, Population 95,929, Source: World Bank
+Year 1980: increase of 3.6%, Population 99,636, Source: World Bank
+Year 1981: increase of 0.2%, Population 99,853, Source: World Bank
+Year 1953: decrease of -3.6%, Population 26,900, Source: Census Bureau
+Year 1954: increase of 1.1%, Population 27,200, Source: Census Bureau
+Year 1962: increase of 2.0%, Population 35,000, Source: Census Bureau
+Year 1963: increase of 13.7%, Population 39,800, Source: Census Bureau
+Year 1964: increase of 2.5%, Population 40,800, Source: Census Bureau
+Year 1965: increase of 6.6%, Population 43,500, Source: Census Bureau
+Year 1968: increase of 13.4%, Population 55,700, Source: Census Bureau
+Year 1969: increase of 8.3%, Population 60,300, Source: Census Bureau
+Year 1971: increase of 11.8%, Population 70,937, Source: Census Bureau
+Year 1972: increase of 7.6%, Population 76,319, Source: Census Bureau
+Year 1973: increase of 10.2%, Population 84,121, Source: Census Bureau
+Year 1974: increase of 6.9%, Population 89,941, Source: Census Bureau
+Year 1976: increase of 1.8%, Population 96,166, Source: Census Bureau
+Year 1977: decrease of -3.1%, Population 93,203, Source: Census Bureau
+Year 1978: increase of 2.9%, Population 95,929, Source: Census Bureau
+Year 1980: increase of 3.6%, Population 99,636, Source: Census Bureau
+Year 1981: increase of 0.2%, Population 99,853, Source: Census Bureau

@@ -1,0 +1,14 @@
+Population Analysis for Saudi Arabia
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 34,566,328
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (22):
+Year 1992: increase of 4.63% (Global z=1.01, Rolling z=0.97, 2nd deriv=3.10), Type(s): acceleration, Description: Year 1992: increase of 4.6% (above average by 1.6%), showing acceleration of 3.1%, Source: Census Bureau

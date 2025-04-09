@@ -1,0 +1,14 @@
+Population Analysis for Sweden
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 10,656,633
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (9):
+Year 2017: increase of 1.33% (Global z=2.60, Rolling z=1.17, 2nd deriv=0.08), Type(s): global, Description: Year 2017: increase of 1.3% (above average by 0.8%), Source: Census Bureau

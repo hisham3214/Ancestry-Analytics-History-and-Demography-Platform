@@ -1,0 +1,14 @@
+Population Analysis for Guadeloupe
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 1
+Latest population: 373,791
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (3):
+Year 2023: decrease of -2.13% (Global z=-2.27, Rolling z=-0.18, 2nd deriv=1.49), Type(s): global, Description: Year 2023: decrease of 2.1% (below average by 2.9%), showing acceleration of 1.5%, Source: United Nations Population Division

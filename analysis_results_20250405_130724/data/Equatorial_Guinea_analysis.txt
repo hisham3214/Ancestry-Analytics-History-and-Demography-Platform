@@ -1,0 +1,14 @@
+Population Analysis for Equatorial Guinea
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 1,938,431
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (18):
+Year 1981: increase of 6.16% (Global z=0.80, Rolling z=-0.19, 2nd deriv=-9.53), Type(s): acceleration, Description: Year 1981: increase of 6.2% (above average by 3.2%), showing deceleration of 9.5%, Source: Census Bureau

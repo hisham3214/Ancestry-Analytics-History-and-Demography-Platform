@@ -1,0 +1,14 @@
+Population Analysis for Saint Lucia
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 180,149
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (7):
+Year 1959: decrease of -0.68% (Global z=-2.59, Rolling z=-1.28, 2nd deriv=-0.56), Type(s): global, Description: Year 1959: decrease of 0.7% (below average by 1.7%), Source: Census Bureau

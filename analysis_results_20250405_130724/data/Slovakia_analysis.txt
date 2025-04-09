@@ -1,0 +1,14 @@
+Population Analysis for Slovakia
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 5,474,881
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (10):
+Year 1962: increase of 1.09% (Global z=0.64, Rolling z=-0.53, 2nd deriv=-3.85), Type(s): acceleration, Description: Year 1962: increase of 1.1% (above average by 0.5%), showing deceleration of 3.9%, Source: Census Bureau

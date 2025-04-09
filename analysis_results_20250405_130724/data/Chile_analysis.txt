@@ -1,0 +1,14 @@
+Population Analysis for Chile
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 19,859,921
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (10):
+Year 1951: increase of 2.64% (Global z=2.02, Rolling z=0.71, 2nd deriv=2.64), Type(s): global, Description: Year 1951: increase of 2.6% (above average by 1.1%), showing acceleration of 2.6%, Source: Census Bureau

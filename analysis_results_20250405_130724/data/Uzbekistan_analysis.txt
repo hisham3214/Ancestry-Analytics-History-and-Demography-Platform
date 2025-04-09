@@ -1,0 +1,14 @@
+Population Analysis for Uzbekistan
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 37,053,428
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (5):
+Year 1951: increase of 3.13% (Global z=0.93, Rolling z=0.71, 2nd deriv=3.13), Type(s): acceleration, Description: Year 1951: increase of 3.1% (above average by 0.8%), showing acceleration of 3.1%, Source: Census Bureau

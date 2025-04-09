@@ -1,0 +1,16 @@
+Year-over-Year Anomalies for Georgia
+========================================
+Year 1994: decrease of -2.6%, Population 5,046,272, Source: United Nations Population Division
+Year 1999: decrease of -2.6%, Population 4,455,583, Source: United Nations Population Division
+Year 2000: decrease of -2.9%, Population 4,328,358, Source: United Nations Population Division
+Year 2001: decrease of -2.7%, Population 4,209,637, Source: United Nations Population Division
+Year 1995: decrease of -3.7%, Population 4,657,722, Source: World Bank
+Year 1996: decrease of -3.6%, Population 4,491,699, Source: World Bank
+Year 1997: decrease of -3.2%, Population 4,349,913, Source: World Bank
+Year 1998: decrease of -2.4%, Population 4,243,607, Source: World Bank
+Year 2015: decrease of -16.9%, Population 3,729,500, Source: Eurostat
+Year 2016: decrease of -0.2%, Population 3,720,400, Source: Eurostat
+Year 1993: decrease of -1.9%, Population 5,268,584, Source: Census Bureau
+Year 1994: decrease of -2.3%, Population 5,145,842, Source: Census Bureau
+Year 1995: decrease of -2.0%, Population 5,041,416, Source: Census Bureau
+Year 1996: decrease of -1.5%, Population 4,965,838, Source: Census Bureau

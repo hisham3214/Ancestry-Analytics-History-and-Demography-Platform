@@ -1,0 +1,12 @@
+Year-over-Year Anomalies for Australia
+========================================
+Year 1950: decrease of 0.0%, Population 8,176,750, Source: United Nations Population Division
+Year 1951: increase of 3.0%, Population 8,418,610, Source: United Nations Population Division
+Year 1970: increase of 2.7%, Population 12,599,411, Source: United Nations Population Division
+Year 1971: increase of 3.2%, Population 12,997,964, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 10,276,477, Source: World Bank
+Year 1971: increase of 3.4%, Population 12,937,000, Source: World Bank
+Year 1974: increase of 2.6%, Population 13,723,000, Source: World Bank
+Year 2021: increase of 0.1%, Population 25,685,412, Source: World Bank
+Year 1950: decrease of 0.0%, Population 8,267,337, Source: Census Bureau
+Year 1951: increase of 2.9%, Population 8,510,600, Source: Census Bureau

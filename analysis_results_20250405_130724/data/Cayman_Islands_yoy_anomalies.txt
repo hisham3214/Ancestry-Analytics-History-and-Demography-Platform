@@ -1,0 +1,15 @@
+Year-over-Year Anomalies for Cayman Islands
+========================================
+Year 1950: decrease of 0.0%, Population 7,002, Source: United Nations Population Division
+Year 1972: increase of 6.0%, Population 11,764, Source: United Nations Population Division
+Year 1973: increase of 5.7%, Population 12,439, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 8,428, Source: World Bank
+Year 1972: increase of 6.0%, Population 11,764, Source: World Bank
+Year 1970: increase of 0.8%, Population 10,068, Source: Census Bureau
+Year 1971: increase of 8.1%, Population 10,885, Source: Census Bureau
+Year 1972: increase of 7.3%, Population 11,680, Source: Census Bureau
+Year 1973: increase of 7.3%, Population 12,536, Source: Census Bureau
+Year 1976: decrease of -0.8%, Population 14,028, Source: Census Bureau
+Year 1977: increase of 5.5%, Population 14,800, Source: Census Bureau
+Year 1988: increase of 11.0%, Population 24,500, Source: Census Bureau
+Year 1989: increase of 2.3%, Population 25,072, Source: Census Bureau

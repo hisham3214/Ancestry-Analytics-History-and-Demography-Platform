@@ -1,0 +1,14 @@
+Population Analysis for Bermuda
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 64,555
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (16):
+Year 1965: increase of 1.85% (Global z=2.07, Rolling z=-0.80, 2nd deriv=-0.20), Type(s): global, Description: Year 1965: increase of 1.9% (above average by 1.0%), Source: Census Bureau

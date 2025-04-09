@@ -1,0 +1,17 @@
+Year-over-Year Anomalies for Argentina
+========================================
+Year 1950: decrease of 0.0%, Population 17,018,037, Source: United Nations Population Division
+Year 2021: increase of 0.3%, Population 45,312,282, Source: United Nations Population Division
+Year 2022: increase of 0.2%, Population 45,407,904, Source: United Nations Population Division
+Year 2023: increase of 0.3%, Population 45,538,401, Source: United Nations Population Division
+Year 2024: increase of 0.3%, Population 45,696,159, Source: United Nations Population Division
+Year 2025: increase of 0.3%, Population 45,851,378, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 20,386,045, Source: World Bank
+Year 2021: increase of 0.3%, Population 45,312,281, Source: World Bank
+Year 2022: increase of 0.2%, Population 45,407,904, Source: World Bank
+Year 2023: increase of 0.3%, Population 45,538,401, Source: World Bank
+Year 1950: decrease of 0.0%, Population 17,150,336, Source: Census Bureau
+Year 2021: increase of 0.3%, Population 45,044,145, Source: Census Bureau
+Year 2022: increase of 0.2%, Population 45,121,928, Source: Census Bureau
+Year 2023: increase of 0.2%, Population 45,207,044, Source: Census Bureau
+Year 2024: increase of 0.2%, Population 45,306,215, Source: Census Bureau

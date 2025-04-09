@@ -1,0 +1,14 @@
+Population Analysis for Japan
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 123,103,479
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (2):
+Year 1971: increase of 2.22% (Global z=3.17, Rolling z=1.78, 2nd deriv=1.06), Type(s): global, Description: Year 1971: increase of 2.2% (above average by 1.8%), showing acceleration of 1.1%, Source: World Bank

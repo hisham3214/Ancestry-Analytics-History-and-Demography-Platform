@@ -1,0 +1,7 @@
+Year-over-Year Anomalies for Honduras
+========================================
+Year 1950: decrease of 0.0%, Population 1,558,938, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 2,062,060, Source: World Bank
+Year 1950: decrease of 0.0%, Population 1,431,447, Source: Census Bureau
+Year 2019: increase of 0.3%, Population 9,057,496, Source: Census Bureau
+Year 2020: increase of 0.5%, Population 9,100,261, Source: Census Bureau

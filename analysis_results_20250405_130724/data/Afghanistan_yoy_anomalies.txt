@@ -1,0 +1,32 @@
+Year-over-Year Anomalies for Afghanistan
+========================================
+Year 1980: decrease of -3.6%, Population 13,169,312, Source: United Nations Population Division
+Year 1981: decrease of -9.4%, Population 11,937,581, Source: United Nations Population Division
+Year 1982: decrease of -7.9%, Population 10,991,378, Source: United Nations Population Division
+Year 1983: decrease of -0.7%, Population 10,917,982, Source: United Nations Population Division
+Year 1984: increase of 2.5%, Population 11,190,222, Source: United Nations Population Division
+Year 1992: increase of 8.5%, Population 13,278,974, Source: United Nations Population Division
+Year 1993: increase of 12.5%, Population 14,943,172, Source: United Nations Population Division
+Year 1994: increase of 8.8%, Population 16,250,795, Source: United Nations Population Division
+Year 1995: increase of 5.0%, Population 17,065,836, Source: United Nations Population Division
+Year 2002: increase of 5.4%, Population 21,378,117, Source: United Nations Population Division
+Year 1980: decrease of -3.6%, Population 13,169,311, Source: World Bank
+Year 1981: decrease of -9.4%, Population 11,937,581, Source: World Bank
+Year 1982: decrease of -7.9%, Population 10,991,378, Source: World Bank
+Year 1983: decrease of -0.7%, Population 10,917,982, Source: World Bank
+Year 1984: increase of 2.5%, Population 11,190,221, Source: World Bank
+Year 1992: increase of 8.5%, Population 13,278,974, Source: World Bank
+Year 1993: increase of 12.5%, Population 14,943,172, Source: World Bank
+Year 1994: increase of 8.8%, Population 16,250,794, Source: World Bank
+Year 1995: increase of 5.0%, Population 17,065,836, Source: World Bank
+Year 2002: increase of 5.4%, Population 21,378,117, Source: World Bank
+Year 1980: decrease of -3.3%, Population 15,044,318, Source: Census Bureau
+Year 1981: decrease of -9.1%, Population 13,677,009, Source: Census Bureau
+Year 1982: decrease of -8.0%, Population 12,585,122, Source: Census Bureau
+Year 1983: decrease of -1.1%, Population 12,442,351, Source: Census Bureau
+Year 1984: increase of 2.7%, Population 12,780,102, Source: Census Bureau
+Year 1992: increase of 10.0%, Population 15,303,331, Source: Census Bureau
+Year 1993: increase of 13.3%, Population 17,343,318, Source: Census Bureau
+Year 1994: increase of 9.0%, Population 18,898,986, Source: Census Bureau
+Year 1995: increase of 5.5%, Population 19,947,348, Source: Census Bureau
+Year 2002: increase of 5.5%, Population 25,121,599, Source: Census Bureau

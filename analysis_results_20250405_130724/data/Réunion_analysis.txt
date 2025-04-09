@@ -1,0 +1,14 @@
+Population Analysis for Réunion
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 1
+Latest population: 882,406
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (1):
+Year 1951: increase of 3.73% (Global z=1.82, Rolling z=0.71, 2nd deriv=3.73), Type(s): acceleration, Description: Year 1951: increase of 3.7% (above average by 2.0%), showing acceleration of 3.7%, Source: United Nations Population Division

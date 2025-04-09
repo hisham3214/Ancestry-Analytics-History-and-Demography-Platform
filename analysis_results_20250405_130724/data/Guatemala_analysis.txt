@@ -1,0 +1,14 @@
+Population Analysis for Guatemala
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 18,687,882
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (5):
+Year 1951: increase of 3.26% (Global z=1.40, Rolling z=0.71, 2nd deriv=3.26), Type(s): acceleration, Description: Year 1951: increase of 3.3% (above average by 0.8%), showing acceleration of 3.3%, Source: Census Bureau

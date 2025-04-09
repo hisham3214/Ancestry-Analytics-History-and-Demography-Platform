@@ -1,0 +1,14 @@
+Population Analysis for Germany
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 84,075,075
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (5):
+Year 1976: decrease of -0.49% (Global z=-2.00, Rolling z=-1.16, 2nd deriv=-0.13), Type(s): global, Description: Year 1976: decrease of 0.5% (below average by 0.8%), Source: Census Bureau

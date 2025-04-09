@@ -1,0 +1,28 @@
+Year-over-Year Anomalies for United Arab Emirates
+========================================
+Year 1951: increase of 6.7%, Population 79,540, Source: United Nations Population Division
+Year 1968: increase of 11.0%, Population 199,416, Source: United Nations Population Division
+Year 1969: increase of 20.2%, Population 239,660, Source: United Nations Population Division
+Year 1970: increase of 19.6%, Population 286,536, Source: United Nations Population Division
+Year 1971: increase of 16.9%, Population 335,027, Source: United Nations Population Division
+Year 1977: increase of 15.3%, Population 710,209, Source: United Nations Population Division
+Year 1981: increase of 8.3%, Population 1,099,855, Source: United Nations Population Division
+Year 2007: increase of 12.3%, Population 5,624,635, Source: United Nations Population Division
+Year 2009: increase of 6.4%, Population 6,707,058, Source: United Nations Population Division
+Year 1961: increase of 5.1%, Population 137,989, Source: World Bank
+Year 1968: increase of 11.0%, Population 199,416, Source: World Bank
+Year 1969: increase of 20.2%, Population 239,660, Source: World Bank
+Year 1970: increase of 19.6%, Population 286,536, Source: World Bank
+Year 1971: increase of 16.9%, Population 335,027, Source: World Bank
+Year 1981: increase of 8.3%, Population 1,099,855, Source: World Bank
+Year 2007: increase of 12.3%, Population 5,624,635, Source: World Bank
+Year 2009: increase of 6.4%, Population 6,707,058, Source: World Bank
+Year 2010: increase of 2.4%, Population 6,869,838, Source: World Bank
+Year 2022: increase of 5.2%, Population 10,074,977, Source: World Bank
+Year 1981: increase of 6.9%, Population 1,069,722, Source: Census Bureau
+Year 2006: increase of 13.3%, Population 4,458,540, Source: Census Bureau
+Year 2007: increase of 24.1%, Population 5,532,409, Source: Census Bureau
+Year 2008: increase of 29.4%, Population 7,159,278, Source: Census Bureau
+Year 2009: increase of 12.2%, Population 8,032,709, Source: Census Bureau
+Year 2010: decrease of -0.1%, Population 8,020,877, Source: Census Bureau
+Year 2011: increase of 3.5%, Population 8,302,211, Source: Census Bureau

@@ -1,0 +1,14 @@
+Population Analysis for Antigua and Barbuda
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 94,209
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (2):
+Year 1984: decrease of -1.75% (Global z=-2.85, Rolling z=-0.38, 2nd deriv=1.76), Type(s): global, Description: Year 1984: decrease of 1.8% (below average by 2.8%), showing acceleration of 1.8%, Source: Census Bureau

@@ -1,0 +1,14 @@
+Population Analysis for Singapore
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 5,870,750
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (21):
+Year 1983: increase of 1.41% (Global z=-0.71, Rolling z=-0.68, 2nd deriv=-3.18), Type(s): acceleration, Description: Year 1983: increase of 1.4% (below average by 1.0%), showing deceleration of 3.2%, Source: Census Bureau

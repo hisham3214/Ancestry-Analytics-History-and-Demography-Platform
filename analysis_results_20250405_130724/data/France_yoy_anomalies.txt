@@ -1,0 +1,11 @@
+Year-over-Year Anomalies for France
+========================================
+Year 1950: decrease of 0.0%, Population 41,883,119, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 47,412,964, Source: World Bank
+Year 1961: increase of 1.0%, Population 47,905,982, Source: World Bank
+Year 1964: increase of 1.1%, Population 49,401,492, Source: World Bank
+Year 1991: decrease of 0.0%, Population 58,313,439, Source: Eurostat
+Year 2014: increase of 0.9%, Population 66,165,980, Source: Eurostat
+Year 1950: decrease of 0.0%, Population 42,539,287, Source: Census Bureau
+Year 1962: increase of 2.0%, Population 48,117,738, Source: Census Bureau
+Year 1963: increase of 1.5%, Population 48,828,839, Source: Census Bureau

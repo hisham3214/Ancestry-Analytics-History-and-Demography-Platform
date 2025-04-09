@@ -1,0 +1,12 @@
+Year-over-Year Anomalies for Ukraine
+========================================
+Year 2022: decrease of -7.3%, Population 41,048,766, Source: United Nations Population Division
+Year 2023: decrease of -8.1%, Population 37,732,836, Source: United Nations Population Division
+Year 2024: increase of 0.3%, Population 37,860,222, Source: United Nations Population Division
+Year 2022: decrease of -7.3%, Population 41,048,766, Source: World Bank
+Year 2023: decrease of -8.1%, Population 37,732,836, Source: World Bank
+Year 2015: decrease of -5.5%, Population 42,759,661, Source: Eurostat
+Year 2016: decrease of -0.4%, Population 42,590,879, Source: Eurostat
+Year 2022: decrease of -10.4%, Population 38,648,861, Source: Census Bureau
+Year 2023: decrease of -9.9%, Population 34,831,102, Source: Census Bureau
+Year 2024: increase of 2.4%, Population 35,661,826, Source: Census Bureau

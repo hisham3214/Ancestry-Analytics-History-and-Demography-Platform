@@ -1,0 +1,13 @@
+Year-over-Year Anomalies for Bhutan
+========================================
+Year 1992: decrease of -3.7%, Population 577,774, Source: United Nations Population Division
+Year 1993: decrease of -4.0%, Population 554,673, Source: United Nations Population Division
+Year 1994: decrease of -0.0%, Population 554,498, Source: United Nations Population Division
+Year 1995: decrease of -1.2%, Population 547,989, Source: United Nations Population Division
+Year 1992: decrease of -3.7%, Population 577,774, Source: World Bank
+Year 1993: decrease of -4.0%, Population 554,673, Source: World Bank
+Year 1994: decrease of -0.0%, Population 554,497, Source: World Bank
+Year 1992: decrease of -3.3%, Population 636,898, Source: Census Bureau
+Year 1993: decrease of -3.6%, Population 613,680, Source: Census Bureau
+Year 1994: decrease of -0.0%, Population 613,411, Source: Census Bureau
+Year 1995: decrease of -1.1%, Population 606,676, Source: Census Bureau

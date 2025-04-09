@@ -1,0 +1,14 @@
+Population Analysis for Mauritania
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 5,315,065
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (8):
+Year 1996: increase of 0.24% (Global z=-2.23, Rolling z=-1.16, 2nd deriv=-1.02), Type(s): global, Description: Year 1996: increase of 0.2% (below average by 1.9%), showing deceleration of 1.0%, Source: Census Bureau

@@ -1,0 +1,14 @@
+Population Analysis for Dominican Republic
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 11,520,487
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (4):
+Year 1950: decrease of 0.00% (Global z=-2.32, Rolling z=nan, 2nd deriv=nan), Type(s): global, Description: Year 1950: decrease of 0.0% (below average by 2.1%), Source: Census Bureau

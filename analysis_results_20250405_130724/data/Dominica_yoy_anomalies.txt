@@ -1,0 +1,11 @@
+Year-over-Year Anomalies for Dominica
+========================================
+Year 1957: increase of 2.2%, Population 55,196, Source: United Nations Population Division
+Year 1958: increase of 2.5%, Population 56,583, Source: United Nations Population Division
+Year 1959: increase of 2.7%, Population 58,108, Source: United Nations Population Division
+Year 2017: decrease of -1.6%, Population 68,497, Source: United Nations Population Division
+Year 1968: increase of 1.7%, Population 66,732, Source: World Bank
+Year 1969: increase of 1.8%, Population 67,934, Source: World Bank
+Year 2017: decrease of -1.6%, Population 68,496, Source: World Bank
+Year 1955: increase of 2.3%, Population 56,574, Source: Census Bureau
+Year 1985: decrease of -1.2%, Population 73,109, Source: Census Bureau

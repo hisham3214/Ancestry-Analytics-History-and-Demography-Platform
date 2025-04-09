@@ -1,0 +1,14 @@
+Population Analysis for Yemen
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 41,773,878
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (10):
+Year 1994: increase of 4.99% (Global z=2.76, Rolling z=-0.59, 2nd deriv=-0.21), Type(s): global, Description: Year 1994: increase of 5.0% (above average by 2.3%), Source: Census Bureau

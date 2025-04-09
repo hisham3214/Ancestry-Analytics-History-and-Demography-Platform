@@ -1,0 +1,14 @@
+Population Analysis for Kyrgyzstan
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 7,295,035
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (12):
+Year 1994: decrease of -0.16% (Global z=-2.05, Rolling z=-1.01, 2nd deriv=0.04), Type(s): global, Description: Year 1994: decrease of 0.2% (below average by 1.9%), Source: Census Bureau

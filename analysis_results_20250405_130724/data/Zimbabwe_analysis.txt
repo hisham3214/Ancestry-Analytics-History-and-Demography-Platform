@@ -1,0 +1,14 @@
+Population Analysis for Zimbabwe
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 16,950,795
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (12):
+Year 2008: decrease of -0.07% (Global z=-2.23, Rolling z=-0.58, 2nd deriv=0.07), Type(s): global, Description: Year 2008: decrease of 0.1% (below average by 2.5%), Source: Census Bureau

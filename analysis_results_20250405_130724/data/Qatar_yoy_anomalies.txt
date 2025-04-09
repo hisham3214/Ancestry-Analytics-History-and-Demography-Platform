@@ -1,0 +1,29 @@
+Year-over-Year Anomalies for Qatar
+========================================
+Year 1951: increase of 3.2%, Population 25,067, Source: United Nations Population Division
+Year 1961: increase of 10.2%, Population 39,680, Source: United Nations Population Division
+Year 2006: increase of 17.9%, Population 972,831, Source: United Nations Population Division
+Year 2007: increase of 24.2%, Population 1,208,595, Source: United Nations Population Division
+Year 2008: increase of 18.1%, Population 1,426,939, Source: United Nations Population Division
+Year 2009: increase of 11.2%, Population 1,586,050, Source: United Nations Population Division
+Year 2010: increase of 7.8%, Population 1,709,230, Source: United Nations Population Division
+Year 1961: increase of 10.2%, Population 39,680, Source: World Bank
+Year 2006: increase of 17.9%, Population 972,831, Source: World Bank
+Year 2007: increase of 24.2%, Population 1,208,595, Source: World Bank
+Year 2008: increase of 18.1%, Population 1,426,938, Source: World Bank
+Year 2009: increase of 12.8%, Population 1,608,903, Source: World Bank
+Year 2010: increase of 0.5%, Population 1,616,832, Source: World Bank
+Year 2012: increase of 6.0%, Population 1,722,438, Source: World Bank
+Year 2013: increase of 11.3%, Population 1,916,426, Source: World Bank
+Year 2015: increase of 9.0%, Population 2,344,557, Source: World Bank
+Year 2016: increase of 5.7%, Population 2,477,113, Source: World Bank
+Year 2020: increase of 5.9%, Population 2,794,148, Source: World Bank
+Year 2021: decrease of -10.4%, Population 2,504,910, Source: World Bank
+Year 2022: increase of 6.1%, Population 2,657,333, Source: World Bank
+Year 2023: decrease of -0.0%, Population 2,656,032, Source: World Bank
+Year 1951: increase of 7.8%, Population 27,058, Source: Census Bureau
+Year 1983: increase of 12.5%, Population 281,831, Source: Census Bureau
+Year 1987: increase of 4.0%, Population 386,764, Source: Census Bureau
+Year 2004: increase of 12.2%, Population 825,458, Source: Census Bureau
+Year 2005: increase of 17.8%, Population 972,560, Source: Census Bureau
+Year 2006: increase of 15.2%, Population 1,119,975, Source: Census Bureau

@@ -1,0 +1,14 @@
+Population Analysis for New Caledonia
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 295,333
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (14):
+Year 1971: increase of 7.14% (Global z=3.72, Rolling z=0.92, 2nd deriv=-0.55), Type(s): global, Description: Year 1971: increase of 7.1% (above average by 4.8%), Source: Census Bureau

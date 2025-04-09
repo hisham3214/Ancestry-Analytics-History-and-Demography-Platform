@@ -1,0 +1,10 @@
+Year-over-Year Anomalies for Algeria
+========================================
+Year 1950: decrease of 0.0%, Population 9,018,427, Source: United Nations Population Division
+Year 1976: increase of 4.7%, Population 16,409,170, Source: United Nations Population Division
+Year 1977: increase of 3.7%, Population 17,015,994, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 11,424,922, Source: World Bank
+Year 1976: increase of 4.7%, Population 16,409,170, Source: World Bank
+Year 1950: decrease of 0.0%, Population 8,892,718, Source: Census Bureau
+Year 1962: decrease of -1.1%, Population 11,000,948, Source: Census Bureau
+Year 1963: increase of 2.5%, Population 11,272,878, Source: Census Bureau

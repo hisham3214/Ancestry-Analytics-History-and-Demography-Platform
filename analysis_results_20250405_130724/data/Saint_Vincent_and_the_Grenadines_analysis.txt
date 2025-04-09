@@ -1,0 +1,14 @@
+Population Analysis for Saint Vincent and the Grenadines
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 99,925
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (10):
+Year 1954: increase of 2.67% (Global z=2.33, Rolling z=0.43, 2nd deriv=0.74), Type(s): global, Description: Year 1954: increase of 2.7% (above average by 2.1%), Source: Census Bureau

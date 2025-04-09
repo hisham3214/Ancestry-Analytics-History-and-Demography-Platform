@@ -1,0 +1,21 @@
+Year-over-Year Anomalies for Chad
+========================================
+Year 1950: decrease of 0.0%, Population 2,525,454, Source: United Nations Population Division
+Year 1980: increase of 0.2%, Population 4,515,453, Source: United Nations Population Division
+Year 1981: increase of 0.1%, Population 4,520,960, Source: United Nations Population Division
+Year 1982: increase of 4.8%, Population 4,738,483, Source: United Nations Population Division
+Year 1983: increase of 5.1%, Population 4,979,130, Source: United Nations Population Division
+Year 1984: increase of 1.3%, Population 5,045,145, Source: United Nations Population Division
+Year 2024: increase of 5.1%, Population 20,299,123, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 3,049,838, Source: World Bank
+Year 1980: increase of 0.2%, Population 4,515,453, Source: World Bank
+Year 1981: increase of 0.1%, Population 4,520,959, Source: World Bank
+Year 1982: increase of 4.8%, Population 4,738,483, Source: World Bank
+Year 1984: increase of 1.3%, Population 5,045,145, Source: World Bank
+Year 1950: decrease of 0.0%, Population 2,607,769, Source: Census Bureau
+Year 1980: increase of 0.0%, Population 4,650,816, Source: Census Bureau
+Year 1981: decrease of -0.1%, Population 4,647,489, Source: Census Bureau
+Year 1982: increase of 4.9%, Population 4,876,373, Source: Census Bureau
+Year 1983: increase of 5.1%, Population 5,126,666, Source: Census Bureau
+Year 1984: increase of 1.2%, Population 5,187,207, Source: Census Bureau
+Year 1993: decrease of -1.0%, Population 6,447,177, Source: Census Bureau

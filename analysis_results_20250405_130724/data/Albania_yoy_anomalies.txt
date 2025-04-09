@@ -1,0 +1,10 @@
+Year-over-Year Anomalies for Albania
+========================================
+Year 1961: increase of 3.2%, Population 1,659,800, Source: World Bank
+Year 1961: increase of 3.2%, Population 1,633,800, Source: Eurostat
+Year 1991: decrease of -0.8%, Population 3,259,814, Source: Eurostat
+Year 2000: decrease of -9.3%, Population 3,058,497, Source: Eurostat
+Year 2001: increase of 0.2%, Population 3,063,318, Source: Eurostat
+Year 1991: decrease of -2.0%, Population 3,181,048, Source: Census Bureau
+Year 1992: decrease of -3.4%, Population 3,072,011, Source: Census Bureau
+Year 1993: decrease of -0.2%, Population 3,066,284, Source: Census Bureau

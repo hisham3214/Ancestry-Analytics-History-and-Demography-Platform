@@ -1,0 +1,14 @@
+Population Analysis for Lesotho
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 2,363,325
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (4):
+Year 2005: decrease of -0.92% (Global z=-2.07, Rolling z=-1.33, 2nd deriv=-0.21), Type(s): global, Description: Year 2005: decrease of 0.9% (below average by 2.7%), Source: World Bank

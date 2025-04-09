@@ -1,0 +1,16 @@
+Year-over-Year Anomalies for New Caledonia
+========================================
+Year 1971: increase of 4.7%, Population 114,515, Source: United Nations Population Division
+Year 1972: increase of 4.7%, Population 119,931, Source: United Nations Population Division
+Year 1973: increase of 4.7%, Population 125,586, Source: United Nations Population Division
+Year 1974: increase of 4.7%, Population 131,452, Source: United Nations Population Division
+Year 1975: increase of 4.6%, Population 137,462, Source: United Nations Population Division
+Year 1961: increase of 3.4%, Population 82,521, Source: World Bank
+Year 1971: increase of 4.7%, Population 114,514, Source: World Bank
+Year 1972: increase of 4.7%, Population 119,931, Source: World Bank
+Year 1973: increase of 4.7%, Population 125,585, Source: World Bank
+Year 1974: increase of 4.7%, Population 131,452, Source: World Bank
+Year 1975: increase of 4.6%, Population 137,462, Source: World Bank
+Year 1951: increase of 3.1%, Population 56,780, Source: Census Bureau
+Year 1970: increase of 7.7%, Population 112,000, Source: Census Bureau
+Year 1971: increase of 7.1%, Population 120,000, Source: Census Bureau

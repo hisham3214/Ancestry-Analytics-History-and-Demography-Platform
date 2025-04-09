@@ -1,0 +1,10 @@
+Year-over-Year Anomalies for Poland
+========================================
+Year 1957: increase of 2.0%, Population 28,076,498, Source: United Nations Population Division
+Year 1958: increase of 2.0%, Population 28,643,640, Source: United Nations Population Division
+Year 2025: decrease of -1.0%, Population 38,140,910, Source: United Nations Population Division
+Year 2000: decrease of -1.0%, Population 38,258,629, Source: World Bank
+Year 2021: decrease of -2.4%, Population 36,981,559, Source: World Bank
+Year 2000: decrease of -1.0%, Population 38,263,303, Source: Eurostat
+Year 2021: decrease of -2.3%, Population 37,073,357, Source: Eurostat
+Year 2024: decrease of -1.0%, Population 38,746,310, Source: Census Bureau

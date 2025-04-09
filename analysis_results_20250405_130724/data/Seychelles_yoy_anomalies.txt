@@ -1,0 +1,15 @@
+Year-over-Year Anomalies for Seychelles
+========================================
+Year 1950: decrease of 0.0%, Population 38,284, Source: United Nations Population Division
+Year 1987: increase of 4.3%, Population 68,499, Source: World Bank
+Year 1988: increase of 0.4%, Population 68,755, Source: World Bank
+Year 2002: increase of 3.1%, Population 83,723, Source: World Bank
+Year 2003: decrease of -1.1%, Population 82,781, Source: World Bank
+Year 2011: decrease of -2.6%, Population 87,441, Source: World Bank
+Year 2012: increase of 1.0%, Population 88,303, Source: World Bank
+Year 2022: increase of 20.8%, Population 119,878, Source: World Bank
+Year 2023: decrease of -0.1%, Population 119,773, Source: World Bank
+Year 1955: increase of 3.6%, Population 35,873, Source: Census Bureau
+Year 1956: increase of 4.9%, Population 37,619, Source: Census Bureau
+Year 1957: increase of 1.8%, Population 38,283, Source: Census Bureau
+Year 1964: increase of 3.3%, Population 46,755, Source: Census Bureau

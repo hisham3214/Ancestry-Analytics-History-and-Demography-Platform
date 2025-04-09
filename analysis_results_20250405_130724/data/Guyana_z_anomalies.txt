@@ -1,0 +1,3 @@
+Z-Score Anomalies for Guyana
+========================================
+Year 1960: Population 569,143, Z-score: -3.14, Source: World Bank

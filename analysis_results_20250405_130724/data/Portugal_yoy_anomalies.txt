@@ -1,0 +1,16 @@
+Year-over-Year Anomalies for Portugal
+========================================
+Year 1970: decrease of -1.0%, Population 8,669,524, Source: United Nations Population Division
+Year 1972: increase of 1.5%, Population 8,815,597, Source: United Nations Population Division
+Year 1973: increase of 1.4%, Population 8,939,237, Source: United Nations Population Division
+Year 1974: increase of 1.3%, Population 9,059,176, Source: United Nations Population Division
+Year 1975: increase of 1.4%, Population 9,182,303, Source: United Nations Population Division
+Year 1976: increase of 1.4%, Population 9,310,256, Source: United Nations Population Division
+Year 1977: increase of 1.4%, Population 9,438,167, Source: United Nations Population Division
+Year 1975: increase of 3.9%, Population 9,093,470, Source: World Bank
+Year 1976: increase of 2.9%, Population 9,355,810, Source: World Bank
+Year 1975: increase of 2.9%, Population 8,879,130, Source: Eurostat
+Year 1976: increase of 4.8%, Population 9,307,810, Source: Eurostat
+Year 1977: increase of 1.0%, Population 9,403,810, Source: Eurostat
+Year 1975: increase of 3.4%, Population 9,411,090, Source: Census Bureau
+Year 1976: increase of 2.2%, Population 9,621,970, Source: Census Bureau

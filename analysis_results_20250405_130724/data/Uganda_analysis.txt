@@ -1,0 +1,14 @@
+Population Analysis for Uganda
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 51,384,894
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (5):
+Year 2017: increase of 4.40% (Global z=2.40, Rolling z=1.42, 2nd deriv=0.46), Type(s): global, Description: Year 2017: increase of 4.4% (above average by 1.4%), Source: Census Bureau

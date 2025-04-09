@@ -1,0 +1,14 @@
+Population Analysis for Sri Lanka
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 23,229,471
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (4):
+Year 2023: decrease of -0.65% (Global z=-2.17, Rolling z=-1.52, 2nd deriv=-0.76), Type(s): global, Description: Year 2023: decrease of 0.6% (below average by 1.9%), Source: World Bank

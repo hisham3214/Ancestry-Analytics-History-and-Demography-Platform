@@ -1,0 +1,14 @@
+Population Analysis for Tuvalu
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 9,492
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (15):
+Year 1980: increase of 1.21% (Global z=-0.03, Rolling z=-1.74, 2nd deriv=-3.51), Type(s): acceleration, Description: Year 1980: increase of 1.2% (below average by 0.0%), showing deceleration of 3.5%, Source: Census Bureau

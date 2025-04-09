@@ -1,0 +1,14 @@
+Population Analysis for Oman
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 5,494,691
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (17):
+Year 1982: increase of 5.13% (Global z=2.11, Rolling z=-1.74, 2nd deriv=-0.27), Type(s): global, Description: Year 1982: increase of 5.1% (above average by 2.3%), Source: Census Bureau

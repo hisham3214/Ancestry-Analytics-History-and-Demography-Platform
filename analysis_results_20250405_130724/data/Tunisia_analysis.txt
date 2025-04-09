@@ -1,0 +1,14 @@
+Population Analysis for Tunisia
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 12,348,573
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (4):
+Year 1984: increase of 4.73% (Global z=4.31, Rolling z=1.72, 2nd deriv=2.86), Type(s): global, Description: Year 1984: increase of 4.7% (above average by 3.1%), showing acceleration of 2.9%, Source: Census Bureau

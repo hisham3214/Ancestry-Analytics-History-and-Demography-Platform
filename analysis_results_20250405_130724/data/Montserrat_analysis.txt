@@ -1,0 +1,14 @@
+Population Analysis for Montserrat
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 2
+Latest population: 4,360
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (22):
+Year 2009: increase of 0.31% (Global z=0.16, Rolling z=-0.06, 2nd deriv=-12.32), Type(s): acceleration, Description: Year 2009: increase of 0.3% (above average by 1.2%), showing deceleration of 12.3%, Source: Census Bureau

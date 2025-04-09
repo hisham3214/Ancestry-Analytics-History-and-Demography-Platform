@@ -1,0 +1,12 @@
+Year-over-Year Anomalies for Netherlands
+========================================
+Year 1950: decrease of 0.0%, Population 10,113,758, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 11,486,631, Source: World Bank
+Year 1962: increase of 1.4%, Population 11,805,689, Source: World Bank
+Year 1963: increase of 1.4%, Population 11,965,966, Source: World Bank
+Year 1965: increase of 1.4%, Population 12,294,732, Source: World Bank
+Year 1960: decrease of 0.0%, Population 11,417,254, Source: Eurostat
+Year 1962: increase of 1.4%, Population 11,721,416, Source: Eurostat
+Year 1963: increase of 1.4%, Population 11,889,962, Source: Eurostat
+Year 1965: increase of 1.4%, Population 12,212,269, Source: Eurostat
+Year 1950: decrease of 0.0%, Population 10,120,705, Source: Census Bureau

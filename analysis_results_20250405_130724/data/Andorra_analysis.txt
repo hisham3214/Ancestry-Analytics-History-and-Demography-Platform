@@ -1,0 +1,14 @@
+Population Analysis for Andorra
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 82,905
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (42):
+Year 2003: increase of 4.24% (Global z=0.14, Rolling z=1.75, 2nd deriv=3.21), Type(s): acceleration, Description: Year 2003: increase of 4.2% (above average by 0.6%), showing acceleration of 3.2%, Source: Census Bureau

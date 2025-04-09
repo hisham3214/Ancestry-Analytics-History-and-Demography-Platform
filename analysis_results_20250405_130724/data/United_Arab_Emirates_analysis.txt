@@ -1,0 +1,14 @@
+Population Analysis for United Arab Emirates
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 11,346,000
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (26):
+Year 2011: increase of 3.51% (Global z=-0.61, Rolling z=-0.81, 2nd deriv=3.65), Type(s): acceleration, Description: Year 2011: increase of 3.5% (below average by 3.4%), showing acceleration of 3.7%, Source: Census Bureau

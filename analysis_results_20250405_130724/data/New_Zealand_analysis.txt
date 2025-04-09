@@ -1,0 +1,14 @@
+Population Analysis for New Zealand
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 5,251,899
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (5):
+Year 1979: decrease of -0.04% (Global z=-2.10, Rolling z=-0.86, 2nd deriv=-0.07), Type(s): global, Description: Year 1979: decrease of 0.0% (below average by 1.4%), Source: Census Bureau

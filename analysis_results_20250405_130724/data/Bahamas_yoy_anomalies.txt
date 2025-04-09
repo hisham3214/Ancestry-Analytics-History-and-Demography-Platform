@@ -1,0 +1,15 @@
+Year-over-Year Anomalies for Bahamas
+========================================
+Year 1961: increase of 5.1%, Population 122,197, Source: United Nations Population Division
+Year 1962: increase of 5.2%, Population 128,493, Source: United Nations Population Division
+Year 1963: increase of 5.1%, Population 135,087, Source: United Nations Population Division
+Year 1961: increase of 5.1%, Population 122,197, Source: World Bank
+Year 1962: increase of 5.2%, Population 128,493, Source: World Bank
+Year 1963: increase of 5.1%, Population 135,087, Source: World Bank
+Year 1964: increase of 4.8%, Population 141,528, Source: World Bank
+Year 1966: increase of 4.7%, Population 154,874, Source: World Bank
+Year 1967: increase of 4.8%, Population 162,267, Source: World Bank
+Year 1968: increase of 4.8%, Population 170,089, Source: World Bank
+Year 1951: increase of 3.9%, Population 73,229, Source: Census Bureau
+Year 1957: increase of 5.3%, Population 96,485, Source: Census Bureau
+Year 1958: increase of 5.4%, Population 101,676, Source: Census Bureau

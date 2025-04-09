@@ -1,0 +1,14 @@
+Population Analysis for Malawi
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 22,216,120
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (18):
+Year 1996: increase of 2.48% (Global z=-0.26, Rolling z=0.66, 2nd deriv=3.33), Type(s): acceleration, Description: Year 1996: increase of 2.5% (below average by 0.3%), showing acceleration of 3.3%, Source: Census Bureau

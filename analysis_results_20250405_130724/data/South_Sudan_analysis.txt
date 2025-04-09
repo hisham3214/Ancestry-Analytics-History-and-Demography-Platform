@@ -1,0 +1,14 @@
+Population Analysis for South Sudan
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 3
+Latest population: 12,188,788
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (23):
+Year 2019: increase of 0.74% (Global z=-0.49, Rolling z=1.32, 2nd deriv=3.63), Type(s): acceleration, Description: Year 2019: increase of 0.7% (below average by 1.4%), showing acceleration of 3.6%, Source: Census Bureau

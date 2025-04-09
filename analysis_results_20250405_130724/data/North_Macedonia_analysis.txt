@@ -1,0 +1,14 @@
+Population Analysis for North Macedonia
+==================================================
+
+Basic Statistics:
+First year: 1950
+Last year: 2025
+Number of data sources: 4
+Latest population: 1,813,791
+
+Z-Score Anomalies (0):
+No Z-score anomalies detected or missing population_z.
+
+Year-over-Year Anomalies (10):
+Year 1954: increase of 1.98% (Global z=2.05, Rolling z=0.39, 2nd deriv=-0.21), Type(s): global, Description: Year 1954: increase of 2.0% (above average by 1.2%), Source: Census Bureau

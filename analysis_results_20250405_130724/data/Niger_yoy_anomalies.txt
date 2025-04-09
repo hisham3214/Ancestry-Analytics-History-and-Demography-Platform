@@ -1,0 +1,6 @@
+Year-over-Year Anomalies for Niger
+========================================
+Year 1950: decrease of 0.0%, Population 2,597,810, Source: United Nations Population Division
+Year 1951: increase of 3.3%, Population 2,684,754, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 3,505,050, Source: World Bank
+Year 1950: decrease of 0.0%, Population 3,271,073, Source: Census Bureau

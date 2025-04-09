@@ -1,0 +1,12 @@
+Year-over-Year Anomalies for Yemen
+========================================
+Year 1950: decrease of 0.0%, Population 4,616,780, Source: United Nations Population Division
+Year 1951: increase of 1.5%, Population 4,684,148, Source: United Nations Population Division
+Year 1960: decrease of 0.0%, Population 5,532,301, Source: World Bank
+Year 1950: decrease of 0.0%, Population 4,777,089, Source: Census Bureau
+Year 1989: increase of 4.7%, Population 12,139,763, Source: Census Bureau
+Year 1990: increase of 4.9%, Population 12,735,852, Source: Census Bureau
+Year 1991: increase of 5.1%, Population 13,383,284, Source: Census Bureau
+Year 1992: increase of 5.1%, Population 14,065,440, Source: Census Bureau
+Year 1993: increase of 5.2%, Population 14,797,156, Source: Census Bureau
+Year 1994: increase of 5.0%, Population 15,535,835, Source: Census Bureau
