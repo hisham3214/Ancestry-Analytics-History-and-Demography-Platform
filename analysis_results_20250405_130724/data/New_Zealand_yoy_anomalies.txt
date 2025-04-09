@@ -1,7 +1,0 @@
-Year-over-Year Anomalies for New Zealand
-========================================
-Year 1979: decrease of -0.0%, Population 3,141,601, Source: United Nations Population Division
-Year 1991: increase of 5.0%, Population 3,495,100, Source: World Bank
-Year 1992: increase of 1.0%, Population 3,531,700, Source: World Bank
-Year 1950: decrease of 0.0%, Population 1,908,310, Source: Census Bureau
-Year 1979: decrease of -0.0%, Population 3,164,550, Source: Census Bureau

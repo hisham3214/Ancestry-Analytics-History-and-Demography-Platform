@@ -1,6 +1,0 @@
-Year-over-Year Anomalies for Panama
-========================================
-Year 1950: decrease of 0.0%, Population 860,850, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 1,126,005, Source: World Bank
-Year 1961: increase of 3.0%, Population 1,159,870, Source: World Bank
-Year 1950: decrease of 0.0%, Population 892,502, Source: Census Bureau

@@ -1,8 +1,0 @@
-Year-over-Year Anomalies for Comoros
-========================================
-Year 1950: decrease of 0.0%, Population 161,938, Source: United Nations Population Division
-Year 1975: increase of 3.5%, Population 287,693, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 197,700, Source: World Bank
-Year 1950: decrease of 0.0%, Population 148,057, Source: Census Bureau
-Year 1977: increase of 8.7%, Population 309,007, Source: Census Bureau
-Year 1978: increase of 3.2%, Population 318,860, Source: Census Bureau

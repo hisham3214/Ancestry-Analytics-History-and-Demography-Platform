@@ -1,9 +1,0 @@
-Year-over-Year Anomalies for Saint Lucia
-========================================
-Year 1955: decrease of -0.3%, Population 93,804, Source: United Nations Population Division
-Year 1956: decrease of -0.4%, Population 93,452, Source: United Nations Population Division
-Year 1957: decrease of -0.4%, Population 93,083, Source: United Nations Population Division
-Year 1958: decrease of -0.4%, Population 92,715, Source: United Nations Population Division
-Year 1959: decrease of -0.4%, Population 92,352, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 92,585, Source: World Bank
-Year 1959: decrease of -0.7%, Population 87,645, Source: Census Bureau

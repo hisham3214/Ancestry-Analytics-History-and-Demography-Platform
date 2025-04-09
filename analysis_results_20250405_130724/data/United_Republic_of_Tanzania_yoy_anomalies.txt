@@ -1,8 +1,0 @@
-Year-over-Year Anomalies for United Republic of Tanzania
-========================================
-Year 1950: decrease of 0.0%, Population 7,625,155, Source: United Nations Population Division
-Year 1996: increase of 1.9%, Population 30,945,762, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 9,901,419, Source: World Bank
-Year 1996: increase of 1.9%, Population 30,945,762, Source: World Bank
-Year 1950: decrease of 0.0%, Population 7,934,924, Source: Census Bureau
-Year 1994: increase of 3.9%, Population 28,233,158, Source: Census Bureau

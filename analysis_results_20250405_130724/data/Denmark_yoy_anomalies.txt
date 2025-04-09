@@ -1,7 +1,0 @@
-Year-over-Year Anomalies for Denmark
-========================================
-Year 1982: decrease of -0.1%, Population 5,117,894, Source: United Nations Population Division
-Year 1983: decrease of -0.1%, Population 5,114,468, Source: United Nations Population Division
-Year 2023: increase of 1.0%, Population 5,932,654, Source: Eurostat
-Year 1982: decrease of -0.1%, Population 5,117,810, Source: Census Bureau
-Year 1983: decrease of -0.1%, Population 5,114,297, Source: Census Bureau

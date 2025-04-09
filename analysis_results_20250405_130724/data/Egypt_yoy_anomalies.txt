@@ -1,7 +1,0 @@
-Year-over-Year Anomalies for Egypt
-========================================
-Year 1950: decrease of 0.0%, Population 21,148,164, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 26,896,479, Source: World Bank
-Year 1950: decrease of 0.0%, Population 21,197,691, Source: Census Bureau
-Year 1981: increase of 3.7%, Population 44,196,104, Source: Census Bureau
-Year 1982: increase of 3.4%, Population 45,681,811, Source: Census Bureau

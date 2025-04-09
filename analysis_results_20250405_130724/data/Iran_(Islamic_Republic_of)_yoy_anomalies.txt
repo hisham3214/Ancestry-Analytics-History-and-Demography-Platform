@@ -1,9 +1,0 @@
-Year-over-Year Anomalies for Iran (Islamic Republic of)
-========================================
-Year 1950: decrease of 0.0%, Population 16,510,553, Source: United Nations Population Division
-Year 1981: increase of 5.4%, Population 41,989,312, Source: United Nations Population Division
-Year 1982: increase of 5.4%, Population 44,272,141, Source: United Nations Population Division
-Year 1961: increase of 3.1%, Population 22,125,726, Source: World Bank
-Year 1981: increase of 5.4%, Population 41,989,312, Source: World Bank
-Year 1982: increase of 5.4%, Population 44,272,141, Source: World Bank
-Year 1950: decrease of 0.0%, Population 16,357,000, Source: Census Bureau

@@ -1,6 +1,0 @@
-Year-over-Year Anomalies for Russian Federation
-========================================
-Year 2011: increase of 0.7%, Population 142,856,536, Source: Eurostat
-Year 1952: increase of 1.8%, Population 105,385,090, Source: Census Bureau
-Year 1953: increase of 1.8%, Population 107,302,806, Source: Census Bureau
-Year 1954: increase of 1.8%, Population 109,208,917, Source: Census Bureau

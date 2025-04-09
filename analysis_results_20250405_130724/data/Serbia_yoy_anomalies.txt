@@ -1,8 +1,0 @@
-Year-over-Year Anomalies for Serbia
-========================================
-Year 1969: increase of 1.7%, Population 7,123,249, Source: World Bank
-Year 1980: increase of 2.2%, Population 7,709,544, Source: World Bank
-Year 1991: decrease of -3.8%, Population 7,595,636, Source: World Bank
-Year 1992: increase of 0.1%, Population 7,604,063, Source: World Bank
-Year 2022: decrease of -2.5%, Population 6,664,449, Source: World Bank
-Year 2023: decrease of -2.3%, Population 6,641,197, Source: Eurostat

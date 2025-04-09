@@ -1,7 +1,0 @@
-Year-over-Year Anomalies for Uzbekistan
-========================================
-Year 1950: decrease of 0.0%, Population 6,239,905, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 8,209,109, Source: World Bank
-Year 1961: increase of 3.8%, Population 8,517,711, Source: World Bank
-Year 1950: decrease of 0.0%, Population 6,292,797, Source: Census Bureau
-Year 1951: increase of 3.1%, Population 6,489,850, Source: Census Bureau

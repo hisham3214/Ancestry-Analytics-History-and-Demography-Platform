@@ -1,5 +1,0 @@
-Year-over-Year Anomalies for Mali
-========================================
-Year 1950: decrease of 0.0%, Population 4,696,911, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 5,402,550, Source: World Bank
-Year 1950: decrease of 0.0%, Population 3,687,654, Source: Census Bureau

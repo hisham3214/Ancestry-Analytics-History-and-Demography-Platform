@@ -1,9 +1,0 @@
-Year-over-Year Anomalies for Marshall Islands
-========================================
-Year 1968: increase of 6.5%, Population 19,862, Source: United Nations Population Division
-Year 1969: increase of 7.3%, Population 21,305, Source: United Nations Population Division
-Year 1961: increase of 3.5%, Population 15,219, Source: World Bank
-Year 1969: increase of 7.3%, Population 21,305, Source: World Bank
-Year 1950: decrease of 0.0%, Population 10,904, Source: Census Bureau
-Year 1951: increase of 3.3%, Population 11,266, Source: Census Bureau
-Year 1981: increase of 5.2%, Population 32,267, Source: Census Bureau

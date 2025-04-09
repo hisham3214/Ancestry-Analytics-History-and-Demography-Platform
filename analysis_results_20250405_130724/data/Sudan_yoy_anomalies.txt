@@ -1,8 +1,0 @@
-Year-over-Year Anomalies for Sudan
-========================================
-Year 1950: decrease of 0.0%, Population 6,189,911, Source: United Nations Population Division
-Year 1951: increase of 3.0%, Population 6,376,060, Source: United Nations Population Division
-Year 2024: increase of 0.8%, Population 50,448,963, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 8,364,489, Source: World Bank
-Year 1961: increase of 3.2%, Population 8,634,941, Source: World Bank
-Year 1950: decrease of 0.0%, Population 6,467,221, Source: Census Bureau

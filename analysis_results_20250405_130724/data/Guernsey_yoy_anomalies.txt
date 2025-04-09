@@ -1,6 +1,0 @@
-Year-over-Year Anomalies for Guernsey
-========================================
-Year 1951: increase of 1.9%, Population 45,823, Source: United Nations Population Division
-Year 1986: increase of 5.9%, Population 58,440, Source: Census Bureau
-Year 1987: increase of 1.7%, Population 59,441, Source: Census Bureau
-Year 1991: decrease of -2.1%, Population 61,289, Source: Census Bureau

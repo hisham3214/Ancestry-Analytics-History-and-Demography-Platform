@@ -1,6 +1,0 @@
-Year-over-Year Anomalies for Luxembourg
-========================================
-Year 2012: increase of 2.4%, Population 530,948, Source: United Nations Population Division
-Year 2014: increase of 2.4%, Population 556,279, Source: United Nations Population Division
-Year 2015: increase of 2.4%, Population 569,536, Source: United Nations Population Division
-Year 2016: increase of 2.5%, Population 583,506, Source: United Nations Population Division

@@ -1,8 +1,0 @@
-Year-over-Year Anomalies for State of Palestine
-========================================
-Year 1967: decrease of -0.9%, Population 1,135,820, Source: United Nations Population Division
-Year 1968: decrease of -1.2%, Population 1,121,742, Source: United Nations Population Division
-Year 1969: decrease of -0.8%, Population 1,113,086, Source: United Nations Population Division
-Year 1988: increase of 5.4%, Population 1,977,305, Source: United Nations Population Division
-Year 1990: decrease of 0.0%, Population 1,978,248, Source: World Bank
-Year 1991: increase of 4.6%, Population 2,068,845, Source: World Bank

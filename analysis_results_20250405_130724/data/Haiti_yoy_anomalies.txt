@@ -1,6 +1,0 @@
-Year-over-Year Anomalies for Haiti
-========================================
-Year 1950: decrease of 0.0%, Population 3,265,708, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 3,858,443, Source: World Bank
-Year 1950: decrease of 0.0%, Population 3,097,220, Source: Census Bureau
-Year 2010: decrease of -0.9%, Population 9,569,827, Source: Census Bureau

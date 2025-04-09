@@ -1,9 +1,0 @@
-Year-over-Year Anomalies for Tonga
-========================================
-Year 1961: increase of 2.8%, Population 68,037, Source: World Bank
-Year 1962: increase of 2.8%, Population 69,940, Source: World Bank
-Year 1963: increase of 2.8%, Population 71,885, Source: World Bank
-Year 1964: increase of 2.8%, Population 73,879, Source: World Bank
-Year 1965: increase of 2.8%, Population 75,924, Source: World Bank
-Year 1966: increase of 2.7%, Population 78,002, Source: World Bank
-Year 1951: increase of 3.6%, Population 47,378, Source: Census Bureau

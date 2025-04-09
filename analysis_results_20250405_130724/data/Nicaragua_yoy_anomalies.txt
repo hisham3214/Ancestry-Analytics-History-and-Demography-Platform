@@ -1,8 +1,0 @@
-Year-over-Year Anomalies for Nicaragua
-========================================
-Year 1950: decrease of 0.0%, Population 1,331,439, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 1,782,370, Source: World Bank
-Year 1961: increase of 3.0%, Population 1,836,451, Source: World Bank
-Year 1950: decrease of 0.0%, Population 1,097,916, Source: Census Bureau
-Year 1951: increase of 3.0%, Population 1,131,307, Source: Census Bureau
-Year 1991: increase of 5.3%, Population 3,845,502, Source: Census Bureau

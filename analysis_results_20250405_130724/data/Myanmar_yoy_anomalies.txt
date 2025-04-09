@@ -1,8 +1,0 @@
-Year-over-Year Anomalies for Myanmar
-========================================
-Year 1950: decrease of 0.0%, Population 17,737,117, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 21,730,250, Source: World Bank
-Year 1950: decrease of 0.0%, Population 19,487,657, Source: Census Bureau
-Year 1973: increase of 2.6%, Population 29,226,657, Source: Census Bureau
-Year 2017: increase of 0.3%, Population 54,717,434, Source: Census Bureau
-Year 2018: increase of 0.3%, Population 54,899,145, Source: Census Bureau

@@ -1,7 +1,0 @@
-Year-over-Year Anomalies for Bangladesh
-========================================
-Year 1950: decrease of 0.0%, Population 41,206,856, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 51,828,660, Source: World Bank
-Year 1950: decrease of 0.0%, Population 45,645,964, Source: Census Bureau
-Year 1981: increase of 5.6%, Population 85,726,506, Source: Census Bureau
-Year 1982: increase of 2.6%, Population 87,942,605, Source: Census Bureau

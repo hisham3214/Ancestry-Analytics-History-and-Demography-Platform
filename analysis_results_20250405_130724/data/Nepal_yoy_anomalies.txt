@@ -1,9 +1,0 @@
-Year-over-Year Anomalies for Nepal
-========================================
-Year 1950: decrease of 0.0%, Population 8,396,603, Source: United Nations Population Division
-Year 2023: decrease of -0.1%, Population 29,694,615, Source: United Nations Population Division
-Year 2024: decrease of -0.1%, Population 29,651,055, Source: United Nations Population Division
-Year 2025: decrease of -0.1%, Population 29,618,118, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 10,123,658, Source: World Bank
-Year 2023: decrease of -0.1%, Population 29,694,614, Source: World Bank
-Year 1950: decrease of 0.0%, Population 8,989,915, Source: Census Bureau

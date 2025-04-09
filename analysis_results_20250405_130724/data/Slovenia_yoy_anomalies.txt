@@ -1,7 +1,0 @@
-Year-over-Year Anomalies for Slovenia
-========================================
-Year 1976: increase of 1.5%, Population 1,820,249, Source: World Bank
-Year 1976: increase of 1.7%, Population 1,808,707, Source: Eurostat
-Year 1987: increase of 2.0%, Population 1,985,486, Source: Eurostat
-Year 1980: increase of 3.4%, Population 1,833,000, Source: Census Bureau
-Year 1981: increase of 0.3%, Population 1,839,256, Source: Census Bureau

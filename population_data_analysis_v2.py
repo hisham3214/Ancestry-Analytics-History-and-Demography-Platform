@@ -197,9 +197,9 @@ class PopulationDataAnalyzer:
             return pd.DataFrame()
 
     def detect_anomalies_yoy_advanced(self, df: pd.DataFrame,
-                                  z_threshold: float = 2.0,
-                                  window_size: int = 5,
-                                  second_deriv_threshold: float = 0.03) -> pd.DataFrame:
+                                      z_threshold: float = 2.0,
+                                      window_size: int = 5,
+                                      second_deriv_threshold: float = 0.03) -> pd.DataFrame:
         """
         Advanced YoY anomaly detection combining multiple methods:
         1. Country-specific statistical thresholds
@@ -280,7 +280,7 @@ class PopulationDataAnalyzer:
                 valid_mask = group_data['rolling_std'] > 0
                 group_data.loc[valid_mask, 'rolling_z'] = (
                     (group_data.loc[valid_mask, 'yoy_change']
-                    - group_data.loc[valid_mask, 'rolling_mean'])
+                     - group_data.loc[valid_mask, 'rolling_mean'])
                     / group_data.loc[valid_mask, 'rolling_std']
                 )
 
@@ -311,15 +311,13 @@ class PopulationDataAnalyzer:
 
             # ----------------------------
             # 6. Distinguish between "increase" or "decrease" anomalies
-            #    so we don’t break code that references is_decrease_anomaly/is_increase_anomaly
             # ----------------------------
             group_data['is_decrease_anomaly'] = group_data['is_yoy_anomaly'] & (group_data['yoy_change'] < 0)
             group_data['is_increase_anomaly'] = group_data['is_yoy_anomaly'] & (group_data['yoy_change'] > 0)
 
             # ----------------------------
-            # 7. Category and Description (optional but useful)
+            # 7. Category and Description
             # ----------------------------
-            # This categorizes the anomaly based on which method(s) triggered it:
             group_data['anomaly_type'] = ''
             any_anomaly_mask = group_data['is_yoy_anomaly']
             if any_anomaly_mask.any():
@@ -524,22 +522,19 @@ class PopulationDataAnalyzer:
                     if not yoy_anomalies.empty:
                         for _, row in yoy_anomalies.iterrows():
                             change_type = "increase" if row.get('is_increase_anomaly', False) else "decrease"
+                            yoy_pct = row.get('yoy_change', 0) * 100
+                            g_z = row.get('global_z_score', float('nan'))
+                            r_z = row.get('rolling_z', float('nan'))
+                            second_deriv = row.get('second_derivative', float('nan')) * 100
+                            anomaly_desc = row.get('anomaly_description', '')
+                            anomaly_type = row.get('anomaly_type', '')
 
-                        # Safely retrieve any fields that might not exist or could be NaN
-                        yoy_pct = row.get('yoy_change', 0) * 100
-                        g_z = row.get('global_z_score', float('nan'))
-                        r_z = row.get('rolling_z', float('nan'))
-                        second_deriv = row.get('second_derivative', float('nan')) * 100
-                        anomaly_desc = row.get('anomaly_description', '')
-                        anomaly_type = row.get('anomaly_type', '')
-
-                        # Print or format them however you'd like
-                        f.write(
-                            f"Year {row['year']}: {change_type} of {yoy_pct:.2f}% "
-                            f"(Global z={g_z:.2f}, Rolling z={r_z:.2f}, 2nd deriv={second_deriv:.2f}), "
-                            f"Type(s): {anomaly_type}, Description: {anomaly_desc}, "
-                            f"Source: {row['source_name']}\n"
-                        )
+                            f.write(
+                                f"Year {row['year']}: {change_type} of {yoy_pct:.2f}% "
+                                f"(Global z={g_z:.2f}, Rolling z={r_z:.2f}, 2nd deriv={second_deriv:.2f}), "
+                                f"Type(s): {anomaly_type}, Description: {anomaly_desc}, "
+                                f"Source: {row['source_name']}\n"
+                            )
                 else:
                     f.write("No YoY anomalies detected.\n")
         else:
@@ -637,6 +632,74 @@ class PopulationDataAnalyzer:
             logger.info(f"Saved YoY anomaly details to {text_file}")
         else:
             plt.show()
+
+    def save_anomalies_to_db(self, anomaly_df: pd.DataFrame) -> None:
+        """
+        Saves anomaly records to the `Population_Anomalies` table in the database.
+
+        Expects the table to exist. Structure example:
+            CREATE TABLE IF NOT EXISTS Population_Anomalies (
+              anomaly_id INT AUTO_INCREMENT PRIMARY KEY,
+              country_id INT NOT NULL,
+              source_id INT NOT NULL,
+              year INT NOT NULL,
+              anomaly_type VARCHAR(255),
+              anomaly_description TEXT,
+              yoy_change FLOAT NULL,
+              population_z FLOAT NULL,
+              is_increase_anomaly TINYINT(1) DEFAULT 0,
+              is_decrease_anomaly TINYINT(1) DEFAULT 0,
+              created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            );
+        """
+        if anomaly_df.empty:
+            logger.info("No anomalies to save to the database.")
+            return
+
+        if not self.connection:
+            self.connect_to_database()
+
+        insert_query = """
+            INSERT INTO Population_Anomalies 
+            (country_id, source_id, year, anomaly_type, anomaly_description,
+             yoy_change, population_z, is_increase_anomaly, is_decrease_anomaly)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """
+
+        try:
+            cursor = self.connection.cursor()
+            records_to_insert = []
+
+            for _, row in anomaly_df.iterrows():
+                # Safely retrieve fields (some might not be present in all rows)
+                country_id = int(row['country_id'])
+                source_id = int(row['source_id'])
+                year = int(row['year'])
+                anomaly_type = row.get('anomaly_type', '')
+                anomaly_description = row.get('anomaly_description', '')
+
+                yoy_change = row.get('yoy_change', None)
+                population_z = row.get('population_z', None)
+
+                is_increase_anomaly = 1 if row.get('is_increase_anomaly', False) else 0
+                is_decrease_anomaly = 1 if row.get('is_decrease_anomaly', False) else 0
+
+                records_to_insert.append((
+                    country_id, source_id, year,
+                    anomaly_type, anomaly_description,
+                    yoy_change, population_z,
+                    is_increase_anomaly, is_decrease_anomaly
+                ))
+
+            cursor.executemany(insert_query, records_to_insert)
+            self.connection.commit()
+            logger.info(f"Inserted {cursor.rowcount} anomaly records into Population_Anomalies table.")
+
+        except mysql.connector.Error as err:
+            self.connection.rollback()
+            logger.error(f"Error inserting anomalies into Population_Anomalies: {err}")
+        finally:
+            cursor.close()
 
     def analyze_population_data(self, start_year: int = 1950, end_year: int = 2025) -> Dict:
         """
@@ -762,6 +825,13 @@ class PopulationDataAnalyzer:
                     self.plot_z_anomalies(analysis_df, country)
                     self.plot_yoy_anomalies(analysis_df, country)
 
+                # -------------- NEW: SAVE ANOMALIES TO DB --------------
+                # Filter out only anomaly rows
+                anomalies_to_save = analysis_df[analysis_df['is_any_anomaly'] == True].copy()
+                # Insert into the database table `Population_Anomalies`
+                if not anomalies_to_save.empty:
+                    self.save_anomalies_to_db(anomalies_to_save)
+
             result = {
                 "status": "success",
                 "data": {
@@ -811,6 +881,40 @@ if __name__ == "__main__":
         'database': 'fyp1',
         'raise_on_warnings': True
     }
+        # Create and execute the SQL
+    create_table_sql = """
+    CREATE TABLE IF NOT EXISTS Population_Anomalies (
+    anomaly_id INT AUTO_INCREMENT PRIMARY KEY,
+    country_id INT NOT NULL,
+    source_id INT NOT NULL,
+    year INT NOT NULL,
+    anomaly_type VARCHAR(255),
+    anomaly_description TEXT,
+    yoy_change FLOAT NULL,
+    population_z FLOAT NULL,
+    is_increase_anomaly TINYINT(1) DEFAULT 0,
+    is_decrease_anomaly TINYINT(1) DEFAULT 0,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+    """
+
+    try:
+        # Connect to MySQL
+        connection = mysql.connector.connect(**db_config)
+        cursor = connection.cursor()
+
+        # Execute CREATE TABLE statement
+        cursor.execute(create_table_sql)
+        print("Table Population_Anomalies created or already exists.")
+
+    except mysql.connector.Error as err:
+        print(f"Error: {err}")
+    finally:
+        # Close cursor and connection
+        if cursor:
+            cursor.close()
+        if connection and connection.is_connected():
+            connection.close()
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     results_dir = f"analysis_results_{timestamp}"

@@ -1,5 +1,0 @@
-Year-over-Year Anomalies for United Kingdom
-========================================
-Year 2022: increase of 1.1%, Population 67,791,000, Source: World Bank
-Year 1962: increase of 0.9%, Population 53,292,000, Source: Census Bureau
-Year 1982: decrease of -0.1%, Population 56,330,706, Source: Census Bureau

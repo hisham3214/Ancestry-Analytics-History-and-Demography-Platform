@@ -1,7 +1,0 @@
-Year-over-Year Anomalies for Guyana
-========================================
-Year 1957: increase of 3.4%, Population 517,501, Source: United Nations Population Division
-Year 1958: increase of 3.4%, Population 535,071, Source: United Nations Population Division
-Year 1959: increase of 3.4%, Population 553,067, Source: United Nations Population Division
-Year 2018: increase of 3.0%, Population 791,556, Source: World Bank
-Year 1959: increase of 3.3%, Population 554,471, Source: Census Bureau

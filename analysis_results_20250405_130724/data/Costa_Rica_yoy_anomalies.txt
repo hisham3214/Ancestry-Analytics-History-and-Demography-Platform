@@ -1,8 +1,0 @@
-Year-over-Year Anomalies for Costa Rica
-========================================
-Year 1950: decrease of 0.0%, Population 926,758, Source: United Nations Population Division
-Year 1951: increase of 3.4%, Population 958,409, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 1,327,496, Source: World Bank
-Year 1961: increase of 3.8%, Population 1,377,920, Source: World Bank
-Year 1950: decrease of 0.0%, Population 866,982, Source: Census Bureau
-Year 1951: increase of 3.3%, Population 895,336, Source: Census Bureau

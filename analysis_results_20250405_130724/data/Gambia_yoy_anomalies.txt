@@ -1,8 +1,0 @@
-Year-over-Year Anomalies for Gambia
-========================================
-Year 1950: decrease of 0.0%, Population 306,736, Source: United Nations Population Division
-Year 1989: increase of 4.2%, Population 1,011,358, Source: United Nations Population Division
-Year 1990: increase of 4.3%, Population 1,054,696, Source: United Nations Population Division
-Year 1991: increase of 4.3%, Population 1,099,959, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 398,060, Source: World Bank
-Year 1950: decrease of 0.0%, Population 271,369, Source: Census Bureau

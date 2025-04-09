@@ -1,6 +1,0 @@
-Year-over-Year Anomalies for Papua New Guinea
-========================================
-Year 1950: decrease of 0.0%, Population 1,543,429, Source: United Nations Population Division
-Year 1960: decrease of 0.0%, Population 1,995,110, Source: World Bank
-Year 1950: decrease of 0.0%, Population 1,412,466, Source: Census Bureau
-Year 1951: increase of 1.7%, Population 1,435,786, Source: Census Bureau

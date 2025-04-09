@@ -1,9 +1,0 @@
-Year-over-Year Anomalies for Bulgaria
-========================================
-Year 1992: decrease of -1.6%, Population 8,559,101, Source: United Nations Population Division
-Year 2002: decrease of -2.1%, Population 7,837,161, Source: World Bank
-Year 2022: decrease of -3.4%, Population 6,643,324, Source: World Bank
-Year 2023: decrease of -3.0%, Population 6,446,596, Source: World Bank
-Year 1990: decrease of -2.4%, Population 8,767,308, Source: Eurostat
-Year 2002: decrease of -3.4%, Population 7,868,815, Source: Eurostat
-Year 1993: decrease of -2.5%, Population 8,441,872, Source: Census Bureau
