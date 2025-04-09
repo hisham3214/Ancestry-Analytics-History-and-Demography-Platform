@@ -2,8 +2,10 @@ import requests
 import mysql.connector
 import datetime
 import logging
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Tuple, Optional
 import time
+import concurrent.futures
+import os
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -20,6 +22,17 @@ class UNPopulationAPI:
         self.headers = {
             'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImhtYTE0NkBtYWlsLmF1Yi5lZHUiLCJuYmYiOjE3Mzc1NTc1MDMsImV4cCI6MTc2OTA5MzUwMywiaWF0IjoxNzM3NTU3NTAzLCJpc3MiOiJkb3RuZXQtdXNlci1qd3RzIiwiYXVkIjoiZGF0YS1wb3J0YWwtYXBpIn0.eOqaGLUBcOWfjUi90UrV9x335UfrsuGGmobGQREwxQg'
         }
+        # Connection pool
+        self.connection_pool = None
+
+    def _init_connection_pool(self):
+        """Initialize a connection pool"""
+        if not self.connection_pool:
+            self.connection_pool = mysql.connector.pooling.MySQLConnectionPool(
+                pool_name="un_api_pool",
+                pool_size=10,
+                **self.db_config
+            )
 
     def _make_request(self, endpoint: str, retry_count: int = 3) -> Dict:
         """
@@ -67,7 +80,7 @@ class UNPopulationAPI:
                     break
                     
                 page += 1
-                time.sleep(0.5)
+                time.sleep(0.1)
                 
             except requests.exceptions.RequestException as e:
                 logger.error(f"Failed to fetch data for indicator {indicator_id}, "
@@ -76,6 +89,13 @@ class UNPopulationAPI:
         
         logger.info(f"Total records fetched for location {location_id}: {len(all_data)}")
         return all_data
+
+    def get_connection(self) -> mysql.connector.connection.MySQLConnection:
+        """Get a connection from the pool or create a new one"""
+        if self.connection_pool:
+            return self.connection_pool.get_connection()
+        else:
+            return mysql.connector.connect(**self.db_config)
 
     def setup_data_source(self, connection: mysql.connector.connection.MySQLConnection) -> int:
         """Insert or retrieve UN Population Division as a data source"""
@@ -134,7 +154,7 @@ class UNPopulationAPI:
                     break
                     
                 page += 1
-                time.sleep(0.5)  # Add a small delay to be respectful to the API
+                time.sleep(0.1)  # Add a small delay to be respectful to the API
                 
             except requests.exceptions.RequestException as e:
                 logger.error(f"Failed to fetch location data, page {page}: {e}")
@@ -161,7 +181,9 @@ class UNPopulationAPI:
             
             # We'll keep track of iso3 codes we've seen
             seen_iso3 = set()
-
+            
+            # Prepare batch insert
+            values_to_insert = []
             for country in countries:
                 # If there's no iso3 code, skip
                 if 'iso3' not in country or not country['iso3']:
@@ -177,13 +199,30 @@ class UNPopulationAPI:
                 if iso3 in existing_countries:
                     country_mapping[country['id']] = existing_countries[iso3]
                 else:
-                    # Otherwise, insert into Countries
+                    # Add to batch
+                    values_to_insert.append((country['name'], iso3))
+            
+            # Batch insert new countries
+            if values_to_insert:
+                cursor.executemany("""
+                    INSERT INTO Countries (country_name, country_code)
+                    VALUES (%s, %s)
+                """, values_to_insert)
+                
+                # Get the IDs of the newly inserted countries
+                for i, (name, iso3) in enumerate(values_to_insert):
                     cursor.execute("""
-                        INSERT INTO Countries (country_name, country_code)
-                        VALUES (%s, %s)
-                    """, (country['name'], iso3))
-                    country_mapping[country['id']] = cursor.lastrowid
-                    
+                        SELECT country_id FROM Countries 
+                        WHERE country_code = %s
+                    """, (iso3,))
+                    result = cursor.fetchone()
+                    if result:
+                        # Find the country ID in the original data
+                        for country in countries:
+                            if country.get('iso3') == iso3:
+                                country_mapping[country['id']] = result[0]
+                                break
+            
             connection.commit()
             return country_mapping
             
@@ -205,36 +244,47 @@ class UNPopulationAPI:
             if table_name == 'Birth_Rate':
                 value_column = 'birth_rate'
                 sex_specific = False
+                age_specific = False
             elif table_name == 'Death_Rate':
                 value_column = 'death_rate'
                 sex_specific = False
+                age_specific = False
             elif table_name == 'Total_Net_Migration':
                 value_column = 'net_migration'
                 sex_specific = False
+                age_specific = False
             elif table_name == 'Fertility_Rate':
                 value_column = 'fertility_rate'
                 sex_specific = False
+                age_specific = False
             elif table_name == 'Crude_Net_Migration_Rate':
                 value_column = 'migration_rate'
                 sex_specific = False
+                age_specific = False
             elif table_name == "sex_ratio_total_population":
                 value_column = 'sex_ratio'
                 sex_specific = False
+                age_specific = False
             elif table_name == 'sex_ratio_at_birth':
                 value_column = 'sex_ratio'
                 sex_specific = False
+                age_specific = False
             elif table_name == 'median_age':
                 value_column = 'age'
                 sex_specific = False
+                age_specific = False
             elif table_name == 'life_expectancy_at_birth_by_sex':
                 value_column = 'life_expectancy'
                 sex_specific = True  # We want to capture sex-specific data for this
+                age_specific = False
             elif table_name == 'Infant_Mortality_Rate_By_Sex':
                 value_column = 'infant_mortality_rate'
                 sex_specific = True
+                age_specific = False
             elif table_name == 'Under_Five_Mortality_Rate_By_Sex':
                 value_column = 'mortality_rate'
                 sex_specific = True
+                age_specific = False
             elif table_name == 'Population_By_Age_Group':
                 value_column = 'population'
                 age_specific = True
@@ -246,53 +296,56 @@ class UNPopulationAPI:
             
             # For standard tables, including Population (both sexes)
             if not sex_specific and not age_specific:
-                insert_sql = f"""
-                    INSERT IGNORE INTO {table_name} 
-                    (country_id, source_id, year, {value_column}, last_updated)
-                    VALUES (%s, %s, %s, %s, %s)
-                """
-
-                # Insert data only for "both sexes" (sexId = 3)
+                # Prepare batch inserts
+                both_sexes_records = []
+                population_by_sex_records = []
+                
                 for record in data:
-                    if record.get('sexId') != 3:
-                        continue
                     if record.get('variantId') != 4:
                         continue
-                        
-                    cursor.execute(insert_sql, (
-                        country_id,
-                        self.source_id,
-                        record['timeLabel'],
-                        record['value'],
-                        datetime.now()
-                    ))
                     
-                # If this is population data, also insert all sex data into Population_By_Sex
-                if table_name == 'Population':
-                    for record in data:
-                        if record.get('variantId') != 4:
-                            continue
-                            
-                        # Make sure sexId and sex fields exist
-                        if 'sexId' not in record or 'sex' not in record:
-                            continue
-                        
-                        # Insert into Population_By_Sex table
-                        cursor.execute("""
-                            INSERT IGNORE INTO Population_By_Sex
-                            (country_id, source_id, year, sex_id, sex, population, last_updated)
-                            VALUES (%s, %s, %s, %s, %s, %s, %s)
-                        """, (
+                    # Insert "both sexes" data into main table
+                    if record.get('sexId') == 3:
+                        both_sexes_records.append((
+                            country_id,
+                            self.source_id,
+                            record['timeLabel'],
+                            record['value'],
+                            datetime.datetime.now()
+                        ))
+                    
+                    # If this is population data, also prepare sex-specific data
+                    if table_name == 'Population' and 'sexId' in record and 'sex' in record:
+                        population_by_sex_records.append((
                             country_id,
                             self.source_id,
                             record['timeLabel'],
                             record['sexId'],
                             record['sex'],
                             record['value'],
-                            datetime.now()
+                            datetime.datetime.now()
                         ))
+                
+                # Batch insert both sexes data
+                if both_sexes_records:
+                    cursor.executemany(f"""
+                        INSERT IGNORE INTO {table_name} 
+                        (country_id, source_id, year, {value_column}, last_updated)
+                        VALUES (%s, %s, %s, %s, %s)
+                    """, both_sexes_records)
+                
+                # Batch insert sex-specific population data
+                if table_name == 'Population' and population_by_sex_records:
+                    cursor.executemany("""
+                        INSERT IGNORE INTO Population_By_Sex
+                        (country_id, source_id, year, sex_id, sex, population, last_updated)
+                        VALUES (%s, %s, %s, %s, %s, %s, %s)
+                    """, population_by_sex_records)
+                    
             elif table_name == 'Population_By_Age_Group':
-                # Special handling for population by age group data
+                # Prepare batch inserts for age group data
+                age_group_records = []
+                
                 for record in data:
                     if record.get('variantId') != 4:
                         continue
@@ -303,13 +356,7 @@ class UNPopulationAPI:
                         'ageStart' not in record or 'ageEnd' not in record):
                         continue
                     
-                    # Insert into Population_By_Age_Group table
-                    cursor.execute("""
-                        INSERT IGNORE INTO Population_By_Age_Group
-                        (country_id, source_id, year, sex_id, sex, age_group_id, 
-                         age_group_label, age_start, age_end, population, last_updated)
-                        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-                    """, (
+                    age_group_records.append((
                         country_id,
                         self.source_id,
                         record['timeLabel'],
@@ -320,18 +367,21 @@ class UNPopulationAPI:
                         record['ageStart'],
                         record['ageEnd'],
                         record['value'],
-                        datetime.now()
+                        datetime.datetime.now()
                     ))
+                
+                # Batch insert age group data
+                if age_group_records:
+                    cursor.executemany("""
+                        INSERT IGNORE INTO Population_By_Age_Group
+                        (country_id, source_id, year, sex_id, sex, age_group_id, 
+                         age_group_label, age_start, age_end, population, last_updated)
+                        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                    """, age_group_records)
             else:
-                # For sex-specific tables, use the appropriate table name
-                # Note: no '_by_sex' suffix is added as it's already in the table_name
-                insert_sql = f"""
-                    INSERT IGNORE INTO {table_name}
-                    (country_id, source_id, year, sex_id, sex, {value_column}, last_updated)
-                    VALUES (%s, %s, %s, %s, %s, %s, %s)
-                """
-
-                # Process all records regardless of sexId
+                # Prepare batch inserts for sex-specific tables
+                sex_specific_records = []
+                
                 for record in data:
                     if record.get('variantId') != 4:
                         continue
@@ -340,26 +390,113 @@ class UNPopulationAPI:
                     if 'sexId' not in record or 'sex' not in record:
                         continue
                         
-                    cursor.execute(insert_sql, (
+                    sex_specific_records.append((
                         country_id,
                         self.source_id,
                         record['timeLabel'],
                         record['sexId'],
                         record['sex'],
                         record['value'],
-                        datetime.now()
+                        datetime.datetime.now()
                     ))
+                
+                # Batch insert sex-specific data
+                if sex_specific_records:
+                    cursor.executemany(f"""
+                        INSERT IGNORE INTO {table_name}
+                        (country_id, source_id, year, sex_id, sex, {value_column}, last_updated)
+                        VALUES (%s, %s, %s, %s, %s, %s, %s)
+                    """, sex_specific_records)
             
             connection.commit()
         finally:
             cursor.close()
 
-    def populate_database(self, start_year: int = 1950, end_year: int = 2025):
+    def process_country_indicator(self, location_id: str, country_id: int, 
+                                 indicator_id: str, table_name: str,
+                                 start_year: int, end_year: int) -> Tuple[str, str, int]:
+        """
+        Process a single country-indicator combination.
+        Returns a tuple of (location_id, indicator_id, record_count)
+        """
+        try:
+            connection = self.get_connection()
+            try:
+                logger.info(f"Fetching {table_name} data for location {location_id}...")
+                data = self.fetch_demographic_data_for_country(
+                    indicator_id, location_id, start_year, end_year
+                )
+                
+                if data:
+                    logger.info(f"Inserting {len(data)} records for location {location_id}, indicator {indicator_id}...")
+                    self.insert_demographic_data(connection, data, table_name, country_id)
+                    return (location_id, indicator_id, len(data))
+                return (location_id, indicator_id, 0)
+            finally:
+                connection.close()
+        except Exception as e:
+            logger.error(f"Error processing {table_name} data for location {location_id}: {e}")
+            return (location_id, indicator_id, 0)
+
+    def filter_countries(self, countries: Dict[str, int], 
+                        country_codes: Optional[List[str]] = None) -> Dict[str, int]:
+        """
+        Filter countries by country code if a list is provided.
+        """
+        if not country_codes:
+            return countries
+            
+        # Get a connection from the pool
+        connection = self.get_connection()
+        try:
+            # Get country IDs for the requested country codes
+            cursor = connection.cursor(buffered=True)
+            
+            # Convert country codes to uppercase for consistent comparison
+            country_codes = [code.upper() for code in country_codes]
+            
+            # Build the SQL placeholders for the IN clause
+            placeholders = ', '.join(['%s'] * len(country_codes))
+            
+            # Query to get country_id and location_id mapping
+            cursor.execute(f"""
+                SELECT c.country_id, c.country_code 
+                FROM Countries c
+                WHERE c.country_code IN ({placeholders})
+            """, country_codes)
+            
+            # Get the results
+            filtered_countries = {}
+            for row in cursor.fetchall():
+                country_id, country_code = row
+                
+                # Find the location_id for this country_id
+                for location_id, c_id in countries.items():
+                    if c_id == country_id:
+                        filtered_countries[location_id] = country_id
+                        break
+            
+            cursor.close()
+            return filtered_countries
+        finally:
+            connection.close()
+
+    def populate_database(self, start_year: int = 1950, end_year: int = 2025,
+                         country_codes: Optional[List[str]] = None,
+                         indicators_to_process: Optional[List[str]] = None,
+                         max_workers: int = 5):
         """
         Main function to populate the database with demographic data.
+        
+        Args:
+            start_year: Starting year for data collection
+            end_year: Ending year for data collection
+            country_codes: Optional list of ISO3 country codes to process (e.g., ["USA", "CAN"])
+            indicators_to_process: Optional list of indicator IDs to process (e.g., ["49", "61"])
+            max_workers: Maximum number of concurrent workers
         """
         # Indicator IDs for UN Population API (as per their docs)
-        indicators = {
+        all_indicators = {
             '66': 'Crude_Net_Migration_Rate',  # Net migration
             '65': 'Total_Net_Migration',  # Net migration
             '19': 'Fertility_Rate',  # Total fertility rate
@@ -374,44 +511,74 @@ class UNPopulationAPI:
             '24': 'Under_Five_Mortality_Rate_By_Sex', # Under-5 mortality rate
             '46': 'Population_By_Age_Group',  # Population by 5-year age groups and sex
         }
+        
+        # Filter indicators if specified
+        indicators = {}
+        if indicators_to_process:
+            for indicator_id in indicators_to_process:
+                if indicator_id in all_indicators:
+                    indicators[indicator_id] = all_indicators[indicator_id]
+        else:
+            indicators = all_indicators
 
         try:
-            connection = self.connect_db()
-            self.source_id = self.setup_data_source(connection)
+            # Initialize the connection pool
+            self._init_connection_pool()
             
-            if not self.source_id:
-                raise ValueError("Failed to setup data source")
+            # Get a connection for initial setup
+            connection = self.get_connection()
+            try:
+                self.source_id = self.setup_data_source(connection)
+                
+                if not self.source_id:
+                    raise ValueError("Failed to setup data source")
 
-            # Insert countries and build the mapping from UN location_id -> DB country_id
-            logger.info("Inserting countries...")
-            country_mapping = self.insert_countries(connection)
-            logger.info(f"Processing data for {len(country_mapping)} countries...")
+                # Insert countries and build the mapping from UN location_id -> country_id
+                logger.info("Inserting countries...")
+                country_mapping = self.insert_countries(connection)
+                
+                # Filter countries if specific ones were requested
+                if country_codes:
+                    country_mapping = self.filter_countries(country_mapping, country_codes)
+                
+                logger.info(f"Processing data for {len(country_mapping)} countries and {len(indicators)} indicators...")
+            finally:
+                connection.close()
 
-            # For each indicator, fetch and insert data for every country
-            for indicator_id, table_name in indicators.items():
-                logger.info(f"Processing {table_name} data...")
-
-                for location_id, country_id in country_mapping.items():
+            # Prepare tasks for thread pool
+            tasks = []
+            for location_id, country_id in country_mapping.items():
+                for indicator_id, table_name in indicators.items():
+                    tasks.append((location_id, country_id, indicator_id, table_name))
+            
+            # Process tasks in parallel using a thread pool
+            results = []
+            with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+                futures = []
+                for location_id, country_id, indicator_id, table_name in tasks:
+                    # Submit each task to the thread pool
+                    future = executor.submit(
+                        self.process_country_indicator,
+                        location_id, country_id, indicator_id, table_name,
+                        start_year, end_year
+                    )
+                    futures.append((future, location_id, indicator_id))
+                
+                # Collect results as tasks complete
+                for future, location_id, indicator_id in futures:
                     try:
-                        logger.info(f"Fetching {table_name} data for location {location_id}...")
-                        data = self.fetch_demographic_data_for_country(
-                            indicator_id, location_id, start_year, end_year
-                        )
-                        if data:
-                            logger.info(f"Inserting {len(data)} records for location {location_id}...")
-                            self.insert_demographic_data(connection, data, table_name, country_id)
-                        # Sleep a bit to respect rate limits
-                        time.sleep(0.5)
+                        result = future.result()
+                        results.append(result)
                     except Exception as e:
-                        logger.error(f"Error processing {table_name} data for location {location_id}: {e}")
-                        continue
+                        logger.error(f"Task for location {location_id}, indicator {indicator_id} failed: {e}")
+            
+            # Log summary of processed data
+            total_records = sum(count for _, _, count in results)
+            logger.info(f"Database population complete. Processed {total_records} records across {len(results)} tasks.")
 
         except Exception as e:
             logger.error(f"Error in database population: {e}")
             raise
-        finally:
-            if 'connection' in locals():
-                connection.close()
 
     def connect_db(self) -> mysql.connector.connection.MySQLConnection:
         """
@@ -430,9 +597,23 @@ if __name__ == "__main__":
         'user': 'root',
         'password': 'LZ#amhe!32',
         'host': '127.0.0.1',
-        'database': 'fyp',
+        'database': 'fyp1',
         'raise_on_warnings': True
     }
 
     un_api = UNPopulationAPI(db_config)
-    un_api.populate_database()
+    
+    # Example 1: Process everything (slow)
+    # un_api.populate_database()
+    
+    # Example 2: Process only specific countries and indicators (faster)
+    #un_api.populate_database(
+    #    country_codes=["USA", "GBR", "CAN", "FRA", "DEU", "JPN", "CHN", "IND", "BRA", "RUS"],
+    #    indicators_to_process=["49", "61", "46"],  # Population, Life expectancy, Population by age
+    #    max_workers=5  # Adjust based on your system capabilities
+    #)
+    # Example 3: Process everything in parallel (faster)
+    un_api.populate_database(
+        indicators_to_process=["49"], # Population, Birth Rate, Death Rate, Net Migration rate
+        max_workers=10
+    )
