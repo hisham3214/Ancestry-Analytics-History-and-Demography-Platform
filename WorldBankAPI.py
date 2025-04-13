@@ -612,4 +612,4 @@ if __name__ == "__main__":
     #fetcher.set_excluded_countries(['ZZZ', 'YYY'])  # Replace with actual country codes to exclude
     
     # Run the fetcher with custom year range
-    fetcher.fetch_and_store_all_data(start_year=1960, end_year=2023)
+    fetcher.fetch_and_store_all_data(start_year=1960, end_year=2git023)
