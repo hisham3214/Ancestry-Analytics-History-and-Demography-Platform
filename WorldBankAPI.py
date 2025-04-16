@@ -597,9 +597,9 @@ class WorldBankDataFetcher:
 if __name__ == "__main__":
     config = {
         'user': 'root',       # Your MySQL username
-        'password': 'new_password',   # Your MySQL password
+        'password': 'LZ#amhe!32',   # Your MySQL password
         'host': '127.0.0.1',           # The host where MySQL server is running
-        'database': 'fyp',   # The database name where you want to create tables
+        'database': 'fyp2',   # The database name where you want to create tables
         'raise_on_warnings': True
     }
     
@@ -612,4 +612,4 @@ if __name__ == "__main__":
     #fetcher.set_excluded_countries(['ZZZ', 'YYY'])  # Replace with actual country codes to exclude
     
     # Run the fetcher with custom year range
-    fetcher.fetch_and_store_all_data(start_year=1960, end_year=2git023)
+    fetcher.fetch_and_store_all_data(start_year=1960, end_year=2025)

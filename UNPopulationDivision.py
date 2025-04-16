@@ -266,7 +266,7 @@ class UNPopulationAPI:
                 sex_specific = False
                 age_specific = False
             elif table_name == 'sex_ratio_at_birth':
-                value_column = 'sex_ratio'
+                value_column = 'sex_ratio_at_birth'
                 sex_specific = False
                 age_specific = False
             elif table_name == 'median_age':
@@ -597,7 +597,7 @@ if __name__ == "__main__":
         'user': 'root',
         'password': 'LZ#amhe!32',
         'host': '127.0.0.1',
-        'database': 'fyp1',
+        'database': 'fyp2',
         'raise_on_warnings': True
     }
 
@@ -614,6 +614,6 @@ if __name__ == "__main__":
     #)
     # Example 3: Process everything in parallel (faster)
     un_api.populate_database(
-        indicators_to_process=["49"], # Population, Birth Rate, Death Rate, Net Migration rate
+        indicators_to_process=["58"],  #sex_ratio_at_birth
         max_workers=10
     )
