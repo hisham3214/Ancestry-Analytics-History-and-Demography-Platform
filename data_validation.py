@@ -39,9 +39,49 @@ class DemographicDataValidator:
             print("Database connection closed.")
     
     def get_all_countries(self) -> List[Dict]:
-        """Get all countries from the database."""
-        self.cursor.execute("SELECT country_id, country_name FROM Countries")
-        return self.cursor.fetchall()
+        """Get all legitimate countries from the database, excluding development groups and regions."""
+        # List of keywords that indicate a non-country entry
+        non_country_keywords = [
+            '%group%', 
+            '%developing%', 
+            '%developed%', 
+            '%region%', 
+            '%income%', 
+            '%least%', 
+            '%land-locked%', 
+            '%LLDC%',
+            '%LDC%',
+            '%aggregate%',
+            '%world%',
+            '%total%',
+            '%other%',
+            '%small island%',
+            '%SIDS%',
+            '%economic%',
+            '%union%',
+            '%area%',
+            '%continent%'
+        ]
+        
+        # Build the exclusion part of the query
+        exclusion_conditions = []
+        for keyword in non_country_keywords:
+            exclusion_conditions.append(f"country_name NOT LIKE '{keyword}'")
+        
+        exclusion_clause = " AND ".join(exclusion_conditions)
+        
+        query = f"""
+        SELECT country_id, country_name 
+        FROM Countries 
+        WHERE {exclusion_clause}
+        ORDER BY country_name
+        """
+        
+        self.cursor.execute(query)
+        countries = self.cursor.fetchall()
+        
+        print(f"Found {len(countries)} legitimate countries for validation.")
+        return countries
     
     def get_all_sources(self) -> List[Dict]:
         """Get all data sources from the database."""
