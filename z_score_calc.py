@@ -38,6 +38,29 @@ tables_info = [
 ]
 
 # ------------------------------------------------------------------
+# Table-specific grouping configuration
+# ------------------------------------------------------------------
+# Dictionary to specify correct grouping columns for special tables
+table_specific_grouping = {
+    "Population_By_Age_Group": {
+        "sex_cols": ["sex"],
+        "age_cols": ["age_group_id"],  # Use age_group_id for grouping
+    },
+    "Population_by_sex": {
+        "sex_cols": ["sex"],
+    },
+    "life_expectancy_at_birth_by_sex": {
+        "sex_cols": ["sex"],
+    },
+    "Infant_Mortality_Rate_By_Sex": {
+        "sex_cols": ["sex"],
+    },
+    "Under_Five_Mortality_Rate_By_Sex": {
+        "sex_cols": ["sex"],
+    }
+}
+
+# ------------------------------------------------------------------
 # Helpers
 # ------------------------------------------------------------------
 connection = mysql.connector.connect(**db_config)
@@ -47,6 +70,11 @@ def has_column(table, col):
     """True iff `table` has a column named `col` (case‑insensitive)."""
     cursor.execute(f"SHOW COLUMNS FROM `{table}` LIKE '{col}';")
     return cursor.fetchone() is not None
+
+def get_all_columns(table):
+    """Return list of all column names in the table."""
+    cursor.execute(f"SHOW COLUMNS FROM `{table}`;")
+    return [col[0] for col in cursor.fetchall()]
 
 def ensure_zscore_column(table_name, zscore_col):
     """Add z‑score column if it doesn't exist."""
@@ -58,93 +86,109 @@ def ensure_zscore_column(table_name, zscore_col):
         print(f"-> Column `{zscore_col}` already exists in {table_name}")
 
 # ------------------------------------------------------------------
-# Core: rolling z‑score (sex‑aware)
+# Core: rolling z‑score (sex‑aware and age‑aware)
 # ------------------------------------------------------------------
 def compute_and_update_zscores(table_name, id_col, value_col, zscore_col):
-    # ----------------------------------------------------------------
-    # 1) figure out what columns we can SELECT
-    # ----------------------------------------------------------------
-    year_exists = has_column(table_name, "year")
-    sex_exists  = has_column(table_name, "sex") or has_column(table_name, "gender")
-    sex_col     = "sex" if has_column(table_name, "sex") else ("gender" if has_column(table_name, "gender") else None)
-
-    select_cols  = [id_col, "country_id", "source_id"]
-    order_cols   = ["country_id", "source_id"]
+    # --- 1. Get all columns & detect special columns -----------------------
+    all_columns = get_all_columns(table_name)
+    year_exists = "year" in all_columns
+    
+    # --- 2. Determine sex and age columns ---------------------------------
+    if table_name in table_specific_grouping:
+        # Use predefined columns for special tables
+        sex_cols = table_specific_grouping[table_name].get("sex_cols", [])
+        age_cols = table_specific_grouping[table_name].get("age_cols", [])
+        print(f"-> Using predefined grouping for {table_name}: sex={sex_cols}, age={age_cols}")
+    else:
+        # Default detection for standard tables
+        sex_cols = [c for c in ["sex", "gender"] if c in all_columns]
+        age_cols = [c for c in ["age_group", "age_range"] if c in all_columns]
+    
+    # --- 3. Build column lists for select and ordering ----------------------
+    select_cols = [id_col, "country_id", "source_id"]
+    order_cols = ["country_id", "source_id"]
+    
+    # Add detected columns to lists
+    for col in sex_cols + age_cols:
+        if col not in select_cols and col in all_columns:
+            select_cols.append(col)
+        if col not in order_cols and col in all_columns:
+            order_cols.append(col)
+    
+    # Add year if it exists
     if year_exists:
         select_cols.append("year")
         order_cols.append("year")
-    if sex_col:
-        select_cols.append(sex_col)
-        order_cols.insert(2, sex_col)          # order … country, source, sex, year
-
-    select_cols.append(value_col)
-
-    # ----------------------------------------------------------------
-    # 2) fetch data
-    # ----------------------------------------------------------------
-    fetch_query = f"""
-        SELECT {', '.join(select_cols)}
-        FROM {table_name}
-        WHERE {value_col} IS NOT NULL
-    """
-    cursor.execute(fetch_query)
+    
+    # Always include value column
+    if value_col not in select_cols:
+        select_cols.append(value_col)
+    
+    # --- 4. Fetch data ----------------------------------------------------
+    query = f"SELECT {', '.join(select_cols)} FROM {table_name} WHERE {value_col} IS NOT NULL"
+    print(f"-> Executing: {query}")
+    cursor.execute(query)
     rows = cursor.fetchall()
+    
     if not rows:
         print(f"No data found in {table_name}. Skipping.")
         return
-
+    
     df = pd.DataFrame(rows, columns=select_cols)
-
-    # ----------------------------------------------------------------
-    # 3) add pseudo‑time if year absent
-    # ----------------------------------------------------------------
+    print(f"-> Fetched {len(df)} rows from {table_name}")
+    
+    # --- 5. Handle tables without year column -----------------------------
     if not year_exists:
-        df["row_idx"] = df.groupby(["country_id", "source_id"] + ([sex_col] if sex_col else [])).cumcount()
-        order_cols.append("row_idx")   # ensures chronological order
-
-    # chronological order inside group(s)
+        # Create a pseudo-time index for rolling calculations
+        group_for_index = ["country_id", "source_id"] + sex_cols + age_cols
+        df["row_idx"] = df.groupby(group_for_index).cumcount()
+        order_cols.append("row_idx")
+    
     df.sort_values(order_cols, inplace=True)
-
-    # ----------------------------------------------------------------
-    # 4) build rolling baselines
-    # ----------------------------------------------------------------
-    group_keys = ["country_id", "source_id"]
-    if sex_col:
-        group_keys.append(sex_col)
-
-    grp        = df.groupby(group_keys, group_keys=False)
-    roll_mean  = grp[value_col].apply(lambda s: s.rolling(window=WINDOW_YEARS,
-                                                          min_periods=MIN_PERIODS).mean())
-    roll_std   = grp[value_col].apply(lambda s: s.rolling(window=WINDOW_YEARS,
-                                                          min_periods=MIN_PERIODS).std())
-
+    
+    # --- 6. Define grouping keys for rolling calculations ----------------
+    # This is the key improvement - correct grouping by country, source, sex and age
+    group_keys = ["country_id", "source_id"] + sex_cols + age_cols
+    print(f"-> Using group keys for z-score: {group_keys}")
+    
+    # --- 7. Calculate rolling statistics by group ------------------------
+    grp = df.groupby(group_keys, group_keys=False)
+    
+    # Calculate rolling mean and std within each group
+    roll_mean = grp[value_col].apply(
+        lambda s: s.rolling(window=WINDOW_YEARS, min_periods=MIN_PERIODS).mean()
+    )
+    roll_std = grp[value_col].apply(
+        lambda s: s.rolling(window=WINDOW_YEARS, min_periods=MIN_PERIODS).std()
+    )
+    
     df["mean_val"] = roll_mean
-    df["std_val"]  = roll_std
-
-    # ----------------------------------------------------------------
-    # 5) z‑score with safety guards
-    # ----------------------------------------------------------------
-    def safe_z(row):
-        if pd.isna(row["std_val"]) or row["std_val"] == 0:
+    df["std_val"] = roll_std
+    
+    # --- 8. Calculate Z‑score --------------------------------------------
+    def safe_z(r):
+        if pd.isna(r["std_val"]) or r["std_val"] == 0:
             return None
-        return (row[value_col] - row["mean_val"]) / row["std_val"]
-
+        return (r[value_col] - r["mean_val"]) / r["std_val"]
+    
     df[zscore_col] = df.apply(safe_z, axis=1)
-
-    # ----------------------------------------------------------------
-    # 6) push back to MySQL
-    # ----------------------------------------------------------------
+    
+    # Count non-null z-scores for reporting
+    valid_zscores = df[zscore_col].count()
+    print(f"-> Calculated {valid_zscores} valid z-scores")
+    
+    # --- 9. Update database ----------------------------------------------
     update_data = [
-        (None if pd.isna(z) or np.isinf(z) else float(z), getattr(r, id_col))
-        for z, r in zip(df[zscore_col], df.itertuples())
+        (None if pd.isna(z) or np.isinf(z) else float(z), getattr(row, id_col))
+        for z, row in zip(df[zscore_col], df.itertuples())
     ]
-
+    
     cursor.executemany(
         f"UPDATE {table_name} SET {zscore_col} = %s WHERE {id_col} = %s",
         update_data,
     )
     connection.commit()
-    print(f"-> Rolling z‑scores updated for {table_name}")
+    print(f"-> Updated {table_name} with {len(update_data)} z-scores")
 
 # ------------------------------------------------------------------
 # Driver
@@ -152,12 +196,14 @@ def compute_and_update_zscores(table_name, id_col, value_col, zscore_col):
 def main():
     try:
         for meta in tables_info:
-            print(f"Processing table {meta['table_name']} …")
+            print(f"\nProcessing table {meta['table_name']} …")
             ensure_zscore_column(meta["table_name"], meta["zscore_col"])
             compute_and_update_zscores(**meta)
-        print("All tables processed successfully.")
+        print("\nAll tables processed successfully.")
     except Exception as e:
-        print("Error while processing:", e)
+        print(f"\nError while processing: {e}")
+        import traceback
+        traceback.print_exc()
         connection.rollback()
     finally:
         cursor.close()
