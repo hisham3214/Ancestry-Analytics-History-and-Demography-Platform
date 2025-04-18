@@ -2,6 +2,9 @@ import mysql.connector
 import pandas as pd
 import numpy as np
 
+WINDOW_YEARS = 5          # trailing window size
+MIN_PERIODS  = 3          # how many points before we trust z-score
+
 # ---------------------------------------------------------
 # 1. Database Connection
 # ---------------------------------------------------------
@@ -125,70 +128,66 @@ def ensure_zscore_column(table_name, zscore_col):
         print(f"-> Column `{zscore_col}` already exists in {table_name}")
 
 # ---------------------------------------------------------
-# 4. Z-score computation and update
+# 4. Sliding Window Z-score computation and update
 # ---------------------------------------------------------
 def compute_and_update_zscores(table_name, id_col, value_col, zscore_col):
     """
-    1) Fetch data via cursor.
-    2) Convert to a Pandas DataFrame.
-    3) Group by (country_id, source_id) and compute mean/std.
-    4) Compute the Z-scores, handle NaN => None, then update DB.
+    Sliding‑window version:
+      • sorts by year inside each (country_id, source_id) group
+      • rolling mean/std over the last WINDOW_YEARS rows
+      • writes NULL if fewer than MIN_PERIODS observations or σ == 0
     """
-
-    # 4.1. Fetch data
     fetch_query = f"""
-        SELECT {id_col}, country_id, source_id, {value_col}
+        SELECT {id_col}, country_id, source_id, year, {value_col}
         FROM {table_name}
         WHERE {value_col} IS NOT NULL
     """
     cursor.execute(fetch_query)
     rows = cursor.fetchall()
-
     if not rows:
-        print(f"No data found in {table_name} for column {value_col}. Skipping.")
+        print(f"No data found in {table_name}. Skipping.")
         return
 
-    # columns for DataFrame
-    col_names = [id_col, "country_id", "source_id", value_col]
-    df = pd.DataFrame(rows, columns=col_names)
+    df = pd.DataFrame(rows,
+                      columns=[id_col, "country_id", "source_id", "year", value_col])
 
-    # 4.2. Group by (country_id, source_id) => compute mean/std
-    stats = df.groupby(["country_id", "source_id"])[value_col].agg(["mean", "std"]).reset_index()
-    stats.rename(columns={"mean": "mean_val", "std": "std_val"}, inplace=True)
+    # -- 1. Order chronologically within each (country, source) ----
+    df.sort_values(["country_id", "source_id", "year"], inplace=True)
 
-    df = pd.merge(df, stats, on=["country_id", "source_id"], how="left")
+    # -- 2. Rolling μ and σ ---------------------------------------
+    grp = df.groupby(["country_id", "source_id"], group_keys=False)
 
-    # 4.3. Compute Z-score safely
-    def safe_zscore(row):
+    # If a table had no 'year', drop 'year' above and use .cumcount() as pseudo‑time.
+    roll_mean = grp[value_col].apply(
+        lambda s: s.rolling(window=WINDOW_YEARS, min_periods=MIN_PERIODS).mean())
+    roll_std  = grp[value_col].apply(
+        lambda s: s.rolling(window=WINDOW_YEARS, min_periods=MIN_PERIODS).std())
+
+    df["mean_val"] = roll_mean
+    df["std_val"]  = roll_std
+
+    # -- 3. Z-score with safety guards ----------------------------
+    def safe_z(row):
         if pd.isna(row["std_val"]) or row["std_val"] == 0:
             return None
         return (row[value_col] - row["mean_val"]) / row["std_val"]
 
-    df[zscore_col] = df.apply(safe_zscore, axis=1)
+    df[zscore_col] = df.apply(safe_z, axis=1)
 
-    # 4.4. Convert NaN or infinite to None for MySQL
-    update_data = []
-    for _, row in df.iterrows():
-        zscore_value = row[zscore_col]
-        
-        # Check if value is NaN, inf, or -inf
-        if pd.isna(zscore_value) or np.isinf(zscore_value):
-            zscore_value = None
-            
-        update_data.append((zscore_value, row[id_col]))
+    # -- 4. Prepare data for executemany --------------------------
+    update_data = [
+        (None if pd.isna(z) or np.isinf(z) else float(z), getattr(row, id_col))
+        for z, row in zip(df[zscore_col], df.itertuples())
+    ]
 
-    # 4.5. Build data for executemany
     update_query = f"""
         UPDATE {table_name}
         SET {zscore_col} = %s
         WHERE {id_col} = %s
     """
-
     cursor.executemany(update_query, update_data)
     connection.commit()
-
-    print(f"-> Z-scores updated for table {table_name}")
-
+    print(f"-> Rolling z‑scores updated for {table_name}")
 # ---------------------------------------------------------
 # 5. Main script
 # ---------------------------------------------------------
