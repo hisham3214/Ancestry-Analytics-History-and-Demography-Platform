@@ -15,7 +15,7 @@ cnx = mysql.connector.connect(**config)
 cursor = cnx.cursor()
 
 try:
-    # 1. Alter the Population table to add new columns
+    # 1. Alter the Population table to add new columns (if not existing)
     alter_sql = """
     ALTER TABLE Population
       ADD COLUMN expected_population BIGINT NULL,
@@ -30,8 +30,8 @@ try:
     records = cursor.fetchall()
 
     for country_id, year, actual_pop in records:
-        # Skip if year is the first entry (no previous year)
         prev_year = year - 1
+        # Get previous year population
         cursor.execute(
             "SELECT population FROM Population WHERE country_id=%s AND year=%s",
             (country_id, prev_year)
@@ -41,23 +41,25 @@ try:
             continue
         prev_pop = prev[0]
 
-        # Get births for this year
+        # Get birth_rate (per 1000) and convert to absolute births
         cursor.execute(
             "SELECT birth_rate FROM Birth_Rate WHERE country_id=%s AND year=%s",
             (country_id, year)
         )
         br = cursor.fetchone()
-        births = br[0] if br else 0
+        birth_rate = br[0] if br else 0
+        births = (birth_rate / 1000.0) * prev_pop
 
-        # Get deaths for this year
+        # Get death_rate (per 1000) and convert to absolute deaths
         cursor.execute(
             "SELECT death_rate FROM Death_Rate WHERE country_id=%s AND year=%s",
             (country_id, year)
         )
         dr = cursor.fetchone()
-        deaths = dr[0] if dr else 0
+        death_rate = dr[0] if dr else 0
+        deaths = (death_rate / 1000.0) * prev_pop
 
-        # Get net migration for this year
+        # Get net migration (absolute count)
         cursor.execute(
             "SELECT net_migration FROM Total_Net_Migration WHERE country_id=%s AND year=%s",
             (country_id, year)
@@ -65,7 +67,7 @@ try:
         nm = cursor.fetchone()
         migration = nm[0] if nm else 0
 
-        # Calculate expected population
+        # Calculate expected population: prev_pop + births - deaths + migration
         expected = prev_pop + births - deaths + migration
 
         # Calculate difference percentage: (actual - expected) / expected * 100
@@ -81,7 +83,7 @@ try:
                 difference_pct = %s
             WHERE country_id = %s AND year = %s
             """,
-            (expected, diff_pct, country_id, year)
+            (int(round(expected)), diff_pct, country_id, year)
         )
 
     # Commit all updates
