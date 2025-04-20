@@ -19,7 +19,7 @@ db_config = {
     'user': 'root',
     'password': 'new_password',  # replace with your MySQL password
     'host': '127.0.0.1',
-    'database': 'fyp2',
+    'database': 'fyp',
     'raise_on_warnings': True
 }
 # OpenAI API key from environment
