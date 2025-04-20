@@ -69,9 +69,10 @@ def ask_gpt_for_reason(country_name, year, max_retries=3):
         f"You are an expert historian and demographer.\n"
         f"A demographic anomaly was detected in {country_name} in {year}—its population deviated significantly from expected trends.\n"
         f"Identify any event in {year} (or up to two years prior) that directly caused this change (e.g. war, disaster, mass migration).\n"
+        f"If you believe this anomaly is false (i.e., no significant event occurred), say so explicitly.\n"
         f"Respond only with a JSON object containing exactly two fields:\n"
-        f"  \"reason\": a single sentence (≤20 words) naming the event and its direct impact.\n"
-        f"  \"confidence\": an integer 1–5 for how sure you are this event caused the anomaly.\n"
+        f"  \"reason\": a single sentence (≤20 words) naming the event and its direct impact or stating 'No known event' if false.\n"
+        f"  \"confidence\": an integer 1–5 for how sure you are this event caused the anomaly or for 'No known event'.\n"
     )
 
     for attempt in range(1, max_retries + 1):
