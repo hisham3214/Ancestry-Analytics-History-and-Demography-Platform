@@ -1,3 +1,7 @@
+# This file is responsible for getting the anomalies from Hisham's anomalies table, and then
+# checking with gpt if a historical event caused it, by indicating a confidence level:
+# 0: nth happened, 1 -> 5 : confidence level of the event with 1 being the lowest
+
 import os
 import json
 import time
