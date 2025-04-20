@@ -64,15 +64,16 @@ def ask_gpt_for_reason(country_name, year, max_retries=3):
     """
     Query GPT for the cause of the demographic anomaly in a given country and year.
     Returns (reason: str, confidence: int) or (None, None) on failure.
+    If no known event, confidence is zero.
     """
     prompt = (
         f"You are an expert historian and demographer.\n"
         f"A demographic anomaly was detected in {country_name} in {year}—its population deviated significantly from expected trends.\n"
         f"Identify any event in {year} (or up to two years prior) that directly caused this change (e.g. war, disaster, mass migration).\n"
-        f"If you believe this anomaly is false (i.e., no significant event occurred), say so explicitly.\n"
-        f"Respond only with a JSON object containing exactly two fields:\n"
-        f"  \"reason\": a single sentence (≤20 words) naming the event and its direct impact or stating 'No known event' if false.\n"
-        f"  \"confidence\": an integer 1–5 for how sure you are this event caused the anomaly or for 'No known event'.\n"
+        f"If no event likely caused it, state 'No known event'.\n"
+        f"Respond only with a JSON object with exactly two fields:\n"
+        f"  \"reason\": one sentence (≤20 words) naming the event and its direct impact, or 'No known event'.\n"
+        f"  \"confidence\": an integer 0–5, where 0 means no known event and 1–5 indicates certainty level.\n"
     )
 
     for attempt in range(1, max_retries + 1):
@@ -91,13 +92,15 @@ def ask_gpt_for_reason(country_name, year, max_retries=3):
             data = json.loads(json_str)
             reason = data.get('reason', '').strip()
             confidence = int(data.get('confidence', 0))
+            # Enforce zero confidence for 'No known event'
+            if reason.lower() == 'no known event':
+                confidence = 0
             return reason, confidence
 
         except json.JSONDecodeError:
             print(f"Attempt {attempt}: Failed to parse JSON: {repr(content)}")
         except Exception as e:
             print(f"Attempt {attempt}: GPT API error for {country_name},{year}: {e}")
-
         time.sleep(1)
     return None, None
 
@@ -131,7 +134,7 @@ if __name__ == "__main__":
         for country_id, country_name, year in anomalies:
             print(f"Processing anomaly: {country_name} ({country_id}), year={year}")
             reason, confidence = ask_gpt_for_reason(country_name, year)
-            if reason and confidence:
+            if reason is not None:
                 insert_explanation(cursor, country_id, country_name, year, confidence, reason)
                 cnx.commit()
                 print(f"  -> Saved: {country_name}, {reason} (confidence {confidence})")
