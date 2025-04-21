@@ -21,9 +21,9 @@ ISO2_TO_ISO3 = {
 # 1. MySQL connection and logging setup (unchanged)
 config = {
     "user":     "root",
-    "password": "new_password",
+    "password": "LZ#amhe!32",
     "host":     "127.0.0.1", 
-    "database": "fyp3",
+    "database": "fyp2",
     "raise_on_warnings": True,
 }
 cnx = mysql.connector.connect(**config)
@@ -549,5 +549,5 @@ for table in tables_to_process:
 # Close connections
 cur.close()
 cnx.close()
-log_message("✓ Extraction complete - used optimal dataset for each indicator")
+log_message("Extraction complete - used optimal dataset for each indicator")
 log_message(f"Log file saved to: {log_file}")
