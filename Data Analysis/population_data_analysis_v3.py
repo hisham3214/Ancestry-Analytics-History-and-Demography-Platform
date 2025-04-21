@@ -275,7 +275,7 @@ if __name__ == "__main__":
         'user': 'root',
         'password': 'LZ#amhe!32',
         'host': '127.0.0.1',
-        'database': 'fyp1',
+        'database': 'fyp2',
         'raise_on_warnings': True
     }
     try:
