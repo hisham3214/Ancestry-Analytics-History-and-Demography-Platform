@@ -5,9 +5,9 @@ from mysql.connector import errorcode
 # MySQL connection details
 config = {
     'user': 'root',  # Your MySQL username
-    'password': 'LZ#amhe!32',  # Your MySQL password
+    'password': 'khalil_13579',  # Your MySQL password
     'host': '127.0.0.1',  # The host where MySQL server is running
-    'database': 'fyp1',  # The database name
+    'database': 'fyp',  # The database name
     'raise_on_warnings': True
 }
 
